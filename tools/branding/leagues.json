@@ -1,0 +1,279 @@
+{
+ "_comment": "Competitions whose 2026-27 participants are collected. season = article listing the 2026-27 teams; article = league article (identity). Edit and re-run discover_members.py.",
+ "season": "2026–27",
+ "leagues": [
+  {
+   "id": "liiga",
+   "country": "FIN",
+   "article": [
+    "en",
+    "Liiga"
+   ],
+   "season": [
+    "en",
+    "2026–27 Liiga season"
+   ]
+  },
+  {
+   "id": "mestis",
+   "country": "FIN",
+   "article": [
+    "en",
+    "Mestis"
+   ],
+   "season": [
+    "fi",
+    "Mestis-kausi 2026–2027"
+   ]
+  },
+  {
+   "id": "khl",
+   "country": "RUS",
+   "article": [
+    "en",
+    "Kontinental Hockey League"
+   ],
+   "season": [
+    "en",
+    "2026–27 KHL season"
+   ],
+   "layout": "grid"
+  },
+  {
+   "id": "vhl",
+   "country": "RUS",
+   "article": [
+    "en",
+    "All-Russian Hockey League"
+   ],
+   "season": [
+    "ru",
+    "ВХЛ в сезоне 2026/2027"
+   ]
+  },
+  {
+   "id": "mhl",
+   "country": "RUS",
+   "article": [
+    "en",
+    "Junior Hockey League (Russia)"
+   ],
+   "season": [
+    "ru",
+    "Чемпионат МХЛ в сезоне 2026/2027"
+   ]
+  },
+  {
+   "id": "nhl",
+   "country": "USA",
+   "article": [
+    "en",
+    "National Hockey League"
+   ],
+   "season": [
+    "en",
+    "National Hockey League"
+   ],
+   "seasonNote": "Season article mixes other tables; current-teams table of the league article used"
+  },
+  {
+   "id": "ahl",
+   "country": "USA",
+   "article": [
+    "en",
+    "American Hockey League"
+   ],
+   "season": [
+    "en",
+    "American Hockey League"
+   ],
+   "seasonNote": "No 2026-27 season article; current-teams section of the league article used"
+  },
+  {
+   "id": "echl",
+   "country": "USA",
+   "article": [
+    "en",
+    "ECHL"
+   ],
+   "season": [
+    "en",
+    "2026–27 ECHL season"
+   ]
+  },
+  {
+   "id": "whl",
+   "country": "CAN",
+   "article": [
+    "en",
+    "Western Hockey League"
+   ],
+   "season": [
+    "en",
+    "Western Hockey League"
+   ],
+   "seasonNote": "Season article mixes other tables; current-teams table of the league article used"
+  },
+  {
+   "id": "ohl",
+   "country": "CAN",
+   "article": [
+    "en",
+    "Ontario Hockey League"
+   ],
+   "season": [
+    "en",
+    "Ontario Hockey League"
+   ],
+   "seasonNote": "Season article mixes other tables; current-teams table of the league article used"
+  },
+  {
+   "id": "qmjhl",
+   "country": "CAN",
+   "article": [
+    "en",
+    "Quebec Maritimes Junior Hockey League"
+   ],
+   "season": [
+    "en",
+    "Quebec Maritimes Junior Hockey League"
+   ],
+   "seasonNote": "Season article mixes other tables; current-teams table of the league article used"
+  },
+  {
+   "id": "ushl",
+   "country": "USA",
+   "article": [
+    "en",
+    "United States Hockey League"
+   ],
+   "season": [
+    "en",
+    "United States Hockey League"
+   ],
+   "seasonNote": "No 2026-27 season article; current-teams section of the league article used"
+  },
+  {
+   "id": "shl",
+   "country": "SWE",
+   "article": [
+    "en",
+    "Swedish Hockey League"
+   ],
+   "season": [
+    "sv",
+    "Svenska Hockeyligan 2026/2027"
+   ]
+  },
+  {
+   "id": "allsvenskan",
+   "country": "SWE",
+   "article": [
+    "en",
+    "HockeyAllsvenskan"
+   ],
+   "season": [
+    "en",
+    "HockeyAllsvenskan"
+   ],
+   "seasonNote": "No 2026-27 season article; current-teams section of the league article used"
+  },
+  {
+   "id": "nl",
+   "country": "CHE",
+   "article": [
+    "en",
+    "National League (ice hockey)"
+   ],
+   "season": [
+    "en",
+    "2026–27 National League (ice hockey) season"
+   ]
+  },
+  {
+   "id": "swiss-league",
+   "country": "CHE",
+   "article": [
+    "en",
+    "Swiss League"
+   ],
+   "season": [
+    "de",
+    "Swiss League 2026/27"
+   ]
+  },
+  {
+   "id": "del",
+   "country": "DEU",
+   "article": [
+    "en",
+    "Deutsche Eishockey Liga"
+   ],
+   "season": [
+    "en",
+    "2026–27 DEL season"
+   ]
+  },
+  {
+   "id": "del2",
+   "country": "DEU",
+   "article": [
+    "en",
+    "DEL2"
+   ],
+   "season": [
+    "de",
+    "DEL2 2026/27"
+   ]
+  },
+  {
+   "id": "icehl",
+   "country": "AUT",
+   "article": [
+    "en",
+    "ICE Hockey League"
+   ],
+   "season": [
+    "de",
+    "ICE Hockey League 2026/27"
+   ]
+  },
+  {
+   "id": "czech-extraliga",
+   "country": "CZE",
+   "article": [
+    "en",
+    "Czech Extraliga"
+   ],
+   "season": [
+    "cs",
+    "Česká hokejová extraliga 2026/2027"
+   ]
+  },
+  {
+   "id": "slovak-extraliga",
+   "country": "SVK",
+   "article": [
+    "en",
+    "Slovak Extraliga"
+   ],
+   "season": [
+    "sk",
+    "Tipsport liga 2026/2027"
+   ]
+  },
+  {
+   "id": "champions",
+   "country": null,
+   "article": [
+    "en",
+    "Champions Hockey League"
+   ],
+   "season": [
+    "en",
+    "2026–27 Champions Hockey League"
+   ],
+   "participantsFromLeagues": true
+  }
+ ]
+}

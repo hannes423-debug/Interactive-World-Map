@@ -5,7 +5,6 @@
       "name": "National Hockey League",
       "shortName": "NHL",
       "logo": null,
-      "placeholderBadge": "assets/badges/placeholder/nhl.svg",
       "kind": "professional",
       "multinational": true,
       "territories": [
@@ -22,8 +21,8 @@
       "teamCount": {
         "value": 32,
         "status": "reference",
-        "asOf": "2025–26",
-        "note": "Includes the Utah Mammoth"
+        "asOf": "2026–27",
+        "note": "Clubs listed for 2026–27 in https://en.wikipedia.org/wiki/National_Hockey_League (Season article mixes other tables; current-teams table of the league article used)"
       },
       "season": {
         "value": "2026–27",
@@ -47,38 +46,38 @@
         "status": "placeholder"
       },
       "clubs": [
-        "nhl-ana",
-        "nhl-bos",
-        "nhl-buf",
-        "nhl-cgy",
-        "nhl-car",
-        "nhl-chi",
-        "nhl-col",
-        "nhl-cbj",
-        "nhl-dal",
-        "nhl-det",
-        "nhl-edm",
-        "nhl-fla",
-        "nhl-lak",
-        "nhl-min",
-        "nhl-mtl",
-        "nhl-nsh",
-        "nhl-njd",
-        "nhl-nyi",
-        "nhl-nyr",
-        "nhl-ott",
-        "nhl-phi",
-        "nhl-pit",
-        "nhl-sjs",
-        "nhl-sea",
-        "nhl-stl",
-        "nhl-tbl",
-        "nhl-tor",
-        "nhl-uta",
-        "nhl-van",
-        "nhl-vgk",
-        "nhl-wsh",
-        "nhl-wpg"
+        "boston-bruins",
+        "buffalo-sabres",
+        "detroit-red-wings",
+        "florida-panthers",
+        "montreal-canadiens",
+        "ottawa-senators",
+        "tampa-bay-lightning",
+        "toronto-maple-leafs",
+        "carolina-hurricanes",
+        "columbus-blue-jackets",
+        "new-jersey-devils",
+        "new-york-islanders",
+        "new-york-rangers",
+        "philadelphia-flyers",
+        "pittsburgh-penguins",
+        "washington-capitals",
+        "chicago-blackhawks",
+        "colorado-avalanche",
+        "dallas-stars",
+        "minnesota-wild",
+        "nashville-predators",
+        "st-louis-blues",
+        "utah-mammoth",
+        "winnipeg-jets",
+        "anaheim-ducks",
+        "calgary-flames",
+        "edmonton-oilers",
+        "los-angeles-kings",
+        "san-jose-sharks",
+        "seattle-kraken",
+        "vancouver-canucks",
+        "vegas-golden-knights"
       ]
     },
     {
@@ -86,7 +85,6 @@
       "name": "American Hockey League",
       "shortName": "AHL",
       "logo": null,
-      "placeholderBadge": "assets/badges/placeholder/ahl.svg",
       "kind": "professional",
       "multinational": true,
       "territories": [
@@ -103,7 +101,8 @@
       "teamCount": {
         "value": 32,
         "status": "reference",
-        "asOf": "2025–26"
+        "asOf": "2026–27",
+        "note": "Clubs listed for 2026–27 in https://en.wikipedia.org/wiki/American_Hockey_League (No 2026-27 season article; current-teams section of the league article used)"
       },
       "season": {
         "value": "2026–27",
@@ -126,14 +125,46 @@
         "value": null,
         "status": "unknown"
       },
-      "clubs": []
+      "clubs": [
+        "charlotte-checkers",
+        "hartford-wolf-pack",
+        "hershey-bears",
+        "lehigh-valley-phantoms",
+        "providence-bruins",
+        "springfield-thunderbirds",
+        "wilkes-barre-scranton-penguins",
+        "belleville-senators",
+        "cleveland-monsters",
+        "hamilton-hammers",
+        "laval-rocket",
+        "rochester-americans",
+        "syracuse-crunch",
+        "toronto-marlies",
+        "utica-comets",
+        "chicago-wolves",
+        "grand-rapids-griffins",
+        "iowa-wild",
+        "manitoba-moose",
+        "milwaukee-admirals",
+        "rockford-icehogs",
+        "texas-stars",
+        "abbotsford-canucks",
+        "bakersfield-condors",
+        "calgary-wranglers",
+        "coachella-valley-firebirds",
+        "colorado-eagles",
+        "henderson-silver-knights",
+        "ontario-reign",
+        "san-diego-gulls",
+        "san-jose-barracuda",
+        "tucson-roadrunners"
+      ]
     },
     {
       "id": "echl",
       "name": "ECHL",
       "shortName": "ECHL",
       "logo": null,
-      "placeholderBadge": "assets/badges/placeholder/echl.svg",
       "kind": "professional",
       "multinational": true,
       "territories": [
@@ -148,9 +179,10 @@
         "level": 3
       },
       "teamCount": {
-        "value": null,
-        "status": "unknown",
-        "note": "Team count changes often through expansion and relocation; not yet verified"
+        "value": 32,
+        "status": "reference",
+        "asOf": "2026–27",
+        "note": "Clubs listed for 2026–27 in https://en.wikipedia.org/wiki/2026%E2%80%9327_ECHL_season"
       },
       "season": {
         "value": "2026–27",
@@ -171,14 +203,46 @@
         "value": null,
         "status": "unknown"
       },
-      "clubs": []
+      "clubs": [
+        "adirondack-thunder",
+        "greensboro-gargoyles",
+        "maine-mariners",
+        "norfolk-admirals",
+        "reading-royals",
+        "trenton-ironhawks",
+        "trois-rivieres-lions",
+        "worcester-railers",
+        "atlanta-gladiators",
+        "florida-everblades",
+        "greenville-swamp-rabbits",
+        "jacksonville-icemen",
+        "orlando-solar-bears",
+        "savannah-ghost-pirates",
+        "south-carolina-stingrays",
+        "bloomington-bison",
+        "cincinnati-cyclones",
+        "fort-wayne-komets",
+        "indy-fuel",
+        "kalamazoo-wings",
+        "toledo-walleye",
+        "wheeling-nailers",
+        "allen-americans",
+        "idaho-steelheads",
+        "kansas-city-mavericks",
+        "rapid-city-rush",
+        "new-mexico-goatheads",
+        "tahoe-knight-monsters",
+        "tulsa-oilers",
+        "wichita-thunder",
+        "augusta-lynx",
+        "iowa-heartlanders"
+      ]
     },
     {
       "id": "whl",
       "name": "Western Hockey League",
       "shortName": "WHL",
       "logo": null,
-      "placeholderBadge": "assets/badges/placeholder/whl.svg",
       "kind": "junior",
       "multinational": true,
       "territories": [
@@ -199,8 +263,8 @@
       "teamCount": {
         "value": 23,
         "status": "reference",
-        "asOf": "2025–26",
-        "note": "Includes the Penticton expansion team"
+        "asOf": "2026–27",
+        "note": "Clubs listed for 2026–27 in https://en.wikipedia.org/wiki/Western_Hockey_League (Season article mixes other tables; current-teams table of the league article used)"
       },
       "season": {
         "value": "2026–27",
@@ -223,14 +287,37 @@
         "value": "Ages 16–20 in career mode; CHL import rules apply",
         "status": "placeholder"
       },
-      "clubs": []
+      "clubs": [
+        "calgary-hitmen",
+        "edmonton-oil-kings",
+        "lethbridge-hurricanes",
+        "medicine-hat-tigers",
+        "red-deer-rebels",
+        "brandon-wheat-kings",
+        "moose-jaw-warriors",
+        "prince-albert-raiders",
+        "regina-pats",
+        "saskatoon-blades",
+        "swift-current-broncos",
+        "kamloops-blazers",
+        "kelowna-rockets",
+        "penticton-vees",
+        "prince-george-cougars",
+        "vancouver-giants",
+        "victoria-royals",
+        "everett-silvertips",
+        "portland-winterhawks",
+        "seattle-thunderbirds",
+        "spokane-chiefs",
+        "tri-city-americans",
+        "wenatchee-wild"
+      ]
     },
     {
       "id": "ohl",
       "name": "Ontario Hockey League",
       "shortName": "OHL",
       "logo": null,
-      "placeholderBadge": "assets/badges/placeholder/ohl.svg",
       "kind": "junior",
       "multinational": true,
       "territories": [
@@ -248,7 +335,8 @@
       "teamCount": {
         "value": 20,
         "status": "reference",
-        "asOf": "2025–26"
+        "asOf": "2026–27",
+        "note": "Clubs listed for 2026–27 in https://en.wikipedia.org/wiki/Ontario_Hockey_League (Season article mixes other tables; current-teams table of the league article used)"
       },
       "season": {
         "value": "2026–27",
@@ -271,14 +359,34 @@
         "value": "Ages 16–20 in career mode",
         "status": "placeholder"
       },
-      "clubs": []
+      "clubs": [
+        "brantford-bulldogs",
+        "kingston-frontenacs",
+        "oshawa-generals",
+        "ottawa-67-s",
+        "peterborough-petes",
+        "barrie-colts",
+        "brampton-steelheads",
+        "niagara-icedogs",
+        "north-bay-battalion",
+        "sudbury-wolves",
+        "erie-otters",
+        "guelph-storm",
+        "kitchener-rangers",
+        "london-knights",
+        "owen-sound-attack",
+        "flint-firebirds",
+        "saginaw-spirit",
+        "sarnia-sting",
+        "sault-ste-marie-greyhounds",
+        "windsor-spitfires"
+      ]
     },
     {
       "id": "qmjhl",
       "name": "Quebec Maritimes Junior Hockey League",
       "shortName": "QMJHL",
       "logo": null,
-      "placeholderBadge": "assets/badges/placeholder/qmjhl.svg",
       "kind": "junior",
       "multinational": false,
       "territories": [
@@ -295,7 +403,8 @@
       "teamCount": {
         "value": 18,
         "status": "reference",
-        "asOf": "2025–26"
+        "asOf": "2026–27",
+        "note": "Clubs listed for 2026–27 in https://en.wikipedia.org/wiki/Quebec_Maritimes_Junior_Hockey_League (Season article mixes other tables; current-teams table of the league article used)"
       },
       "season": {
         "value": "2026–27",
@@ -318,14 +427,32 @@
         "value": "Ages 16–20 in career mode",
         "status": "placeholder"
       },
-      "clubs": []
+      "clubs": [
+        "baie-comeau-drakkar",
+        "chicoutimi-sagueneens",
+        "quebec-remparts",
+        "rimouski-oceanic",
+        "cape-breton-eagles",
+        "charlottetown-islanders",
+        "halifax-mooseheads",
+        "moncton-wildcats",
+        "newfoundland-regiment",
+        "saint-john-sea-dogs",
+        "blainville-boisbriand-armada",
+        "gatineau-olympiques",
+        "rouyn-noranda-huskies",
+        "val-d-or-foreurs",
+        "drummondville-voltigeurs",
+        "shawinigan-cataractes",
+        "sherbrooke-phoenix",
+        "victoriaville-tigres"
+      ]
     },
     {
       "id": "ncaa",
       "name": "NCAA Division I Men's Ice Hockey",
       "shortName": "NCAA",
       "logo": null,
-      "placeholderBadge": "assets/badges/placeholder/ncaa.svg",
       "kind": "college",
       "multinational": false,
       "territories": [
@@ -371,7 +498,6 @@
       "name": "United States Hockey League",
       "shortName": "USHL",
       "logo": null,
-      "placeholderBadge": "assets/badges/placeholder/ushl.svg",
       "kind": "junior",
       "multinational": false,
       "territories": [
@@ -387,7 +513,8 @@
       "teamCount": {
         "value": 16,
         "status": "reference",
-        "asOf": "2025–26"
+        "asOf": "2026–27",
+        "note": "Clubs listed for 2026–27 in https://en.wikipedia.org/wiki/United_States_Hockey_League (No 2026-27 season article; current-teams section of the league article used)"
       },
       "season": {
         "value": "2026–27",
@@ -408,14 +535,30 @@
         "value": null,
         "status": "unknown"
       },
-      "clubs": []
+      "clubs": [
+        "cedar-rapids-roughriders",
+        "chicago-steel",
+        "dubuque-fighting-saints",
+        "green-bay-gamblers",
+        "madison-capitols",
+        "muskegon-lumberjacks",
+        "usa-hockey-national-team-development-program",
+        "youngstown-phantoms",
+        "des-moines-buccaneers",
+        "fargo-force",
+        "lincoln-stars",
+        "omaha-lancers",
+        "sioux-city-musketeers",
+        "sioux-falls-stampede",
+        "tri-city-storm",
+        "waterloo-black-hawks"
+      ]
     },
     {
       "id": "shl",
       "name": "Swedish Hockey League",
       "shortName": "SHL",
       "logo": null,
-      "placeholderBadge": "assets/badges/placeholder/shl.svg",
       "kind": "professional",
       "multinational": false,
       "territories": [
@@ -431,7 +574,8 @@
       "teamCount": {
         "value": 14,
         "status": "reference",
-        "asOf": "2025–26"
+        "asOf": "2026–27",
+        "note": "Clubs listed for 2026–27 in https://sv.wikipedia.org/wiki/Svenska_Hockeyligan_2026/2027"
       },
       "season": {
         "value": "2026–27",
@@ -455,20 +599,20 @@
         "status": "unknown"
       },
       "clubs": [
-        "shl-bry",
-        "shl-dif",
-        "shl-fhc",
-        "shl-fbk",
-        "shl-hv71",
-        "shl-lif",
-        "shl-lhc",
-        "shl-lhf",
-        "shl-mif",
-        "shl-rbk",
-        "shl-ske",
-        "shl-tik",
-        "shl-vax",
-        "shl-ohk"
+        "brynas-if",
+        "djurgarden-hockey",
+        "frolunda-hc",
+        "farjestad-bk",
+        "hv71",
+        "if-bjorkloven",
+        "linkoping-hc",
+        "lulea-hf",
+        "malmo-redhawks",
+        "rogle-bk",
+        "skelleftea-aik",
+        "timra-ik",
+        "vaxjo-lakers-hc",
+        "orebro-hk"
       ]
     },
     {
@@ -476,7 +620,6 @@
       "name": "HockeyAllsvenskan",
       "shortName": "HA",
       "logo": null,
-      "placeholderBadge": "assets/badges/placeholder/allsvenskan.svg",
       "kind": "professional",
       "multinational": false,
       "territories": [
@@ -492,7 +635,8 @@
       "teamCount": {
         "value": 14,
         "status": "reference",
-        "asOf": "2025–26"
+        "asOf": "2026–27",
+        "note": "Clubs listed for 2026–27 in https://en.wikipedia.org/wiki/HockeyAllsvenskan (No 2026-27 season article; current-teams section of the league article used)"
       },
       "season": {
         "value": "2026–27",
@@ -513,14 +657,28 @@
         "value": null,
         "status": "unknown"
       },
-      "clubs": []
+      "clubs": [
+        "aik-if",
+        "almtuna-is",
+        "if-bjorkloven-allsvenskan",
+        "kalmar-hc",
+        "bik-karlskoga",
+        "modo-hockey",
+        "mora-ik",
+        "nybro-vikings",
+        "ik-oskarshamn",
+        "sodertalje-sk",
+        "if-troja-ljungby",
+        "vasteras-ik",
+        "vimmerby-hc",
+        "ostersunds-ik"
+      ]
     },
     {
       "id": "liiga",
       "name": "Liiga",
       "shortName": "Liiga",
       "logo": null,
-      "placeholderBadge": "assets/badges/placeholder/liiga.svg",
       "kind": "professional",
       "multinational": false,
       "territories": [
@@ -534,9 +692,10 @@
         "level": 1
       },
       "teamCount": {
-        "value": null,
-        "status": "unknown",
-        "note": "Not yet verified for 2026–27"
+        "value": 17,
+        "status": "reference",
+        "asOf": "2026–27",
+        "note": "Clubs listed for 2026–27 in https://en.wikipedia.org/wiki/2026%E2%80%9327_Liiga_season"
       },
       "season": {
         "value": "2026–27",
@@ -558,14 +717,31 @@
         "value": null,
         "status": "unknown"
       },
-      "clubs": []
+      "clubs": [
+        "hifk-hockey",
+        "hpk",
+        "ilves",
+        "jokerit",
+        "mikkelin-jukurit",
+        "jyp-jyvaskyla",
+        "kalpa",
+        "kiekko-espoo",
+        "kookoo",
+        "oulun-karpat",
+        "lukko",
+        "lahti-pelicans",
+        "saipa",
+        "vaasan-sport",
+        "tappara",
+        "hc-tps",
+        "hc-assat-pori"
+      ]
     },
     {
       "id": "czech-extraliga",
       "name": "Czech Extraliga",
       "shortName": "ELH",
       "logo": null,
-      "placeholderBadge": "assets/badges/placeholder/czech-extraliga.svg",
       "kind": "professional",
       "multinational": false,
       "territories": [
@@ -581,7 +757,8 @@
       "teamCount": {
         "value": 14,
         "status": "reference",
-        "asOf": "2025–26"
+        "asOf": "2026–27",
+        "note": "Clubs listed for 2026–27 in https://cs.wikipedia.org/wiki/%C4%8Cesk%C3%A1_hokejov%C3%A1_extraliga_2026/2027"
       },
       "season": {
         "value": "2026–27",
@@ -602,14 +779,28 @@
         "value": null,
         "status": "unknown"
       },
-      "clubs": []
+      "clubs": [
+        "hc-dynamo-pardubice",
+        "hc-ocelari-trinec",
+        "byd-energie-karlovy-vary",
+        "hc-sparta-praha",
+        "hc-skoda-plzen",
+        "bili-tygri-liberec",
+        "mountfield-hk",
+        "hc-kometa-brno",
+        "banes-motor-ceske-budejovice",
+        "rytiri-kladno",
+        "hc-vitkovice-ridera",
+        "hc-olomouc",
+        "bk-mlada-boleslav",
+        "hc-verva-litvinov"
+      ]
     },
     {
       "id": "nl",
       "name": "National League",
       "shortName": "NL",
       "logo": null,
-      "placeholderBadge": "assets/badges/placeholder/nl.svg",
       "kind": "professional",
       "multinational": false,
       "territories": [
@@ -625,7 +816,8 @@
       "teamCount": {
         "value": 14,
         "status": "reference",
-        "asOf": "2025–26"
+        "asOf": "2026–27",
+        "note": "Clubs listed for 2026–27 in https://en.wikipedia.org/wiki/2026%E2%80%9327_National_League_%28ice_hockey%29_season"
       },
       "season": {
         "value": "2026–27",
@@ -647,20 +839,20 @@
         "status": "placeholder"
       },
       "clubs": [
-        "nl-ajo",
-        "nl-hcap",
-        "nl-scb",
-        "nl-ehcb",
-        "nl-hcd",
-        "nl-fgo",
-        "nl-gsh",
-        "nl-ehck",
-        "nl-scl",
-        "nl-lhc",
-        "nl-hcl",
-        "nl-rjl",
-        "nl-zsc",
-        "nl-evz"
+        "hc-ajoie",
+        "hc-ambri-piotta",
+        "sc-bern",
+        "ehc-biel-bienne",
+        "hc-davos",
+        "hc-fribourg-gotteron",
+        "geneve-servette-hockey-club",
+        "ehc-kloten",
+        "lausanne-hc",
+        "hc-lugano",
+        "scl-tigers",
+        "sc-rapperswil-jona-lakers",
+        "zsc-lions",
+        "ev-zug"
       ]
     },
     {
@@ -668,7 +860,6 @@
       "name": "Deutsche Eishockey Liga",
       "shortName": "DEL",
       "logo": null,
-      "placeholderBadge": "assets/badges/placeholder/del.svg",
       "kind": "professional",
       "multinational": false,
       "territories": [
@@ -682,9 +873,10 @@
         "level": 1
       },
       "teamCount": {
-        "value": null,
-        "status": "unknown",
-        "note": "Not yet verified for 2026–27"
+        "value": 14,
+        "status": "reference",
+        "asOf": "2026–27",
+        "note": "Clubs listed for 2026–27 in https://en.wikipedia.org/wiki/2026%E2%80%9327_DEL_season"
       },
       "season": {
         "value": "2026–27",
@@ -705,14 +897,28 @@
         "value": null,
         "status": "unknown"
       },
-      "clubs": []
+      "clubs": [
+        "augsburger-panther",
+        "eisbaren-berlin",
+        "fischtown-pinguins",
+        "lowen-frankfurt",
+        "erc-ingolstadt",
+        "iserlohn-roosters",
+        "kolner-haie",
+        "krefeld-pinguine",
+        "adler-mannheim",
+        "ehc-red-bull-munchen",
+        "nurnberg-ice-tigers",
+        "schwenninger-wild-wings",
+        "straubing-tigers",
+        "grizzlys-wolfsburg"
+      ]
     },
     {
       "id": "icehl",
       "name": "ICE Hockey League",
       "shortName": "ICEHL",
       "logo": null,
-      "placeholderBadge": "assets/badges/placeholder/icehl.svg",
       "kind": "professional",
       "multinational": true,
       "territories": [
@@ -726,9 +932,10 @@
         "level": 1
       },
       "teamCount": {
-        "value": null,
-        "status": "unknown",
-        "note": "Club line-up changes between seasons; not yet verified"
+        "value": 13,
+        "status": "reference",
+        "asOf": "2026–27",
+        "note": "Clubs listed for 2026–27 in https://de.wikipedia.org/wiki/ICE_Hockey_League_2026/27"
       },
       "season": {
         "value": "2026–27",
@@ -749,14 +956,27 @@
         "value": null,
         "status": "unknown"
       },
-      "clubs": []
+      "clubs": [
+        "graz-99ers",
+        "hc-pustertal",
+        "hk-olimpija",
+        "alba-volan-szekesfehervar",
+        "ec-kac",
+        "ec-red-bull-salzburg",
+        "hc-bozen",
+        "ec-vsv",
+        "vienna-capitals",
+        "ehc-linz",
+        "ferencvarosi-tc",
+        "pioneers-vorarlberg",
+        "hc-innsbruck"
+      ]
     },
     {
       "id": "eihl",
       "name": "Elite Ice Hockey League",
       "shortName": "EIHL",
       "logo": null,
-      "placeholderBadge": "assets/badges/placeholder/eihl.svg",
       "kind": "professional",
       "multinational": false,
       "territories": [
@@ -801,7 +1021,6 @@
       "name": "Champions Hockey League",
       "shortName": "CHL",
       "logo": null,
-      "placeholderBadge": "assets/badges/placeholder/champions.svg",
       "kind": "international",
       "multinational": true,
       "territories": [
@@ -817,7 +1036,8 @@
       "teamCount": {
         "value": 24,
         "status": "reference",
-        "asOf": "2025–26"
+        "asOf": "2026–27",
+        "note": "Clubs listed for 2026–27 in https://en.wikipedia.org/wiki/2026%E2%80%9327_Champions_Hockey_League"
       },
       "season": {
         "value": "2026–27",
@@ -840,14 +1060,38 @@
         "value": null,
         "status": "unknown"
       },
-      "clubs": []
+      "clubs": [
+        "frolunda-hc",
+        "skelleftea-aik",
+        "vaxjo-lakers-hc",
+        "rogle-bk",
+        "hc-fribourg-gotteron",
+        "hc-davos",
+        "geneve-servette-hockey-club",
+        "tappara",
+        "kookoo",
+        "saipa",
+        "hc-dynamo-pardubice",
+        "hc-skoda-plzen",
+        "bili-tygri-liberec",
+        "eisbaren-berlin",
+        "kolner-haie",
+        "adler-mannheim",
+        "graz-99ers",
+        "ec-kac",
+        "ec-red-bull-salzburg",
+        "storhamar-hockey",
+        "boxers-de-bordeaux",
+        "herning-blue-fox",
+        "gks-tychy",
+        "hk-nitra"
+      ]
     },
     {
       "id": "khl",
       "name": "Kontinental Hockey League",
       "shortName": "KHL",
       "logo": null,
-      "placeholderBadge": "assets/badges/placeholder/khl.svg",
       "kind": "professional",
       "multinational": true,
       "territories": [
@@ -864,9 +1108,10 @@
         "level": 1
       },
       "teamCount": {
-        "value": null,
-        "status": "unknown",
-        "note": "Membership changes between seasons; not yet verified"
+        "value": 22,
+        "status": "reference",
+        "asOf": "2026–27",
+        "note": "Clubs listed for 2026–27 in https://en.wikipedia.org/wiki/2026%E2%80%9327_KHL_season"
       },
       "season": {
         "value": "2026–27",
@@ -887,14 +1132,36 @@
         "value": null,
         "status": "unknown"
       },
-      "clubs": []
+      "clubs": [
+        "hc-lada-togliatti",
+        "hc-cska-moscow",
+        "ak-bars-kazan",
+        "admiral-vladivostok",
+        "ska-saint-petersburg",
+        "hc-dinamo-minsk",
+        "avtomobilist-yekaterinburg",
+        "amur-khabarovsk",
+        "hc-sochi",
+        "hc-dynamo-moscow",
+        "metallurg-magnitogorsk",
+        "avangard-omsk",
+        "hc-spartak-moscow",
+        "lokomotiv-yaroslavl",
+        "hc-neftekhimik-nizhnekamsk",
+        "barys-astana",
+        "torpedo-nizhny-novgorod",
+        "severstal-cherepovets",
+        "traktor-chelyabinsk",
+        "salavat-yulaev-ufa",
+        "shanghai-dragons",
+        "hc-sibir-novosibirsk"
+      ]
     },
     {
       "id": "vhl",
       "name": "Supreme Hockey League",
       "shortName": "VHL",
       "logo": null,
-      "placeholderBadge": "assets/badges/placeholder/vhl.svg",
       "kind": "professional",
       "multinational": true,
       "territories": [
@@ -909,8 +1176,10 @@
         "level": 2
       },
       "teamCount": {
-        "value": null,
-        "status": "unknown"
+        "value": 30,
+        "status": "reference",
+        "asOf": "2026–27",
+        "note": "Clubs listed for 2026–27 in https://ru.wikipedia.org/wiki/%D0%92%D0%A5%D0%9B_%D0%B2_%D1%81%D0%B5%D0%B7%D0%BE%D0%BD%D0%B5_2026/2027"
       },
       "season": {
         "value": "2026–27",
@@ -931,18 +1200,50 @@
         "value": null,
         "status": "unknown"
       },
-      "clubs": []
+      "clubs": [
+        "akm",
+        "bars-kazan",
+        "buran",
+        "gornyak-ugmk",
+        "dizel",
+        "dinamo-sankt-peterburg",
+        "dinamo-altay",
+        "zaurale",
+        "zvezda-moskva",
+        "izhstal",
+        "kristall-saratov",
+        "magnitka",
+        "metallurg-novokuznetsk",
+        "molot",
+        "neftyanik-almetevsk",
+        "olimpiya-kirovo-chepetsk",
+        "omskie-krylya",
+        "rubin",
+        "ryazan-vdv",
+        "ska-vmf",
+        "sokol-krasnoyarsk",
+        "toros",
+        "kaluga",
+        "norilsk",
+        "tambov",
+        "khimik-voskresensk",
+        "tssk-vvs",
+        "chelmet",
+        "yugra",
+        "yuzhnyy-ural"
+      ]
     },
     {
       "id": "mhl",
       "name": "Junior Hockey League",
       "shortName": "MHL",
       "logo": null,
-      "placeholderBadge": "assets/badges/placeholder/mhl.svg",
       "kind": "junior",
-      "multinational": false,
+      "multinational": true,
       "territories": [
-        "rus"
+        "rus",
+        "blr",
+        "kaz"
       ],
       "homeView": "eurasia",
       "tier": {
@@ -952,8 +1253,10 @@
         "level": 4
       },
       "teamCount": {
-        "value": null,
-        "status": "unknown"
+        "value": 34,
+        "status": "reference",
+        "asOf": "2026–27",
+        "note": "Clubs listed for 2026–27 in https://ru.wikipedia.org/wiki/%D0%A7%D0%B5%D0%BC%D0%BF%D0%B8%D0%BE%D0%BD%D0%B0%D1%82_%D0%9C%D0%A5%D0%9B_%D0%B2_%D1%81%D0%B5%D0%B7%D0%BE%D0%BD%D0%B5_2026/2027"
       },
       "season": {
         "value": "2026–27",
@@ -974,14 +1277,48 @@
         "value": null,
         "status": "unknown"
       },
-      "clubs": []
+      "clubs": [
+        "akademiya-mikhaylova",
+        "dinamo-shinnik",
+        "krasnaya-armiya",
+        "loko",
+        "dinamo-moskva",
+        "dinamo-sankt-peterburg-mhl",
+        "spartak",
+        "ska-1946",
+        "tayfun",
+        "akademiya-ska",
+        "almaz",
+        "amurskie-tigry",
+        "krasnaya-mashina-atlant",
+        "krasnaya-mashina-yunior",
+        "krylya-sovetov",
+        "spartak-makh",
+        "sakhalinskie-akuly",
+        "avto",
+        "belye-medvedi-chelyabinsk",
+        "irbis",
+        "loko-76",
+        "omskie-yastreby",
+        "sibirskie-snaypery",
+        "stalnye-lisy",
+        "tolpar",
+        "chayka",
+        "akm-yunior",
+        "krasnoyarskie-rysi",
+        "kuznetskie-medvedi",
+        "mamonty-yugry",
+        "molot-mhl",
+        "reaktor",
+        "snezhnye-barsy",
+        "sputnik-almetevsk"
+      ]
     },
     {
       "id": "belarus-extraleague",
       "name": "Belarusian Extraleague",
       "shortName": "BXL",
       "logo": null,
-      "placeholderBadge": "assets/badges/placeholder/belarus-extraleague.svg",
       "kind": "professional",
       "multinational": false,
       "territories": [
@@ -1024,7 +1361,6 @@
       "name": "Kazakhstan Championship",
       "shortName": "KAZ",
       "logo": null,
-      "placeholderBadge": "assets/badges/placeholder/kazakhstan.svg",
       "kind": "professional",
       "multinational": false,
       "territories": [
@@ -1067,7 +1403,6 @@
       "name": "Asia League Ice Hockey",
       "shortName": "ALIH",
       "logo": null,
-      "placeholderBadge": "assets/badges/placeholder/asia-league.svg",
       "kind": "professional",
       "multinational": true,
       "territories": [
@@ -1105,6 +1440,231 @@
         "status": "unknown"
       },
       "clubs": []
+    },
+    {
+      "id": "mestis",
+      "name": "Mestis",
+      "shortName": "Mestis",
+      "logo": null,
+      "kind": "professional",
+      "multinational": false,
+      "territories": [
+        "fin"
+      ],
+      "homeView": "europe",
+      "tier": {
+        "value": "Second-tier professional",
+        "status": "reference",
+        "asOf": "2026–27",
+        "level": 2
+      },
+      "teamCount": {
+        "value": 9,
+        "status": "reference",
+        "asOf": "2026–27",
+        "note": "Clubs listed for 2026–27 in https://fi.wikipedia.org/wiki/Mestis-kausi_2026%E2%80%932027"
+      },
+      "season": {
+        "value": "2026–27",
+        "status": "game",
+        "note": "Career mode start season"
+      },
+      "salary": {
+        "value": null,
+        "status": "placeholder",
+        "note": "No salary data in the sample database yet"
+      },
+      "career": {
+        "value": [],
+        "status": "placeholder",
+        "note": "Career notes not written yet"
+      },
+      "eligibility": {
+        "value": null,
+        "status": "unknown"
+      },
+      "clubs": [
+        "kokkolan-hermes",
+        "iisalmen-peli-karhut",
+        "joensuun-kiekko-pojat",
+        "imatran-kettera",
+        "keupa-ht",
+        "kiekko-vantaa",
+        "nokian-pyry",
+        "rovaniemen-kiekko",
+        "tuto-hockey"
+      ]
+    },
+    {
+      "id": "swiss-league",
+      "name": "Swiss League",
+      "shortName": "SL",
+      "logo": null,
+      "kind": "professional",
+      "multinational": false,
+      "territories": [
+        "che"
+      ],
+      "homeView": "europe",
+      "tier": {
+        "value": "Second-tier professional",
+        "status": "reference",
+        "asOf": "2026–27",
+        "level": 2
+      },
+      "teamCount": {
+        "value": 10,
+        "status": "reference",
+        "asOf": "2026–27",
+        "note": "Clubs listed for 2026–27 in https://de.wikipedia.org/wiki/Swiss_League_2026/27"
+      },
+      "season": {
+        "value": "2026–27",
+        "status": "game",
+        "note": "Career mode start season"
+      },
+      "salary": {
+        "value": null,
+        "status": "placeholder",
+        "note": "No salary data in the sample database yet"
+      },
+      "career": {
+        "value": [],
+        "status": "placeholder",
+        "note": "Career notes not written yet"
+      },
+      "eligibility": {
+        "value": null,
+        "status": "unknown"
+      },
+      "clubs": [
+        "ehc-arosa",
+        "gdt-bellinzona-snakes",
+        "ehc-basel",
+        "hc-la-chaux-de-fonds",
+        "ehc-chur",
+        "gck-lions",
+        "ehc-olten",
+        "hc-sierre",
+        "hc-thurgau",
+        "ehc-visp"
+      ]
+    },
+    {
+      "id": "del2",
+      "name": "DEL2",
+      "shortName": "DEL2",
+      "logo": null,
+      "kind": "professional",
+      "multinational": false,
+      "territories": [
+        "deu"
+      ],
+      "homeView": "europe",
+      "tier": {
+        "value": "Second-tier professional",
+        "status": "reference",
+        "asOf": "2026–27",
+        "level": 2
+      },
+      "teamCount": {
+        "value": 14,
+        "status": "reference",
+        "asOf": "2026–27",
+        "note": "Clubs listed for 2026–27 in https://de.wikipedia.org/wiki/DEL2_2026/27"
+      },
+      "season": {
+        "value": "2026–27",
+        "status": "game",
+        "note": "Career mode start season"
+      },
+      "salary": {
+        "value": null,
+        "status": "placeholder",
+        "note": "No salary data in the sample database yet"
+      },
+      "career": {
+        "value": [],
+        "status": "placeholder",
+        "note": "Career notes not written yet"
+      },
+      "eligibility": {
+        "value": null,
+        "status": "unknown"
+      },
+      "clubs": [
+        "ec-bad-nauheim",
+        "bietigheim-steelers",
+        "etc-crimmitschau",
+        "dresdner-eislowen",
+        "dusseldorfer-eg",
+        "ehc-freiburg",
+        "kassel-huskies",
+        "ev-landshut",
+        "ecdc-memmingen",
+        "ev-ravensburg",
+        "ev-regensburg",
+        "starbulls-rosenheim",
+        "1-ev-weiden",
+        "lausitzer-fuchse"
+      ]
+    },
+    {
+      "id": "slovak-extraliga",
+      "name": "Slovak Extraliga (Tipsport Liga)",
+      "shortName": "SVK",
+      "logo": null,
+      "kind": "professional",
+      "multinational": false,
+      "territories": [
+        "svk"
+      ],
+      "homeView": "europe",
+      "tier": {
+        "value": "Top professional league",
+        "status": "reference",
+        "asOf": "2026–27",
+        "level": 1
+      },
+      "teamCount": {
+        "value": 12,
+        "status": "reference",
+        "asOf": "2026–27",
+        "note": "Clubs listed for 2026–27 in https://sk.wikipedia.org/wiki/Tipsport_liga_2026/2027"
+      },
+      "season": {
+        "value": "2026–27",
+        "status": "game",
+        "note": "Career mode start season"
+      },
+      "salary": {
+        "value": null,
+        "status": "placeholder",
+        "note": "No salary data in the sample database yet"
+      },
+      "career": {
+        "value": [],
+        "status": "placeholder",
+        "note": "Career notes not written yet"
+      },
+      "eligibility": {
+        "value": null,
+        "status": "unknown"
+      },
+      "clubs": [
+        "hc-monacobet-banska-bystrica",
+        "vlci-zilina",
+        "hk-32-liptovsky-mikulas",
+        "hc-kosice",
+        "hk-dukla-michalovce",
+        "hk-nitra",
+        "hc-presov",
+        "hk-poprad",
+        "hk-dukla-trencin",
+        "hkm-zvolen",
+        "hc-slovan-bratislava",
+        "hk-spisska-nova-ves"
+      ]
     }
   ]
 }

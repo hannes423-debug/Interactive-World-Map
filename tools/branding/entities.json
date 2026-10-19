@@ -1,0 +1,415 @@
+{
+ "_comment": "Non-club entities whose branding is collected. Countries give flag (Wikidata P41), national team and federation (from the national team infobox 'Association').",
+ "countries": [
+  {
+   "id": "fin",
+   "iso3": "FIN",
+   "name": "Finland",
+   "qid": "Q33",
+   "nationalTeam": [
+    "en",
+    "Finland men's national ice hockey team"
+   ],
+   "article": "Finland"
+  },
+  {
+   "id": "rus",
+   "iso3": "RUS",
+   "name": "Russia",
+   "qid": "Q159",
+   "nationalTeam": [
+    "en",
+    "Russia men's national ice hockey team"
+   ],
+   "article": "Russia"
+  },
+  {
+   "id": "usa",
+   "iso3": "USA",
+   "name": "United States",
+   "qid": "Q30",
+   "nationalTeam": [
+    "en",
+    "United States men's national ice hockey team"
+   ],
+   "article": "United States"
+  },
+  {
+   "id": "can",
+   "iso3": "CAN",
+   "name": "Canada",
+   "qid": "Q16",
+   "nationalTeam": [
+    "en",
+    "Canada men's national ice hockey team"
+   ],
+   "article": "Canada"
+  },
+  {
+   "id": "swe",
+   "iso3": "SWE",
+   "name": "Sweden",
+   "qid": "Q34",
+   "nationalTeam": [
+    "en",
+    "Sweden men's national ice hockey team"
+   ],
+   "article": "Sweden"
+  },
+  {
+   "id": "che",
+   "iso3": "CHE",
+   "name": "Switzerland",
+   "qid": "Q39",
+   "nationalTeam": [
+    "en",
+    "Switzerland men's national ice hockey team"
+   ],
+   "article": "Switzerland"
+  },
+  {
+   "id": "deu",
+   "iso3": "DEU",
+   "name": "Germany",
+   "qid": "Q183",
+   "nationalTeam": [
+    "en",
+    "Germany men's national ice hockey team"
+   ],
+   "article": "Germany"
+  },
+  {
+   "id": "aut",
+   "iso3": "AUT",
+   "name": "Austria",
+   "qid": "Q40",
+   "nationalTeam": [
+    "en",
+    "Austria men's national ice hockey team"
+   ],
+   "article": "Austria"
+  },
+  {
+   "id": "cze",
+   "iso3": "CZE",
+   "name": "Czechia",
+   "qid": "Q213",
+   "nationalTeam": [
+    "en",
+    "Czechia men's national ice hockey team"
+   ],
+   "article": "Czech Republic"
+  },
+  {
+   "id": "svk",
+   "iso3": "SVK",
+   "name": "Slovakia",
+   "qid": "Q214",
+   "nationalTeam": [
+    "en",
+    "Slovakia men's national ice hockey team"
+   ],
+   "article": "Slovakia"
+  },
+  {
+   "id": "blr",
+   "iso3": "BLR",
+   "name": "Belarus",
+   "qid": "Q184",
+   "nationalTeam": [
+    "en",
+    "Belarus men's national ice hockey team"
+   ],
+   "article": "Belarus"
+  },
+  {
+   "id": "kaz",
+   "iso3": "KAZ",
+   "name": "Kazakhstan",
+   "qid": "Q232",
+   "nationalTeam": [
+    "en",
+    "Kazakhstan men's national ice hockey team"
+   ],
+   "article": "Kazakhstan"
+  },
+  {
+   "id": "chn",
+   "iso3": "CHN",
+   "name": "China",
+   "qid": "Q148",
+   "nationalTeam": [
+    "en",
+    "China men's national ice hockey team"
+   ],
+   "article": "China"
+  },
+  {
+   "id": "lva",
+   "iso3": "LVA",
+   "name": "Latvia",
+   "qid": "Q211",
+   "nationalTeam": [
+    "en",
+    "Latvia men's national ice hockey team"
+   ],
+   "article": "Latvia"
+  },
+  {
+   "id": "nor",
+   "iso3": "NOR",
+   "name": "Norway",
+   "qid": "Q20",
+   "nationalTeam": [
+    "en",
+    "Norway men's national ice hockey team"
+   ],
+   "article": "Norway"
+  },
+  {
+   "id": "dnk",
+   "iso3": "DNK",
+   "name": "Denmark",
+   "qid": "Q35",
+   "nationalTeam": [
+    "en",
+    "Denmark men's national ice hockey team"
+   ],
+   "article": "Denmark"
+  },
+  {
+   "id": "fra",
+   "iso3": "FRA",
+   "name": "France",
+   "qid": "Q142",
+   "nationalTeam": [
+    "en",
+    "France men's national ice hockey team"
+   ],
+   "article": "France"
+  },
+  {
+   "id": "gbr",
+   "iso3": "GBR",
+   "name": "United Kingdom",
+   "qid": "Q145",
+   "nationalTeam": [
+    "en",
+    "Great Britain men's national ice hockey team"
+   ],
+   "article": "United Kingdom"
+  },
+  {
+   "id": "ita",
+   "iso3": "ITA",
+   "name": "Italy",
+   "qid": "Q38",
+   "nationalTeam": [
+    "en",
+    "Italy men's national ice hockey team"
+   ],
+   "article": "Italy"
+  },
+  {
+   "id": "svn",
+   "iso3": "SVN",
+   "name": "Slovenia",
+   "qid": "Q215",
+   "nationalTeam": [
+    "en",
+    "Slovenia men's national ice hockey team"
+   ],
+   "article": "Slovenia"
+  },
+  {
+   "id": "hun",
+   "iso3": "HUN",
+   "name": "Hungary",
+   "qid": "Q28",
+   "nationalTeam": [
+    "en",
+    "Hungary men's national ice hockey team"
+   ],
+   "article": "Hungary"
+  },
+  {
+   "id": "pol",
+   "iso3": "POL",
+   "name": "Poland",
+   "qid": "Q36",
+   "nationalTeam": [
+    "en",
+    "Poland men's national ice hockey team"
+   ],
+   "article": "Poland"
+  },
+  {
+   "id": "jpn",
+   "iso3": "JPN",
+   "name": "Japan",
+   "qid": "Q17",
+   "nationalTeam": [
+    "en",
+    "Japan men's national ice hockey team"
+   ],
+   "article": "Japan"
+  },
+  {
+   "id": "kor",
+   "iso3": "KOR",
+   "name": "South Korea",
+   "qid": "Q884",
+   "nationalTeam": [
+    "en",
+    "South Korea men's national ice hockey team"
+   ],
+   "article": "South Korea"
+  }
+ ],
+ "international": [
+  {
+   "id": "iihf",
+   "type": "federation",
+   "name": "International Ice Hockey Federation",
+   "article": [
+    "en",
+    "International Ice Hockey Federation"
+   ]
+  },
+  {
+   "id": "iihf-worlds",
+   "type": "tournament",
+   "name": "IIHF World Championship",
+   "article": [
+    "en",
+    "IIHF World Championship"
+   ]
+  },
+  {
+   "id": "iihf-worlds-2027",
+   "type": "tournament",
+   "name": "2027 IIHF World Championship",
+   "article": [
+    "en",
+    "2027 IIHF World Championship"
+   ],
+   "season": "2026–27"
+  },
+  {
+   "id": "iihf-wjc",
+   "type": "tournament",
+   "name": "IIHF World Junior Championship",
+   "article": [
+    "en",
+    "World Junior Ice Hockey Championships"
+   ]
+  },
+  {
+   "id": "iihf-wjc-2027",
+   "type": "tournament",
+   "name": "2027 World Junior Ice Hockey Championships",
+   "article": [
+    "en",
+    "2027 World Junior Ice Hockey Championships"
+   ],
+   "season": "2026–27"
+  },
+  {
+   "id": "iihf-womens-worlds",
+   "type": "tournament",
+   "name": "IIHF Women's World Championship",
+   "article": [
+    "en",
+    "IIHF Women's World Championship"
+   ]
+  },
+  {
+   "id": "iihf-womens-worlds-2027",
+   "type": "tournament",
+   "name": "2027 IIHF Women's World Championship",
+   "article": [
+    "en",
+    "2027 IIHF Women's World Championship"
+   ],
+   "season": "2026–27"
+  },
+  {
+   "id": "iihf-u18",
+   "type": "tournament",
+   "name": "IIHF World U18 Championship",
+   "article": [
+    "en",
+    "IIHF World U18 Championships"
+   ]
+  },
+  {
+   "id": "olympics-hockey",
+   "type": "tournament",
+   "name": "Ice hockey at the Olympic Games",
+   "article": [
+    "en",
+    "Ice hockey at the Olympic Games"
+   ]
+  },
+  {
+   "id": "spengler-cup",
+   "type": "tournament",
+   "name": "Spengler Cup",
+   "article": [
+    "en",
+    "Spengler Cup"
+   ]
+  },
+  {
+   "id": "memorial-cup",
+   "type": "tournament",
+   "name": "Memorial Cup",
+   "article": [
+    "en",
+    "Memorial Cup"
+   ]
+  }
+ ],
+ "extraLeagues": [
+  {
+   "id": "eihl",
+   "country": "GBR",
+   "article": [
+    "en",
+    "Elite Ice Hockey League"
+   ]
+  },
+  {
+   "id": "belarus-extraleague",
+   "country": "BLR",
+   "article": [
+    "en",
+    "Belarusian Extraleague"
+   ]
+  },
+  {
+   "id": "kazakhstan",
+   "country": "KAZ",
+   "article": [
+    "en",
+    "Kazakhstan Hockey Championship"
+   ]
+  },
+  {
+   "id": "asia-league",
+   "country": "JPN",
+   "article": [
+    "en",
+    "Asia League Ice Hockey"
+   ]
+  },
+  {
+   "id": "ncaa",
+   "country": "USA",
+   "article": [
+    "en",
+    "NCAA Division I men's ice hockey"
+   ]
+  }
+ ]
+}

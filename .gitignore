@@ -3,3 +3,6 @@ tools/geo/out/
 __pycache__/
 node_modules/
 tools/test/out/
+tools/branding/.cache/
+tools/branding/out/
+assets/branding/local/

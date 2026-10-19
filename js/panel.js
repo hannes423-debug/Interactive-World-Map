@@ -3,6 +3,7 @@
 // placeholders are never mistaken for real-world facts.
 
 import { leaguesIn, coverage, tierRank, geoUnits, children } from './data.js';
+import * as brand from './branding.js';
 
 const STATUS = {
   verified: { label: 'Verified', title: 'Checked against a cited source' },
@@ -58,17 +59,81 @@ function stat(label, value, sub) {
 }
 
 function badgeImg(lg, size = 44) {
-  const src = lg.logo || lg.placeholderBadge;
   const box = h('span', 'league-mark');
   box.style.setProperty('--s', `${size}px`);
-  if (src) {
-    const img = h('img');
-    img.src = src;
-    img.alt = '';
-    img.addEventListener('error', () => { img.remove(); box.textContent = lg.shortName; });
-    box.append(img);
-  } else box.textContent = lg.shortName;
+  box.append(brand.img(`league:${lg.id}`, size, lg.shortName));
   return box;
+}
+
+/** One line saying where a logo comes from, or why it is not shown. */
+function provenance(key, label) {
+  const r = brand.src(key, 64, label);
+  const a = r.asset;
+  if (r.kind === 'asset' && a) {
+    const id = a.identity?.status === 'verified_visual' ? ' · matched to current logo' : a.identity?.status === 'unverified' ? ' · identity unverified' : '';
+    const el = h('p', 'note full provenance', `${label} logo: `, h('a', null, 'source'), ` (${a.rights?.basis ?? 'rights not recorded'})${id}`);
+    const link = el.querySelector('a');
+    link.href = a.source?.page ?? '#';
+    link.target = '_blank';
+    link.rel = 'noopener';
+    return el;
+  }
+  if (r.kind === 'local') return h('p', 'note full provenance', `${label} logo: local copy only - not cleared for publication.`);
+  const ent = brand.entity(key);
+  return h('p', 'note full provenance', ent?.status === 'restricted'
+    ? `${label}: the official logo is not cleared for redistribution, so a generic badge is shown.`
+    : `${label}: no logo in the branding library yet - generic badge shown.`);
+}
+
+function clubMark(id, name, size = 28) {
+  const box = h('span', 'club-mark');
+  box.style.setProperty('--s', `${size}px`);
+  box.append(brand.img(`club:${id}`, size, name));
+  return box;
+}
+
+/** Flag, federation and national team shown as separate identities. */
+function nationalBlock(db, iso3, nav) {
+  if (!iso3) return null;
+  const c = iso3.toLowerCase();
+  const fed = brand.entity(`federation:${c}`);
+  const nt = brand.entity(`national-team:${c}`);
+  const flag = brand.entity(`flag:${c}`);
+  if (!fed && !nt && !flag) return null;
+  const item = (key, label, sub) => h('div', 'nat-item', brand.img(key, 48, label), h('span', null, h('strong', null, label), h('small', null, sub)));
+  const block = h('section', 'block', h('h3', null, 'National hockey'),
+    h('div', 'nat-grid',
+      item(`flag:${c}`, flag?.name?.replace(/^Flag of /, '') ?? iso3, 'Flag'),
+      item(`federation:${c}`, fed?.name ?? 'Federation', 'Federation'),
+      item(`national-team:${c}`, nt?.name?.replace(/ men's national ice hockey team$/, '') ?? 'National team', "Men's national team")));
+  const tours = Object.values(db.tournaments ?? {});
+  if (tours.length) {
+    const wrap = h('div', 'chips');
+    for (const t of tours.filter((x) => x.featured)) {
+      const b = h('button', 'chip-link chip-brand', brand.img(`tournament:${t.id}`, 20, t.name), t.name);
+      b.type = 'button';
+      b.addEventListener('click', () => nav.tournament(t.id));
+      wrap.append(b);
+    }
+    block.append(h('p', 'note', 'International competitions'), wrap);
+  }
+  return block;
+}
+
+export function tournamentPanel(db, id, nav) {
+  const t = (db.tournaments ?? {})[id];
+  if (!t) return notFound(`Competition "${id}" is not in the database.`);
+  const head = h('header', 'panel-head league-head', (() => { const b = h('span', 'league-mark'); b.style.setProperty('--s', '72px'); b.append(brand.img(`tournament:${t.id}`, 72, t.name)); return b; })(),
+    h('div', null, h('p', 'eyebrow', 'International competition'), h('h2', null, t.name), t.edition ? h('p', 'sub', t.edition) : null));
+  head.append(provenance(`tournament:${t.id}`, t.name));
+  const body = h('section', 'block', h('h3', null, 'About'), h('dl', 'facts',
+    fact('Organiser', t.organiser), fact('Format', t.format), fact('Career relevance', t.career)));
+  const eds = (t.editions ?? []).map((e) => (db.tournaments ?? {})[e]).filter(Boolean);
+  const edBlock = eds.length ? h('section', 'block', h('h3', null, 'Editions'), h('div', 'chips', eds.map((e) => {
+    const b = h('button', 'chip-link chip-brand', brand.img(`tournament:${e.id}`, 20, e.name), e.name);
+    b.type = 'button'; b.addEventListener('click', () => nav.tournament(e.id)); return b;
+  }))) : null;
+  return h('div', 'panel-body', head, body, edBlock, legend(db));
 }
 
 const KIND = { country: 'Country', subdivision: 'Province / state', region: 'Hockey region' };
@@ -140,7 +205,8 @@ export function territoryPanel(db, tid, nav, quality) {
     fact('Career accessibility', t.accessibility),
     fact('Restrictions & eligibility', t.restrictions)));
 
-  return h('div', 'panel-body', head, stats, leagues, related, facts, legend(db));
+  const country = t.kind === 'country' ? (t.iso3 ?? (t.geo ?? [])[0]) : null;
+  return h('div', 'panel-body', head, stats, leagues, related, nationalBlock(db, country, nav), facts, legend(db));
 }
 
 export function leaguePanel(db, lid, nav) {
@@ -152,7 +218,7 @@ export function leaguePanel(db, lid, nav) {
       h('p', 'eyebrow', lg.kind ? lg.kind[0].toUpperCase() + lg.kind.slice(1) : 'League', lg.multinational ? ' · Multinational' : ''),
       h('h2', null, lg.name),
       h('p', 'sub', lg.shortName)));
-  if (!lg.logo) head.append(h('p', 'note full', 'Badge is a placeholder, not the official logo.'));
+  head.append(provenance(`league:${lg.id}`, lg.shortName));
 
   const stats = h('div', 'stats',
     stat('Tier', lg.tier?.level > 0 ? `Tier ${lg.tier.level}` : '—', lg.tier?.value),
@@ -185,12 +251,13 @@ export function leaguePanel(db, lid, nav) {
   if (!ids.length) clubs.append(h('p', 'empty', 'Club list not in the sample database yet.'));
   else {
     const first = db.teams.get(ids[0]);
-    clubs.append(h('p', 'clubs-status', chip({ status: first.status, asOf: first.asOf, note: 'Club line-ups change between seasons' }),
-      ` ${ids.length} clubs`));
+    const withLogo = ids.filter((c) => brand.src(`club:${c}`).kind !== 'fallback').length;
+    clubs.append(h('p', 'clubs-status', chip({ status: first.status, asOf: first.asOf, note: first.source ?? 'Club line-ups change between seasons' }),
+      ` ${ids.length} clubs · ${withLogo} with a cleared logo`));
     const ul = h('ul', 'club-list');
     for (const id of [...ids].sort((a, b) => db.teams.get(a).name.localeCompare(db.teams.get(b).name))) {
       const t = db.teams.get(id);
-      ul.append(h('li', null, h('strong', null, t.name), h('span', null, t.city ?? '')));
+      ul.append(h('li', null, clubMark(t.id, t.name), h('strong', null, t.name), h('span', null, t.city ?? t.countryName ?? '')));
     }
     clubs.append(ul);
   }

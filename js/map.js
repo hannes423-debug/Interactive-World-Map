@@ -3,6 +3,7 @@
 // space; the camera maps it to the screen.
 
 import { toPixel } from './projection.js';
+import * as brand from './branding.js';
 import { territoryPath, loadViewGeo, geoUnits, children, coverage, leaguesIn } from './data.js';
 
 const SVGNS = 'http://www.w3.org/2000/svg';
@@ -320,15 +321,12 @@ export class MapStage {
       const lg = db.leagues.get(b.league);
       const pos = b.position?.[L.viewId] ?? (b.anchor ? toPixel(L.map, b.anchor[0], b.anchor[1]) : null);
       if (!pos || pos[0] < 0 || pos[1] < 0 || pos[0] > L.map.width || pos[1] > L.map.height) continue;
-      const src = b.image || lg?.logo || lg?.placeholderBadge;
       const node = html('button', 'badge');
       node.type = 'button';
       node.dataset.badge = b.id;
       node.setAttribute('aria-label', lg ? `${lg.name}` : b.id);
-      const imgEl = html('img');
-      imgEl.alt = '';
+      const imgEl = b.image ? Object.assign(html('img'), { src: b.image, alt: '' }) : brand.img(`league:${b.league}`, 46, lg?.shortName ?? b.league, 'badge-img');
       imgEl.draggable = false;
-      if (src) imgEl.src = src;
       imgEl.addEventListener('error', () => node.classList.add('no-image'));
       const fallback = html('span', 'badge-fallback', lg?.shortName ?? '?');
       const cap = html('span', 'badge-caption', lg?.shortName ?? b.league);

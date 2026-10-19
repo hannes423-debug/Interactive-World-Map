@@ -234,6 +234,37 @@ try {
     await page.close();
   }
 
+  // B. branding integration
+  {
+    const man = JSON.parse(fs.readFileSync(path.join(ROOT, 'assets', 'branding', 'manifest.json')));
+    check('B. branding manifest parses', !!man.assets && !!man.entities, `${Object.keys(man.assets).length} assets, ${Object.keys(man.entities).length} entities`);
+    const missingFiles = [];
+    for (const a of Object.values(man.assets)) {
+      for (const p of [a.master, ...Object.values(a.outputs ?? {})]) if (p && !fs.existsSync(path.join(ROOT, p))) missingFiles.push(p);
+    }
+    check('B. every file referenced by the manifest exists', !missingFiles.length, missingFiles.slice(0, 5).join(', '));
+    const broken = Object.entries(man.entities).filter(([, e]) => e.active && !man.assets[e.active]).map(([k]) => k);
+    check('B. entity -> active asset references resolve', !broken.length, broken.slice(0, 5).join(', '));
+    const unpublishable = Object.values(man.assets).filter((a) => a.master && !a.rights?.publish).map((a) => a.id);
+    check('B. no committed master lacks publication rights', !unpublishable.length, unpublishable.slice(0, 5).join(', '));
+
+    const { page, errors, bad } = await open(`${APP}#/europe/t/fin/l/liiga`);
+    const clubs = await page.$$eval('.club-list li', (li) => li.map((x) => ({ name: x.querySelector('strong')?.textContent, img: !!x.querySelector('img.brand-img'), kind: x.querySelector('img')?.className })));
+    check('B. Liiga panel shows a logo or fallback for every club', clubs.length === 17 && clubs.every((c) => c.img), `${clubs.length} clubs, ${clubs.filter((c) => /brand-asset/.test(c.kind)).length} real logos`);
+    const broken2 = await page.$$eval('img', (imgs) => imgs.filter((i) => i.complete && i.naturalWidth === 0).map((i) => i.src.slice(0, 80)));
+    check('B. no broken images in the league panel', !broken2.length, broken2.join(', '));
+    await page.goto(`${APP}#/europe/t/fin/info`); await settle(page, 1300);
+    const nat = await page.$$eval('.nat-item small', (s) => s.map((x) => x.textContent));
+    check('B. country panel shows flag, federation and national team separately', nat.join('|') === "Flag|Federation|Men's national team", nat.join('|'));
+    await page.goto(`${APP}#/world/x/iihf-worlds`); await settle(page, 1300);
+    check('B. tournament panel opens with its identity', (await page.textContent('#panel-content h2')) === 'IIHF World Championship' && await page.$('#panel-content .league-mark img') !== null);
+    await page.goto(`${APP}#/eurasia/l/vhl`); await settle(page, 1300);
+    const vhl = await page.$$eval('.club-list li', (li) => li.length);
+    check('B. VHL panel lists its 2026-27 clubs', vhl === 30, `${vhl} clubs`);
+    check('B. branding pages load without errors or failed requests', !errors.length && !bad.length, [...errors, ...bad].slice(0, 3).join('; '));
+    await page.close();
+  }
+
   // 9/10. layouts
   for (const vp of [{ width: 1920, height: 1080 }, { width: 1366, height: 768 }, { width: 1024, height: 768 }, { width: 390, height: 844 }]) {
     const { page, errors } = await open(`${APP}#/europe/t/swe/l/shl`, vp);

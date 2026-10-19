@@ -1,0 +1,274 @@
+{
+ "leagues": {
+  "liiga": {
+   "leagueIdentity": "pending",
+   "clubs": 17,
+   "published": 1,
+   "restricted": 14,
+   "pending": 2,
+   "missing": 0,
+   "clubCoverage": 0.059,
+   "qualityVerified": 1,
+   "seasonVerified": 1
+  },
+  "mestis": {
+   "leagueIdentity": "restricted",
+   "clubs": 9,
+   "published": 0,
+   "restricted": 9,
+   "pending": 0,
+   "missing": 0,
+   "clubCoverage": 0.0,
+   "qualityVerified": 0,
+   "seasonVerified": 0
+  },
+  "khl": {
+   "leagueIdentity": "pending",
+   "clubs": 22,
+   "published": 0,
+   "restricted": 16,
+   "pending": 6,
+   "missing": 0,
+   "clubCoverage": 0.0,
+   "qualityVerified": 0,
+   "seasonVerified": 0
+  },
+  "vhl": {
+   "leagueIdentity": "restricted",
+   "clubs": 30,
+   "published": 0,
+   "restricted": 28,
+   "pending": 2,
+   "missing": 0,
+   "clubCoverage": 0.0,
+   "qualityVerified": 0,
+   "seasonVerified": 0
+  },
+  "mhl": {
+   "leagueIdentity": "pending",
+   "clubs": 34,
+   "published": 0,
+   "restricted": 30,
+   "pending": 4,
+   "missing": 0,
+   "clubCoverage": 0.0,
+   "qualityVerified": 0,
+   "seasonVerified": 0
+  },
+  "nhl": {
+   "leagueIdentity": "pending",
+   "clubs": 32,
+   "published": 0,
+   "restricted": 15,
+   "pending": 17,
+   "missing": 0,
+   "clubCoverage": 0.0,
+   "qualityVerified": 0,
+   "seasonVerified": 0
+  },
+  "ahl": {
+   "leagueIdentity": "pending",
+   "clubs": 32,
+   "published": 0,
+   "restricted": 25,
+   "pending": 7,
+   "missing": 0,
+   "clubCoverage": 0.0,
+   "qualityVerified": 0,
+   "seasonVerified": 0
+  },
+  "echl": {
+   "leagueIdentity": "restricted",
+   "clubs": 32,
+   "published": 0,
+   "restricted": 31,
+   "pending": 1,
+   "missing": 0,
+   "clubCoverage": 0.0,
+   "qualityVerified": 0,
+   "seasonVerified": 0
+  },
+  "whl": {
+   "leagueIdentity": "restricted",
+   "clubs": 23,
+   "published": 0,
+   "restricted": 21,
+   "pending": 2,
+   "missing": 0,
+   "clubCoverage": 0.0,
+   "qualityVerified": 0,
+   "seasonVerified": 0
+  },
+  "ohl": {
+   "leagueIdentity": "pending",
+   "clubs": 20,
+   "published": 0,
+   "restricted": 16,
+   "pending": 4,
+   "missing": 0,
+   "clubCoverage": 0.0,
+   "qualityVerified": 0,
+   "seasonVerified": 0
+  },
+  "qmjhl": {
+   "leagueIdentity": "pending",
+   "clubs": 18,
+   "published": 0,
+   "restricted": 16,
+   "pending": 2,
+   "missing": 0,
+   "clubCoverage": 0.0,
+   "qualityVerified": 0,
+   "seasonVerified": 0
+  },
+  "ushl": {
+   "leagueIdentity": "pending",
+   "clubs": 16,
+   "published": 0,
+   "restricted": 14,
+   "pending": 2,
+   "missing": 0,
+   "clubCoverage": 0.0,
+   "qualityVerified": 0,
+   "seasonVerified": 0
+  },
+  "shl": {
+   "leagueIdentity": "pending",
+   "clubs": 14,
+   "published": 0,
+   "restricted": 1,
+   "pending": 13,
+   "missing": 0,
+   "clubCoverage": 0.0,
+   "qualityVerified": 0,
+   "seasonVerified": 0
+  },
+  "allsvenskan": {
+   "leagueIdentity": "restricted",
+   "clubs": 14,
+   "published": 0,
+   "restricted": 14,
+   "pending": 0,
+   "missing": 0,
+   "clubCoverage": 0.0,
+   "qualityVerified": 0,
+   "seasonVerified": 0
+  },
+  "nl": {
+   "leagueIdentity": "pending",
+   "clubs": 14,
+   "published": 0,
+   "restricted": 7,
+   "pending": 6,
+   "missing": 1,
+   "clubCoverage": 0.0,
+   "qualityVerified": 0,
+   "seasonVerified": 0
+  },
+  "swiss-league": {
+   "leagueIdentity": "pending",
+   "clubs": 10,
+   "published": 0,
+   "restricted": 6,
+   "pending": 3,
+   "missing": 1,
+   "clubCoverage": 0.0,
+   "qualityVerified": 0,
+   "seasonVerified": 0
+  },
+  "del": {
+   "leagueIdentity": "pending",
+   "clubs": 14,
+   "published": 0,
+   "restricted": 13,
+   "pending": 1,
+   "missing": 0,
+   "clubCoverage": 0.0,
+   "qualityVerified": 0,
+   "seasonVerified": 0
+  },
+  "del2": {
+   "leagueIdentity": "pending",
+   "clubs": 14,
+   "published": 0,
+   "restricted": 11,
+   "pending": 3,
+   "missing": 0,
+   "clubCoverage": 0.0,
+   "qualityVerified": 0,
+   "seasonVerified": 0
+  },
+  "icehl": {
+   "leagueIdentity": "pending",
+   "clubs": 13,
+   "published": 0,
+   "restricted": 7,
+   "pending": 4,
+   "missing": 2,
+   "clubCoverage": 0.0,
+   "qualityVerified": 0,
+   "seasonVerified": 0
+  },
+  "czech-extraliga": {
+   "leagueIdentity": "restricted",
+   "clubs": 14,
+   "published": 0,
+   "restricted": 6,
+   "pending": 5,
+   "missing": 3,
+   "clubCoverage": 0.0,
+   "qualityVerified": 0,
+   "seasonVerified": 0
+  },
+  "slovak-extraliga": {
+   "leagueIdentity": "pending",
+   "clubs": 12,
+   "published": 0,
+   "restricted": 12,
+   "pending": 0,
+   "missing": 0,
+   "clubCoverage": 0.0,
+   "qualityVerified": 0,
+   "seasonVerified": 0
+  },
+  "champions": {
+   "leagueIdentity": "pending",
+   "clubs": 24,
+   "published": 0,
+   "restricted": 13,
+   "pending": 10,
+   "missing": 1,
+   "clubCoverage": 0.0,
+   "qualityVerified": 0,
+   "seasonVerified": 0
+  }
+ },
+ "other": {
+  "flag": {
+   "total": 24,
+   "published": 24
+  },
+  "federation": {
+   "total": 25,
+   "restricted": 19,
+   "pending": 6
+  },
+  "national-team": {
+   "total": 24,
+   "pending": 19,
+   "restricted": 5
+  },
+  "tournament": {
+   "total": 10,
+   "pending": 8,
+   "restricted": 1,
+   "missing": 1
+  }
+ },
+ "rights": {
+  "unverified": 27,
+  "restricted": 383,
+  "public_domain": 70,
+  "licensed": 28
+ }
+}

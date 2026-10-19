@@ -24,8 +24,8 @@ export async function loadGame(gameId) {
   const base = `games/${encodeURIComponent(gameId)}/`;
   // game.json and maps.json are required; the rest degrade to empty lists.
   const [game, maps] = await Promise.all([fetchJSON(base + 'game.json'), fetchJSON('data/maps.json')]);
-  const [terr, leagues, teams, badges] = await Promise.all(
-    ['territories', 'leagues', 'teams', 'badges'].map((n) => tryJSON(`${base}${n}.json`, warnings)),
+  const [terr, leagues, teams, badges, tournaments] = await Promise.all(
+    ['territories', 'leagues', 'teams', 'badges', 'tournaments'].map((n) => tryJSON(`${base}${n}.json`, warnings)),
   );
 
   const db = {
@@ -36,6 +36,7 @@ export async function loadGame(gameId) {
     leagues: new Map((leagues?.leagues ?? []).map((l) => [l.id, l])),
     teams: new Map((teams?.teams ?? []).map((t) => [t.id, t])),
     badges: badges?.badges ?? [],
+    tournaments: Object.fromEntries((tournaments?.tournaments ?? []).map((t) => [t.id, t])),
     warnings,
     viewGeo: new Map(),
     rawGeo: null,

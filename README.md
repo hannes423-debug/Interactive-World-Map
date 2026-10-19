@@ -139,6 +139,48 @@ Check the result with `python3 tools/geo/check_alignment.py` (share of each terr
 
 The Python tools need `numpy scipy opencv-python-headless scikit-image Pillow`. Boundary source data (Natural Earth 1:50m, public domain) is rebuilt with `python3 tools/geo/build_geo.py`.
 
+## Branding library
+
+League, club, federation, national-team, tournament and flag identities live in `assets/branding/`:
+
+```
+assets/branding/
+  manifest.json            every asset: source, licence, identity check, technical checks, outputs
+  masters/<type>s/         original files (SVG preferred) that may be published
+  generated/<type>/        PNG variants: 128, 256, 512, 1024 px canvases (flags keep their proportions)
+  validation-report.json   machine-readable result of the last processing run
+  validation-report.md     readable summary
+  contact-sheet.html       every entity on one page for visual review
+  local/                   git-ignored: files kept locally that are not cleared for publication
+```
+
+Club membership for 2026–27 is in `data/hockey/memberships-2026-27.json` (one stable id per club, used by the game data, the manifest and the UI). Each competition cites the Wikipedia season article it was read from.
+
+**How assets are chosen.** For every entity the tools read the logo currently shown in its Wikipedia infobox. If that file is on Wikimedia Commons under a public-domain tag (typically `PD-textlogo`) or a free licence, it is downloaded and published. If it is a non-free (fair-use) file, it is *not* redistributed: the manifest records the source and `rights.status = "restricted"`, and the tools look for a freely licensed Commons file that visually matches the current logo (score ≥ 0.80). Without a match the map shows a consistent generic badge and says why.
+
+Rights statuses: `public_domain` and `licensed` (publishable), `restricted` (non-free; not redistributed), `unverified` (e.g. "public domain in the US only"), `permission_required`. Public-domain status refers to copyright only; logos remain trademarks of their owners and their use here does not imply endorsement.
+
+Identity statuses: `verified_secondary` (the file shown in the current Wikipedia infobox), `verified_visual` (free file matched to it visually), `not_current` (older identity kept as an alternate), `unverified`.
+
+### Updating the library
+
+```sh
+pip install pillow numpy resvg-py          # resvg-py renders SVG without system libraries
+python3 tools/branding/discover_members.py  # 2026-27 participants -> tools/branding/out/members-candidates.json
+python3 tools/branding/curate_members.py    # -> data/hockey/memberships-2026-27.json (overrides.json for fixes)
+python3 tools/branding/commons_pool.py      # free logo files on Commons -> tools/branding/out/commons-pool.json
+python3 tools/branding/fetch.py             # acquire + manifest   (--only liiga,khl,flag ...)
+python3 tools/branding/process.py           # validate + generate PNG variants + reports
+python3 tools/branding/contact_sheet.py     # contact-sheet.html (+ PNG sheets in tools/branding/out)
+python3 tools/branding/build_game_data.py   # memberships -> games/nhl13/{teams,leagues,badges}.json
+```
+
+All network access is cached in `tools/branding/.cache/` and paced; Wikimedia throttles bulk downloads, so a full run can take hours.
+
+**Add or replace one asset by hand.** Put the file in `assets/branding/masters/<type>s/<id>.svg` and add or edit its entry in `manifest.json` (copy an existing one): set `master`, `source` (where it came from), `rights` (`status`, `basis`, `publish`) and `identity`. Point `entities["club:<id>"].active` at it; keep the previous asset under `alternates` (with `season`) instead of deleting it. Then run `process.py`. Never mark an asset `public_domain` or `licensed` without a documented basis.
+
+**Locally kept files that may not be published.** `python3 tools/branding/fetch.py --include-restricted` also saves non-free current logos under `assets/branding/local/` (git-ignored) and lists them in `local/manifest.local.json`. Open the map with `?branding=local` (e.g. `career-map.html?game=nhl13&branding=local`) to use them on your own machine. They never reach the public site.
+
 ## Testing
 
 ```sh

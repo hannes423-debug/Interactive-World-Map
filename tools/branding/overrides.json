@@ -1,0 +1,45 @@
+{
+ "_comment": "Hand corrections applied by curate_members.py. aliases: partner names used in Russian tables -> club ids (KHL clubs are taken from the English season article).",
+ "vhl": {
+  "aliases": {
+   "Лада": "hc-lada-togliatti",
+   "Ак Барс": "ak-bars-kazan",
+   "Автомобилист": "avtomobilist-yekaterinburg",
+   "Торпедо": "torpedo-nizhny-novgorod",
+   "Динамо М": "hc-dynamo-moscow",
+   "Динамо (хоккейный клуб, Москва)": "hc-dynamo-moscow",
+   "Сибирь": "hc-sibir-novosibirsk",
+   "ХК Сочи": "hc-sochi",
+   "Сочи (хоккейный клуб)": "hc-sochi",
+   "ЦСКА": "hc-cska-moscow",
+   "Металлург Мг": "metallurg-magnitogorsk",
+   "Амур": "amur-khabarovsk",
+   "Локомотив": "lokomotiv-yaroslavl",
+   "Адмирал": "admiral-vladivostok",
+   "Авангард": "avangard-omsk",
+   "Нефтехимик": "hc-neftekhimik-nizhnekamsk",
+   "СКА": "ska-saint-petersburg",
+   "Салават Юлаев": "salavat-yulaev-ufa",
+   "Северсталь": "severstal-cherepovets",
+   "Спартак": "hc-spartak-moscow",
+   "Трактор": "traktor-chelyabinsk",
+   "Динамо Мн": "hc-dinamo-minsk",
+   "Барыс": "barys-astana",
+   "Торпедо НН": "torpedo-nizhny-novgorod"
+  }
+ },
+ "ushl": {
+  "drop": [
+   "Des Moines Oak Leafs",
+   "Madison Blues (ice hockey)",
+   "Milwaukee Admirals",
+   "United States men's national ice hockey team",
+   "Rochester Mustangs",
+   "Sault Ste. Marie Greyhounds",
+   "St. Paul Vulcans",
+   "Thunder Bay Flyers",
+   "Thunder Bay Twins"
+  ],
+  "_note": "Rows after the 16 current teams are former franchises listed in the league article"
+ }
+}

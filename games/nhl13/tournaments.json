@@ -1,0 +1,201 @@
+{
+  "_comment": "International and special competitions. Branding comes from assets/branding/manifest.json (tournament:<id>).",
+  "tournaments": [
+    {
+      "id": "iihf-worlds",
+      "name": "IIHF World Championship",
+      "short": "Worlds",
+      "featured": true,
+      "editions": [
+        "iihf-worlds-2027"
+      ],
+      "organiser": {
+        "value": "International Ice Hockey Federation",
+        "status": "reference"
+      },
+      "format": {
+        "value": "Annual men's tournament; 16-team top division",
+        "status": "reference"
+      },
+      "career": {
+        "value": [
+          "National-team selection depends on form and league level"
+        ],
+        "status": "placeholder"
+      }
+    },
+    {
+      "id": "iihf-worlds-2027",
+      "name": "2027 IIHF World Championship",
+      "short": "Worlds 2027",
+      "edition": "2026–27 season",
+      "organiser": {
+        "value": "International Ice Hockey Federation",
+        "status": "reference"
+      },
+      "format": {
+        "value": "16-team top division",
+        "status": "reference"
+      },
+      "career": {
+        "value": null,
+        "status": "placeholder"
+      }
+    },
+    {
+      "id": "iihf-wjc",
+      "name": "IIHF World Junior Championship",
+      "short": "WJC",
+      "featured": true,
+      "editions": [
+        "iihf-wjc-2027"
+      ],
+      "organiser": {
+        "value": "International Ice Hockey Federation",
+        "status": "reference"
+      },
+      "format": {
+        "value": "Annual under-20 men's tournament",
+        "status": "reference"
+      },
+      "career": {
+        "value": [
+          "Showcase for draft-eligible juniors"
+        ],
+        "status": "placeholder"
+      }
+    },
+    {
+      "id": "iihf-wjc-2027",
+      "name": "2027 World Junior Ice Hockey Championships",
+      "short": "WJC 2027",
+      "edition": "2026–27 season",
+      "organiser": {
+        "value": "International Ice Hockey Federation",
+        "status": "reference"
+      },
+      "format": {
+        "value": "Under-20 men's tournament",
+        "status": "reference"
+      },
+      "career": {
+        "value": null,
+        "status": "placeholder"
+      }
+    },
+    {
+      "id": "iihf-womens-worlds",
+      "name": "IIHF Women's World Championship",
+      "short": "Women's Worlds",
+      "featured": true,
+      "editions": [
+        "iihf-womens-worlds-2027"
+      ],
+      "organiser": {
+        "value": "International Ice Hockey Federation",
+        "status": "reference"
+      },
+      "format": {
+        "value": "Annual women's tournament",
+        "status": "reference"
+      },
+      "career": {
+        "value": null,
+        "status": "placeholder",
+        "note": "Women's careers are not modelled yet"
+      }
+    },
+    {
+      "id": "iihf-womens-worlds-2027",
+      "name": "2027 IIHF Women's World Championship",
+      "short": "Women's Worlds 2027",
+      "edition": "2026–27 season",
+      "organiser": {
+        "value": "International Ice Hockey Federation",
+        "status": "reference"
+      },
+      "format": {
+        "value": "Women's top division",
+        "status": "reference"
+      },
+      "career": {
+        "value": null,
+        "status": "placeholder"
+      }
+    },
+    {
+      "id": "iihf-u18",
+      "name": "IIHF World U18 Championship",
+      "short": "U18",
+      "featured": true,
+      "organiser": {
+        "value": "International Ice Hockey Federation",
+        "status": "reference"
+      },
+      "format": {
+        "value": "Annual under-18 men's tournament",
+        "status": "reference"
+      },
+      "career": {
+        "value": [
+          "First international showcase before the draft"
+        ],
+        "status": "placeholder"
+      }
+    },
+    {
+      "id": "olympics-hockey",
+      "name": "Ice hockey at the Olympic Games",
+      "short": "Olympics",
+      "featured": true,
+      "organiser": {
+        "value": "International Olympic Committee with the IIHF",
+        "status": "reference"
+      },
+      "format": {
+        "value": "Held every four years; next men's tournament in 2030",
+        "status": "reference"
+      },
+      "career": {
+        "value": null,
+        "status": "placeholder"
+      }
+    },
+    {
+      "id": "spengler-cup",
+      "name": "Spengler Cup",
+      "short": "Spengler Cup",
+      "featured": false,
+      "organiser": {
+        "value": "HC Davos",
+        "status": "reference"
+      },
+      "format": {
+        "value": "Invitational club tournament in Davos each December",
+        "status": "reference"
+      },
+      "career": {
+        "value": null,
+        "status": "placeholder"
+      }
+    },
+    {
+      "id": "memorial-cup",
+      "name": "Memorial Cup",
+      "short": "Memorial Cup",
+      "featured": false,
+      "organiser": {
+        "value": "Canadian Hockey League",
+        "status": "reference"
+      },
+      "format": {
+        "value": "Championship of the WHL, OHL and QMJHL champions and a host team",
+        "status": "reference"
+      },
+      "career": {
+        "value": null,
+        "status": "placeholder"
+      }
+    }
+  ]
+}

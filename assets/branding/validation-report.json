@@ -1,0 +1,2710 @@
+{
+ "date": "2026-10-19",
+ "assets": {
+  "club.1-ev-weiden--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "unverified"
+  },
+  "club.abbotsford-canucks--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.adirondack-thunder--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.adler-mannheim--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.admiral-vladivostok--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.aik-if--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.ak-bars-kazan--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.akademiya-mikhaylova--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.akademiya-ska--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.akm--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.akm-yunior--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.alba-volan-szekesfehervar--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.allen-americans--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.almaz--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.almtuna-is--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.amur-khabarovsk--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.amurskie-tigry--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.anaheim-ducks--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.atlanta-gladiators--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.augsburger-panther--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.augusta-lynx--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.avangard-omsk--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.avto--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.avtomobilist-yekaterinburg--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.baie-comeau-drakkar--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.bakersfield-condors--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.barrie-colts--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.bars-kazan--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.barys-astana--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.belleville-senators": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "public_domain"
+  },
+  "club.belye-medvedi-chelyabinsk--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.bietigheim-steelers": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "licensed"
+  },
+  "club.bik-karlskoga--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.bili-tygri-liberec--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.bk-mlada-boleslav": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "licensed"
+  },
+  "club.blainville-boisbriand-armada--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.bloomington-bison--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.boston-bruins": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "public_domain"
+  },
+  "club.boxers-de-bordeaux--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.brampton-steelheads--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.brandon-wheat-kings--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.brantford-bulldogs--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.brynas-if": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "licensed"
+  },
+  "club.buffalo-sabres--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.buran--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.calgary-flames--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.calgary-hitmen--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.calgary-wranglers--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.cape-breton-eagles--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.carolina-hurricanes--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.cedar-rapids-roughriders--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.charlotte-checkers--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.charlottetown-islanders--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.chayka": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "licensed"
+  },
+  "club.chelmet": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "public_domain"
+  },
+  "club.chicago-blackhawks--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.chicago-steel--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "unverified"
+  },
+  "club.chicago-wolves--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.chicoutimi-sagueneens--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.cincinnati-cyclones--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.cleveland-monsters--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.coachella-valley-firebirds--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.colorado-avalanche--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.colorado-eagles--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.columbus-blue-jackets--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.dallas-stars--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.des-moines-buccaneers--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.detroit-red-wings--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.dinamo-altay--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.dinamo-moskva--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.dinamo-sankt-peterburg--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.dinamo-sankt-peterburg-mhl--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.dinamo-shinnik--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.dizel--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.djurgarden-hockey": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "licensed"
+  },
+  "club.dresdner-eislowen--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "unverified"
+  },
+  "club.drummondville-voltigeurs--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.dubuque-fighting-saints--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.dusseldorfer-eg--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "unverified"
+  },
+  "club.ec-bad-nauheim--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "unverified"
+  },
+  "club.ec-kac--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "unverified"
+  },
+  "club.ec-vsv": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "licensed"
+  },
+  "club.ecdc-memmingen--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "unverified"
+  },
+  "club.edmonton-oil-kings--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.edmonton-oilers--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.ehc-arosa--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "unverified"
+  },
+  "club.ehc-basel": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "public_domain"
+  },
+  "club.ehc-biel-bienne--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.ehc-chur--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "unverified"
+  },
+  "club.ehc-freiburg--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "unverified"
+  },
+  "club.ehc-kloten--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.ehc-linz": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "licensed"
+  },
+  "club.ehc-olten": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "licensed"
+  },
+  "club.ehc-red-bull-munchen--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.eisbaren-berlin--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.erc-ingolstadt": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "licensed"
+  },
+  "club.erie-otters--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.etc-crimmitschau--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "unverified"
+  },
+  "club.ev-landshut--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "unverified"
+  },
+  "club.ev-ravensburg": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "public_domain"
+  },
+  "club.ev-regensburg--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "unverified"
+  },
+  "club.ev-zug--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.everett-silvertips--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.fargo-force--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.farjestad-bk": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "licensed"
+  },
+  "club.fischtown-pinguins--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.flint-firebirds--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.florida-everblades--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.florida-panthers--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.fort-wayne-komets--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.frolunda-hc": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "licensed"
+  },
+  "club.gatineau-olympiques--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.gck-lions": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "licensed"
+  },
+  "club.gdt-bellinzona-snakes--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.geneve-servette-hockey-club--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.gks-tychy--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.gornyak-ugmk--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.grand-rapids-griffins--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.graz-99ers": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "public_domain"
+  },
+  "club.green-bay-gamblers--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.greensboro-gargoyles--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.greenville-swamp-rabbits--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.grizzlys-wolfsburg--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.guelph-storm--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.halifax-mooseheads--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.hamilton-hammers--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.hartford-wolf-pack--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.hc-ambri-piotta": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "public_domain"
+  },
+  "club.hc-assat-pori--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.hc-bozen--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.hc-cska-moscow": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "public_domain"
+  },
+  "club.hc-davos--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "unverified"
+  },
+  "club.hc-dinamo-minsk--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.hc-dynamo-moscow": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "licensed"
+  },
+  "club.hc-dynamo-pardubice": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "public_domain"
+  },
+  "club.hc-fribourg-gotteron--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.hc-innsbruck--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.hc-kometa-brno": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "licensed"
+  },
+  "club.hc-kosice--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.hc-la-chaux-de-fonds--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.hc-lada-togliatti--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.hc-lugano": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "public_domain"
+  },
+  "club.hc-monacobet-banska-bystrica--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.hc-neftekhimik-nizhnekamsk--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.hc-ocelari-trinec--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.hc-olomouc--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.hc-presov--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.hc-pustertal--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.hc-sibir-novosibirsk--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.hc-sierre--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "unverified"
+  },
+  "club.hc-skoda-plzen--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.hc-slovan-bratislava--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "unverified"
+  },
+  "club.hc-sochi--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.hc-sparta-praha": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "public_domain"
+  },
+  "club.hc-spartak-moscow--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.hc-thurgau--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.hc-tps--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.henderson-silver-knights--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.herning-blue-fox": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "licensed"
+  },
+  "club.hershey-bears--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.hifk-hockey": {
+   "status": "verified",
+   "flags": [],
+   "rights": "public_domain",
+   "outputs": [
+    "128",
+    "256",
+    "512",
+    "1024"
+   ]
+  },
+  "club.hk-32-liptovsky-mikulas--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.hk-dukla-michalovce--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.hk-dukla-trencin--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.hk-nitra--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.hk-olimpija--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.hk-poprad--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.hk-spisska-nova-ves--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.hkm-zvolen--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.hpk--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.hv71--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "unverified"
+  },
+  "club.idaho-steelheads--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.if-bjorkloven": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "public_domain"
+  },
+  "club.if-bjorkloven-allsvenskan--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.if-troja-ljungby--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.iisalmen-peli-karhut--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.ik-oskarshamn--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.ilves--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.imatran-kettera--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.indy-fuel--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.iowa-heartlanders--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.iowa-wild": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "public_domain"
+  },
+  "club.irbis--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.iserlohn-roosters--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.izhstal--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.jacksonville-icemen--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.joensuun-kiekko-pojat--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.jokerit--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.jyp-jyvaskyla--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "unverified"
+  },
+  "club.kalamazoo-wings--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.kalmar-hc--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.kalpa--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.kaluga--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.kamloops-blazers--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.kansas-city-mavericks--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.kassel-huskies--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "unverified"
+  },
+  "club.kelowna-rockets--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.keupa-ht--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.khimik-voskresensk--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.kiekko-espoo--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.kiekko-vantaa--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.kingston-frontenacs": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "public_domain"
+  },
+  "club.kitchener-rangers--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.kokkolan-hermes--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.kolner-haie--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.kookoo--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.krasnaya-armiya": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "licensed"
+  },
+  "club.krasnaya-mashina-atlant--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.krasnaya-mashina-yunior--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.krasnoyarskie-rysi--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.krefeld-pinguine--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.kristall-saratov--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.krylya-sovetov--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.kuznetskie-medvedi--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.lahti-pelicans--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.lausanne-hc--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.lausitzer-fuchse--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "unverified"
+  },
+  "club.laval-rocket--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.lehigh-valley-phantoms--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.lethbridge-hurricanes--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.lincoln-stars--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.linkoping-hc": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "licensed"
+  },
+  "club.loko--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.loko-76--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.lokomotiv-yaroslavl--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.london-knights--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.los-angeles-kings--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.lowen-frankfurt--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.lukko--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.lulea-hf": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "licensed"
+  },
+  "club.madison-capitols--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.magnitka--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.maine-mariners--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.malmo-redhawks": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "licensed"
+  },
+  "club.mamonty-yugry--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.manitoba-moose--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.medicine-hat-tigers--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.metallurg-magnitogorsk--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.metallurg-novokuznetsk--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.mikkelin-jukurit--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.milwaukee-admirals--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.minnesota-wild--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.modo-hockey--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.molot--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.molot-mhl--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.moncton-wildcats--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.montreal-canadiens": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "public_domain"
+  },
+  "club.moose-jaw-warriors--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.mora-ik--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.mountfield-hk--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.muskegon-lumberjacks--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.nashville-predators--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.neftyanik-almetevsk--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.new-jersey-devils--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.new-mexico-goatheads--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.new-york-islanders--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.new-york-rangers": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "public_domain"
+  },
+  "club.newfoundland-regiment--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.niagara-icedogs--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.nokian-pyry--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "unverified"
+  },
+  "club.norfolk-admirals--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.norilsk--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.north-bay-battalion--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.nurnberg-ice-tigers--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.nybro-vikings--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.olimpiya-kirovo-chepetsk--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.omaha-lancers--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.omskie-krylya--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.omskie-yastreby--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.ontario-reign--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.orebro-hk": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "licensed"
+  },
+  "club.orlando-solar-bears--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.oshawa-generals": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "public_domain"
+  },
+  "club.ostersunds-ik--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.ottawa-67-s": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "public_domain"
+  },
+  "club.ottawa-senators--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.oulun-karpat--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.owen-sound-attack--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.penticton-vees--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.peterborough-petes--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "unverified"
+  },
+  "club.philadelphia-flyers": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "public_domain"
+  },
+  "club.pioneers-vorarlberg--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.pittsburgh-penguins--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.portland-winterhawks--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.prince-albert-raiders--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.prince-george-cougars--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.providence-bruins": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "public_domain"
+  },
+  "club.quebec-remparts--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.rapid-city-rush--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.reading-royals--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.reaktor--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.red-deer-rebels--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.regina-pats--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.rimouski-oceanic--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.rochester-americans--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.rockford-icehogs--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.rogle-bk": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "public_domain"
+  },
+  "club.rouyn-noranda-huskies--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.rovaniemen-kiekko--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.rubin--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.ryazan-vdv--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.rytiri-kladno--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.saginaw-spirit--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.saint-john-sea-dogs--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.saipa--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.sakhalinskie-akuly--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.salavat-yulaev-ufa--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.san-diego-gulls--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.san-jose-barracuda--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.san-jose-sharks--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.sarnia-sting--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.saskatoon-blades--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.sault-ste-marie-greyhounds--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.savannah-ghost-pirates--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.sc-bern--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.sc-rapperswil-jona-lakers--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "unverified"
+  },
+  "club.schwenninger-wild-wings--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.scl-tigers--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.seattle-kraken--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.seattle-thunderbirds--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.severstal-cherepovets--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.shanghai-dragons": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "licensed"
+  },
+  "club.shawinigan-cataractes--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.sherbrooke-phoenix--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.sibirskie-snaypery--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.sioux-city-musketeers--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.sioux-falls-stampede--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.ska-1946--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.ska-saint-petersburg--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.ska-vmf--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.skelleftea-aik": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "licensed"
+  },
+  "club.snezhnye-barsy--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.sodertalje-sk--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.sokol-krasnoyarsk--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.south-carolina-stingrays--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.spartak--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.spartak-makh--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.spokane-chiefs--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.springfield-thunderbirds--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.sputnik-almetevsk--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.st-louis-blues--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.stalnye-lisy--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.starbulls-rosenheim--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "unverified"
+  },
+  "club.storhamar-hockey--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.straubing-tigers--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.sudbury-wolves--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.swift-current-broncos--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.syracuse-crunch--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.tahoe-knight-monsters--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.tambov--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.tampa-bay-lightning": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "public_domain"
+  },
+  "club.tappara--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.tayfun--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.texas-stars": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "public_domain"
+  },
+  "club.timra-ik": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "licensed"
+  },
+  "club.toledo-walleye--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.tolpar--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.toronto-maple-leafs--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.toronto-marlies--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.toros--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.torpedo-nizhny-novgorod--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.traktor-chelyabinsk--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.trenton-ironhawks--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.tri-city-americans--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.tri-city-storm--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.trois-rivieres-lions--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.tssk-vvs--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.tucson-roadrunners--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.tulsa-oilers--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.tuto-hockey--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.usa-hockey-national-team-development-program--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.utah-mammoth--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.utica-comets--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.vaasan-sport--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.val-d-or-foreurs--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.vancouver-canucks--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.vancouver-giants--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.vasteras-ik--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.vaxjo-lakers-hc": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "licensed"
+  },
+  "club.vegas-golden-knights--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.victoria-royals--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.victoriaville-tigres--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.vienna-capitals--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.vimmerby-hc--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.vlci-zilina--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.washington-capitals": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "public_domain"
+  },
+  "club.waterloo-black-hawks--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.wenatchee-wild--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.wheeling-nailers--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.wichita-thunder--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.wilkes-barre-scranton-penguins--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.windsor-spitfires--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.winnipeg-jets--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.worcester-railers--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.youngstown-phantoms--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.yugra--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.yuzhnyy-ural--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.zaurale--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.zsc-lions--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "club.zvezda-moskva": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "licensed"
+  },
+  "federation.aut--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "federation.blr--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "federation.can--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "federation.che": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "public_domain"
+  },
+  "federation.chn--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "federation.cze--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "federation.deu": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "public_domain"
+  },
+  "federation.dnk--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "federation.fin--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "federation.fra--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "federation.gbr--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "federation.hun--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "federation.iihf--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "federation.ita--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "federation.jpn": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "public_domain"
+  },
+  "federation.kaz--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "federation.kor--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "federation.lva--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "federation.nor--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "federation.pol--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "federation.rus--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "federation.svk--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "federation.svn--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "federation.swe--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "federation.usa": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "public_domain"
+  },
+  "flag.aut": {
+   "status": "verified",
+   "flags": [],
+   "rights": "public_domain",
+   "outputs": [
+    "128",
+    "256",
+    "512",
+    "1024"
+   ]
+  },
+  "flag.blr": {
+   "status": "verified",
+   "flags": [],
+   "rights": "public_domain",
+   "outputs": [
+    "128",
+    "256",
+    "512",
+    "1024"
+   ]
+  },
+  "flag.can": {
+   "status": "verified",
+   "flags": [],
+   "rights": "public_domain",
+   "outputs": [
+    "128",
+    "256",
+    "512",
+    "1024"
+   ]
+  },
+  "flag.che": {
+   "status": "verified",
+   "flags": [],
+   "rights": "public_domain",
+   "outputs": [
+    "128",
+    "256",
+    "512",
+    "1024"
+   ]
+  },
+  "flag.chn": {
+   "status": "verified",
+   "flags": [],
+   "rights": "public_domain",
+   "outputs": [
+    "128",
+    "256",
+    "512",
+    "1024"
+   ]
+  },
+  "flag.cze": {
+   "status": "verified",
+   "flags": [],
+   "rights": "public_domain",
+   "outputs": [
+    "128",
+    "256",
+    "512",
+    "1024"
+   ]
+  },
+  "flag.deu": {
+   "status": "verified",
+   "flags": [],
+   "rights": "public_domain",
+   "outputs": [
+    "128",
+    "256",
+    "512",
+    "1024"
+   ]
+  },
+  "flag.dnk": {
+   "status": "verified",
+   "flags": [],
+   "rights": "public_domain",
+   "outputs": [
+    "128",
+    "256",
+    "512",
+    "1024"
+   ]
+  },
+  "flag.fin": {
+   "status": "verified",
+   "flags": [],
+   "rights": "public_domain",
+   "outputs": [
+    "128",
+    "256",
+    "512",
+    "1024"
+   ]
+  },
+  "flag.fra": {
+   "status": "verified",
+   "flags": [],
+   "rights": "public_domain",
+   "outputs": [
+    "128",
+    "256",
+    "512",
+    "1024"
+   ]
+  },
+  "flag.gbr": {
+   "status": "verified",
+   "flags": [],
+   "rights": "public_domain",
+   "outputs": [
+    "128",
+    "256",
+    "512",
+    "1024"
+   ]
+  },
+  "flag.hun": {
+   "status": "verified",
+   "flags": [],
+   "rights": "public_domain",
+   "outputs": [
+    "128",
+    "256",
+    "512",
+    "1024"
+   ]
+  },
+  "flag.ita": {
+   "status": "verified",
+   "flags": [],
+   "rights": "public_domain",
+   "outputs": [
+    "128",
+    "256",
+    "512",
+    "1024"
+   ]
+  },
+  "flag.jpn": {
+   "status": "verified",
+   "flags": [],
+   "rights": "public_domain",
+   "outputs": [
+    "128",
+    "256",
+    "512",
+    "1024"
+   ]
+  },
+  "flag.kaz": {
+   "status": "verified",
+   "flags": [],
+   "rights": "public_domain",
+   "outputs": [
+    "128",
+    "256",
+    "512",
+    "1024"
+   ]
+  },
+  "flag.kor": {
+   "status": "verified",
+   "flags": [],
+   "rights": "public_domain",
+   "outputs": [
+    "128",
+    "256",
+    "512",
+    "1024"
+   ]
+  },
+  "flag.lva": {
+   "status": "verified",
+   "flags": [],
+   "rights": "public_domain",
+   "outputs": [
+    "128",
+    "256",
+    "512",
+    "1024"
+   ]
+  },
+  "flag.nor": {
+   "status": "verified",
+   "flags": [],
+   "rights": "public_domain",
+   "outputs": [
+    "128",
+    "256",
+    "512",
+    "1024"
+   ]
+  },
+  "flag.pol": {
+   "status": "verified",
+   "flags": [],
+   "rights": "public_domain",
+   "outputs": [
+    "128",
+    "256",
+    "512",
+    "1024"
+   ]
+  },
+  "flag.rus": {
+   "status": "verified",
+   "flags": [],
+   "rights": "public_domain",
+   "outputs": [
+    "128",
+    "256",
+    "512",
+    "1024"
+   ]
+  },
+  "flag.svk": {
+   "status": "verified",
+   "flags": [],
+   "rights": "public_domain",
+   "outputs": [
+    "128",
+    "256",
+    "512",
+    "1024"
+   ]
+  },
+  "flag.svn": {
+   "status": "verified",
+   "flags": [],
+   "rights": "public_domain",
+   "outputs": [
+    "128",
+    "256",
+    "512",
+    "1024"
+   ]
+  },
+  "flag.swe": {
+   "status": "verified",
+   "flags": [],
+   "rights": "public_domain",
+   "outputs": [
+    "128",
+    "256",
+    "512",
+    "1024"
+   ]
+  },
+  "flag.usa": {
+   "status": "verified",
+   "flags": [],
+   "rights": "public_domain",
+   "outputs": [
+    "128",
+    "256",
+    "512",
+    "1024"
+   ]
+  },
+  "league.ahl--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "league.allsvenskan--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "league.asia-league--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "league.belarus-extraleague--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "league.champions": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "public_domain"
+  },
+  "league.czech-extraliga--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "league.del": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "public_domain"
+  },
+  "league.del2--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "league.echl--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "league.eihl": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "licensed"
+  },
+  "league.icehl--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "unverified"
+  },
+  "league.kazakhstan--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "league.khl--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "league.liiga--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "league.mestis--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "league.mhl--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "league.nhl--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "league.nl--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "league.ohl": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "licensed"
+  },
+  "league.qmjhl--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "league.shl": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "public_domain"
+  },
+  "league.slovak-extraliga--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "league.swiss-league--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "league.ushl--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "league.vhl--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "league.whl--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "national-team.aut": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "public_domain"
+  },
+  "national-team.blr": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "public_domain"
+  },
+  "national-team.can": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "public_domain"
+  },
+  "national-team.che": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "public_domain"
+  },
+  "national-team.chn--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "unverified"
+  },
+  "national-team.cze": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "public_domain"
+  },
+  "national-team.deu": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "public_domain"
+  },
+  "national-team.dnk--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "national-team.fin--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "national-team.fra--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "national-team.gbr--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "national-team.hun": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "public_domain"
+  },
+  "national-team.ita--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "national-team.jpn": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "public_domain"
+  },
+  "national-team.kaz": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "public_domain"
+  },
+  "national-team.kor--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "national-team.lva--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "national-team.nor--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "national-team.pol": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "public_domain"
+  },
+  "national-team.rus": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "public_domain"
+  },
+  "national-team.svk": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "public_domain"
+  },
+  "national-team.svn--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "national-team.swe--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "national-team.usa": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "public_domain"
+  },
+  "tournament.iihf-u18--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "tournament.iihf-wjc--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "tournament.iihf-wjc-2027--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "tournament.iihf-womens-worlds--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "tournament.iihf-worlds--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "unverified"
+  },
+  "tournament.iihf-worlds-2027--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  },
+  "tournament.memorial-cup": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "licensed"
+  },
+  "tournament.olympics-hockey": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "public_domain"
+  },
+  "tournament.spengler-cup--current": {
+   "status": "no-master",
+   "flags": [],
+   "rights": "restricted"
+  }
+ },
+ "summary": {
+  "assets": 508,
+  "status": {
+   "no-master": 483,
+   "verified": 25
+  },
+  "flags": {},
+  "rights": {
+   "unverified": 27,
+   "restricted": 383,
+   "public_domain": 70,
+   "licensed": 28
+  },
+  "brokenReferences": 0
+ }
+}

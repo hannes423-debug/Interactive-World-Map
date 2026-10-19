@@ -418,6 +418,78 @@
         "type": "league",
         "id": "kazakhstan"
       }
+    },
+    {
+      "id": "badge-mestis",
+      "league": "mestis",
+      "image": null,
+      "views": [
+        "europe"
+      ],
+      "minLevel": "territory",
+      "anchor": [
+        25.5,
+        61.5
+      ],
+      "priority": 25,
+      "action": {
+        "type": "league",
+        "id": "mestis"
+      }
+    },
+    {
+      "id": "badge-swiss-league",
+      "league": "swiss-league",
+      "image": null,
+      "views": [
+        "europe"
+      ],
+      "minLevel": "territory",
+      "anchor": [
+        7.6,
+        47.2
+      ],
+      "priority": 25,
+      "action": {
+        "type": "league",
+        "id": "swiss-league"
+      }
+    },
+    {
+      "id": "badge-del2",
+      "league": "del2",
+      "image": null,
+      "views": [
+        "europe"
+      ],
+      "minLevel": "territory",
+      "anchor": [
+        11.5,
+        50.0
+      ],
+      "priority": 25,
+      "action": {
+        "type": "league",
+        "id": "del2"
+      }
+    },
+    {
+      "id": "badge-slovak-extraliga",
+      "league": "slovak-extraliga",
+      "image": null,
+      "views": [
+        "europe"
+      ],
+      "minLevel": "territory",
+      "anchor": [
+        19.5,
+        48.7
+      ],
+      "priority": 25,
+      "action": {
+        "type": "league",
+        "id": "slovak-extraliga"
+      }
     }
   ]
 }

@@ -1,7 +1,8 @@
 // Career map entry point: routing, header, breadcrumbs, panels.
 import { loadGame, leaguesIn, territoryPath } from './data.js';
 import { MapStage } from './map.js';
-import { territoryPanel, leaguePanel } from './panel.js';
+import { territoryPanel, leaguePanel, tournamentPanel } from './panel.js';
+import { loadBranding } from './branding.js';
 import * as router from './router.js';
 
 const $ = (s) => document.querySelector(s);
@@ -46,7 +47,7 @@ function toast(msg) {
 function normalise(r) {
   const views = db.game.views;
   const root = db.game.rootView;
-  const out = { view: r.view, territory: r.territory, info: r.info, league: r.league };
+  const out = { view: r.view, territory: r.territory, info: r.info, league: r.league, tournament: r.tournament };
   if (!views[out.view] || !db.maps[views[out.view].map]) {
     if (out.view) toast(`Map "${out.view}" is not available - showing the world map`);
     out.view = root;
@@ -61,11 +62,16 @@ function normalise(r) {
     if (!lg) { toast(`Unknown league "${out.league}"`); out.league = null; }
     else if (views[out.view].level === 'world' && !out.territory) out.view = lg.homeView ?? out.view;
   }
+  if (out.tournament && !db.tournaments[out.tournament]) { toast(`Unknown competition "${out.tournament}"`); out.tournament = null; }
+  if (out.league) out.tournament = null;
   if (!out.territory) out.info = false;
   return out;
 }
 
 const nav = {
+  tournament(id) {
+    if (db.tournaments[id]) go({ ...route, league: null, tournament: id });
+  },
   territory(id, info = true) {
     const t = db.territories.get(id);
     if (!t) return;
@@ -94,7 +100,7 @@ const handlers = {
     else if (a.type === 'view') go({ view: a.id });
   },
   onBackground: () => {
-    if (route.league || route.info || route.territory) back();
+    if (route.league || route.tournament || route.info || route.territory) back();
   },
 };
 
@@ -114,13 +120,13 @@ async function render() {
   const view = db.game.views[route.view];
   document.title = `${view.title} · ${db.game.title}`;
   ui.app.dataset.level = view.level;
-  ui.title.textContent = route.league ? db.leagues.get(route.league)?.name
+  ui.title.textContent = route.tournament ? db.tournaments[route.tournament]?.name : route.league ? db.leagues.get(route.league)?.name
     : route.territory ? db.territories.get(route.territory)?.name : view.title;
   ui.subtitle.textContent = route.territory || route.league ? view.title : (view.level === 'world' ? db.game.subtitle : `Select a territory · ${db.game.season} season`);
   renderCrumbs(view);
   ui.back.hidden = !router.parent(route, db.game.rootView);
 
-  const panelOpen = !!(route.info || route.league);
+  const panelOpen = !!(route.info || route.league || route.tournament);
   await renderPanel(panelOpen);
   renderExplore(view);
 
@@ -138,6 +144,7 @@ function renderCrumbs(view) {
     items.push({ label: t?.name ?? route.territory, r: { view: route.view, territory: route.territory, info: true } });
   }
   if (route.league) items.push({ label: db.leagues.get(route.league)?.shortName ?? route.league, r: route });
+  if (route.tournament) items.push({ label: db.tournaments[route.tournament]?.short ?? db.tournaments[route.tournament]?.name, r: route });
   ui.crumbs.replaceChildren();
   if (items.length < 2) return;
   items.forEach((it, i) => {
@@ -158,7 +165,8 @@ async function renderPanel(open) {
   ui.panel.setAttribute('aria-hidden', String(!open));
   if (open) {
     let content;
-    if (route.league) content = leaguePanel(db, route.league, nav);
+    if (route.tournament) content = tournamentPanel(db, route.tournament, nav);
+    else if (route.league) content = leaguePanel(db, route.league, nav);
     else {
       const { quality } = await territoryPath(db, db.game.views[route.view].map, route.territory);
       content = territoryPanel(db, route.territory, nav, quality);
@@ -203,6 +211,9 @@ function renderExplore(view) {
       const n = (rv.territories ?? []).length;
       add(rv.title, `${n} territories`, () => go({ view: rid }));
     }
+    for (const t of Object.values(db.tournaments).filter((x) => x.featured)) {
+      add(t.name, 'International', () => nav.tournament(t.id), 'secondary');
+    }
     return;
   }
   ui.exploreTitle.textContent = `Territories · ${view.title}`;
@@ -221,7 +232,7 @@ function renderExplore(view) {
 
 async function boot() {
   try {
-    db = await loadGame(gameId);
+    [db] = await Promise.all([loadGame(gameId), loadBranding()]);
   } catch (err) {
     ui.app.classList.add('failed');
     $('#boot-error').hidden = false;
@@ -238,7 +249,7 @@ async function boot() {
   window.addEventListener('keydown', (e) => {
     if (e.key === 'Escape' && !e.defaultPrevented) back();
   });
-  window.addEventListener('resize', () => updateInsets(!!(route?.info || route?.league)));
+  window.addEventListener('resize', () => updateInsets(!!(route?.info || route?.league || route?.tournament)));
   ui.panel.addEventListener('click', (e) => e.stopPropagation());
   // preload the other map images in the background
   setTimeout(() => Object.values(db.maps).forEach((m) => { const i = new Image(); i.src = m.image; }), 1500);
