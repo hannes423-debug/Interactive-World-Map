@@ -48,8 +48,8 @@
    "leagueIdentity": "restricted",
    "clubs": 34,
    "published": 3,
-   "restricted": 30,
-   "pending": 1,
+   "restricted": 31,
+   "pending": 0,
    "missing": 0,
    "clubCoverage": 0.088,
    "qualityVerified": 2,
@@ -58,24 +58,24 @@
   "nhl": {
    "leagueIdentity": "restricted",
    "clubs": 32,
-   "published": 6,
-   "restricted": 15,
-   "pending": 11,
+   "published": 7,
+   "restricted": 23,
+   "pending": 2,
    "missing": 0,
-   "clubCoverage": 0.188,
+   "clubCoverage": 0.219,
    "qualityVerified": 6,
-   "seasonVerified": 6
+   "seasonVerified": 7
   },
   "ahl": {
    "leagueIdentity": "restricted",
    "clubs": 32,
-   "published": 0,
-   "restricted": 25,
-   "pending": 7,
+   "published": 6,
+   "restricted": 26,
+   "pending": 0,
    "missing": 0,
-   "clubCoverage": 0.0,
-   "qualityVerified": 0,
-   "seasonVerified": 0
+   "clubCoverage": 0.188,
+   "qualityVerified": 5,
+   "seasonVerified": 6
   },
   "echl": {
    "leagueIdentity": "restricted",
@@ -268,7 +268,7 @@
  "rights": {
   "unverified": 27,
   "restricted": 395,
-  "public_domain": 83,
-  "licensed": 16
+  "public_domain": 94,
+  "licensed": 18
  }
 }

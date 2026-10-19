@@ -71,6 +71,17 @@
    "flags": [],
    "rights": "restricted"
   },
+  "club.almaz--older": {
+   "status": "verified",
+   "flags": [],
+   "rights": "public_domain",
+   "outputs": [
+    "128",
+    "256",
+    "512",
+    "1024"
+   ]
+  },
   "club.almtuna-is--current": {
    "status": "no-master",
    "flags": [],
@@ -90,6 +101,17 @@
    "status": "no-master",
    "flags": [],
    "rights": "restricted"
+  },
+  "club.anaheim-ducks--older": {
+   "status": "verified",
+   "flags": [],
+   "rights": "public_domain",
+   "outputs": [
+    "128",
+    "256",
+    "512",
+    "1024"
+   ]
   },
   "club.atlanta-gladiators--current": {
    "status": "no-master",
@@ -147,9 +169,15 @@
    "rights": "restricted"
   },
   "club.belleville-senators": {
-   "status": "no-master",
+   "status": "verified",
    "flags": [],
-   "rights": "public_domain"
+   "rights": "public_domain",
+   "outputs": [
+    "128",
+    "256",
+    "512",
+    "1024"
+   ]
   },
   "club.belye-medvedi-chelyabinsk--current": {
    "status": "no-master",
@@ -237,10 +265,39 @@
    "flags": [],
    "rights": "restricted"
   },
+  "club.calgary-flames--older": {
+   "status": "verified",
+   "flags": [],
+   "rights": "public_domain",
+   "outputs": [
+    "128",
+    "256",
+    "512",
+    "1024"
+   ]
+  },
   "club.calgary-hitmen--current": {
    "status": "no-master",
    "flags": [],
    "rights": "restricted"
+  },
+  "club.calgary-wranglers": {
+   "status": "flagged",
+   "flags": [
+    {
+     "code": "low-resolution",
+     "detail": "500x398"
+    },
+    {
+     "code": "not-upscaled",
+     "detail": "sizes above native 500px skipped"
+    }
+   ],
+   "rights": "licensed",
+   "outputs": [
+    "128",
+    "256"
+   ]
   },
   "club.calgary-wranglers--current": {
    "status": "no-master",
@@ -329,6 +386,17 @@
    "flags": [],
    "rights": "restricted"
   },
+  "club.coachella-valley-firebirds--older": {
+   "status": "verified",
+   "flags": [],
+   "rights": "public_domain",
+   "outputs": [
+    "128",
+    "256",
+    "512",
+    "1024"
+   ]
+  },
   "club.colorado-avalanche--current": {
    "status": "no-master",
    "flags": [],
@@ -348,6 +416,17 @@
    "status": "no-master",
    "flags": [],
    "rights": "restricted"
+  },
+  "club.dallas-stars--older": {
+   "status": "verified",
+   "flags": [],
+   "rights": "public_domain",
+   "outputs": [
+    "128",
+    "256",
+    "512",
+    "1024"
+   ]
   },
   "club.des-moines-buccaneers--current": {
    "status": "no-master",
@@ -454,6 +533,17 @@
    "status": "no-master",
    "flags": [],
    "rights": "restricted"
+  },
+  "club.edmonton-oilers--older": {
+   "status": "verified",
+   "flags": [],
+   "rights": "public_domain",
+   "outputs": [
+    "128",
+    "256",
+    "512",
+    "1024"
+   ]
   },
   "club.ehc-arosa--current": {
    "status": "no-master",
@@ -981,9 +1071,15 @@
    "rights": "restricted"
   },
   "club.iowa-wild": {
-   "status": "no-master",
+   "status": "verified",
    "flags": [],
-   "rights": "public_domain"
+   "rights": "public_domain",
+   "outputs": [
+    "128",
+    "256",
+    "512",
+    "1024"
+   ]
   },
   "club.irbis--current": {
    "status": "no-master",
@@ -1176,6 +1272,17 @@
    "status": "no-master",
    "flags": [],
    "rights": "unverified"
+  },
+  "club.laval-rocket": {
+   "status": "verified",
+   "flags": [],
+   "rights": "public_domain",
+   "outputs": [
+    "128",
+    "256",
+    "512",
+    "1024"
+   ]
   },
   "club.laval-rocket--current": {
    "status": "no-master",
@@ -1484,6 +1591,17 @@
    "flags": [],
    "rights": "restricted"
   },
+  "club.ottawa-senators--older": {
+   "status": "verified",
+   "flags": [],
+   "rights": "licensed",
+   "outputs": [
+    "128",
+    "256",
+    "512",
+    "1024"
+   ]
+  },
   "club.oulun-karpat--current": {
    "status": "no-master",
    "flags": [],
@@ -1535,9 +1653,15 @@
    "rights": "restricted"
   },
   "club.providence-bruins": {
-   "status": "no-master",
+   "status": "verified",
    "flags": [],
-   "rights": "public_domain"
+   "rights": "public_domain",
+   "outputs": [
+    "128",
+    "256",
+    "512",
+    "1024"
+   ]
   },
   "club.quebec-remparts--current": {
    "status": "no-master",
@@ -1653,6 +1777,17 @@
    "status": "no-master",
    "flags": [],
    "rights": "restricted"
+  },
+  "club.san-jose-sharks--older": {
+   "status": "verified",
+   "flags": [],
+   "rights": "public_domain",
+   "outputs": [
+    "128",
+    "256",
+    "512",
+    "1024"
+   ]
   },
   "club.sarnia-sting--current": {
    "status": "no-master",
@@ -1918,9 +2053,15 @@
    "rights": "restricted"
   },
   "club.texas-stars": {
-   "status": "no-master",
+   "status": "verified",
    "flags": [],
-   "rights": "public_domain"
+   "rights": "public_domain",
+   "outputs": [
+    "128",
+    "256",
+    "512",
+    "1024"
+   ]
   },
   "club.timra-ik": {
    "status": "no-master",
@@ -1936,6 +2077,24 @@
    "status": "no-master",
    "flags": [],
    "rights": "restricted"
+  },
+  "club.toronto-maple-leafs": {
+   "status": "flagged",
+   "flags": [
+    {
+     "code": "low-resolution",
+     "detail": "250x293"
+    },
+    {
+     "code": "not-upscaled",
+     "detail": "sizes above native 293px skipped"
+    }
+   ],
+   "rights": "public_domain",
+   "outputs": [
+    "128",
+    "256"
+   ]
   },
   "club.toronto-maple-leafs--current": {
    "status": "no-master",
@@ -2032,6 +2191,17 @@
    "flags": [],
    "rights": "restricted"
   },
+  "club.vancouver-canucks--older": {
+   "status": "verified",
+   "flags": [],
+   "rights": "public_domain",
+   "outputs": [
+    "128",
+    "256",
+    "512",
+    "1024"
+   ]
+  },
   "club.vancouver-giants--current": {
    "status": "no-master",
    "flags": [],
@@ -2051,6 +2221,22 @@
    "status": "no-master",
    "flags": [],
    "rights": "restricted"
+  },
+  "club.vegas-golden-knights--older": {
+   "status": "flagged",
+   "flags": [
+    {
+     "code": "no-alpha-background",
+     "detail": "opaque border colour (255, 255, 255)"
+    }
+   ],
+   "rights": "public_domain",
+   "outputs": [
+    "128",
+    "256",
+    "512",
+    "1024"
+   ]
   },
   "club.victoria-royals--current": {
    "status": "no-master",
@@ -2559,8 +2745,17 @@
    "rights": "restricted"
   },
   "league.ahl--older": {
-   "status": "verified",
-   "flags": [],
+   "status": "flagged",
+   "flags": [
+    {
+     "code": "probable-duplicate",
+     "detail": "same file as club.iowa-wild"
+    },
+    {
+     "code": "probable-duplicate",
+     "detail": "looks like club.iowa-wild"
+    }
+   ],
    "rights": "public_domain",
    "outputs": [
     "128",
@@ -3005,23 +3200,23 @@
   }
  },
  "summary": {
-  "assets": 521,
+  "assets": 534,
   "status": {
-   "no-master": 464,
-   "verified": 50,
-   "flagged": 7
+   "no-master": 460,
+   "verified": 63,
+   "flagged": 11
   },
   "flags": {
-   "no-alpha-background": 2,
-   "probable-duplicate": 6,
-   "not-upscaled": 3,
-   "low-resolution": 2
+   "low-resolution": 4,
+   "not-upscaled": 5,
+   "no-alpha-background": 3,
+   "probable-duplicate": 8
   },
   "rights": {
    "unverified": 27,
    "restricted": 395,
-   "public_domain": 83,
-   "licensed": 16
+   "public_domain": 94,
+   "licensed": 18
   },
   "brokenReferences": 0
  }

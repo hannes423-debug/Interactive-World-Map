@@ -545,7 +545,12 @@
    "renderClass": "crest",
    "master": "assets/branding/masters/clubs/almaz.png",
    "localMaster": null,
-   "outputs": {},
+   "outputs": {
+    "128": "assets/branding/generated/club/almaz--older-128.png",
+    "256": "assets/branding/generated/club/almaz--older-256.png",
+    "512": "assets/branding/generated/club/almaz--older-512.png",
+    "1024": "assets/branding/generated/club/almaz--older-1024.png"
+   },
    "source": {
     "kind": "wikimedia-commons",
     "file": "Almazlogo.png",
@@ -569,7 +574,16 @@
     "note": "Copyright status only. Logos remain trademarks of their owners; use does not imply endorsement."
    },
    "technical": {
-    "status": "unverified"
+    "status": "verified",
+    "checked": "2026-10-19",
+    "format": "png",
+    "intrinsicSize": [
+     1280,
+     1152
+    ],
+    "sha256": "cb2afa663e85ec9432e8c4456b10b22b8f35e241d329addd99526dfcb9628bcd",
+    "bytes": 654432,
+    "flags": []
    },
    "notes": "Master is Wikimedia's 1280 px PNG rendering of the original file, taken from the edge cache because original downloads were throttled. Replace with the original (re-run fetch.py) for full resolution.",
    "masterIsThumbnail": 1280
@@ -725,6 +739,62 @@
     "status": "unverified"
    },
    "notes": null
+  },
+  "club.anaheim-ducks--older": {
+   "id": "club.anaheim-ducks--older",
+   "name": "Anaheim Ducks (alternate)",
+   "type": "club",
+   "entity": "club:anaheim-ducks",
+   "related": {
+    "league": "nhl",
+    "country": "USA"
+   },
+   "season": null,
+   "renderClass": "crest",
+   "master": "assets/branding/masters/clubs/anaheim-ducks.png",
+   "localMaster": null,
+   "outputs": {
+    "128": "assets/branding/generated/club/anaheim-ducks--older-128.png",
+    "256": "assets/branding/generated/club/anaheim-ducks--older-256.png",
+    "512": "assets/branding/generated/club/anaheim-ducks--older-512.png",
+    "1024": "assets/branding/generated/club/anaheim-ducks--older-1024.png"
+   },
+   "source": {
+    "kind": "wikimedia-commons",
+    "file": "Anaheim Ducks 2024-25 Wordmark.svg",
+    "page": "https://commons.wikimedia.org/wiki/File%3AAnaheim_Ducks_2024-25_Wordmark.svg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Anaheim_Ducks_2024-25_Wordmark.svg",
+    "via": "commons-name"
+   },
+   "acquired": "2026-10-19",
+   "identity": {
+    "status": "not_current",
+    "season": null,
+    "score": 0.311,
+    "basis": "Free Commons file differs from the current infobox logo (Anaheim Ducks logo 2024.svg); probably an earlier identity"
+   },
+   "rights": {
+    "status": "public_domain",
+    "basis": "Wikimedia Commons tag {{PD-textlogo}}",
+    "trademark": null,
+    "author": "Anaheim Ducks",
+    "publish": true,
+    "note": "Copyright status only. Logos remain trademarks of their owners; use does not imply endorsement."
+   },
+   "technical": {
+    "status": "verified",
+    "checked": "2026-10-19",
+    "format": "png",
+    "intrinsicSize": [
+     960,
+     359
+    ],
+    "sha256": "27ddac8c99ef6b98bb17b96d013560f845c6d75a720c36098f4696b15e859a71",
+    "bytes": 39205,
+    "flags": []
+   },
+   "notes": "Master is Wikimedia's 960 px PNG rendering of the original file, taken from the edge cache because original downloads were throttled. Replace with the original (re-run fetch.py) for full resolution.",
+   "masterIsThumbnail": 960
   },
   "club.atlanta-gladiators--current": {
    "id": "club.atlanta-gladiators--current",
@@ -1155,9 +1225,14 @@
    },
    "season": "2026–27",
    "renderClass": "crest",
-   "master": null,
+   "master": "assets/branding/masters/clubs/belleville-senators.png",
    "localMaster": null,
-   "outputs": {},
+   "outputs": {
+    "128": "assets/branding/generated/club/belleville-senators-128.png",
+    "256": "assets/branding/generated/club/belleville-senators-256.png",
+    "512": "assets/branding/generated/club/belleville-senators-512.png",
+    "1024": "assets/branding/generated/club/belleville-senators-1024.png"
+   },
    "source": {
     "kind": "wikimedia-commons",
     "file": "Belleville Senators logo.svg",
@@ -1165,7 +1240,7 @@
     "url": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Belleville_Senators_logo.svg",
     "via": "infobox"
    },
-   "acquired": null,
+   "acquired": "2026-10-19",
    "identity": {
     "status": "verified_secondary",
     "season": "2026–27",
@@ -1180,10 +1255,19 @@
     "note": "Copyright status only. Logos remain trademarks of their owners; use does not imply endorsement."
    },
    "technical": {
-    "status": "unverified"
+    "status": "verified",
+    "checked": "2026-10-19",
+    "format": "png",
+    "intrinsicSize": [
+     1280,
+     1027
+    ],
+    "sha256": "6e63e09da03fa0802461df80ad58cfc722c4a877b46b572638fb4b6541195bc7",
+    "bytes": 69106,
+    "flags": []
    },
-   "notes": null,
-   "pendingDownload": true
+   "notes": "Master is Wikimedia's 1280 px PNG rendering of the original file, taken from the edge cache because original downloads were throttled. Replace with the original (re-run fetch.py) for full resolution.",
+   "masterIsThumbnail": 1280
   },
   "club.belye-medvedi-chelyabinsk--current": {
    "id": "club.belye-medvedi-chelyabinsk--current",
@@ -1467,7 +1551,12 @@
    "renderClass": "crest",
    "master": "assets/branding/masters/clubs/boston-bruins.png",
    "localMaster": null,
-   "outputs": {},
+   "outputs": {
+    "128": "assets/branding/generated/club/boston-bruins-128.png",
+    "256": "assets/branding/generated/club/boston-bruins-256.png",
+    "512": "assets/branding/generated/club/boston-bruins-512.png",
+    "1024": "assets/branding/generated/club/boston-bruins-1024.png"
+   },
    "source": {
     "kind": "wikimedia-commons",
     "file": "Boston Bruins 100th anniversary logo.svg",
@@ -1490,7 +1579,16 @@
     "note": "Copyright status only. Logos remain trademarks of their owners; use does not imply endorsement."
    },
    "technical": {
-    "status": "unverified"
+    "status": "verified",
+    "checked": "2026-10-19",
+    "format": "png",
+    "intrinsicSize": [
+     1280,
+     1280
+    ],
+    "sha256": "50ad6d1ca5f5e699057c009030a2926dea488fa2b6f9b351cd1e97302ff64c66",
+    "bytes": 66199,
+    "flags": []
    },
    "notes": "Master is Wikimedia's 1280 px PNG rendering of the original file, taken from the edge cache because original downloads were throttled. Replace with the original (re-run fetch.py) for full resolution.",
    "masterIsThumbnail": 1280
@@ -1799,6 +1897,62 @@
    },
    "notes": null
   },
+  "club.calgary-flames--older": {
+   "id": "club.calgary-flames--older",
+   "name": "Calgary Flames (alternate)",
+   "type": "club",
+   "entity": "club:calgary-flames",
+   "related": {
+    "league": "nhl",
+    "country": "USA"
+   },
+   "season": null,
+   "renderClass": "crest",
+   "master": "assets/branding/masters/clubs/calgary-flames.png",
+   "localMaster": null,
+   "outputs": {
+    "128": "assets/branding/generated/club/calgary-flames--older-128.png",
+    "256": "assets/branding/generated/club/calgary-flames--older-256.png",
+    "512": "assets/branding/generated/club/calgary-flames--older-512.png",
+    "1024": "assets/branding/generated/club/calgary-flames--older-1024.png"
+   },
+   "source": {
+    "kind": "wikimedia-commons",
+    "file": "Calgary Flames Wordmark Logo 2020.png",
+    "page": "https://commons.wikimedia.org/wiki/File%3ACalgary_Flames_Wordmark_Logo_2020.png",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/56/Calgary_Flames_Wordmark_Logo_2020.png",
+    "via": "commons-name"
+   },
+   "acquired": "2026-10-19",
+   "identity": {
+    "status": "not_current",
+    "season": null,
+    "score": 0.297,
+    "basis": "Free Commons file differs from the current infobox logo (Calgary Flames logo.svg); probably an earlier identity"
+   },
+   "rights": {
+    "status": "public_domain",
+    "basis": "Wikimedia Commons tag {{PD-textlogo}}",
+    "trademark": null,
+    "author": "Chris Creamer",
+    "publish": true,
+    "note": "Copyright status only. Logos remain trademarks of their owners; use does not imply endorsement."
+   },
+   "technical": {
+    "status": "verified",
+    "checked": "2026-10-19",
+    "format": "png",
+    "intrinsicSize": [
+     1280,
+     460
+    ],
+    "sha256": "3d48208fca07f308625579a958c6dabeb03c84ec5c4224239bf9832afe8484ed",
+    "bytes": 152505,
+    "flags": []
+   },
+   "notes": "Master is Wikimedia's 1280 px PNG rendering of the original file, taken from the edge cache because original downloads were throttled. Replace with the original (re-run fetch.py) for full resolution.",
+   "masterIsThumbnail": 1280
+  },
   "club.calgary-hitmen--current": {
    "id": "club.calgary-hitmen--current",
    "name": "Calgary Hitmen",
@@ -1836,6 +1990,69 @@
     "status": "unverified"
    },
    "notes": null
+  },
+  "club.calgary-wranglers": {
+   "id": "club.calgary-wranglers",
+   "name": "Calgary Wranglers",
+   "type": "club",
+   "entity": "club:calgary-wranglers",
+   "related": {
+    "league": "ahl",
+    "country": "USA"
+   },
+   "season": "2026–27",
+   "renderClass": "crest",
+   "master": "assets/branding/masters/clubs/calgary-wranglers.png",
+   "localMaster": null,
+   "outputs": {
+    "128": "assets/branding/generated/club/calgary-wranglers-128.png",
+    "256": "assets/branding/generated/club/calgary-wranglers-256.png"
+   },
+   "source": {
+    "kind": "wikimedia-commons",
+    "file": "Calgary Wranglers logo.svg",
+    "page": "https://commons.wikimedia.org/wiki/File%3ACalgary_Wranglers_logo.svg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/95/Calgary_Wranglers_logo.svg",
+    "via": "commons-match"
+   },
+   "acquired": "2026-10-19",
+   "identity": {
+    "status": "verified_visual",
+    "season": "2026–27",
+    "score": 0.993,
+    "basis": "Free Commons file visually matches the current infobox logo (Calgary Wranglers Logo.svg), score 0.993"
+   },
+   "rights": {
+    "status": "licensed",
+    "basis": "Wikimedia Commons licence cc-by-sa-4.0 (attribution required)",
+    "trademark": null,
+    "author": "Bottledair98",
+    "publish": true,
+    "note": "Copyright status only. Logos remain trademarks of their owners; use does not imply endorsement."
+   },
+   "technical": {
+    "status": "flagged",
+    "checked": "2026-10-19",
+    "format": "png",
+    "intrinsicSize": [
+     500,
+     398
+    ],
+    "sha256": "412dee148d281fbe478dec427929c39bc5b4aeb2d3caa0dede890b674ed3bee0",
+    "bytes": 26786,
+    "flags": [
+     {
+      "code": "low-resolution",
+      "detail": "500x398"
+     },
+     {
+      "code": "not-upscaled",
+      "detail": "sizes above native 500px skipped"
+     }
+    ]
+   },
+   "notes": "Master is Wikimedia's 500 px PNG rendering of the original file, taken from the edge cache because original downloads were throttled. Replace with the original (re-run fetch.py) for full resolution.",
+   "masterIsThumbnail": 500
   },
   "club.calgary-wranglers--current": {
    "id": "club.calgary-wranglers--current",
@@ -2078,7 +2295,12 @@
    "renderClass": "crest",
    "master": "assets/branding/masters/clubs/chayka.png",
    "localMaster": null,
-   "outputs": {},
+   "outputs": {
+    "128": "assets/branding/generated/club/chayka-128.png",
+    "256": "assets/branding/generated/club/chayka-256.png",
+    "512": "assets/branding/generated/club/chayka-512.png",
+    "1024": "assets/branding/generated/club/chayka-1024.png"
+   },
    "source": {
     "kind": "wikimedia-commons",
     "file": "Чайка Лого.png",
@@ -2101,7 +2323,16 @@
     "note": "Copyright status only. Logos remain trademarks of their owners; use does not imply endorsement."
    },
    "technical": {
-    "status": "unverified"
+    "status": "verified",
+    "checked": "2026-10-19",
+    "format": "png",
+    "intrinsicSize": [
+     1280,
+     885
+    ],
+    "sha256": "f319c292aa4ecb1d65ce6f287382ac652ffdf01c7d012d2e7e2d82e8777e3c59",
+    "bytes": 145364,
+    "flags": []
    },
    "notes": "Master is Wikimedia's 1280 px PNG rendering of the original file, taken from the edge cache because original downloads were throttled. Replace with the original (re-run fetch.py) for full resolution.",
    "masterIsThumbnail": 1280
@@ -2119,7 +2350,12 @@
    "renderClass": "crest",
    "master": "assets/branding/masters/clubs/chelmet.png",
    "localMaster": null,
-   "outputs": {},
+   "outputs": {
+    "128": "assets/branding/generated/club/chelmet-128.png",
+    "256": "assets/branding/generated/club/chelmet-256.png",
+    "512": "assets/branding/generated/club/chelmet-512.png",
+    "1024": "assets/branding/generated/club/chelmet-1024.png"
+   },
    "source": {
     "kind": "wikimedia-commons",
     "file": "Логотип хоккейного клуба «Челмет» Челябинск.png",
@@ -2142,7 +2378,16 @@
     "note": "Copyright status only. Logos remain trademarks of their owners; use does not imply endorsement."
    },
    "technical": {
-    "status": "unverified"
+    "status": "verified",
+    "checked": "2026-10-19",
+    "format": "png",
+    "intrinsicSize": [
+     960,
+     257
+    ],
+    "sha256": "b32cfcee8d752b07d596b044722f985733584dcc81c28b2e002ceb3a8fe78940",
+    "bytes": 39817,
+    "flags": []
    },
    "notes": "Master is Wikimedia's 960 px PNG rendering of the original file, taken from the edge cache because original downloads were throttled. Replace with the original (re-run fetch.py) for full resolution.",
    "masterIsThumbnail": 960
@@ -2415,6 +2660,62 @@
    },
    "notes": null
   },
+  "club.coachella-valley-firebirds--older": {
+   "id": "club.coachella-valley-firebirds--older",
+   "name": "Coachella Valley Firebirds (alternate)",
+   "type": "club",
+   "entity": "club:coachella-valley-firebirds",
+   "related": {
+    "league": "ahl",
+    "country": "USA"
+   },
+   "season": null,
+   "renderClass": "crest",
+   "master": "assets/branding/masters/clubs/coachella-valley-firebirds.png",
+   "localMaster": null,
+   "outputs": {
+    "128": "assets/branding/generated/club/coachella-valley-firebirds--older-128.png",
+    "256": "assets/branding/generated/club/coachella-valley-firebirds--older-256.png",
+    "512": "assets/branding/generated/club/coachella-valley-firebirds--older-512.png",
+    "1024": "assets/branding/generated/club/coachella-valley-firebirds--older-1024.png"
+   },
+   "source": {
+    "kind": "wikimedia-commons",
+    "file": "CoachellaValleyFirebirdsWordmark.png",
+    "page": "https://commons.wikimedia.org/wiki/File%3ACoachellaValleyFirebirdsWordmark.png",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/95/CoachellaValleyFirebirdsWordmark.png",
+    "via": "commons-name"
+   },
+   "acquired": "2026-10-19",
+   "identity": {
+    "status": "not_current",
+    "season": null,
+    "score": 0.374,
+    "basis": "Free Commons file differs from the current infobox logo (Coachella Valley Firebirds logo.svg); probably an earlier identity"
+   },
+   "rights": {
+    "status": "public_domain",
+    "basis": "Wikimedia Commons tag {{PD-textlogo}}",
+    "trademark": true,
+    "author": "Coachella Valley Firebirds",
+    "publish": true,
+    "note": "Copyright status only. Logos remain trademarks of their owners; use does not imply endorsement."
+   },
+   "technical": {
+    "status": "verified",
+    "checked": "2026-10-19",
+    "format": "png",
+    "intrinsicSize": [
+     1280,
+     853
+    ],
+    "sha256": "4b90094539446aa75e618070f60ed01a44b24690aeda64f037b09811c7a3555c",
+    "bytes": 383349,
+    "flags": []
+   },
+   "notes": "Master is Wikimedia's 1280 px PNG rendering of the original file, taken from the edge cache because original downloads were throttled. Replace with the original (re-run fetch.py) for full resolution.",
+   "masterIsThumbnail": 1280
+  },
   "club.colorado-avalanche--current": {
    "id": "club.colorado-avalanche--current",
    "name": "Colorado Avalanche",
@@ -2567,6 +2868,62 @@
    },
    "notes": null
   },
+  "club.dallas-stars--older": {
+   "id": "club.dallas-stars--older",
+   "name": "Dallas Stars (alternate)",
+   "type": "club",
+   "entity": "club:dallas-stars",
+   "related": {
+    "league": "nhl",
+    "country": "USA"
+   },
+   "season": null,
+   "renderClass": "crest",
+   "master": "assets/branding/masters/clubs/dallas-stars.png",
+   "localMaster": null,
+   "outputs": {
+    "128": "assets/branding/generated/club/dallas-stars--older-128.png",
+    "256": "assets/branding/generated/club/dallas-stars--older-256.png",
+    "512": "assets/branding/generated/club/dallas-stars--older-512.png",
+    "1024": "assets/branding/generated/club/dallas-stars--older-1024.png"
+   },
+   "source": {
+    "kind": "wikimedia-commons",
+    "file": "Logo Dallas Stars.svg",
+    "page": "https://commons.wikimedia.org/wiki/File%3ALogo_Dallas_Stars.svg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Logo_Dallas_Stars.svg",
+    "via": "commons-name"
+   },
+   "acquired": "2026-10-19",
+   "identity": {
+    "status": "not_current",
+    "season": null,
+    "score": 0.511,
+    "basis": "Free Commons file differs from the current infobox logo (Dallas Stars logo (2013).svg); probably an earlier identity"
+   },
+   "rights": {
+    "status": "public_domain",
+    "basis": "Wikimedia Commons tag {{PD-textlogo}}",
+    "trademark": true,
+    "author": "wahrscheinlich Dallas Stars",
+    "publish": true,
+    "note": "Copyright status only. Logos remain trademarks of their owners; use does not imply endorsement."
+   },
+   "technical": {
+    "status": "verified",
+    "checked": "2026-10-19",
+    "format": "png",
+    "intrinsicSize": [
+     1280,
+     854
+    ],
+    "sha256": "3906d7bb6b05e0042a007a08cd85245203e1f5e791a68f6722bf31108ffe5be3",
+    "bytes": 65997,
+    "flags": []
+   },
+   "notes": "Master is Wikimedia's 1280 px PNG rendering of the original file, taken from the edge cache because original downloads were throttled. Replace with the original (re-run fetch.py) for full resolution.",
+   "masterIsThumbnail": 1280
+  },
   "club.des-moines-buccaneers--current": {
    "id": "club.des-moines-buccaneers--current",
    "name": "Des Moines Buccaneers",
@@ -2618,7 +2975,12 @@
    "renderClass": "crest",
    "master": "assets/branding/masters/clubs/detroit-red-wings.png",
    "localMaster": null,
-   "outputs": {},
+   "outputs": {
+    "128": "assets/branding/generated/club/detroit-red-wings-128.png",
+    "256": "assets/branding/generated/club/detroit-red-wings-256.png",
+    "512": "assets/branding/generated/club/detroit-red-wings-512.png",
+    "1024": "assets/branding/generated/club/detroit-red-wings-1024.png"
+   },
    "source": {
     "kind": "wikimedia-commons",
     "file": "Detroit Red Wings logo.png",
@@ -2642,7 +3004,16 @@
     "note": "Copyright status only. Logos remain trademarks of their owners; use does not imply endorsement."
    },
    "technical": {
-    "status": "unverified"
+    "status": "verified",
+    "checked": "2026-10-19",
+    "format": "png",
+    "intrinsicSize": [
+     960,
+     712
+    ],
+    "sha256": "9deeed690ae3a607b30686bd452a99b0f42c03cd9f746d921e3d9dbc85fac13d",
+    "bytes": 207256,
+    "flags": []
    },
    "notes": "Master is Wikimedia's 960 px PNG rendering of the original file, taken from the edge cache because original downloads were throttled. Replace with the original (re-run fetch.py) for full resolution.",
    "masterIsThumbnail": 960
@@ -3333,6 +3704,62 @@
     "status": "unverified"
    },
    "notes": null
+  },
+  "club.edmonton-oilers--older": {
+   "id": "club.edmonton-oilers--older",
+   "name": "Edmonton Oilers (alternate)",
+   "type": "club",
+   "entity": "club:edmonton-oilers",
+   "related": {
+    "league": "nhl",
+    "country": "USA"
+   },
+   "season": null,
+   "renderClass": "crest",
+   "master": "assets/branding/masters/clubs/edmonton-oilers.png",
+   "localMaster": null,
+   "outputs": {
+    "128": "assets/branding/generated/club/edmonton-oilers--older-128.png",
+    "256": "assets/branding/generated/club/edmonton-oilers--older-256.png",
+    "512": "assets/branding/generated/club/edmonton-oilers--older-512.png",
+    "1024": "assets/branding/generated/club/edmonton-oilers--older-1024.png"
+   },
+   "source": {
+    "kind": "wikimedia-commons",
+    "file": "Edmonton Oilers Wordmark 22.png",
+    "page": "https://commons.wikimedia.org/wiki/File%3AEdmonton_Oilers_Wordmark_22.png",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/03/Edmonton_Oilers_Wordmark_22.png",
+    "via": "commons-name"
+   },
+   "acquired": "2026-10-19",
+   "identity": {
+    "status": "not_current",
+    "season": null,
+    "score": 0.31,
+    "basis": "Free Commons file differs from the current infobox logo (Logo Edmonton Oilers.svg); probably an earlier identity"
+   },
+   "rights": {
+    "status": "public_domain",
+    "basis": "Wikimedia Commons tag {{PD-textlogo}}",
+    "trademark": null,
+    "author": "Chris Creamer",
+    "publish": true,
+    "note": "Copyright status only. Logos remain trademarks of their owners; use does not imply endorsement."
+   },
+   "technical": {
+    "status": "verified",
+    "checked": "2026-10-19",
+    "format": "png",
+    "intrinsicSize": [
+     1280,
+     538
+    ],
+    "sha256": "60e5a6c16ba822c83dd4738b722c829ac838ce1224a8bff93f968000d3eb5c44",
+    "bytes": 66690,
+    "flags": []
+   },
+   "notes": "Master is Wikimedia's 1280 px PNG rendering of the original file, taken from the edge cache because original downloads were throttled. Replace with the original (re-run fetch.py) for full resolution.",
+   "masterIsThumbnail": 1280
   },
   "club.ehc-arosa--current": {
    "id": "club.ehc-arosa--current",
@@ -5045,7 +5472,12 @@
    "renderClass": "crest",
    "master": "assets/branding/masters/clubs/hc-assat-pori.png",
    "localMaster": null,
-   "outputs": {},
+   "outputs": {
+    "128": "assets/branding/generated/club/hc-assat-pori--older-128.png",
+    "256": "assets/branding/generated/club/hc-assat-pori--older-256.png",
+    "512": "assets/branding/generated/club/hc-assat-pori--older-512.png",
+    "1024": "assets/branding/generated/club/hc-assat-pori--older-1024.png"
+   },
    "source": {
     "kind": "wikimedia-commons",
     "file": "Porin Ässät logo 1967.png",
@@ -5069,7 +5501,21 @@
     "note": "Copyright status only. Logos remain trademarks of their owners; use does not imply endorsement."
    },
    "technical": {
-    "status": "unverified"
+    "status": "flagged",
+    "checked": "2026-10-19",
+    "format": "png",
+    "intrinsicSize": [
+     1280,
+     1228
+    ],
+    "sha256": "541194355ce8010b85680f50d005828fa0ac10bdade2d0ce0644d6b18d8f0c49",
+    "bytes": 76119,
+    "flags": [
+     {
+      "code": "no-alpha-background",
+      "detail": "opaque border colour (255, 255, 255)"
+     }
+    ]
    },
    "notes": "Master is Wikimedia's 1280 px PNG rendering of the original file, taken from the edge cache because original downloads were throttled. Replace with the original (re-run fetch.py) for full resolution.",
    "masterIsThumbnail": 1280
@@ -5125,7 +5571,12 @@
    "renderClass": "crest",
    "master": "assets/branding/masters/clubs/hc-cska-moscow.png",
    "localMaster": null,
-   "outputs": {},
+   "outputs": {
+    "128": "assets/branding/generated/club/hc-cska-moscow-128.png",
+    "256": "assets/branding/generated/club/hc-cska-moscow-256.png",
+    "512": "assets/branding/generated/club/hc-cska-moscow-512.png",
+    "1024": "assets/branding/generated/club/hc-cska-moscow-1024.png"
+   },
    "source": {
     "kind": "wikimedia-commons",
     "file": "CSKA Moscow logo.svg",
@@ -5148,7 +5599,16 @@
     "note": "Copyright status only. Logos remain trademarks of their owners; use does not imply endorsement."
    },
    "technical": {
-    "status": "unverified"
+    "status": "verified",
+    "checked": "2026-10-19",
+    "format": "png",
+    "intrinsicSize": [
+     1280,
+     1286
+    ],
+    "sha256": "410eca71de21d7d84bdb7203914a4c5d83cd2ca9800c278deae3af24c2943308",
+    "bytes": 131339,
+    "flags": []
    },
    "notes": "Master is Wikimedia's 1280 px PNG rendering of the original file, taken from the edge cache because original downloads were throttled. Replace with the original (re-run fetch.py) for full resolution.",
    "masterIsThumbnail": 1280
@@ -5242,7 +5702,12 @@
    "renderClass": "crest",
    "master": "assets/branding/masters/clubs/hc-dynamo-moscow.png",
    "localMaster": null,
-   "outputs": {},
+   "outputs": {
+    "128": "assets/branding/generated/club/hc-dynamo-moscow-128.png",
+    "256": "assets/branding/generated/club/hc-dynamo-moscow-256.png",
+    "512": "assets/branding/generated/club/hc-dynamo-moscow-512.png",
+    "1024": "assets/branding/generated/club/hc-dynamo-moscow-1024.png"
+   },
    "source": {
     "kind": "wikimedia-commons",
     "file": "HC Dynamo Moscow Logo 2019.svg",
@@ -5265,7 +5730,16 @@
     "note": "Copyright status only. Logos remain trademarks of their owners; use does not imply endorsement."
    },
    "technical": {
-    "status": "unverified"
+    "status": "verified",
+    "checked": "2026-10-19",
+    "format": "png",
+    "intrinsicSize": [
+     1280,
+     1281
+    ],
+    "sha256": "8592247cd4f9d3b6fec699240fa26dad5c0407c14affc822ae3a9415025485f4",
+    "bytes": 69328,
+    "flags": []
    },
    "notes": "Master is Wikimedia's 1280 px PNG rendering of the original file, taken from the edge cache because original downloads were throttled. Replace with the original (re-run fetch.py) for full resolution.",
    "masterIsThumbnail": 1280
@@ -6052,7 +6526,12 @@
    "renderClass": "crest",
    "master": "assets/branding/masters/clubs/hc-spartak-moscow.png",
    "localMaster": null,
-   "outputs": {},
+   "outputs": {
+    "128": "assets/branding/generated/club/hc-spartak-moscow-128.png",
+    "256": "assets/branding/generated/club/hc-spartak-moscow-256.png",
+    "512": "assets/branding/generated/club/hc-spartak-moscow-512.png",
+    "1024": "assets/branding/generated/club/hc-spartak-moscow-1024.png"
+   },
    "source": {
     "kind": "wikimedia-commons",
     "file": "Logo spartak 2015.png",
@@ -6076,7 +6555,16 @@
     "note": "Copyright status only. Logos remain trademarks of their owners; use does not imply endorsement."
    },
    "technical": {
-    "status": "unverified"
+    "status": "verified",
+    "checked": "2026-10-19",
+    "format": "png",
+    "intrinsicSize": [
+     1280,
+     711
+    ],
+    "sha256": "f1dec8bca6113da37cb52b19533d3e12b2f84f0910d887ae2e3a6919c9ff7968",
+    "bytes": 107477,
+    "flags": []
    },
    "notes": "Master is Wikimedia's 1280 px PNG rendering of the original file, taken from the edge cache because original downloads were throttled. Replace with the original (re-run fetch.py) for full resolution.",
    "masterIsThumbnail": 1280
@@ -7139,9 +7627,14 @@
    },
    "season": "2026–27",
    "renderClass": "crest",
-   "master": null,
+   "master": "assets/branding/masters/clubs/iowa-wild.png",
    "localMaster": null,
-   "outputs": {},
+   "outputs": {
+    "128": "assets/branding/generated/club/iowa-wild-128.png",
+    "256": "assets/branding/generated/club/iowa-wild-256.png",
+    "512": "assets/branding/generated/club/iowa-wild-512.png",
+    "1024": "assets/branding/generated/club/iowa-wild-1024.png"
+   },
    "source": {
     "kind": "wikimedia-commons",
     "file": "Iowa Wild logo.svg",
@@ -7149,7 +7642,7 @@
     "url": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Iowa_Wild_logo.svg",
     "via": "infobox"
    },
-   "acquired": null,
+   "acquired": "2026-10-19",
    "identity": {
     "status": "verified_secondary",
     "season": "2026–27",
@@ -7164,10 +7657,19 @@
     "note": "Copyright status only. Logos remain trademarks of their owners; use does not imply endorsement."
    },
    "technical": {
-    "status": "unverified"
+    "status": "verified",
+    "checked": "2026-10-19",
+    "format": "png",
+    "intrinsicSize": [
+     960,
+     894
+    ],
+    "sha256": "5c7a95730c2f506e7fb2ec40e90aca174acca1a98ada84f01333f23c28c4c34c",
+    "bytes": 117213,
+    "flags": []
    },
-   "notes": null,
-   "pendingDownload": true
+   "notes": "Master is Wikimedia's 960 px PNG rendering of the original file, taken from the edge cache because original downloads were throttled. Replace with the original (re-run fetch.py) for full resolution.",
+   "masterIsThumbnail": 960
   },
   "club.irbis--current": {
    "id": "club.irbis--current",
@@ -7828,7 +8330,12 @@
    "renderClass": "crest",
    "master": "assets/branding/masters/clubs/kiekko-espoo.png",
    "localMaster": null,
-   "outputs": {},
+   "outputs": {
+    "128": "assets/branding/generated/club/kiekko-espoo-128.png",
+    "256": "assets/branding/generated/club/kiekko-espoo-256.png",
+    "512": "assets/branding/generated/club/kiekko-espoo-512.png",
+    "1024": "assets/branding/generated/club/kiekko-espoo-1024.png"
+   },
    "source": {
     "kind": "wikimedia-commons",
     "file": "Kiekko-Espoo Logo.png",
@@ -7852,7 +8359,16 @@
     "note": "Copyright status only. Logos remain trademarks of their owners; use does not imply endorsement."
    },
    "technical": {
-    "status": "unverified"
+    "status": "verified",
+    "checked": "2026-10-19",
+    "format": "png",
+    "intrinsicSize": [
+     960,
+     960
+    ],
+    "sha256": "fbfebb193db0f30bbdddcd2e7eaf3d7af8c48235c6b7711b934ef6f90f3efdb7",
+    "bytes": 105441,
+    "flags": []
    },
    "notes": "Master is Wikimedia's 960 px PNG rendering of the original file, taken from the edge cache because original downloads were throttled. Replace with the original (re-run fetch.py) for full resolution.",
    "masterIsThumbnail": 960
@@ -8139,7 +8655,12 @@
    "renderClass": "crest",
    "master": "assets/branding/masters/clubs/krasnaya-armiya.png",
    "localMaster": null,
-   "outputs": {},
+   "outputs": {
+    "128": "assets/branding/generated/club/krasnaya-armiya-128.png",
+    "256": "assets/branding/generated/club/krasnaya-armiya-256.png",
+    "512": "assets/branding/generated/club/krasnaya-armiya-512.png",
+    "1024": "assets/branding/generated/club/krasnaya-armiya-1024.png"
+   },
    "source": {
     "kind": "wikimedia-commons",
     "file": "RedArmyHockey.png",
@@ -8162,7 +8683,16 @@
     "note": "Copyright status only. Logos remain trademarks of their owners; use does not imply endorsement."
    },
    "technical": {
-    "status": "unverified"
+    "status": "verified",
+    "checked": "2026-10-19",
+    "format": "png",
+    "intrinsicSize": [
+     1280,
+     1345
+    ],
+    "sha256": "35ca9a0843b28fbb4b8c6e9223c60a0de15a7fa6df51122b166940752851edb1",
+    "bytes": 249886,
+    "flags": []
    },
    "notes": "Master is Wikimedia's 1280 px PNG rendering of the original file, taken from the edge cache because original downloads were throttled. Replace with the original (re-run fetch.py) for full resolution.",
    "masterIsThumbnail": 1280
@@ -8546,6 +9076,62 @@
     "status": "unverified"
    },
    "notes": null
+  },
+  "club.laval-rocket": {
+   "id": "club.laval-rocket",
+   "name": "Laval Rocket",
+   "type": "club",
+   "entity": "club:laval-rocket",
+   "related": {
+    "league": "ahl",
+    "country": "USA"
+   },
+   "season": "2026–27",
+   "renderClass": "crest",
+   "master": "assets/branding/masters/clubs/laval-rocket.png",
+   "localMaster": null,
+   "outputs": {
+    "128": "assets/branding/generated/club/laval-rocket-128.png",
+    "256": "assets/branding/generated/club/laval-rocket-256.png",
+    "512": "assets/branding/generated/club/laval-rocket-512.png",
+    "1024": "assets/branding/generated/club/laval-rocket-1024.png"
+   },
+   "source": {
+    "kind": "wikimedia-commons",
+    "file": "Rocket de laval logo.png",
+    "page": "https://commons.wikimedia.org/wiki/File%3ARocket_de_laval_logo.png",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/46/Rocket_de_laval_logo.png",
+    "via": "commons-match"
+   },
+   "acquired": "2026-10-19",
+   "identity": {
+    "status": "verified_visual",
+    "season": "2026–27",
+    "score": 0.995,
+    "basis": "Free Commons file visually matches the current infobox logo (Laval Rocket logo.svg), score 0.995"
+   },
+   "rights": {
+    "status": "public_domain",
+    "basis": "Wikimedia Commons tag {{cc-zero}}",
+    "trademark": null,
+    "author": "Rocket de laval",
+    "publish": true,
+    "note": "Copyright status only. Logos remain trademarks of their owners; use does not imply endorsement."
+   },
+   "technical": {
+    "status": "verified",
+    "checked": "2026-10-19",
+    "format": "png",
+    "intrinsicSize": [
+     1280,
+     995
+    ],
+    "sha256": "5a9c164a85219412a0f2833eb3672b925c25468631d5025337ed4a1481f42825",
+    "bytes": 217417,
+    "flags": []
+   },
+   "notes": "Master is Wikimedia's 1280 px PNG rendering of the original file, taken from the edge cache because original downloads were throttled. Replace with the original (re-run fetch.py) for full resolution.",
+   "masterIsThumbnail": 1280
   },
   "club.laval-rocket--current": {
    "id": "club.laval-rocket--current",
@@ -9662,7 +10248,12 @@
    "renderClass": "crest",
    "master": "assets/branding/masters/clubs/montreal-canadiens.png",
    "localMaster": null,
-   "outputs": {},
+   "outputs": {
+    "128": "assets/branding/generated/club/montreal-canadiens-128.png",
+    "256": "assets/branding/generated/club/montreal-canadiens-256.png",
+    "512": "assets/branding/generated/club/montreal-canadiens-512.png",
+    "1024": "assets/branding/generated/club/montreal-canadiens-1024.png"
+   },
    "source": {
     "kind": "wikimedia-commons",
     "file": "Montreal Canadiens.svg",
@@ -9685,7 +10276,16 @@
     "note": "Copyright status only. Logos remain trademarks of their owners; use does not imply endorsement."
    },
    "technical": {
-    "status": "unverified"
+    "status": "verified",
+    "checked": "2026-10-19",
+    "format": "png",
+    "intrinsicSize": [
+     1280,
+     875
+    ],
+    "sha256": "b9e19a1a69f9da8cfd4e74a106980d59d8b1a327f23cf5e2952bcdac6d476865",
+    "bytes": 109631,
+    "flags": []
    },
    "notes": "Master is Wikimedia's 1280 px PNG rendering of the original file, taken from the edge cache because original downloads were throttled. Replace with the original (re-run fetch.py) for full resolution.",
    "masterIsThumbnail": 1280
@@ -10833,7 +11433,12 @@
    "renderClass": "crest",
    "master": "assets/branding/masters/clubs/ottawa-senators.png",
    "localMaster": null,
-   "outputs": {},
+   "outputs": {
+    "128": "assets/branding/generated/club/ottawa-senators--older-128.png",
+    "256": "assets/branding/generated/club/ottawa-senators--older-256.png",
+    "512": "assets/branding/generated/club/ottawa-senators--older-512.png",
+    "1024": "assets/branding/generated/club/ottawa-senators--older-1024.png"
+   },
    "source": {
     "kind": "wikimedia-commons",
     "file": "Smitty18.png",
@@ -10857,7 +11462,16 @@
     "note": "Copyright status only. Logos remain trademarks of their owners; use does not imply endorsement."
    },
    "technical": {
-    "status": "unverified"
+    "status": "verified",
+    "checked": "2026-10-19",
+    "format": "png",
+    "intrinsicSize": [
+     960,
+     674
+    ],
+    "sha256": "048b241702f7adff866043d51bfcb069be6beec2a17e0af2eb23f4d8367a6873",
+    "bytes": 216753,
+    "flags": []
    },
    "notes": "Master is Wikimedia's 960 px PNG rendering of the original file, taken from the edge cache because original downloads were throttled. Replace with the original (re-run fetch.py) for full resolution.",
    "masterIsThumbnail": 960
@@ -11258,9 +11872,14 @@
    },
    "season": "2026–27",
    "renderClass": "crest",
-   "master": null,
+   "master": "assets/branding/masters/clubs/providence-bruins.svg",
    "localMaster": null,
-   "outputs": {},
+   "outputs": {
+    "128": "assets/branding/generated/club/providence-bruins-128.png",
+    "256": "assets/branding/generated/club/providence-bruins-256.png",
+    "512": "assets/branding/generated/club/providence-bruins-512.png",
+    "1024": "assets/branding/generated/club/providence-bruins-1024.png"
+   },
    "source": {
     "kind": "wikimedia-commons",
     "file": "Providence Bruins logo.svg",
@@ -11268,7 +11887,7 @@
     "url": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Providence_Bruins_logo.svg",
     "via": "infobox"
    },
-   "acquired": null,
+   "acquired": "2026-10-19",
    "identity": {
     "status": "verified_secondary",
     "season": "2026–27",
@@ -11283,10 +11902,18 @@
     "note": "Copyright status only. Logos remain trademarks of their owners; use does not imply endorsement."
    },
    "technical": {
-    "status": "unverified"
+    "status": "verified",
+    "checked": "2026-10-19",
+    "format": "svg",
+    "intrinsicSize": [
+     539,
+     539
+    ],
+    "sha256": "17abaa26200cf2585c43e2b223361f99009523e0ede48711ea9b5f2674a46993",
+    "bytes": 3495,
+    "flags": []
    },
-   "notes": null,
-   "pendingDownload": true
+   "notes": null
   },
   "club.quebec-remparts--current": {
    "id": "club.quebec-remparts--current",
@@ -12165,6 +12792,62 @@
    },
    "notes": null
   },
+  "club.san-jose-sharks--older": {
+   "id": "club.san-jose-sharks--older",
+   "name": "San Jose Sharks (alternate)",
+   "type": "club",
+   "entity": "club:san-jose-sharks",
+   "related": {
+    "league": "nhl",
+    "country": "USA"
+   },
+   "season": null,
+   "renderClass": "crest",
+   "master": "assets/branding/masters/clubs/san-jose-sharks.png",
+   "localMaster": null,
+   "outputs": {
+    "128": "assets/branding/generated/club/san-jose-sharks--older-128.png",
+    "256": "assets/branding/generated/club/san-jose-sharks--older-256.png",
+    "512": "assets/branding/generated/club/san-jose-sharks--older-512.png",
+    "1024": "assets/branding/generated/club/san-jose-sharks--older-1024.png"
+   },
+   "source": {
+    "kind": "wikimedia-commons",
+    "file": "San Jose Sharks 2021 Wordmark Logo.png",
+    "page": "https://commons.wikimedia.org/wiki/File%3ASan_Jose_Sharks_2021_Wordmark_Logo.png",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/21/San_Jose_Sharks_2021_Wordmark_Logo.png",
+    "via": "commons-name"
+   },
+   "acquired": "2026-10-19",
+   "identity": {
+    "status": "not_current",
+    "season": null,
+    "score": 0.485,
+    "basis": "Free Commons file differs from the current infobox logo (SanJoseSharksLogo.svg); probably an earlier identity"
+   },
+   "rights": {
+    "status": "public_domain",
+    "basis": "Wikimedia Commons tag {{PD-textlogo}}",
+    "trademark": null,
+    "author": "{{Unknown|Author}}",
+    "publish": true,
+    "note": "Copyright status only. Logos remain trademarks of their owners; use does not imply endorsement."
+   },
+   "technical": {
+    "status": "verified",
+    "checked": "2026-10-19",
+    "format": "png",
+    "intrinsicSize": [
+     960,
+     265
+    ],
+    "sha256": "7a7e24b50c0f9ffaf44beebe758934211dc27301f49f56ae570f652a4eaa375c",
+    "bytes": 76720,
+    "flags": []
+   },
+   "notes": "Master is Wikimedia's 960 px PNG rendering of the original file, taken from the edge cache because original downloads were throttled. Replace with the original (re-run fetch.py) for full resolution.",
+   "masterIsThumbnail": 960
+  },
   "club.sarnia-sting--current": {
    "id": "club.sarnia-sting--current",
    "name": "Sarnia Sting",
@@ -12560,7 +13243,12 @@
    "renderClass": "crest",
    "master": "assets/branding/masters/clubs/severstal-cherepovets.png",
    "localMaster": null,
-   "outputs": {},
+   "outputs": {
+    "128": "assets/branding/generated/club/severstal-cherepovets-128.png",
+    "256": "assets/branding/generated/club/severstal-cherepovets-256.png",
+    "512": "assets/branding/generated/club/severstal-cherepovets-512.png",
+    "1024": "assets/branding/generated/club/severstal-cherepovets-1024.png"
+   },
    "source": {
     "kind": "wikimedia-commons",
     "file": "Severstal Cherepovets logo.png",
@@ -12584,7 +13272,16 @@
     "note": "Copyright status only. Logos remain trademarks of their owners; use does not imply endorsement."
    },
    "technical": {
-    "status": "unverified"
+    "status": "verified",
+    "checked": "2026-10-19",
+    "format": "png",
+    "intrinsicSize": [
+     960,
+     960
+    ],
+    "sha256": "b835cd13476f4a3f3cf31a8094cbd7705993d68a2ba13c47a7cf8517b10aa269",
+    "bytes": 453564,
+    "flags": []
    },
    "notes": "Master is Wikimedia's 960 px PNG rendering of the original file, taken from the edge cache because original downloads were throttled. Replace with the original (re-run fetch.py) for full resolution.",
    "masterIsThumbnail": 960
@@ -12640,7 +13337,12 @@
    "renderClass": "crest",
    "master": "assets/branding/masters/clubs/shanghai-dragons.png",
    "localMaster": null,
-   "outputs": {},
+   "outputs": {
+    "128": "assets/branding/generated/club/shanghai-dragons-128.png",
+    "256": "assets/branding/generated/club/shanghai-dragons-256.png",
+    "512": "assets/branding/generated/club/shanghai-dragons-512.png",
+    "1024": "assets/branding/generated/club/shanghai-dragons-1024.png"
+   },
    "source": {
     "kind": "wikimedia-commons",
     "file": "Shanghai Dragons logo.jpg",
@@ -12663,7 +13365,21 @@
     "note": "Copyright status only. Logos remain trademarks of their owners; use does not imply endorsement."
    },
    "technical": {
-    "status": "unverified"
+    "status": "flagged",
+    "checked": "2026-10-19",
+    "format": "jpeg",
+    "intrinsicSize": [
+     1280,
+     1279
+    ],
+    "sha256": "daef3da047198e693445fa6a04079c8707aaab35888ae5dead33ab5a9eb63fc0",
+    "bytes": 77540,
+    "flags": [
+     {
+      "code": "no-alpha-background",
+      "detail": "opaque border colour (255, 255, 255)"
+     }
+    ]
    },
    "notes": "Master is Wikimedia's 1280 px PNG rendering of the original file, taken from the edge cache because original downloads were throttled. Replace with the original (re-run fetch.py) for full resolution.",
    "masterIsThumbnail": 1280
@@ -13175,7 +13891,12 @@
    "renderClass": "crest",
    "master": "assets/branding/masters/clubs/spartak.png",
    "localMaster": null,
-   "outputs": {},
+   "outputs": {
+    "128": "assets/branding/generated/club/spartak-128.png",
+    "256": "assets/branding/generated/club/spartak-256.png",
+    "512": "assets/branding/generated/club/spartak-512.png",
+    "1024": "assets/branding/generated/club/spartak-1024.png"
+   },
    "source": {
     "kind": "wikimedia-commons",
     "file": "Logo spartak 2015.png",
@@ -13199,7 +13920,25 @@
     "note": "Copyright status only. Logos remain trademarks of their owners; use does not imply endorsement."
    },
    "technical": {
-    "status": "unverified"
+    "status": "flagged",
+    "checked": "2026-10-19",
+    "format": "png",
+    "intrinsicSize": [
+     1280,
+     711
+    ],
+    "sha256": "f1dec8bca6113da37cb52b19533d3e12b2f84f0910d887ae2e3a6919c9ff7968",
+    "bytes": 107477,
+    "flags": [
+     {
+      "code": "probable-duplicate",
+      "detail": "same file as club.hc-spartak-moscow"
+     },
+     {
+      "code": "probable-duplicate",
+      "detail": "looks like club.hc-spartak-moscow"
+     }
+    ]
    },
    "notes": "Master is Wikimedia's 1280 px PNG rendering of the original file, taken from the edge cache because original downloads were throttled. Replace with the original (re-run fetch.py) for full resolution.",
    "masterIsThumbnail": 1280
@@ -13916,9 +14655,14 @@
    },
    "season": "2026–27",
    "renderClass": "crest",
-   "master": null,
+   "master": "assets/branding/masters/clubs/texas-stars.png",
    "localMaster": null,
-   "outputs": {},
+   "outputs": {
+    "128": "assets/branding/generated/club/texas-stars-128.png",
+    "256": "assets/branding/generated/club/texas-stars-256.png",
+    "512": "assets/branding/generated/club/texas-stars-512.png",
+    "1024": "assets/branding/generated/club/texas-stars-1024.png"
+   },
    "source": {
     "kind": "wikimedia-commons",
     "file": "Texas Stars logo.svg",
@@ -13926,7 +14670,7 @@
     "url": "https://upload.wikimedia.org/wikipedia/commons/3/38/Texas_Stars_logo.svg",
     "via": "infobox"
    },
-   "acquired": null,
+   "acquired": "2026-10-19",
    "identity": {
     "status": "verified_secondary",
     "season": "2026–27",
@@ -13941,10 +14685,19 @@
     "note": "Copyright status only. Logos remain trademarks of their owners; use does not imply endorsement."
    },
    "technical": {
-    "status": "unverified"
+    "status": "verified",
+    "checked": "2026-10-19",
+    "format": "png",
+    "intrinsicSize": [
+     1280,
+     721
+    ],
+    "sha256": "befc44961513122378a2eb4f7cf766ebead5c5810a9b2cf41dac08d4adee2a50",
+    "bytes": 86487,
+    "flags": []
    },
-   "notes": null,
-   "pendingDownload": true
+   "notes": "Master is Wikimedia's 1280 px PNG rendering of the original file, taken from the edge cache because original downloads were throttled. Replace with the original (re-run fetch.py) for full resolution.",
+   "masterIsThumbnail": 1280
   },
   "club.timra-ik": {
    "id": "club.timra-ik",
@@ -14062,6 +14815,69 @@
     "status": "unverified"
    },
    "notes": null
+  },
+  "club.toronto-maple-leafs": {
+   "id": "club.toronto-maple-leafs",
+   "name": "Toronto Maple Leafs",
+   "type": "club",
+   "entity": "club:toronto-maple-leafs",
+   "related": {
+    "league": "nhl",
+    "country": "USA"
+   },
+   "season": "2026–27",
+   "renderClass": "crest",
+   "master": "assets/branding/masters/clubs/toronto-maple-leafs.png",
+   "localMaster": null,
+   "outputs": {
+    "128": "assets/branding/generated/club/toronto-maple-leafs-128.png",
+    "256": "assets/branding/generated/club/toronto-maple-leafs-256.png"
+   },
+   "source": {
+    "kind": "wikimedia-commons",
+    "file": "Toronto Maple Leafs Logo 1939 - 1967.svg",
+    "page": "https://commons.wikimedia.org/wiki/File%3AToronto_Maple_Leafs_Logo_1939_-_1967.svg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Toronto_Maple_Leafs_Logo_1939_-_1967.svg",
+    "via": "commons-match"
+   },
+   "acquired": "2026-10-19",
+   "identity": {
+    "status": "verified_visual",
+    "season": "2026–27",
+    "score": 0.856,
+    "basis": "Free Commons file visually matches the current infobox logo (Toronto Maple Leafs 2016 logo.svg), score 0.856"
+   },
+   "rights": {
+    "status": "public_domain",
+    "basis": "Wikimedia Commons tag {{PD-Canada}}",
+    "trademark": true,
+    "author": "Toronto Maple Leafs",
+    "publish": true,
+    "note": "Copyright status only. Logos remain trademarks of their owners; use does not imply endorsement."
+   },
+   "technical": {
+    "status": "flagged",
+    "checked": "2026-10-19",
+    "format": "png",
+    "intrinsicSize": [
+     250,
+     293
+    ],
+    "sha256": "7b89fa24855c56256141ae9082f9f9daa8b68a3adf974edea2157af1ef5235aa",
+    "bytes": 44939,
+    "flags": [
+     {
+      "code": "low-resolution",
+      "detail": "250x293"
+     },
+     {
+      "code": "not-upscaled",
+      "detail": "sizes above native 293px skipped"
+     }
+    ]
+   },
+   "notes": "Master is Wikimedia's 250 px PNG rendering of the original file, taken from the edge cache because original downloads were throttled. Replace with the original (re-run fetch.py) for full resolution.",
+   "masterIsThumbnail": 250
   },
   "club.toronto-maple-leafs--current": {
    "id": "club.toronto-maple-leafs--current",
@@ -14785,6 +15601,62 @@
    },
    "notes": null
   },
+  "club.vancouver-canucks--older": {
+   "id": "club.vancouver-canucks--older",
+   "name": "Vancouver Canucks (alternate)",
+   "type": "club",
+   "entity": "club:vancouver-canucks",
+   "related": {
+    "league": "nhl",
+    "country": "USA"
+   },
+   "season": null,
+   "renderClass": "crest",
+   "master": "assets/branding/masters/clubs/vancouver-canucks.png",
+   "localMaster": null,
+   "outputs": {
+    "128": "assets/branding/generated/club/vancouver-canucks--older-128.png",
+    "256": "assets/branding/generated/club/vancouver-canucks--older-256.png",
+    "512": "assets/branding/generated/club/vancouver-canucks--older-512.png",
+    "1024": "assets/branding/generated/club/vancouver-canucks--older-1024.png"
+   },
+   "source": {
+    "kind": "wikimedia-commons",
+    "file": "21-210794 vancouver-canucks-1978-97-old-canucks-logo.png",
+    "page": "https://commons.wikimedia.org/wiki/File%3A21-210794_vancouver-canucks-1978-97-old-canucks-logo.png",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/cf/21-210794_vancouver-canucks-1978-97-old-canucks-logo.png",
+    "via": "commons-name"
+   },
+   "acquired": "2026-10-19",
+   "identity": {
+    "status": "not_current",
+    "season": null,
+    "score": 0.543,
+    "basis": "Free Commons file differs from the current infobox logo (Vancouver Canucks logo.svg); probably an earlier identity"
+   },
+   "rights": {
+    "status": "public_domain",
+    "basis": "Wikimedia Commons tag {{PD-textlogo}}",
+    "trademark": true,
+    "author": "{{unknown|author}}",
+    "publish": true,
+    "note": "Copyright status only. Logos remain trademarks of their owners; use does not imply endorsement."
+   },
+   "technical": {
+    "status": "verified",
+    "checked": "2026-10-19",
+    "format": "png",
+    "intrinsicSize": [
+     1280,
+     855
+    ],
+    "sha256": "1b97b67a1e85ec7382a60f24d93a00db4953c84705bd3d556a62094382fc9960",
+    "bytes": 742081,
+    "flags": []
+   },
+   "notes": "Master is Wikimedia's 1280 px PNG rendering of the original file, taken from the edge cache because original downloads were throttled. Replace with the original (re-run fetch.py) for full resolution.",
+   "masterIsThumbnail": 1280
+  },
   "club.vancouver-giants--current": {
    "id": "club.vancouver-giants--current",
    "name": "Vancouver Giants",
@@ -14934,6 +15806,66 @@
    },
    "technical": {
     "status": "unverified"
+   },
+   "notes": null
+  },
+  "club.vegas-golden-knights--older": {
+   "id": "club.vegas-golden-knights--older",
+   "name": "Vegas Golden Knights (alternate)",
+   "type": "club",
+   "entity": "club:vegas-golden-knights",
+   "related": {
+    "league": "nhl",
+    "country": "USA"
+   },
+   "season": null,
+   "renderClass": "crest",
+   "master": "assets/branding/masters/clubs/vegas-golden-knights.png",
+   "localMaster": null,
+   "outputs": {
+    "128": "assets/branding/generated/club/vegas-golden-knights--older-128.png",
+    "256": "assets/branding/generated/club/vegas-golden-knights--older-256.png",
+    "512": "assets/branding/generated/club/vegas-golden-knights--older-512.png",
+    "1024": "assets/branding/generated/club/vegas-golden-knights--older-1024.png"
+   },
+   "source": {
+    "kind": "wikimedia-commons",
+    "file": "VegasGoldenKnightsWordmark.png",
+    "page": "https://commons.wikimedia.org/wiki/File%3AVegasGoldenKnightsWordmark.png",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f1/VegasGoldenKnightsWordmark.png",
+    "via": "commons-name"
+   },
+   "acquired": "2026-10-19",
+   "identity": {
+    "status": "not_current",
+    "season": null,
+    "score": 0.329,
+    "basis": "Free Commons file differs from the current infobox logo (Vegas Golden Knights logo.svg); probably an earlier identity"
+   },
+   "rights": {
+    "status": "public_domain",
+    "basis": "Wikimedia Commons tag {{PD-textlogo}}",
+    "trademark": null,
+    "author": "Chris Creamer",
+    "publish": true,
+    "note": "Copyright status only. Logos remain trademarks of their owners; use does not imply endorsement."
+   },
+   "technical": {
+    "status": "flagged",
+    "checked": "2026-10-19",
+    "format": "png",
+    "intrinsicSize": [
+     905,
+     310
+    ],
+    "sha256": "9c7d27dac4187f99a9b7133828650613a9aa0d33e0119bb9d987f8d865132257",
+    "bytes": 23634,
+    "flags": [
+     {
+      "code": "no-alpha-background",
+      "detail": "opaque border colour (255, 255, 255)"
+     }
+    ]
    },
    "notes": null
   },
@@ -15689,7 +16621,12 @@
    "renderClass": "crest",
    "master": "assets/branding/masters/clubs/zvezda-moskva.png",
    "localMaster": null,
-   "outputs": {},
+   "outputs": {
+    "128": "assets/branding/generated/club/zvezda-moskva-128.png",
+    "256": "assets/branding/generated/club/zvezda-moskva-256.png",
+    "512": "assets/branding/generated/club/zvezda-moskva-512.png",
+    "1024": "assets/branding/generated/club/zvezda-moskva-1024.png"
+   },
    "source": {
     "kind": "wikimedia-commons",
     "file": "ХК Звезда Москва.png",
@@ -15712,7 +16649,16 @@
     "note": "Copyright status only. Logos remain trademarks of their owners; use does not imply endorsement."
    },
    "technical": {
-    "status": "unverified"
+    "status": "verified",
+    "checked": "2026-10-19",
+    "format": "png",
+    "intrinsicSize": [
+     1280,
+     1138
+    ],
+    "sha256": "183fb702c6c4b9b6d972043abae4fc8d1bd66e71d9d7cb006fceac524554c8d4",
+    "bytes": 307499,
+    "flags": []
    },
    "notes": "Master is Wikimedia's 1280 px PNG rendering of the original file, taken from the edge cache because original downloads were throttled. Replace with the original (re-run fetch.py) for full resolution.",
    "masterIsThumbnail": 1280
@@ -18050,7 +18996,7 @@
     "note": "Copyright status only. Logos remain trademarks of their owners; use does not imply endorsement."
    },
    "technical": {
-    "status": "verified",
+    "status": "flagged",
     "checked": "2026-10-19",
     "format": "png",
     "intrinsicSize": [
@@ -18059,7 +19005,16 @@
     ],
     "sha256": "5c7a95730c2f506e7fb2ec40e90aca174acca1a98ada84f01333f23c28c4c34c",
     "bytes": 117213,
-    "flags": []
+    "flags": [
+     {
+      "code": "probable-duplicate",
+      "detail": "same file as club.iowa-wild"
+     },
+     {
+      "code": "probable-duplicate",
+      "detail": "looks like club.iowa-wild"
+     }
+    ]
    },
    "notes": "Master is Wikimedia's 960 px PNG rendering of the original file, taken from the edge cache because original downloads were throttled. Replace with the original (re-run fetch.py) for full resolution.",
    "masterIsThumbnail": 960
@@ -18187,7 +19142,11 @@
    "renderClass": "symbol",
    "master": "assets/branding/masters/leagues/champions.png",
    "localMaster": null,
-   "outputs": {},
+   "outputs": {
+    "128": "assets/branding/generated/league/champions-128.png",
+    "256": "assets/branding/generated/league/champions-256.png",
+    "512": "assets/branding/generated/league/champions-512.png"
+   },
    "source": {
     "kind": "wikimedia-commons",
     "file": "Champions Hockey League logo (2).svg",
@@ -18210,7 +19169,21 @@
     "note": "Copyright status only. Logos remain trademarks of their owners; use does not imply endorsement."
    },
    "technical": {
-    "status": "unverified"
+    "status": "verified",
+    "checked": "2026-10-19",
+    "format": "png",
+    "intrinsicSize": [
+     500,
+     576
+    ],
+    "sha256": "0bcebd9400dc524ff18e5ed8b04e1260afa93301364c2f0cc5f6a3b934173f3c",
+    "bytes": 17642,
+    "flags": [
+     {
+      "code": "not-upscaled",
+      "detail": "sizes above native 576px skipped"
+     }
+    ]
    },
    "notes": "Master is Wikimedia's 500 px PNG rendering of the original file, taken from the edge cache because original downloads were throttled. Replace with the original (re-run fetch.py) for full resolution.",
    "masterIsThumbnail": 500
@@ -18264,7 +19237,10 @@
    "renderClass": "symbol",
    "master": "assets/branding/masters/leagues/del.png",
    "localMaster": null,
-   "outputs": {},
+   "outputs": {
+    "128": "assets/branding/generated/league/del-128.png",
+    "256": "assets/branding/generated/league/del-256.png"
+   },
    "source": {
     "kind": "wikimedia-commons",
     "file": "PENNY DEL Logo.svg",
@@ -18287,7 +19263,25 @@
     "note": "Copyright status only. Logos remain trademarks of their owners; use does not imply endorsement."
    },
    "technical": {
-    "status": "unverified"
+    "status": "flagged",
+    "checked": "2026-10-19",
+    "format": "png",
+    "intrinsicSize": [
+     330,
+     162
+    ],
+    "sha256": "0c0820ced8c70f77663f68222035bff1bdb7cb7c1d44a605962e880b5642db1c",
+    "bytes": 9002,
+    "flags": [
+     {
+      "code": "low-resolution",
+      "detail": "330x162"
+     },
+     {
+      "code": "not-upscaled",
+      "detail": "sizes above native 330px skipped"
+     }
+    ]
    },
    "notes": "Master is Wikimedia's 330 px PNG rendering of the original file, taken from the edge cache because original downloads were throttled. Replace with the original (re-run fetch.py) for full resolution.",
    "masterIsThumbnail": 330
@@ -18378,7 +19372,12 @@
    "renderClass": "symbol",
    "master": "assets/branding/masters/leagues/eihl.png",
    "localMaster": null,
-   "outputs": {},
+   "outputs": {
+    "128": "assets/branding/generated/league/eihl-128.png",
+    "256": "assets/branding/generated/league/eihl-256.png",
+    "512": "assets/branding/generated/league/eihl-512.png",
+    "1024": "assets/branding/generated/league/eihl-1024.png"
+   },
    "source": {
     "kind": "wikimedia-commons",
     "file": "Motorpoint Elite League Logo.svg",
@@ -18401,7 +19400,16 @@
     "note": "Copyright status only. Logos remain trademarks of their owners; use does not imply endorsement."
    },
    "technical": {
-    "status": "unverified"
+    "status": "verified",
+    "checked": "2026-10-19",
+    "format": "png",
+    "intrinsicSize": [
+     1280,
+     1393
+    ],
+    "sha256": "3a9a126b8e5fd4c9d4b7b43b50f516f59a711c86cbe570b5747200c84eb39b59",
+    "bytes": 216300,
+    "flags": []
    },
    "notes": "Master is Wikimedia's 1280 px PNG rendering of the original file, taken from the edge cache because original downloads were throttled. Replace with the original (re-run fetch.py) for full resolution.",
    "masterIsThumbnail": 1280
@@ -18750,7 +19758,10 @@
    "renderClass": "symbol",
    "master": "assets/branding/masters/leagues/mhl.png",
    "localMaster": null,
-   "outputs": {},
+   "outputs": {
+    "128": "assets/branding/generated/league/mhl--older-128.png",
+    "256": "assets/branding/generated/league/mhl--older-256.png"
+   },
    "source": {
     "kind": "wikimedia-commons",
     "file": "Logo SKA 2015.svg",
@@ -18774,7 +19785,25 @@
     "note": "Copyright status only. Logos remain trademarks of their owners; use does not imply endorsement."
    },
    "technical": {
-    "status": "unverified"
+    "status": "flagged",
+    "checked": "2026-10-19",
+    "format": "png",
+    "intrinsicSize": [
+     250,
+     338
+    ],
+    "sha256": "59cdec7d2705a1c78ecb859f42f44beb06ea56f727be4cdf6d7909350c94221d",
+    "bytes": 32159,
+    "flags": [
+     {
+      "code": "low-resolution",
+      "detail": "250x338"
+     },
+     {
+      "code": "not-upscaled",
+      "detail": "sizes above native 338px skipped"
+     }
+    ]
    },
    "notes": "Master is Wikimedia's 250 px PNG rendering of the original file, taken from the edge cache because original downloads were throttled. Replace with the original (re-run fetch.py) for full resolution.",
    "masterIsThumbnail": 250
@@ -18920,7 +19949,12 @@
    "renderClass": "symbol",
    "master": "assets/branding/masters/leagues/nl.png",
    "localMaster": null,
-   "outputs": {},
+   "outputs": {
+    "128": "assets/branding/generated/league/nl--older-128.png",
+    "256": "assets/branding/generated/league/nl--older-256.png",
+    "512": "assets/branding/generated/league/nl--older-512.png",
+    "1024": "assets/branding/generated/league/nl--older-1024.png"
+   },
    "source": {
     "kind": "wikimedia-commons",
     "file": "Tampa Bay Lightning 2011.svg",
@@ -18944,7 +19978,25 @@
     "note": "Copyright status only. Logos remain trademarks of their owners; use does not imply endorsement."
    },
    "technical": {
-    "status": "unverified"
+    "status": "flagged",
+    "checked": "2026-10-19",
+    "format": "png",
+    "intrinsicSize": [
+     1280,
+     1195
+    ],
+    "sha256": "9154c9a0217ce95eea24caa3813d5d615341cc5fcb567f26c921d4527b00eb63",
+    "bytes": 71239,
+    "flags": [
+     {
+      "code": "probable-duplicate",
+      "detail": "same file as club.tampa-bay-lightning"
+     },
+     {
+      "code": "probable-duplicate",
+      "detail": "looks like club.tampa-bay-lightning"
+     }
+    ]
    },
    "notes": "Master is Wikimedia's 1280 px PNG rendering of the original file, taken from the edge cache because original downloads were throttled. Replace with the original (re-run fetch.py) for full resolution.",
    "masterIsThumbnail": 1280
@@ -18961,7 +20013,12 @@
    "renderClass": "symbol",
    "master": "assets/branding/masters/leagues/ohl.png",
    "localMaster": null,
-   "outputs": {},
+   "outputs": {
+    "128": "assets/branding/generated/league/ohl-128.png",
+    "256": "assets/branding/generated/league/ohl-256.png",
+    "512": "assets/branding/generated/league/ohl-512.png",
+    "1024": "assets/branding/generated/league/ohl-1024.png"
+   },
    "source": {
     "kind": "wikimedia-commons",
     "file": "OHL Logo.png",
@@ -18984,7 +20041,16 @@
     "note": "Copyright status only. Logos remain trademarks of their owners; use does not imply endorsement."
    },
    "technical": {
-    "status": "unverified"
+    "status": "verified",
+    "checked": "2026-10-19",
+    "format": "png",
+    "intrinsicSize": [
+     960,
+     324
+    ],
+    "sha256": "951a86e68bd7709c02e6146d322b649f03603a8cc199ff3afd17c11c282c8181",
+    "bytes": 29021,
+    "flags": []
    },
    "notes": "Master is Wikimedia's 960 px PNG rendering of the original file, taken from the edge cache because original downloads were throttled. Replace with the original (re-run fetch.py) for full resolution.",
    "masterIsThumbnail": 960
@@ -19038,7 +20104,12 @@
    "renderClass": "symbol",
    "master": "assets/branding/masters/leagues/qmjhl.png",
    "localMaster": null,
-   "outputs": {},
+   "outputs": {
+    "128": "assets/branding/generated/league/qmjhl--older-128.png",
+    "256": "assets/branding/generated/league/qmjhl--older-256.png",
+    "512": "assets/branding/generated/league/qmjhl--older-512.png",
+    "1024": "assets/branding/generated/league/qmjhl--older-1024.png"
+   },
    "source": {
     "kind": "wikimedia-commons",
     "file": "NordiquesdeQuebecwordmark.png",
@@ -19062,7 +20133,16 @@
     "note": "Copyright status only. Logos remain trademarks of their owners; use does not imply endorsement."
    },
    "technical": {
-    "status": "unverified"
+    "status": "verified",
+    "checked": "2026-10-19",
+    "format": "png",
+    "intrinsicSize": [
+     1280,
+     294
+    ],
+    "sha256": "dcc7b4ade2618633d4b8e5867bfb9115cdd6302f7eb463a73891b0321da3d744",
+    "bytes": 49458,
+    "flags": []
    },
    "notes": "Master is Wikimedia's 1280 px PNG rendering of the original file, taken from the edge cache because original downloads were throttled. Replace with the original (re-run fetch.py) for full resolution.",
    "masterIsThumbnail": 1280
@@ -19079,7 +20159,12 @@
    "renderClass": "symbol",
    "master": "assets/branding/masters/leagues/shl.png",
    "localMaster": null,
-   "outputs": {},
+   "outputs": {
+    "128": "assets/branding/generated/league/shl-128.png",
+    "256": "assets/branding/generated/league/shl-256.png",
+    "512": "assets/branding/generated/league/shl-512.png",
+    "1024": "assets/branding/generated/league/shl-1024.png"
+   },
    "source": {
     "kind": "wikimedia-commons",
     "file": "Swedish Hockey League logo.svg",
@@ -19102,7 +20187,16 @@
     "note": "Copyright status only. Logos remain trademarks of their owners; use does not imply endorsement."
    },
    "technical": {
-    "status": "unverified"
+    "status": "verified",
+    "checked": "2026-10-19",
+    "format": "png",
+    "intrinsicSize": [
+     1280,
+     482
+    ],
+    "sha256": "1962c8a077fb53bde0873112d686bb3bd8ced1c4ada0d02dc4cad2282351a163",
+    "bytes": 30713,
+    "flags": []
    },
    "notes": "Master is Wikimedia's 1280 px PNG rendering of the original file, taken from the edge cache because original downloads were throttled. Replace with the original (re-run fetch.py) for full resolution.",
    "masterIsThumbnail": 1280
@@ -19119,7 +20213,12 @@
    "renderClass": "symbol",
    "master": "assets/branding/masters/leagues/slovak-extraliga.png",
    "localMaster": null,
-   "outputs": {},
+   "outputs": {
+    "128": "assets/branding/generated/league/slovak-extraliga-128.png",
+    "256": "assets/branding/generated/league/slovak-extraliga-256.png",
+    "512": "assets/branding/generated/league/slovak-extraliga-512.png",
+    "1024": "assets/branding/generated/league/slovak-extraliga-1024.png"
+   },
    "source": {
     "kind": "wikimedia-commons",
     "file": "Tipsport liga logo 2025.png",
@@ -19143,7 +20242,16 @@
     "note": "Copyright status only. Logos remain trademarks of their owners; use does not imply endorsement."
    },
    "technical": {
-    "status": "unverified"
+    "status": "verified",
+    "checked": "2026-10-19",
+    "format": "png",
+    "intrinsicSize": [
+     960,
+     1125
+    ],
+    "sha256": "273787737f3721e9f13ba89ae1f2122ebe45c9a3ac5553843e0816a465760cd4",
+    "bytes": 143625,
+    "flags": []
    },
    "notes": "Master is Wikimedia's 960 px PNG rendering of the original file, taken from the edge cache because original downloads were throttled. Replace with the original (re-run fetch.py) for full resolution.",
    "masterIsThumbnail": 960
@@ -20821,15 +21929,15 @@
    "name": "Anaheim Ducks",
    "status": "restricted",
    "active": "club.anaheim-ducks--current",
-   "alternates": [],
+   "alternates": [
+    "club.anaheim-ducks--older"
+   ],
    "article": "https://en.wikipedia.org/wiki/Anaheim_Ducks",
    "related": {
     "league": "nhl",
     "country": "USA"
    },
-   "pending": [
-    "reference preview"
-   ]
+   "pending": null
   },
   "club:atlanta-gladiators": {
    "type": "club",
@@ -21003,7 +22111,7 @@
    "type": "club",
    "id": "belleville-senators",
    "name": "Belleville Senators",
-   "status": "pending",
+   "status": "public",
    "active": "club.belleville-senators",
    "alternates": [],
    "article": "https://en.wikipedia.org/wiki/Belleville_Senators",
@@ -21011,9 +22119,7 @@
     "league": "ahl",
     "country": "USA"
    },
-   "pending": [
-    "Belleville Senators logo.svg"
-   ]
+   "pending": null
   },
   "club:belye-medvedi-chelyabinsk": {
    "type": "club",
@@ -21247,15 +22353,15 @@
    "name": "Calgary Flames",
    "status": "restricted",
    "active": "club.calgary-flames--current",
-   "alternates": [],
+   "alternates": [
+    "club.calgary-flames--older"
+   ],
    "article": "https://en.wikipedia.org/wiki/Calgary_Flames",
    "related": {
     "league": "nhl",
     "country": "USA"
    },
-   "pending": [
-    "reference preview"
-   ]
+   "pending": null
   },
   "club:calgary-hitmen": {
    "type": "club",
@@ -21275,17 +22381,17 @@
    "type": "club",
    "id": "calgary-wranglers",
    "name": "Calgary Wranglers",
-   "status": "restricted",
-   "active": "club.calgary-wranglers--current",
-   "alternates": [],
+   "status": "public",
+   "active": "club.calgary-wranglers",
+   "alternates": [
+    "club.calgary-wranglers--current"
+   ],
    "article": "https://en.wikipedia.org/wiki/Calgary_Wranglers",
    "related": {
     "league": "ahl",
     "country": "USA"
    },
-   "pending": [
-    "reference preview"
-   ]
+   "pending": null
   },
   "club:cape-breton-eagles": {
    "type": "club",
@@ -21479,15 +22585,15 @@
    "name": "Coachella Valley Firebirds",
    "status": "restricted",
    "active": "club.coachella-valley-firebirds--current",
-   "alternates": [],
+   "alternates": [
+    "club.coachella-valley-firebirds--older"
+   ],
    "article": "https://en.wikipedia.org/wiki/Coachella_Valley_Firebirds",
    "related": {
     "league": "ahl",
     "country": "USA"
    },
-   "pending": [
-    "reference preview"
-   ]
+   "pending": null
   },
   "club:colorado-avalanche": {
    "type": "club",
@@ -21537,15 +22643,15 @@
    "name": "Dallas Stars",
    "status": "restricted",
    "active": "club.dallas-stars--current",
-   "alternates": [],
+   "alternates": [
+    "club.dallas-stars--older"
+   ],
    "article": "https://en.wikipedia.org/wiki/Dallas_Stars",
    "related": {
     "league": "nhl",
     "country": "USA"
    },
-   "pending": [
-    "reference preview"
-   ]
+   "pending": null
   },
   "club:des-moines-buccaneers": {
    "type": "club",
@@ -21827,15 +22933,15 @@
    "name": "Edmonton Oilers",
    "status": "restricted",
    "active": "club.edmonton-oilers--current",
-   "alternates": [],
+   "alternates": [
+    "club.edmonton-oilers--older"
+   ],
    "article": "https://en.wikipedia.org/wiki/Edmonton_Oilers",
    "related": {
     "league": "nhl",
     "country": "USA"
    },
-   "pending": [
-    "reference preview"
-   ]
+   "pending": null
   },
   "club:ehc-arosa": {
    "type": "club",
@@ -23293,7 +24399,7 @@
    "type": "club",
    "id": "iowa-wild",
    "name": "Iowa Wild",
-   "status": "pending",
+   "status": "public",
    "active": "club.iowa-wild",
    "alternates": [],
    "article": "https://en.wikipedia.org/wiki/Iowa_Wild",
@@ -23301,9 +24407,7 @@
     "league": "ahl",
     "country": "USA"
    },
-   "pending": [
-    "Iowa Wild logo.svg"
-   ]
+   "pending": null
   },
   "club:irbis": {
    "type": "club",
@@ -23803,17 +24907,17 @@
    "type": "club",
    "id": "laval-rocket",
    "name": "Laval Rocket",
-   "status": "restricted",
-   "active": "club.laval-rocket--current",
-   "alternates": [],
+   "status": "public",
+   "active": "club.laval-rocket",
+   "alternates": [
+    "club.laval-rocket--current"
+   ],
    "article": "https://en.wikipedia.org/wiki/Laval_Rocket",
    "related": {
     "league": "ahl",
     "country": "USA"
    },
-   "pending": [
-    "reference preview"
-   ]
+   "pending": null
   },
   "club:lehigh-valley-phantoms": {
    "type": "club",
@@ -24785,7 +25889,7 @@
    "type": "club",
    "id": "providence-bruins",
    "name": "Providence Bruins",
-   "status": "pending",
+   "status": "public",
    "active": "club.providence-bruins",
    "alternates": [],
    "article": "https://en.wikipedia.org/wiki/Providence_Bruins",
@@ -24793,9 +25897,7 @@
     "league": "ahl",
     "country": "USA"
    },
-   "pending": [
-    "Providence Bruins logo.svg"
-   ]
+   "pending": null
   },
   "club:quebec-remparts": {
    "type": "club",
@@ -25115,15 +26217,15 @@
    "name": "San Jose Sharks",
    "status": "restricted",
    "active": "club.san-jose-sharks--current",
-   "alternates": [],
+   "alternates": [
+    "club.san-jose-sharks--older"
+   ],
    "article": "https://en.wikipedia.org/wiki/San_Jose_Sharks",
    "related": {
     "league": "nhl",
     "country": "USA"
    },
-   "pending": [
-    "reference preview"
-   ]
+   "pending": null
   },
   "club:sarnia-sting": {
    "type": "club",
@@ -25252,7 +26354,7 @@
     "country": "USA"
    },
    "pending": [
-    "reference preview"
+    "SeattleKrakenWordmark.png"
    ]
   },
   "club:seattle-thunderbirds": {
@@ -25743,7 +26845,7 @@
    "type": "club",
    "id": "texas-stars",
    "name": "Texas Stars",
-   "status": "pending",
+   "status": "public",
    "active": "club.texas-stars",
    "alternates": [],
    "article": "https://en.wikipedia.org/wiki/Texas_Stars",
@@ -25751,9 +26853,7 @@
     "league": "ahl",
     "country": "USA"
    },
-   "pending": [
-    "Texas Stars logo.svg"
-   ]
+   "pending": null
   },
   "club:timra-ik": {
    "type": "club",
@@ -25803,17 +26903,17 @@
    "type": "club",
    "id": "toronto-maple-leafs",
    "name": "Toronto Maple Leafs",
-   "status": "restricted",
-   "active": "club.toronto-maple-leafs--current",
-   "alternates": [],
+   "status": "public",
+   "active": "club.toronto-maple-leafs",
+   "alternates": [
+    "club.toronto-maple-leafs--current"
+   ],
    "article": "https://en.wikipedia.org/wiki/Toronto_Maple_Leafs",
    "related": {
     "league": "nhl",
     "country": "USA"
    },
-   "pending": [
-    "Toronto Maple Leafs wordmark 2016.png"
-   ]
+   "pending": null
   },
   "club:toronto-marlies": {
    "type": "club",
@@ -26059,15 +27159,15 @@
    "name": "Vancouver Canucks",
    "status": "restricted",
    "active": "club.vancouver-canucks--current",
-   "alternates": [],
+   "alternates": [
+    "club.vancouver-canucks--older"
+   ],
    "article": "https://en.wikipedia.org/wiki/Vancouver_Canucks",
    "related": {
     "league": "nhl",
     "country": "USA"
    },
-   "pending": [
-    "reference preview"
-   ]
+   "pending": null
   },
   "club:vancouver-giants": {
    "type": "club",
@@ -26117,15 +27217,15 @@
    "name": "Vegas Golden Knights",
    "status": "restricted",
    "active": "club.vegas-golden-knights--current",
-   "alternates": [],
+   "alternates": [
+    "club.vegas-golden-knights--older"
+   ],
    "article": "https://en.wikipedia.org/wiki/Vegas_Golden_Knights",
    "related": {
     "league": "nhl",
     "country": "USA"
    },
-   "pending": [
-    "reference preview"
-   ]
+   "pending": null
   },
   "club:victoria-royals": {
    "type": "club",
