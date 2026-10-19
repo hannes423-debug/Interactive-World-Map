@@ -2,7 +2,7 @@
 
 A reusable, static (no build, no backend) map interface for choosing where a game career starts: world map → region → territory → league → teams. Each game brings its own data files; the map images, boundaries and interface are shared.
 
-The first game is **NHL 13 · Modern Career** (the NHL 13 PC port's modern career mode, starting with the 2026–27 season). The hockey engine lives in the separate NHL13Research repository; this repo only contains the career map.
+https://hannes423-debug.github.io/Interactive-World-Map/
 
 - `index.html` – landing page listing the games
 - `career-map.html?game=nhl13` – the map (`#/world`, `#/europe/t/swe/info`, `#/europe/l/shl`, …)
