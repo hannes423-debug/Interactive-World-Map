@@ -532,6 +532,48 @@
    },
    "notes": null
   },
+  "club.almaz--older": {
+   "id": "club.almaz--older",
+   "name": "Almaz (alternate)",
+   "type": "club",
+   "entity": "club:almaz",
+   "related": {
+    "league": "mhl",
+    "country": "RUS"
+   },
+   "season": null,
+   "renderClass": "crest",
+   "master": "assets/branding/masters/clubs/almaz.png",
+   "localMaster": null,
+   "outputs": {},
+   "source": {
+    "kind": "wikimedia-commons",
+    "file": "Almazlogo.png",
+    "page": "https://commons.wikimedia.org/wiki/File%3AAlmazlogo.png",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/85/Almazlogo.png",
+    "via": "commons-name"
+   },
+   "acquired": "2026-10-19",
+   "identity": {
+    "status": "not_current",
+    "season": null,
+    "score": 0.333,
+    "basis": "Free Commons file differs from the current infobox logo (МХК Алмаз.png); probably an earlier identity"
+   },
+   "rights": {
+    "status": "public_domain",
+    "basis": "Wikimedia Commons tag {{PD-textlogo}}",
+    "trademark": true,
+    "author": "ХК \"Северсталь\"",
+    "publish": true,
+    "note": "Copyright status only. Logos remain trademarks of their owners; use does not imply endorsement."
+   },
+   "technical": {
+    "status": "unverified"
+   },
+   "notes": "Master is Wikimedia's 1280 px PNG rendering of the original file, taken from the edge cache because original downloads were throttled. Replace with the original (re-run fetch.py) for full resolution.",
+   "masterIsThumbnail": 1280
+  },
   "club.almtuna-is--current": {
    "id": "club.almtuna-is--current",
    "name": "Almtuna IS",
@@ -1298,8 +1340,8 @@
    },
    "notes": null
   },
-  "club.bk-mlada-boleslav": {
-   "id": "club.bk-mlada-boleslav",
+  "club.bk-mlada-boleslav--current": {
+   "id": "club.bk-mlada-boleslav--current",
    "name": "BK Mladá Boleslav",
    "type": "club",
    "entity": "club:bk-mlada-boleslav",
@@ -1313,31 +1355,28 @@
    "localMaster": null,
    "outputs": {},
    "source": {
-    "kind": "wikimedia-commons",
-    "file": "Škoenergo Arena, Interiér 001.jpg",
-    "page": "https://commons.wikimedia.org/wiki/File%3A%C5%A0koenergo_Arena%2C_Interi%C3%A9r_001.jpg",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/d/dd/%C5%A0koenergo_Arena%2C_Interi%C3%A9r_001.jpg",
+    "kind": "en.wikipedia",
+    "file": "BK Mladá Boleslav logo.png",
+    "page": "https://en.wikipedia.org/wiki/File%3ABK_Mlad%C3%A1_Boleslav_logo.png",
+    "url": "https://upload.wikimedia.org/wikipedia/en/f/f6/BK_Mlad%C3%A1_Boleslav_logo.png",
     "via": "infobox"
    },
    "acquired": null,
    "identity": {
     "status": "verified_secondary",
     "season": "2026–27",
-    "basis": "File shown in the infobox of https://cs.wikipedia.org/wiki/BK_Mlad%C3%A1_Boleslav on 2026-10-19"
+    "basis": "File shown in the infobox of https://en.wikipedia.org/wiki/BK_Mlad%C3%A1_Boleslav on 2026-10-19"
    },
    "rights": {
-    "status": "licensed",
-    "basis": "Wikimedia Commons licence cc-by-sa-4.0 (attribution required)",
-    "trademark": null,
-    "author": "Vojtěch Dočkal",
-    "publish": true,
-    "note": "Copyright status only. Logos remain trademarks of their owners; use does not imply endorsement."
+    "status": "restricted",
+    "basis": "Non-free (fair-use) file on en.wikipedia",
+    "publish": false,
+    "note": "Not redistributed: permission from the rights holder is required for a public release."
    },
    "technical": {
     "status": "unverified"
    },
-   "notes": null,
-   "pendingDownload": true
+   "notes": null
   },
   "club.blainville-boisbriand-armada--current": {
    "id": "club.blainville-boisbriand-armada--current",
@@ -1426,7 +1465,7 @@
    },
    "season": "2026–27",
    "renderClass": "crest",
-   "master": null,
+   "master": "assets/branding/masters/clubs/boston-bruins.png",
    "localMaster": null,
    "outputs": {},
    "source": {
@@ -1436,7 +1475,7 @@
     "url": "https://upload.wikimedia.org/wikipedia/commons/0/02/Boston_Bruins_100th_anniversary_logo.svg",
     "via": "infobox"
    },
-   "acquired": null,
+   "acquired": "2026-10-19",
    "identity": {
     "status": "verified_secondary",
     "season": "2026–27",
@@ -1453,8 +1492,8 @@
    "technical": {
     "status": "unverified"
    },
-   "notes": null,
-   "pendingDownload": true
+   "notes": "Master is Wikimedia's 1280 px PNG rendering of the original file, taken from the edge cache because original downloads were throttled. Replace with the original (re-run fetch.py) for full resolution.",
+   "masterIsThumbnail": 1280
   },
   "club.boxers-de-bordeaux--current": {
    "id": "club.boxers-de-bordeaux--current",
@@ -1608,8 +1647,8 @@
    },
    "notes": null
   },
-  "club.brynas-if": {
-   "id": "club.brynas-if",
+  "club.brynas-if--current": {
+   "id": "club.brynas-if--current",
    "name": "Brynäs IF",
    "type": "club",
    "entity": "club:brynas-if",
@@ -1623,31 +1662,28 @@
    "localMaster": null,
    "outputs": {},
    "source": {
-    "kind": "wikimedia-commons",
-    "file": "Brynäs - Färjestad 15.jpg",
-    "page": "https://commons.wikimedia.org/wiki/File%3ABryn%C3%A4s_-_F%C3%A4rjestad_15.jpg",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/3/37/Bryn%C3%A4s_-_F%C3%A4rjestad_15.jpg",
+    "kind": "en.wikipedia",
+    "file": "Brynäs IF logo.svg",
+    "page": "https://en.wikipedia.org/wiki/File%3ABryn%C3%A4s_IF_logo.svg",
+    "url": "https://upload.wikimedia.org/wikipedia/en/c/cb/Bryn%C3%A4s_IF_logo.svg",
     "via": "infobox"
    },
    "acquired": null,
    "identity": {
     "status": "verified_secondary",
     "season": "2026–27",
-    "basis": "File shown in the infobox of https://sv.wikipedia.org/wiki/Bryn%C3%A4s_IF on 2026-10-19"
+    "basis": "File shown in the infobox of https://en.wikipedia.org/wiki/Bryn%C3%A4s_IF on 2026-10-19"
    },
    "rights": {
-    "status": "licensed",
-    "basis": "Wikimedia Commons licence cc-by-sa-4.0 (attribution required)",
-    "trademark": null,
-    "author": "Mikael Hervestad",
-    "publish": true,
-    "note": "Copyright status only. Logos remain trademarks of their owners; use does not imply endorsement."
+    "status": "restricted",
+    "basis": "Non-free (fair-use) file on en.wikipedia",
+    "publish": false,
+    "note": "Not redistributed: permission from the rights holder is required for a public release."
    },
    "technical": {
     "status": "unverified"
    },
-   "notes": null,
-   "pendingDownload": true
+   "notes": null
   },
   "club.buffalo-sabres--current": {
    "id": "club.buffalo-sabres--current",
@@ -2040,7 +2076,7 @@
    },
    "season": "2026–27",
    "renderClass": "crest",
-   "master": null,
+   "master": "assets/branding/masters/clubs/chayka.png",
    "localMaster": null,
    "outputs": {},
    "source": {
@@ -2050,7 +2086,7 @@
     "url": "https://upload.wikimedia.org/wikipedia/commons/7/7e/%D0%A7%D0%B0%D0%B9%D0%BA%D0%B0_%D0%9B%D0%BE%D0%B3%D0%BE.png",
     "via": "infobox"
    },
-   "acquired": null,
+   "acquired": "2026-10-19",
    "identity": {
     "status": "verified_secondary",
     "season": "2026–27",
@@ -2067,8 +2103,8 @@
    "technical": {
     "status": "unverified"
    },
-   "notes": null,
-   "pendingDownload": true
+   "notes": "Master is Wikimedia's 1280 px PNG rendering of the original file, taken from the edge cache because original downloads were throttled. Replace with the original (re-run fetch.py) for full resolution.",
+   "masterIsThumbnail": 1280
   },
   "club.chelmet": {
    "id": "club.chelmet",
@@ -2081,7 +2117,7 @@
    },
    "season": "2026–27",
    "renderClass": "crest",
-   "master": null,
+   "master": "assets/branding/masters/clubs/chelmet.png",
    "localMaster": null,
    "outputs": {},
    "source": {
@@ -2091,7 +2127,7 @@
     "url": "https://upload.wikimedia.org/wikipedia/commons/6/68/%D0%9B%D0%BE%D0%B3%D0%BE%D1%82%D0%B8%D0%BF_%D1%85%D0%BE%D0%BA%D0%BA%D0%B5%D0%B9%D0%BD%D0%BE%D0%B3%D0%BE_%D0%BA%D0%BB%D1%83%D0%B1%D0%B0_%C2%AB%D0%A7%D0%B5%D0%BB%D0%BC%D0%B5%D1%82%C2%BB_%D0%A7%D0%B5%D0%BB%D1%8F%D0%B1%D0%B8%D0%BD%D1%81%D0%BA.png",
     "via": "infobox"
    },
-   "acquired": null,
+   "acquired": "2026-10-19",
    "identity": {
     "status": "verified_secondary",
     "season": "2026–27",
@@ -2108,8 +2144,8 @@
    "technical": {
     "status": "unverified"
    },
-   "notes": null,
-   "pendingDownload": true
+   "notes": "Master is Wikimedia's 960 px PNG rendering of the original file, taken from the edge cache because original downloads were throttled. Replace with the original (re-run fetch.py) for full resolution.",
+   "masterIsThumbnail": 960
   },
   "club.chicago-blackhawks--current": {
    "id": "club.chicago-blackhawks--current",
@@ -2569,6 +2605,48 @@
    },
    "notes": null
   },
+  "club.detroit-red-wings": {
+   "id": "club.detroit-red-wings",
+   "name": "Detroit Red Wings",
+   "type": "club",
+   "entity": "club:detroit-red-wings",
+   "related": {
+    "league": "nhl",
+    "country": "USA"
+   },
+   "season": "2026–27",
+   "renderClass": "crest",
+   "master": "assets/branding/masters/clubs/detroit-red-wings.png",
+   "localMaster": null,
+   "outputs": {},
+   "source": {
+    "kind": "wikimedia-commons",
+    "file": "Detroit Red Wings logo.png",
+    "page": "https://commons.wikimedia.org/wiki/File%3ADetroit_Red_Wings_logo.png",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Detroit_Red_Wings_logo.png",
+    "via": "commons-match"
+   },
+   "acquired": "2026-10-19",
+   "identity": {
+    "status": "verified_visual",
+    "season": "2026–27",
+    "score": 0.999,
+    "basis": "Free Commons file visually matches the current infobox logo (Detroit Red Wings logo.svg), score 0.999"
+   },
+   "rights": {
+    "status": "public_domain",
+    "basis": "Wikimedia Commons tag {{PD-US-no notice}}",
+    "trademark": null,
+    "author": "{{Unknown|author}}",
+    "publish": true,
+    "note": "Copyright status only. Logos remain trademarks of their owners; use does not imply endorsement."
+   },
+   "technical": {
+    "status": "unverified"
+   },
+   "notes": "Master is Wikimedia's 960 px PNG rendering of the original file, taken from the edge cache because original downloads were throttled. Replace with the original (re-run fetch.py) for full resolution.",
+   "masterIsThumbnail": 960
+  },
   "club.detroit-red-wings--current": {
    "id": "club.detroit-red-wings--current",
    "name": "Detroit Red Wings",
@@ -2835,8 +2913,8 @@
    },
    "notes": null
   },
-  "club.djurgarden-hockey": {
-   "id": "club.djurgarden-hockey",
+  "club.djurgarden-hockey--current": {
+   "id": "club.djurgarden-hockey--current",
    "name": "Djurgården Hockey",
    "type": "club",
    "entity": "club:djurgarden-hockey",
@@ -2850,31 +2928,28 @@
    "localMaster": null,
    "outputs": {},
    "source": {
-    "kind": "wikimedia-commons",
-    "file": "Djurgården-Färjestad 20190129 20.jpg",
-    "page": "https://commons.wikimedia.org/wiki/File%3ADjurg%C3%A5rden-F%C3%A4rjestad_20190129_20.jpg",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Djurg%C3%A5rden-F%C3%A4rjestad_20190129_20.jpg",
+    "kind": "en.wikipedia",
+    "file": "Djurgårdens IF Hockey Logo.svg",
+    "page": "https://en.wikipedia.org/wiki/File%3ADjurg%C3%A5rdens_IF_Hockey_Logo.svg",
+    "url": "https://upload.wikimedia.org/wikipedia/en/6/62/Djurg%C3%A5rdens_IF_Hockey_Logo.svg",
     "via": "infobox"
    },
    "acquired": null,
    "identity": {
     "status": "verified_secondary",
     "season": "2026–27",
-    "basis": "File shown in the infobox of https://sv.wikipedia.org/wiki/Djurg%C3%A5rden_Hockey on 2026-10-19"
+    "basis": "File shown in the infobox of https://en.wikipedia.org/wiki/Djurg%C3%A5rdens_IF_%28men%27s_ice_hockey%29 on 2026-10-19"
    },
    "rights": {
-    "status": "licensed",
-    "basis": "Wikimedia Commons licence cc-by-sa-4.0 (attribution required)",
-    "trademark": null,
-    "author": "Rolandhino1",
-    "publish": true,
-    "note": "Copyright status only. Logos remain trademarks of their owners; use does not imply endorsement."
+    "status": "restricted",
+    "basis": "Non-free (fair-use) file on en.wikipedia",
+    "publish": false,
+    "note": "Not redistributed: permission from the rights holder is required for a public release."
    },
    "technical": {
     "status": "unverified"
    },
-   "notes": null,
-   "pendingDownload": true
+   "notes": null
   },
   "club.dresdner-eislowen--current": {
    "id": "club.dresdner-eislowen--current",
@@ -3998,8 +4073,8 @@
    },
    "notes": null
   },
-  "club.farjestad-bk": {
-   "id": "club.farjestad-bk",
+  "club.farjestad-bk--current": {
+   "id": "club.farjestad-bk--current",
    "name": "Färjestad BK",
    "type": "club",
    "entity": "club:farjestad-bk",
@@ -4013,31 +4088,28 @@
    "localMaster": null,
    "outputs": {},
    "source": {
-    "kind": "wikimedia-commons",
-    "file": "2013-12-30 Magnus Nygren 01.jpg",
-    "page": "https://commons.wikimedia.org/wiki/File%3A2013-12-30_Magnus_Nygren_01.jpg",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/5/5f/2013-12-30_Magnus_Nygren_01.jpg",
+    "kind": "en.wikipedia",
+    "file": "Färjestads BK Logo.svg",
+    "page": "https://en.wikipedia.org/wiki/File%3AF%C3%A4rjestads_BK_Logo.svg",
+    "url": "https://upload.wikimedia.org/wikipedia/en/6/6e/F%C3%A4rjestads_BK_Logo.svg",
     "via": "infobox"
    },
    "acquired": null,
    "identity": {
     "status": "verified_secondary",
     "season": "2026–27",
-    "basis": "File shown in the infobox of https://sv.wikipedia.org/wiki/F%C3%A4rjestad_BK on 2026-10-19"
+    "basis": "File shown in the infobox of https://en.wikipedia.org/wiki/F%C3%A4rjestad_BK on 2026-10-19"
    },
    "rights": {
-    "status": "licensed",
-    "basis": "Wikimedia Commons licence GFDL (attribution required)",
-    "trademark": null,
-    "author": "Calle Eklund/V-wolf",
-    "publish": true,
-    "note": "Copyright status only. Logos remain trademarks of their owners; use does not imply endorsement."
+    "status": "restricted",
+    "basis": "Non-free (fair-use) file on en.wikipedia",
+    "publish": false,
+    "note": "Not redistributed: permission from the rights holder is required for a public release."
    },
    "technical": {
     "status": "unverified"
    },
-   "notes": null,
-   "pendingDownload": true
+   "notes": null
   },
   "club.fischtown-pinguins--current": {
    "id": "club.fischtown-pinguins--current",
@@ -4229,8 +4301,8 @@
    },
    "notes": null
   },
-  "club.frolunda-hc": {
-   "id": "club.frolunda-hc",
+  "club.frolunda-hc--current": {
+   "id": "club.frolunda-hc--current",
    "name": "Frölunda HC",
    "type": "club",
    "entity": "club:frolunda-hc",
@@ -4244,31 +4316,28 @@
    "localMaster": null,
    "outputs": {},
    "source": {
-    "kind": "wikimedia-commons",
-    "file": "Fredrik Pettersson.jpg",
-    "page": "https://commons.wikimedia.org/wiki/File%3AFredrik_Pettersson.jpg",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/2/29/Fredrik_Pettersson.jpg",
+    "kind": "en.wikipedia",
+    "file": "Frölunda HC logo.svg",
+    "page": "https://en.wikipedia.org/wiki/File%3AFr%C3%B6lunda_HC_logo.svg",
+    "url": "https://upload.wikimedia.org/wikipedia/en/6/61/Fr%C3%B6lunda_HC_logo.svg",
     "via": "infobox"
    },
    "acquired": null,
    "identity": {
     "status": "verified_secondary",
     "season": "2026–27",
-    "basis": "File shown in the infobox of https://sv.wikipedia.org/wiki/Fr%C3%B6lunda_HC on 2026-10-19"
+    "basis": "File shown in the infobox of https://en.wikipedia.org/wiki/Fr%C3%B6lunda_HC on 2026-10-19"
    },
    "rights": {
-    "status": "licensed",
-    "basis": "Wikimedia Commons licence cc-by-sa-3.0 (attribution required)",
-    "trademark": null,
-    "author": "Krm500",
-    "publish": true,
-    "note": "Copyright status only. Logos remain trademarks of their owners; use does not imply endorsement."
+    "status": "restricted",
+    "basis": "Non-free (fair-use) file on en.wikipedia",
+    "publish": false,
+    "note": "Not redistributed: permission from the rights holder is required for a public release."
    },
    "technical": {
     "status": "unverified"
    },
-   "notes": null,
-   "pendingDownload": true
+   "notes": null
   },
   "club.gatineau-olympiques--current": {
    "id": "club.gatineau-olympiques--current",
@@ -4963,6 +5032,48 @@
    },
    "notes": null
   },
+  "club.hc-assat-pori--older": {
+   "id": "club.hc-assat-pori--older",
+   "name": "HC Ässät Pori (alternate)",
+   "type": "club",
+   "entity": "club:hc-assat-pori",
+   "related": {
+    "league": "liiga",
+    "country": "FIN"
+   },
+   "season": null,
+   "renderClass": "crest",
+   "master": "assets/branding/masters/clubs/hc-assat-pori.png",
+   "localMaster": null,
+   "outputs": {},
+   "source": {
+    "kind": "wikimedia-commons",
+    "file": "Porin Ässät logo 1967.png",
+    "page": "https://commons.wikimedia.org/wiki/File%3APorin_%C3%84ss%C3%A4t_logo_1967.png",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/04/Porin_%C3%84ss%C3%A4t_logo_1967.png",
+    "via": "commons-name"
+   },
+   "acquired": "2026-10-19",
+   "identity": {
+    "status": "not_current",
+    "season": null,
+    "score": 0.454,
+    "basis": "Free Commons file differs from the current infobox logo (Porin Ässät logo (2023).svg); probably an earlier identity"
+   },
+   "rights": {
+    "status": "public_domain",
+    "basis": "Wikimedia Commons tag {{PD-textlogo}}",
+    "trademark": null,
+    "author": "Vesa Antikainen",
+    "publish": true,
+    "note": "Copyright status only. Logos remain trademarks of their owners; use does not imply endorsement."
+   },
+   "technical": {
+    "status": "unverified"
+   },
+   "notes": "Master is Wikimedia's 1280 px PNG rendering of the original file, taken from the edge cache because original downloads were throttled. Replace with the original (re-run fetch.py) for full resolution.",
+   "masterIsThumbnail": 1280
+  },
   "club.hc-bozen--current": {
    "id": "club.hc-bozen--current",
    "name": "HC Bozen",
@@ -5012,7 +5123,7 @@
    },
    "season": "2026–27",
    "renderClass": "crest",
-   "master": null,
+   "master": "assets/branding/masters/clubs/hc-cska-moscow.png",
    "localMaster": null,
    "outputs": {},
    "source": {
@@ -5022,7 +5133,7 @@
     "url": "https://upload.wikimedia.org/wikipedia/commons/3/3d/CSKA_Moscow_logo.svg",
     "via": "infobox"
    },
-   "acquired": null,
+   "acquired": "2026-10-19",
    "identity": {
     "status": "verified_secondary",
     "season": "2026–27",
@@ -5039,8 +5150,8 @@
    "technical": {
     "status": "unverified"
    },
-   "notes": null,
-   "pendingDownload": true
+   "notes": "Master is Wikimedia's 1280 px PNG rendering of the original file, taken from the edge cache because original downloads were throttled. Replace with the original (re-run fetch.py) for full resolution.",
+   "masterIsThumbnail": 1280
   },
   "club.hc-davos--current": {
    "id": "club.hc-davos--current",
@@ -5129,7 +5240,7 @@
    },
    "season": "2026–27",
    "renderClass": "crest",
-   "master": null,
+   "master": "assets/branding/masters/clubs/hc-dynamo-moscow.png",
    "localMaster": null,
    "outputs": {},
    "source": {
@@ -5139,7 +5250,7 @@
     "url": "https://upload.wikimedia.org/wikipedia/commons/9/99/HC_Dynamo_Moscow_Logo_2019.svg",
     "via": "infobox"
    },
-   "acquired": null,
+   "acquired": "2026-10-19",
    "identity": {
     "status": "verified_secondary",
     "season": "2026–27",
@@ -5156,8 +5267,8 @@
    "technical": {
     "status": "unverified"
    },
-   "notes": null,
-   "pendingDownload": true
+   "notes": "Master is Wikimedia's 1280 px PNG rendering of the original file, taken from the edge cache because original downloads were throttled. Replace with the original (re-run fetch.py) for full resolution.",
+   "masterIsThumbnail": 1280
   },
   "club.hc-dynamo-pardubice": {
    "id": "club.hc-dynamo-pardubice",
@@ -5276,8 +5387,8 @@
    },
    "notes": null
   },
-  "club.hc-kometa-brno": {
-   "id": "club.hc-kometa-brno",
+  "club.hc-kometa-brno--current": {
+   "id": "club.hc-kometa-brno--current",
    "name": "HC Kometa Brno",
    "type": "club",
    "entity": "club:hc-kometa-brno",
@@ -5291,31 +5402,28 @@
    "localMaster": null,
    "outputs": {},
    "source": {
-    "kind": "wikimedia-commons",
-    "file": "Rozloučení s Kometou 2011 (079).jpg",
-    "page": "https://commons.wikimedia.org/wiki/File%3ARozlou%C4%8Den%C3%AD_s_Kometou_2011_%28079%29.jpg",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Rozlou%C4%8Den%C3%AD_s_Kometou_2011_%28079%29.jpg",
+    "kind": "en.wikipedia",
+    "file": "HC Kometa Brno logo (2012).svg",
+    "page": "https://en.wikipedia.org/wiki/File%3AHC_Kometa_Brno_logo_%282012%29.svg",
+    "url": "https://upload.wikimedia.org/wikipedia/en/0/0d/HC_Kometa_Brno_logo_%282012%29.svg",
     "via": "infobox"
    },
    "acquired": null,
    "identity": {
     "status": "verified_secondary",
     "season": "2026–27",
-    "basis": "File shown in the infobox of https://cs.wikipedia.org/wiki/HC_Kometa_Brno on 2026-10-19"
+    "basis": "File shown in the infobox of https://en.wikipedia.org/wiki/HC_Kometa_Brno on 2026-10-19"
    },
    "rights": {
-    "status": "licensed",
-    "basis": "Wikimedia Commons licence Cc-by-sa-3.0 (attribution required)",
-    "trademark": null,
-    "author": "{{User:Sevela.p/credit}}",
-    "publish": true,
-    "note": "Copyright status only. Logos remain trademarks of their owners; use does not imply endorsement."
+    "status": "restricted",
+    "basis": "Non-free (fair-use) file on en.wikipedia",
+    "publish": false,
+    "note": "Not redistributed: permission from the rights holder is required for a public release."
    },
    "technical": {
     "status": "unverified"
    },
-   "notes": null,
-   "pendingDownload": true
+   "notes": null
   },
   "club.hc-kosice--current": {
    "id": "club.hc-kosice--current",
@@ -5930,6 +6038,48 @@
    },
    "notes": null,
    "pendingDownload": true
+  },
+  "club.hc-spartak-moscow": {
+   "id": "club.hc-spartak-moscow",
+   "name": "HC Spartak Moscow",
+   "type": "club",
+   "entity": "club:hc-spartak-moscow",
+   "related": {
+    "league": "khl",
+    "country": "RUS"
+   },
+   "season": "2026–27",
+   "renderClass": "crest",
+   "master": "assets/branding/masters/clubs/hc-spartak-moscow.png",
+   "localMaster": null,
+   "outputs": {},
+   "source": {
+    "kind": "wikimedia-commons",
+    "file": "Logo spartak 2015.png",
+    "page": "https://commons.wikimedia.org/wiki/File%3ALogo_spartak_2015.png",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Logo_spartak_2015.png",
+    "via": "commons-match"
+   },
+   "acquired": "2026-10-19",
+   "identity": {
+    "status": "verified_visual",
+    "season": "2026–27",
+    "score": 0.991,
+    "basis": "Free Commons file visually matches the current infobox logo (HC Spartak Moscow logo.svg), score 0.991"
+   },
+   "rights": {
+    "status": "public_domain",
+    "basis": "Wikimedia Commons tag {{PD-textlogo}}",
+    "trademark": null,
+    "author": "zMaker",
+    "publish": true,
+    "note": "Copyright status only. Logos remain trademarks of their owners; use does not imply endorsement."
+   },
+   "technical": {
+    "status": "unverified"
+   },
+   "notes": "Master is Wikimedia's 1280 px PNG rendering of the original file, taken from the edge cache because original downloads were throttled. Replace with the original (re-run fetch.py) for full resolution.",
+   "masterIsThumbnail": 1280
   },
   "club.hc-spartak-moscow--current": {
    "id": "club.hc-spartak-moscow--current",
@@ -6636,8 +6786,8 @@
    },
    "notes": null
   },
-  "club.if-bjorkloven": {
-   "id": "club.if-bjorkloven",
+  "club.if-bjorkloven--current": {
+   "id": "club.if-bjorkloven--current",
    "name": "IF Björklöven",
    "type": "club",
    "entity": "club:if-bjorkloven",
@@ -6651,31 +6801,28 @@
    "localMaster": null,
    "outputs": {},
    "source": {
-    "kind": "wikimedia-commons",
-    "file": "Björklöven 08.JPG",
-    "page": "https://commons.wikimedia.org/wiki/File%3ABj%C3%B6rkl%C3%B6ven_08.JPG",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Bj%C3%B6rkl%C3%B6ven_08.JPG",
+    "kind": "en.wikipedia",
+    "file": "IF Bjorkloven logo.svg",
+    "page": "https://en.wikipedia.org/wiki/File%3AIF_Bjorkloven_logo.svg",
+    "url": "https://upload.wikimedia.org/wikipedia/en/2/2c/IF_Bjorkloven_logo.svg",
     "via": "infobox"
    },
    "acquired": null,
    "identity": {
     "status": "verified_secondary",
     "season": "2026–27",
-    "basis": "File shown in the infobox of https://sv.wikipedia.org/wiki/IF_Bj%C3%B6rkl%C3%B6ven on 2026-10-19"
+    "basis": "File shown in the infobox of https://en.wikipedia.org/wiki/IF_Bj%C3%B6rkl%C3%B6ven on 2026-10-19"
    },
    "rights": {
-    "status": "public_domain",
-    "basis": "Wikimedia Commons tag {{PD-self}}",
-    "trademark": null,
-    "author": "Egon Eagle",
-    "publish": true,
-    "note": "Copyright status only. Logos remain trademarks of their owners; use does not imply endorsement."
+    "status": "restricted",
+    "basis": "Non-free (fair-use) file on en.wikipedia",
+    "publish": false,
+    "note": "Not redistributed: permission from the rights holder is required for a public release."
    },
    "technical": {
     "status": "unverified"
    },
-   "notes": null,
-   "pendingDownload": true
+   "notes": null
   },
   "club.if-bjorkloven-allsvenskan--current": {
    "id": "club.if-bjorkloven-allsvenskan--current",
@@ -7668,6 +7815,48 @@
    },
    "notes": null
   },
+  "club.kiekko-espoo": {
+   "id": "club.kiekko-espoo",
+   "name": "Kiekko-Espoo",
+   "type": "club",
+   "entity": "club:kiekko-espoo",
+   "related": {
+    "league": "liiga",
+    "country": "FIN"
+   },
+   "season": "2026–27",
+   "renderClass": "crest",
+   "master": "assets/branding/masters/clubs/kiekko-espoo.png",
+   "localMaster": null,
+   "outputs": {},
+   "source": {
+    "kind": "wikimedia-commons",
+    "file": "Kiekko-Espoo Logo.png",
+    "page": "https://commons.wikimedia.org/wiki/File%3AKiekko-Espoo_Logo.png",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/89/Kiekko-Espoo_Logo.png",
+    "via": "commons-match"
+   },
+   "acquired": "2026-10-19",
+   "identity": {
+    "status": "verified_visual",
+    "season": "2026–27",
+    "score": 0.82,
+    "basis": "Free Commons file visually matches the current infobox logo (Kiekko-Espoo logo 2021.png), score 0.82"
+   },
+   "rights": {
+    "status": "public_domain",
+    "basis": "Wikimedia Commons tag {{PD-textlogo}}",
+    "trademark": true,
+    "author": "Miika Kumpulainen (designer) and Kiekko-Espoo Oy",
+    "publish": true,
+    "note": "Copyright status only. Logos remain trademarks of their owners; use does not imply endorsement."
+   },
+   "technical": {
+    "status": "unverified"
+   },
+   "notes": "Master is Wikimedia's 960 px PNG rendering of the original file, taken from the edge cache because original downloads were throttled. Replace with the original (re-run fetch.py) for full resolution.",
+   "masterIsThumbnail": 960
+  },
   "club.kiekko-espoo--current": {
    "id": "club.kiekko-espoo--current",
    "name": "Kiekko-Espoo",
@@ -7948,7 +8137,7 @@
    },
    "season": "2026–27",
    "renderClass": "crest",
-   "master": null,
+   "master": "assets/branding/masters/clubs/krasnaya-armiya.png",
    "localMaster": null,
    "outputs": {},
    "source": {
@@ -7958,7 +8147,7 @@
     "url": "https://upload.wikimedia.org/wikipedia/commons/3/35/RedArmyHockey.png",
     "via": "infobox"
    },
-   "acquired": null,
+   "acquired": "2026-10-19",
    "identity": {
     "status": "verified_secondary",
     "season": "2026–27",
@@ -7975,8 +8164,8 @@
    "technical": {
     "status": "unverified"
    },
-   "notes": null,
-   "pendingDownload": true
+   "notes": "Master is Wikimedia's 1280 px PNG rendering of the original file, taken from the edge cache because original downloads were throttled. Replace with the original (re-run fetch.py) for full resolution.",
+   "masterIsThumbnail": 1280
   },
   "club.krasnaya-mashina-atlant--current": {
    "id": "club.krasnaya-mashina-atlant--current",
@@ -8510,8 +8699,8 @@
    },
    "notes": null
   },
-  "club.linkoping-hc": {
-   "id": "club.linkoping-hc",
+  "club.linkoping-hc--current": {
+   "id": "club.linkoping-hc--current",
    "name": "Linköping HC",
    "type": "club",
    "entity": "club:linkoping-hc",
@@ -8525,31 +8714,28 @@
    "localMaster": null,
    "outputs": {},
    "source": {
-    "kind": "wikimedia-commons",
-    "file": "Jeff Taffe 2015.jpg",
-    "page": "https://commons.wikimedia.org/wiki/File%3AJeff_Taffe_2015.jpg",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/6/67/Jeff_Taffe_2015.jpg",
+    "kind": "en.wikipedia",
+    "file": "Linköpings HC Logo.svg",
+    "page": "https://en.wikipedia.org/wiki/File%3ALink%C3%B6pings_HC_Logo.svg",
+    "url": "https://upload.wikimedia.org/wikipedia/en/6/6c/Link%C3%B6pings_HC_Logo.svg",
     "via": "infobox"
    },
    "acquired": null,
    "identity": {
     "status": "verified_secondary",
     "season": "2026–27",
-    "basis": "File shown in the infobox of https://sv.wikipedia.org/wiki/Link%C3%B6ping_HC on 2026-10-19"
+    "basis": "File shown in the infobox of https://en.wikipedia.org/wiki/Link%C3%B6ping_HC on 2026-10-19"
    },
    "rights": {
-    "status": "licensed",
-    "basis": "Wikimedia Commons licence cc-by-sa-4.0 (attribution required)",
-    "trademark": null,
-    "author": "LHC1976",
-    "publish": true,
-    "note": "Copyright status only. Logos remain trademarks of their owners; use does not imply endorsement."
+    "status": "restricted",
+    "basis": "Non-free (fair-use) file on en.wikipedia",
+    "publish": false,
+    "note": "Not redistributed: permission from the rights holder is required for a public release."
    },
    "technical": {
     "status": "unverified"
    },
-   "notes": null,
-   "pendingDownload": true
+   "notes": null
   },
   "club.loko--current": {
    "id": "club.loko--current",
@@ -8817,8 +9003,8 @@
    },
    "notes": null
   },
-  "club.lulea-hf": {
-   "id": "club.lulea-hf",
+  "club.lulea-hf--current": {
+   "id": "club.lulea-hf--current",
    "name": "Luleå HF",
    "type": "club",
    "entity": "club:lulea-hf",
@@ -8832,31 +9018,28 @@
    "localMaster": null,
    "outputs": {},
    "source": {
-    "kind": "wikimedia-commons",
-    "file": "Luleå HF players 2013-01-17.jpg",
-    "page": "https://commons.wikimedia.org/wiki/File%3ALule%C3%A5_HF_players_2013-01-17.jpg",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/8/86/Lule%C3%A5_HF_players_2013-01-17.jpg",
+    "kind": "en.wikipedia",
+    "file": "Lulea Hockey logo.svg",
+    "page": "https://en.wikipedia.org/wiki/File%3ALulea_Hockey_logo.svg",
+    "url": "https://upload.wikimedia.org/wikipedia/en/9/95/Lulea_Hockey_logo.svg",
     "via": "infobox"
    },
    "acquired": null,
    "identity": {
     "status": "verified_secondary",
     "season": "2026–27",
-    "basis": "File shown in the infobox of https://sv.wikipedia.org/wiki/Lule%C3%A5_HF on 2026-10-19"
+    "basis": "File shown in the infobox of https://en.wikipedia.org/wiki/Lule%C3%A5_HF on 2026-10-19"
    },
    "rights": {
-    "status": "licensed",
-    "basis": "Wikimedia Commons licence cc-by-2.0 (attribution required)",
-    "trademark": null,
-    "author": "[https://www.flickr.com/people/anders-h-foto/ Anders H Foto]",
-    "publish": true,
-    "note": "Copyright status only. Logos remain trademarks of their owners; use does not imply endorsement."
+    "status": "restricted",
+    "basis": "Non-free (fair-use) file on en.wikipedia",
+    "publish": false,
+    "note": "Not redistributed: permission from the rights holder is required for a public release."
    },
    "technical": {
     "status": "unverified"
    },
-   "notes": null,
-   "pendingDownload": true
+   "notes": null
   },
   "club.madison-capitols--current": {
    "id": "club.madison-capitols--current",
@@ -8972,8 +9155,8 @@
    },
    "notes": null
   },
-  "club.malmo-redhawks": {
-   "id": "club.malmo-redhawks",
+  "club.malmo-redhawks--current": {
+   "id": "club.malmo-redhawks--current",
    "name": "Malmö Redhawks",
    "type": "club",
    "entity": "club:malmo-redhawks",
@@ -8987,31 +9170,28 @@
    "localMaster": null,
    "outputs": {},
    "source": {
-    "kind": "wikimedia-commons",
-    "file": "Malmö Arena interior.jpg",
-    "page": "https://commons.wikimedia.org/wiki/File%3AMalm%C3%B6_Arena_interior.jpg",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Malm%C3%B6_Arena_interior.jpg",
+    "kind": "en.wikipedia",
+    "file": "Malmö Redhawks Logo.svg",
+    "page": "https://en.wikipedia.org/wiki/File%3AMalm%C3%B6_Redhawks_Logo.svg",
+    "url": "https://upload.wikimedia.org/wikipedia/en/c/cf/Malm%C3%B6_Redhawks_Logo.svg",
     "via": "infobox"
    },
    "acquired": null,
    "identity": {
     "status": "verified_secondary",
     "season": "2026–27",
-    "basis": "File shown in the infobox of https://sv.wikipedia.org/wiki/Malm%C3%B6_Redhawks on 2026-10-19"
+    "basis": "File shown in the infobox of https://en.wikipedia.org/wiki/Malm%C3%B6_Redhawks on 2026-10-19"
    },
    "rights": {
-    "status": "licensed",
-    "basis": "Wikimedia Commons licence cc-by-2.0 (attribution required)",
-    "trademark": null,
-    "author": "Håkan Dahlström",
-    "publish": true,
-    "note": "Copyright status only. Logos remain trademarks of their owners; use does not imply endorsement."
+    "status": "restricted",
+    "basis": "Non-free (fair-use) file on en.wikipedia",
+    "publish": false,
+    "note": "Not redistributed: permission from the rights holder is required for a public release."
    },
    "technical": {
     "status": "unverified"
    },
-   "notes": null,
-   "pendingDownload": true
+   "notes": null
   },
   "club.mamonty-yugry--current": {
    "id": "club.mamonty-yugry--current",
@@ -9480,7 +9660,7 @@
    },
    "season": "2026–27",
    "renderClass": "crest",
-   "master": null,
+   "master": "assets/branding/masters/clubs/montreal-canadiens.png",
    "localMaster": null,
    "outputs": {},
    "source": {
@@ -9490,7 +9670,7 @@
     "url": "https://upload.wikimedia.org/wikipedia/commons/6/69/Montreal_Canadiens.svg",
     "via": "infobox"
    },
-   "acquired": null,
+   "acquired": "2026-10-19",
    "identity": {
     "status": "verified_secondary",
     "season": "2026–27",
@@ -9507,8 +9687,8 @@
    "technical": {
     "status": "unverified"
    },
-   "notes": null,
-   "pendingDownload": true
+   "notes": "Master is Wikimedia's 1280 px PNG rendering of the original file, taken from the edge cache because original downloads were throttled. Replace with the original (re-run fetch.py) for full resolution.",
+   "masterIsThumbnail": 1280
   },
   "club.moose-jaw-warriors--current": {
    "id": "club.moose-jaw-warriors--current",
@@ -9863,9 +10043,14 @@
    },
    "season": "2026–27",
    "renderClass": "crest",
-   "master": null,
+   "master": "assets/branding/masters/clubs/new-york-rangers.png",
    "localMaster": null,
-   "outputs": {},
+   "outputs": {
+    "128": "assets/branding/generated/club/new-york-rangers-128.png",
+    "256": "assets/branding/generated/club/new-york-rangers-256.png",
+    "512": "assets/branding/generated/club/new-york-rangers-512.png",
+    "1024": "assets/branding/generated/club/new-york-rangers-1024.png"
+   },
    "source": {
     "kind": "wikimedia-commons",
     "file": "New York Rangers.svg",
@@ -9873,7 +10058,7 @@
     "url": "https://upload.wikimedia.org/wikipedia/commons/a/ae/New_York_Rangers.svg",
     "via": "infobox"
    },
-   "acquired": null,
+   "acquired": "2026-10-19",
    "identity": {
     "status": "verified_secondary",
     "season": "2026–27",
@@ -9888,10 +10073,19 @@
     "note": "Copyright status only. Logos remain trademarks of their owners; use does not imply endorsement."
    },
    "technical": {
-    "status": "unverified"
+    "status": "verified",
+    "checked": "2026-10-19",
+    "format": "png",
+    "intrinsicSize": [
+     1280,
+     1231
+    ],
+    "sha256": "8bd1aa15537ac7c8ed3fb340e5c39da4d6b9016e3e8d97b50c16d56e12008396",
+    "bytes": 143681,
+    "flags": []
    },
-   "notes": null,
-   "pendingDownload": true
+   "notes": "Master is Wikimedia's 1280 px PNG rendering of the original file, taken from the edge cache because original downloads were throttled. Replace with the original (re-run fetch.py) for full resolution.",
+   "masterIsThumbnail": 1280
   },
   "club.newfoundland-regiment--current": {
    "id": "club.newfoundland-regiment--current",
@@ -10625,6 +10819,48 @@
     "status": "unverified"
    },
    "notes": null
+  },
+  "club.ottawa-senators--older": {
+   "id": "club.ottawa-senators--older",
+   "name": "Ottawa Senators (alternate)",
+   "type": "club",
+   "entity": "club:ottawa-senators",
+   "related": {
+    "league": "nhl",
+    "country": "USA"
+   },
+   "season": null,
+   "renderClass": "crest",
+   "master": "assets/branding/masters/clubs/ottawa-senators.png",
+   "localMaster": null,
+   "outputs": {},
+   "source": {
+    "kind": "wikimedia-commons",
+    "file": "Smitty18.png",
+    "page": "https://commons.wikimedia.org/wiki/File%3ASmitty18.png",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/41/Smitty18.png",
+    "via": "commons-name"
+   },
+   "acquired": "2026-10-19",
+   "identity": {
+    "status": "not_current",
+    "season": null,
+    "score": 0.649,
+    "basis": "Free Commons file differs from the current infobox logo (Ottawa Senators 2020-2021 logo.svg); probably an earlier identity"
+   },
+   "rights": {
+    "status": "licensed",
+    "basis": "Wikimedia Commons licence cc-by-sa-4.0 (attribution required)",
+    "trademark": null,
+    "author": "Wikidude10000",
+    "publish": true,
+    "note": "Copyright status only. Logos remain trademarks of their owners; use does not imply endorsement."
+   },
+   "technical": {
+    "status": "unverified"
+   },
+   "notes": "Master is Wikimedia's 960 px PNG rendering of the original file, taken from the edge cache because original downloads were throttled. Replace with the original (re-run fetch.py) for full resolution.",
+   "masterIsThumbnail": 960
   },
   "club.oulun-karpat--current": {
    "id": "club.oulun-karpat--current",
@@ -12311,6 +12547,48 @@
    },
    "notes": null
   },
+  "club.severstal-cherepovets": {
+   "id": "club.severstal-cherepovets",
+   "name": "Severstal Cherepovets",
+   "type": "club",
+   "entity": "club:severstal-cherepovets",
+   "related": {
+    "league": "khl",
+    "country": "RUS"
+   },
+   "season": "2026–27",
+   "renderClass": "crest",
+   "master": "assets/branding/masters/clubs/severstal-cherepovets.png",
+   "localMaster": null,
+   "outputs": {},
+   "source": {
+    "kind": "wikimedia-commons",
+    "file": "Severstal Cherepovets logo.png",
+    "page": "https://commons.wikimedia.org/wiki/File%3ASeverstal_Cherepovets_logo.png",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/25/Severstal_Cherepovets_logo.png",
+    "via": "commons-match"
+   },
+   "acquired": "2026-10-19",
+   "identity": {
+    "status": "verified_visual",
+    "season": "2026–27",
+    "score": 0.836,
+    "basis": "Free Commons file visually matches the current infobox logo (Severstal Cherepovets logo.svg), score 0.836"
+   },
+   "rights": {
+    "status": "public_domain",
+    "basis": "Wikimedia Commons tag {{PD-TextLogo}}",
+    "trademark": true,
+    "author": "HC Severstal",
+    "publish": true,
+    "note": "Copyright status only. Logos remain trademarks of their owners; use does not imply endorsement."
+   },
+   "technical": {
+    "status": "unverified"
+   },
+   "notes": "Master is Wikimedia's 960 px PNG rendering of the original file, taken from the edge cache because original downloads were throttled. Replace with the original (re-run fetch.py) for full resolution.",
+   "masterIsThumbnail": 960
+  },
   "club.severstal-cherepovets--current": {
    "id": "club.severstal-cherepovets--current",
    "name": "Severstal Cherepovets",
@@ -12360,7 +12638,7 @@
    },
    "season": "2026–27",
    "renderClass": "crest",
-   "master": null,
+   "master": "assets/branding/masters/clubs/shanghai-dragons.png",
    "localMaster": null,
    "outputs": {},
    "source": {
@@ -12370,7 +12648,7 @@
     "url": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Shanghai_Dragons_logo.jpg",
     "via": "infobox"
    },
-   "acquired": null,
+   "acquired": "2026-10-19",
    "identity": {
     "status": "verified_secondary",
     "season": "2026–27",
@@ -12387,8 +12665,8 @@
    "technical": {
     "status": "unverified"
    },
-   "notes": null,
-   "pendingDownload": true
+   "notes": "Master is Wikimedia's 1280 px PNG rendering of the original file, taken from the edge cache because original downloads were throttled. Replace with the original (re-run fetch.py) for full resolution.",
+   "masterIsThumbnail": 1280
   },
   "club.shawinigan-cataractes--current": {
    "id": "club.shawinigan-cataractes--current",
@@ -12694,8 +12972,8 @@
    },
    "notes": null
   },
-  "club.skelleftea-aik": {
-   "id": "club.skelleftea-aik",
+  "club.skelleftea-aik--current": {
+   "id": "club.skelleftea-aik--current",
    "name": "Skellefteå AIK",
    "type": "club",
    "entity": "club:skelleftea-aik",
@@ -12709,31 +12987,28 @@
    "localMaster": null,
    "outputs": {},
    "source": {
-    "kind": "wikimedia-commons",
-    "file": "SAIK - Markus Svensson.jpg",
-    "page": "https://commons.wikimedia.org/wiki/File%3ASAIK_-_Markus_Svensson.jpg",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/9/95/SAIK_-_Markus_Svensson.jpg",
+    "kind": "en.wikipedia",
+    "file": "Skellefteå AIK Logo.svg",
+    "page": "https://en.wikipedia.org/wiki/File%3ASkellefte%C3%A5_AIK_Logo.svg",
+    "url": "https://upload.wikimedia.org/wikipedia/en/4/41/Skellefte%C3%A5_AIK_Logo.svg",
     "via": "infobox"
    },
    "acquired": null,
    "identity": {
     "status": "verified_secondary",
     "season": "2026–27",
-    "basis": "File shown in the infobox of https://sv.wikipedia.org/wiki/Skellefte%C3%A5_AIK on 2026-10-19"
+    "basis": "File shown in the infobox of https://en.wikipedia.org/wiki/Skellefte%C3%A5_AIK on 2026-10-19"
    },
    "rights": {
-    "status": "licensed",
-    "basis": "Wikimedia Commons licence cc-by-sa-3.0 (attribution required)",
-    "trademark": null,
-    "author": "P.Lindgren",
-    "publish": true,
-    "note": "Copyright status only. Logos remain trademarks of their owners; use does not imply endorsement."
+    "status": "restricted",
+    "basis": "Non-free (fair-use) file on en.wikipedia",
+    "publish": false,
+    "note": "Not redistributed: permission from the rights holder is required for a public release."
    },
    "technical": {
     "status": "unverified"
    },
-   "notes": null,
-   "pendingDownload": true
+   "notes": null
   },
   "club.snezhnye-barsy--current": {
    "id": "club.snezhnye-barsy--current",
@@ -12886,6 +13161,48 @@
     "status": "unverified"
    },
    "notes": null
+  },
+  "club.spartak": {
+   "id": "club.spartak",
+   "name": "Spartak",
+   "type": "club",
+   "entity": "club:spartak",
+   "related": {
+    "league": "mhl",
+    "country": "RUS"
+   },
+   "season": "2026–27",
+   "renderClass": "crest",
+   "master": "assets/branding/masters/clubs/spartak.png",
+   "localMaster": null,
+   "outputs": {},
+   "source": {
+    "kind": "wikimedia-commons",
+    "file": "Logo spartak 2015.png",
+    "page": "https://commons.wikimedia.org/wiki/File%3ALogo_spartak_2015.png",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Logo_spartak_2015.png",
+    "via": "commons-match"
+   },
+   "acquired": "2026-10-19",
+   "identity": {
+    "status": "verified_visual",
+    "season": "2026–27",
+    "score": 0.987,
+    "basis": "Free Commons file visually matches the current infobox logo (HC Spartak Moscow Logo 2015.svg), score 0.987"
+   },
+   "rights": {
+    "status": "public_domain",
+    "basis": "Wikimedia Commons tag {{PD-textlogo}}",
+    "trademark": null,
+    "author": "zMaker",
+    "publish": true,
+    "note": "Copyright status only. Logos remain trademarks of their owners; use does not imply endorsement."
+   },
+   "technical": {
+    "status": "unverified"
+   },
+   "notes": "Master is Wikimedia's 1280 px PNG rendering of the original file, taken from the edge cache because original downloads were throttled. Replace with the original (re-run fetch.py) for full resolution.",
+   "masterIsThumbnail": 1280
   },
   "club.spartak--current": {
    "id": "club.spartak--current",
@@ -13468,9 +13785,14 @@
    },
    "season": "2026–27",
    "renderClass": "crest",
-   "master": null,
+   "master": "assets/branding/masters/clubs/tampa-bay-lightning.png",
    "localMaster": null,
-   "outputs": {},
+   "outputs": {
+    "128": "assets/branding/generated/club/tampa-bay-lightning-128.png",
+    "256": "assets/branding/generated/club/tampa-bay-lightning-256.png",
+    "512": "assets/branding/generated/club/tampa-bay-lightning-512.png",
+    "1024": "assets/branding/generated/club/tampa-bay-lightning-1024.png"
+   },
    "source": {
     "kind": "wikimedia-commons",
     "file": "Tampa Bay Lightning 2011.svg",
@@ -13478,7 +13800,7 @@
     "url": "https://upload.wikimedia.org/wikipedia/commons/3/31/Tampa_Bay_Lightning_2011.svg",
     "via": "infobox"
    },
-   "acquired": null,
+   "acquired": "2026-10-19",
    "identity": {
     "status": "verified_secondary",
     "season": "2026–27",
@@ -13493,10 +13815,19 @@
     "note": "Copyright status only. Logos remain trademarks of their owners; use does not imply endorsement."
    },
    "technical": {
-    "status": "unverified"
+    "status": "verified",
+    "checked": "2026-10-19",
+    "format": "png",
+    "intrinsicSize": [
+     1280,
+     1195
+    ],
+    "sha256": "9154c9a0217ce95eea24caa3813d5d615341cc5fcb567f26c921d4527b00eb63",
+    "bytes": 71239,
+    "flags": []
    },
-   "notes": null,
-   "pendingDownload": true
+   "notes": "Master is Wikimedia's 1280 px PNG rendering of the original file, taken from the edge cache because original downloads were throttled. Replace with the original (re-run fetch.py) for full resolution.",
+   "masterIsThumbnail": 1280
   },
   "club.tappara--current": {
    "id": "club.tappara--current",
@@ -14530,8 +14861,8 @@
    },
    "notes": null
   },
-  "club.vaxjo-lakers-hc": {
-   "id": "club.vaxjo-lakers-hc",
+  "club.vaxjo-lakers-hc--current": {
+   "id": "club.vaxjo-lakers-hc--current",
    "name": "Växjö Lakers HC",
    "type": "club",
    "entity": "club:vaxjo-lakers-hc",
@@ -14545,31 +14876,28 @@
    "localMaster": null,
    "outputs": {},
    "source": {
-    "kind": "wikimedia-commons",
-    "file": "Sm guld 2015.jpg",
-    "page": "https://commons.wikimedia.org/wiki/File%3ASm_guld_2015.jpg",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Sm_guld_2015.jpg",
+    "kind": "en.wikipedia",
+    "file": "Växjö Lakers logo.svg",
+    "page": "https://en.wikipedia.org/wiki/File%3AV%C3%A4xj%C3%B6_Lakers_logo.svg",
+    "url": "https://upload.wikimedia.org/wikipedia/en/0/0c/V%C3%A4xj%C3%B6_Lakers_logo.svg",
     "via": "infobox"
    },
    "acquired": null,
    "identity": {
     "status": "verified_secondary",
     "season": "2026–27",
-    "basis": "File shown in the infobox of https://sv.wikipedia.org/wiki/V%C3%A4xj%C3%B6_Lakers_HC on 2026-10-19"
+    "basis": "File shown in the infobox of https://en.wikipedia.org/wiki/V%C3%A4xj%C3%B6_Lakers on 2026-10-19"
    },
    "rights": {
-    "status": "licensed",
-    "basis": "Wikimedia Commons licence cc-by-sa-4.0 (attribution required)",
-    "trademark": null,
-    "author": "PutteA",
-    "publish": true,
-    "note": "Copyright status only. Logos remain trademarks of their owners; use does not imply endorsement."
+    "status": "restricted",
+    "basis": "Non-free (fair-use) file on en.wikipedia",
+    "publish": false,
+    "note": "Not redistributed: permission from the rights holder is required for a public release."
    },
    "technical": {
     "status": "unverified"
    },
-   "notes": null,
-   "pendingDownload": true
+   "notes": null
   },
   "club.vegas-golden-knights--current": {
    "id": "club.vegas-golden-knights--current",
@@ -14810,9 +15138,14 @@
    },
    "season": "2026–27",
    "renderClass": "crest",
-   "master": null,
+   "master": "assets/branding/masters/clubs/washington-capitals.png",
    "localMaster": null,
-   "outputs": {},
+   "outputs": {
+    "128": "assets/branding/generated/club/washington-capitals-128.png",
+    "256": "assets/branding/generated/club/washington-capitals-256.png",
+    "512": "assets/branding/generated/club/washington-capitals-512.png",
+    "1024": "assets/branding/generated/club/washington-capitals-1024.png"
+   },
    "source": {
     "kind": "wikimedia-commons",
     "file": "Washington Capitals.svg",
@@ -14820,7 +15153,7 @@
     "url": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Washington_Capitals.svg",
     "via": "infobox"
    },
-   "acquired": null,
+   "acquired": "2026-10-19",
    "identity": {
     "status": "verified_secondary",
     "season": "2026–27",
@@ -14835,10 +15168,19 @@
     "note": "Copyright status only. Logos remain trademarks of their owners; use does not imply endorsement."
    },
    "technical": {
-    "status": "unverified"
+    "status": "verified",
+    "checked": "2026-10-19",
+    "format": "png",
+    "intrinsicSize": [
+     1280,
+     828
+    ],
+    "sha256": "c95ee6534b9bdb5acfc4ab550373619039419d26408c40dbce5a32b19c4aa05d",
+    "bytes": 86208,
+    "flags": []
    },
-   "notes": null,
-   "pendingDownload": true
+   "notes": "Master is Wikimedia's 1280 px PNG rendering of the original file, taken from the edge cache because original downloads were throttled. Replace with the original (re-run fetch.py) for full resolution.",
+   "masterIsThumbnail": 1280
   },
   "club.waterloo-black-hawks--current": {
    "id": "club.waterloo-black-hawks--current",
@@ -15345,7 +15687,7 @@
    },
    "season": "2026–27",
    "renderClass": "crest",
-   "master": null,
+   "master": "assets/branding/masters/clubs/zvezda-moskva.png",
    "localMaster": null,
    "outputs": {},
    "source": {
@@ -15355,7 +15697,7 @@
     "url": "https://upload.wikimedia.org/wikipedia/commons/0/0d/%D0%A5%D0%9A_%D0%97%D0%B2%D0%B5%D0%B7%D0%B4%D0%B0_%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0.png",
     "via": "infobox"
    },
-   "acquired": null,
+   "acquired": "2026-10-19",
    "identity": {
     "status": "verified_secondary",
     "season": "2026–27",
@@ -15372,8 +15714,8 @@
    "technical": {
     "status": "unverified"
    },
-   "notes": null,
-   "pendingDownload": true
+   "notes": "Master is Wikimedia's 1280 px PNG rendering of the original file, taken from the edge cache because original downloads were throttled. Replace with the original (re-run fetch.py) for full resolution.",
+   "masterIsThumbnail": 1280
   },
   "federation.aut--current": {
    "id": "federation.aut--current",
@@ -17667,6 +18009,61 @@
    },
    "notes": null
   },
+  "league.ahl--older": {
+   "id": "league.ahl--older",
+   "name": "American Hockey League (alternate)",
+   "type": "league",
+   "entity": "league:ahl",
+   "related": {
+    "country": "USA"
+   },
+   "season": null,
+   "renderClass": "symbol",
+   "master": "assets/branding/masters/leagues/ahl.png",
+   "localMaster": null,
+   "outputs": {
+    "128": "assets/branding/generated/league/ahl--older-128.png",
+    "256": "assets/branding/generated/league/ahl--older-256.png",
+    "512": "assets/branding/generated/league/ahl--older-512.png",
+    "1024": "assets/branding/generated/league/ahl--older-1024.png"
+   },
+   "source": {
+    "kind": "wikimedia-commons",
+    "file": "Iowa Wild logo.svg",
+    "page": "https://commons.wikimedia.org/wiki/File%3AIowa_Wild_logo.svg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Iowa_Wild_logo.svg",
+    "via": "commons-name"
+   },
+   "acquired": "2026-10-19",
+   "identity": {
+    "status": "not_current",
+    "season": null,
+    "score": 0.527,
+    "basis": "Free Commons file differs from the current infobox logo (AmericanHockeyLeaguelogo.svg); probably an earlier identity"
+   },
+   "rights": {
+    "status": "public_domain",
+    "basis": "Wikimedia Commons tag {{PD-textlogo}}",
+    "trademark": true,
+    "author": "Iowa Wild",
+    "publish": true,
+    "note": "Copyright status only. Logos remain trademarks of their owners; use does not imply endorsement."
+   },
+   "technical": {
+    "status": "verified",
+    "checked": "2026-10-19",
+    "format": "png",
+    "intrinsicSize": [
+     960,
+     894
+    ],
+    "sha256": "5c7a95730c2f506e7fb2ec40e90aca174acca1a98ada84f01333f23c28c4c34c",
+    "bytes": 117213,
+    "flags": []
+   },
+   "notes": "Master is Wikimedia's 960 px PNG rendering of the original file, taken from the edge cache because original downloads were throttled. Replace with the original (re-run fetch.py) for full resolution.",
+   "masterIsThumbnail": 960
+  },
   "league.allsvenskan--current": {
    "id": "league.allsvenskan--current",
    "name": "HockeyAllsvenskan",
@@ -17788,7 +18185,7 @@
    },
    "season": "2026–27",
    "renderClass": "symbol",
-   "master": null,
+   "master": "assets/branding/masters/leagues/champions.png",
    "localMaster": null,
    "outputs": {},
    "source": {
@@ -17798,7 +18195,7 @@
     "url": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Champions_Hockey_League_logo_%282%29.svg",
     "via": "infobox"
    },
-   "acquired": null,
+   "acquired": "2026-10-19",
    "identity": {
     "status": "verified_secondary",
     "season": "2026–27",
@@ -17815,8 +18212,8 @@
    "technical": {
     "status": "unverified"
    },
-   "notes": null,
-   "pendingDownload": true
+   "notes": "Master is Wikimedia's 500 px PNG rendering of the original file, taken from the edge cache because original downloads were throttled. Replace with the original (re-run fetch.py) for full resolution.",
+   "masterIsThumbnail": 500
   },
   "league.czech-extraliga--current": {
    "id": "league.czech-extraliga--current",
@@ -17865,7 +18262,7 @@
    },
    "season": "2026–27",
    "renderClass": "symbol",
-   "master": null,
+   "master": "assets/branding/masters/leagues/del.png",
    "localMaster": null,
    "outputs": {},
    "source": {
@@ -17875,7 +18272,7 @@
     "url": "https://upload.wikimedia.org/wikipedia/commons/5/57/PENNY_DEL_Logo.svg",
     "via": "infobox"
    },
-   "acquired": null,
+   "acquired": "2026-10-19",
    "identity": {
     "status": "verified_secondary",
     "season": "2026–27",
@@ -17892,8 +18289,8 @@
    "technical": {
     "status": "unverified"
    },
-   "notes": null,
-   "pendingDownload": true
+   "notes": "Master is Wikimedia's 330 px PNG rendering of the original file, taken from the edge cache because original downloads were throttled. Replace with the original (re-run fetch.py) for full resolution.",
+   "masterIsThumbnail": 330
   },
   "league.del2--current": {
    "id": "league.del2--current",
@@ -17979,7 +18376,7 @@
    },
    "season": "2026–27",
    "renderClass": "symbol",
-   "master": null,
+   "master": "assets/branding/masters/leagues/eihl.png",
    "localMaster": null,
    "outputs": {},
    "source": {
@@ -17989,7 +18386,7 @@
     "url": "https://upload.wikimedia.org/wikipedia/commons/0/08/Motorpoint_Elite_League_Logo.svg",
     "via": "infobox"
    },
-   "acquired": null,
+   "acquired": "2026-10-19",
    "identity": {
     "status": "verified_secondary",
     "season": "2026–27",
@@ -18006,8 +18403,8 @@
    "technical": {
     "status": "unverified"
    },
-   "notes": null,
-   "pendingDownload": true
+   "notes": "Master is Wikimedia's 1280 px PNG rendering of the original file, taken from the edge cache because original downloads were throttled. Replace with the original (re-run fetch.py) for full resolution.",
+   "masterIsThumbnail": 1280
   },
   "league.icehl--current": {
    "id": "league.icehl--current",
@@ -18045,6 +18442,61 @@
     "status": "unverified"
    },
    "notes": null
+  },
+  "league.icehl--older": {
+   "id": "league.icehl--older",
+   "name": "ICE Hockey League (alternate)",
+   "type": "league",
+   "entity": "league:icehl",
+   "related": {
+    "country": "AUT"
+   },
+   "season": null,
+   "renderClass": "symbol",
+   "master": "assets/branding/masters/leagues/icehl.png",
+   "localMaster": null,
+   "outputs": {
+    "128": "assets/branding/generated/league/icehl--older-128.png",
+    "256": "assets/branding/generated/league/icehl--older-256.png",
+    "512": "assets/branding/generated/league/icehl--older-512.png",
+    "1024": "assets/branding/generated/league/icehl--older-1024.png"
+   },
+   "source": {
+    "kind": "wikimedia-commons",
+    "file": "Toronto Arenas Logo.svg",
+    "page": "https://commons.wikimedia.org/wiki/File%3AToronto_Arenas_Logo.svg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/77/Toronto_Arenas_Logo.svg",
+    "via": "commons-name"
+   },
+   "acquired": "2026-10-19",
+   "identity": {
+    "status": "not_current",
+    "season": null,
+    "score": 0.42,
+    "basis": "Free Commons file differs from the current infobox logo (ICE Hockey League logo.png); probably an earlier identity"
+   },
+   "rights": {
+    "status": "public_domain",
+    "basis": "Wikimedia Commons tag {{PD-textlogo}}",
+    "trademark": null,
+    "author": "Connormah",
+    "publish": true,
+    "note": "Copyright status only. Logos remain trademarks of their owners; use does not imply endorsement."
+   },
+   "technical": {
+    "status": "verified",
+    "checked": "2026-10-19",
+    "format": "png",
+    "intrinsicSize": [
+     960,
+     1047
+    ],
+    "sha256": "14cc4ac54bb208509508a33fce4f519a8317abd03661fff2e2b1ad279d7ac818",
+    "bytes": 9951,
+    "flags": []
+   },
+   "notes": "Master is Wikimedia's 960 px PNG rendering of the original file, taken from the edge cache because original downloads were throttled. Replace with the original (re-run fetch.py) for full resolution.",
+   "masterIsThumbnail": 960
   },
   "league.kazakhstan--current": {
    "id": "league.kazakhstan--current",
@@ -18157,6 +18609,61 @@
    },
    "notes": null
   },
+  "league.liiga--older": {
+   "id": "league.liiga--older",
+   "name": "Liiga (alternate)",
+   "type": "league",
+   "entity": "league:liiga",
+   "related": {
+    "country": "FIN"
+   },
+   "season": null,
+   "renderClass": "symbol",
+   "master": "assets/branding/masters/leagues/liiga.png",
+   "localMaster": null,
+   "outputs": {
+    "128": "assets/branding/generated/league/liiga--older-128.png",
+    "256": "assets/branding/generated/league/liiga--older-256.png",
+    "512": "assets/branding/generated/league/liiga--older-512.png",
+    "1024": "assets/branding/generated/league/liiga--older-1024.png"
+   },
+   "source": {
+    "kind": "wikimedia-commons",
+    "file": "Auroraliiga logo 2024.png",
+    "page": "https://commons.wikimedia.org/wiki/File%3AAuroraliiga_logo_2024.png",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Auroraliiga_logo_2024.png",
+    "via": "commons-name"
+   },
+   "acquired": "2026-10-19",
+   "identity": {
+    "status": "not_current",
+    "season": null,
+    "score": 0.324,
+    "basis": "Free Commons file differs from the current infobox logo (Liiga logo.svg); probably an earlier identity"
+   },
+   "rights": {
+    "status": "public_domain",
+    "basis": "Wikimedia Commons tag {{PD-textlogo}}",
+    "trademark": true,
+    "author": "",
+    "publish": true,
+    "note": "Copyright status only. Logos remain trademarks of their owners; use does not imply endorsement."
+   },
+   "technical": {
+    "status": "verified",
+    "checked": "2026-10-19",
+    "format": "png",
+    "intrinsicSize": [
+     960,
+     359
+    ],
+    "sha256": "87e711fa3ae96133e0f271b0a579a010877d5592f92eba78f6459bedcde939b4",
+    "bytes": 43841,
+    "flags": []
+   },
+   "notes": "Master is Wikimedia's 960 px PNG rendering of the original file, taken from the edge cache because original downloads were throttled. Replace with the original (re-run fetch.py) for full resolution.",
+   "masterIsThumbnail": 960
+  },
   "league.mestis--current": {
    "id": "league.mestis--current",
    "name": "Mestis",
@@ -18231,6 +18738,47 @@
    },
    "notes": null
   },
+  "league.mhl--older": {
+   "id": "league.mhl--older",
+   "name": "Junior Hockey League (Russia) (alternate)",
+   "type": "league",
+   "entity": "league:mhl",
+   "related": {
+    "country": "RUS"
+   },
+   "season": null,
+   "renderClass": "symbol",
+   "master": "assets/branding/masters/leagues/mhl.png",
+   "localMaster": null,
+   "outputs": {},
+   "source": {
+    "kind": "wikimedia-commons",
+    "file": "Logo SKA 2015.svg",
+    "page": "https://commons.wikimedia.org/wiki/File%3ALogo_SKA_2015.svg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Logo_SKA_2015.svg",
+    "via": "commons-name"
+   },
+   "acquired": "2026-10-19",
+   "identity": {
+    "status": "not_current",
+    "season": null,
+    "score": 0.66,
+    "basis": "Free Commons file differs from the current infobox logo (Junior Hockey League (Russia) logo.png); probably an earlier identity"
+   },
+   "rights": {
+    "status": "public_domain",
+    "basis": "Wikimedia Commons tag {{PD-textlogo}}",
+    "trademark": null,
+    "author": "ХК СКА",
+    "publish": true,
+    "note": "Copyright status only. Logos remain trademarks of their owners; use does not imply endorsement."
+   },
+   "technical": {
+    "status": "unverified"
+   },
+   "notes": "Master is Wikimedia's 250 px PNG rendering of the original file, taken from the edge cache because original downloads were throttled. Replace with the original (re-run fetch.py) for full resolution.",
+   "masterIsThumbnail": 250
+  },
   "league.nhl--current": {
    "id": "league.nhl--current",
    "name": "National Hockey League",
@@ -18267,6 +18815,61 @@
     "status": "unverified"
    },
    "notes": null
+  },
+  "league.nhl--older": {
+   "id": "league.nhl--older",
+   "name": "National Hockey League (alternate)",
+   "type": "league",
+   "entity": "league:nhl",
+   "related": {
+    "country": "USA"
+   },
+   "season": null,
+   "renderClass": "symbol",
+   "master": "assets/branding/masters/leagues/nhl.png",
+   "localMaster": null,
+   "outputs": {
+    "128": "assets/branding/generated/league/nhl--older-128.png",
+    "256": "assets/branding/generated/league/nhl--older-256.png",
+    "512": "assets/branding/generated/league/nhl--older-512.png",
+    "1024": "assets/branding/generated/league/nhl--older-1024.png"
+   },
+   "source": {
+    "kind": "wikimedia-commons",
+    "file": "NHL Logo former.svg",
+    "page": "https://commons.wikimedia.org/wiki/File%3ANHL_Logo_former.svg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/e4/NHL_Logo_former.svg",
+    "via": "commons-name"
+   },
+   "acquired": "2026-10-19",
+   "identity": {
+    "status": "not_current",
+    "season": null,
+    "score": 0.604,
+    "basis": "Free Commons file differs from the current infobox logo (05 NHL Shield.svg); probably an earlier identity"
+   },
+   "rights": {
+    "status": "public_domain",
+    "basis": "Wikimedia Commons tag {{PD-US}}",
+    "trademark": null,
+    "author": "{{unknown|author}}",
+    "publish": true,
+    "note": "Copyright status only. Logos remain trademarks of their owners; use does not imply endorsement."
+   },
+   "technical": {
+    "status": "verified",
+    "checked": "2026-10-19",
+    "format": "png",
+    "intrinsicSize": [
+     1280,
+     1319
+    ],
+    "sha256": "ff2d4044625a1e36dd79996cf6c2e12a269f6b713010de7671e8f15429b3d63e",
+    "bytes": 126076,
+    "flags": []
+   },
+   "notes": "Master is Wikimedia's 1280 px PNG rendering of the original file, taken from the edge cache because original downloads were throttled. Replace with the original (re-run fetch.py) for full resolution.",
+   "masterIsThumbnail": 1280
   },
   "league.nl--current": {
    "id": "league.nl--current",
@@ -18305,6 +18908,47 @@
    },
    "notes": null
   },
+  "league.nl--older": {
+   "id": "league.nl--older",
+   "name": "National League (ice hockey) (alternate)",
+   "type": "league",
+   "entity": "league:nl",
+   "related": {
+    "country": "CHE"
+   },
+   "season": null,
+   "renderClass": "symbol",
+   "master": "assets/branding/masters/leagues/nl.png",
+   "localMaster": null,
+   "outputs": {},
+   "source": {
+    "kind": "wikimedia-commons",
+    "file": "Tampa Bay Lightning 2011.svg",
+    "page": "https://commons.wikimedia.org/wiki/File%3ATampa_Bay_Lightning_2011.svg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/31/Tampa_Bay_Lightning_2011.svg",
+    "via": "commons-name"
+   },
+   "acquired": "2026-10-19",
+   "identity": {
+    "status": "not_current",
+    "season": null,
+    "score": 0.422,
+    "basis": "Free Commons file differs from the current infobox logo (National League.png); probably an earlier identity"
+   },
+   "rights": {
+    "status": "public_domain",
+    "basis": "Wikimedia Commons tag {{PD-textlogo}}",
+    "trademark": true,
+    "author": "{{unknown|author}}",
+    "publish": true,
+    "note": "Copyright status only. Logos remain trademarks of their owners; use does not imply endorsement."
+   },
+   "technical": {
+    "status": "unverified"
+   },
+   "notes": "Master is Wikimedia's 1280 px PNG rendering of the original file, taken from the edge cache because original downloads were throttled. Replace with the original (re-run fetch.py) for full resolution.",
+   "masterIsThumbnail": 1280
+  },
   "league.ohl": {
    "id": "league.ohl",
    "name": "Ontario Hockey League",
@@ -18315,7 +18959,7 @@
    },
    "season": "2026–27",
    "renderClass": "symbol",
-   "master": null,
+   "master": "assets/branding/masters/leagues/ohl.png",
    "localMaster": null,
    "outputs": {},
    "source": {
@@ -18325,7 +18969,7 @@
     "url": "https://upload.wikimedia.org/wikipedia/commons/2/2a/OHL_Logo.png",
     "via": "infobox"
    },
-   "acquired": null,
+   "acquired": "2026-10-19",
    "identity": {
     "status": "verified_secondary",
     "season": "2026–27",
@@ -18342,8 +18986,8 @@
    "technical": {
     "status": "unverified"
    },
-   "notes": null,
-   "pendingDownload": true
+   "notes": "Master is Wikimedia's 960 px PNG rendering of the original file, taken from the edge cache because original downloads were throttled. Replace with the original (re-run fetch.py) for full resolution.",
+   "masterIsThumbnail": 960
   },
   "league.qmjhl--current": {
    "id": "league.qmjhl--current",
@@ -18382,6 +19026,47 @@
    },
    "notes": null
   },
+  "league.qmjhl--older": {
+   "id": "league.qmjhl--older",
+   "name": "Quebec Maritimes Junior Hockey League (alternate)",
+   "type": "league",
+   "entity": "league:qmjhl",
+   "related": {
+    "country": "CAN"
+   },
+   "season": null,
+   "renderClass": "symbol",
+   "master": "assets/branding/masters/leagues/qmjhl.png",
+   "localMaster": null,
+   "outputs": {},
+   "source": {
+    "kind": "wikimedia-commons",
+    "file": "NordiquesdeQuebecwordmark.png",
+    "page": "https://commons.wikimedia.org/wiki/File%3ANordiquesdeQuebecwordmark.png",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/88/NordiquesdeQuebecwordmark.png",
+    "via": "commons-name"
+   },
+   "acquired": "2026-10-19",
+   "identity": {
+    "status": "not_current",
+    "season": null,
+    "score": 0.376,
+    "basis": "Free Commons file differs from the current infobox logo (Quebec Major Junior Hockey League.svg); probably an earlier identity"
+   },
+   "rights": {
+    "status": "public_domain",
+    "basis": "Wikimedia Commons tag {{PD-textlogo}}",
+    "trademark": null,
+    "author": "{{unknown|author}}",
+    "publish": true,
+    "note": "Copyright status only. Logos remain trademarks of their owners; use does not imply endorsement."
+   },
+   "technical": {
+    "status": "unverified"
+   },
+   "notes": "Master is Wikimedia's 1280 px PNG rendering of the original file, taken from the edge cache because original downloads were throttled. Replace with the original (re-run fetch.py) for full resolution.",
+   "masterIsThumbnail": 1280
+  },
   "league.shl": {
    "id": "league.shl",
    "name": "Swedish Hockey League",
@@ -18392,7 +19077,7 @@
    },
    "season": "2026–27",
    "renderClass": "symbol",
-   "master": null,
+   "master": "assets/branding/masters/leagues/shl.png",
    "localMaster": null,
    "outputs": {},
    "source": {
@@ -18402,7 +19087,7 @@
     "url": "https://upload.wikimedia.org/wikipedia/commons/9/98/Swedish_Hockey_League_logo.svg",
     "via": "infobox"
    },
-   "acquired": null,
+   "acquired": "2026-10-19",
    "identity": {
     "status": "verified_secondary",
     "season": "2026–27",
@@ -18419,8 +19104,49 @@
    "technical": {
     "status": "unverified"
    },
-   "notes": null,
-   "pendingDownload": true
+   "notes": "Master is Wikimedia's 1280 px PNG rendering of the original file, taken from the edge cache because original downloads were throttled. Replace with the original (re-run fetch.py) for full resolution.",
+   "masterIsThumbnail": 1280
+  },
+  "league.slovak-extraliga": {
+   "id": "league.slovak-extraliga",
+   "name": "Slovak Extraliga",
+   "type": "league",
+   "entity": "league:slovak-extraliga",
+   "related": {
+    "country": "SVK"
+   },
+   "season": "2026–27",
+   "renderClass": "symbol",
+   "master": "assets/branding/masters/leagues/slovak-extraliga.png",
+   "localMaster": null,
+   "outputs": {},
+   "source": {
+    "kind": "wikimedia-commons",
+    "file": "Tipsport liga logo 2025.png",
+    "page": "https://commons.wikimedia.org/wiki/File%3ATipsport_liga_logo_2025.png",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Tipsport_liga_logo_2025.png",
+    "via": "commons-match"
+   },
+   "acquired": "2026-10-19",
+   "identity": {
+    "status": "verified_visual",
+    "season": "2026–27",
+    "score": 0.999,
+    "basis": "Free Commons file visually matches the current infobox logo (Slovak Extraliga logo.png), score 0.999"
+   },
+   "rights": {
+    "status": "public_domain",
+    "basis": "Wikimedia Commons tag {{PD-textlogo}}",
+    "trademark": true,
+    "author": "{{Unknown|author}}",
+    "publish": true,
+    "note": "Copyright status only. Logos remain trademarks of their owners; use does not imply endorsement."
+   },
+   "technical": {
+    "status": "unverified"
+   },
+   "notes": "Master is Wikimedia's 960 px PNG rendering of the original file, taken from the edge cache because original downloads were throttled. Replace with the original (re-run fetch.py) for full resolution.",
+   "masterIsThumbnail": 960
   },
   "league.slovak-extraliga--current": {
    "id": "league.slovak-extraliga--current",
@@ -18532,6 +19258,70 @@
     "status": "unverified"
    },
    "notes": null
+  },
+  "league.ushl--older": {
+   "id": "league.ushl--older",
+   "name": "United States Hockey League (alternate)",
+   "type": "league",
+   "entity": "league:ushl",
+   "related": {
+    "country": "USA"
+   },
+   "season": null,
+   "renderClass": "symbol",
+   "master": "assets/branding/masters/leagues/ushl.png",
+   "localMaster": null,
+   "outputs": {
+    "128": "assets/branding/generated/league/ushl--older-128.png",
+    "256": "assets/branding/generated/league/ushl--older-256.png",
+    "512": "assets/branding/generated/league/ushl--older-512.png",
+    "1024": "assets/branding/generated/league/ushl--older-1024.png"
+   },
+   "source": {
+    "kind": "wikimedia-commons",
+    "file": "Toronto Arenas Logo.svg",
+    "page": "https://commons.wikimedia.org/wiki/File%3AToronto_Arenas_Logo.svg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/77/Toronto_Arenas_Logo.svg",
+    "via": "commons-name"
+   },
+   "acquired": "2026-10-19",
+   "identity": {
+    "status": "not_current",
+    "season": null,
+    "score": 0.413,
+    "basis": "Free Commons file differs from the current infobox logo (United States Hockey League logo.svg); probably an earlier identity"
+   },
+   "rights": {
+    "status": "public_domain",
+    "basis": "Wikimedia Commons tag {{PD-textlogo}}",
+    "trademark": null,
+    "author": "Connormah",
+    "publish": true,
+    "note": "Copyright status only. Logos remain trademarks of their owners; use does not imply endorsement."
+   },
+   "technical": {
+    "status": "flagged",
+    "checked": "2026-10-19",
+    "format": "png",
+    "intrinsicSize": [
+     960,
+     1047
+    ],
+    "sha256": "14cc4ac54bb208509508a33fce4f519a8317abd03661fff2e2b1ad279d7ac818",
+    "bytes": 9951,
+    "flags": [
+     {
+      "code": "probable-duplicate",
+      "detail": "same file as league.icehl--older"
+     },
+     {
+      "code": "probable-duplicate",
+      "detail": "looks like league.icehl--older"
+     }
+    ]
+   },
+   "notes": "Master is Wikimedia's 960 px PNG rendering of the original file, taken from the edge cache because original downloads were throttled. Replace with the original (re-run fetch.py) for full resolution.",
+   "masterIsThumbnail": 960
   },
   "league.vhl--current": {
    "id": "league.vhl--current",
@@ -19746,82 +20536,6 @@
    },
    "notes": null
   },
-  "tournament.memorial-cup": {
-   "id": "tournament.memorial-cup",
-   "name": "Memorial Cup",
-   "type": "tournament",
-   "entity": "tournament:memorial-cup",
-   "related": {},
-   "season": null,
-   "renderClass": "tournament",
-   "master": null,
-   "localMaster": null,
-   "outputs": {},
-   "source": {
-    "kind": "wikimedia-commons",
-    "file": "Memorial Cup at the 2015 championship.jpg",
-    "page": "https://commons.wikimedia.org/wiki/File%3AMemorial_Cup_at_the_2015_championship.jpg",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/8/86/Memorial_Cup_at_the_2015_championship.jpg",
-    "via": "infobox"
-   },
-   "acquired": null,
-   "identity": {
-    "status": "verified_secondary",
-    "season": null,
-    "basis": "File shown in the infobox of https://en.wikipedia.org/wiki/Memorial_Cup on 2026-10-19"
-   },
-   "rights": {
-    "status": "licensed",
-    "basis": "Wikimedia Commons licence cc-by-sa-4.0 (attribution required)",
-    "trademark": null,
-    "author": "Flibirigit",
-    "publish": true,
-    "note": "Copyright status only. Logos remain trademarks of their owners; use does not imply endorsement."
-   },
-   "technical": {
-    "status": "unverified"
-   },
-   "notes": null,
-   "pendingDownload": true
-  },
-  "tournament.olympics-hockey": {
-   "id": "tournament.olympics-hockey",
-   "name": "Ice hockey at the Olympic Games",
-   "type": "tournament",
-   "entity": "tournament:olympics-hockey",
-   "related": {},
-   "season": null,
-   "renderClass": "tournament",
-   "master": null,
-   "localMaster": null,
-   "outputs": {},
-   "source": {
-    "kind": "wikimedia-commons",
-    "file": "Ice hockey pictogram.svg",
-    "page": "https://commons.wikimedia.org/wiki/File%3AIce_hockey_pictogram.svg",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Ice_hockey_pictogram.svg",
-    "via": "infobox"
-   },
-   "acquired": null,
-   "identity": {
-    "status": "verified_secondary",
-    "season": null,
-    "basis": "File shown in the infobox of https://en.wikipedia.org/wiki/Ice_hockey_at_the_Olympic_Games on 2026-10-19"
-   },
-   "rights": {
-    "status": "public_domain",
-    "basis": "Wikimedia Commons tag {{PD-user}}",
-    "trademark": null,
-    "author": "(SVG conversion) & {{U|Parutakupiu}} (original image)",
-    "publish": true,
-    "note": "Copyright status only. Logos remain trademarks of their owners; use does not imply endorsement."
-   },
-   "technical": {
-    "status": "unverified"
-   },
-   "notes": null,
-   "pendingDownload": true
-  },
   "tournament.spengler-cup--current": {
    "id": "tournament.spengler-cup--current",
    "name": "Spengler Cup",
@@ -20049,15 +20763,15 @@
    "name": "Almaz",
    "status": "restricted",
    "active": "club.almaz--current",
-   "alternates": [],
+   "alternates": [
+    "club.almaz--older"
+   ],
    "article": "https://ru.wikipedia.org/wiki/%D0%90%D0%BB%D0%BC%D0%B0%D0%B7_%28%D1%85%D0%BE%D0%BA%D0%BA%D0%B5%D0%B9%D0%BD%D1%8B%D0%B9_%D0%BA%D0%BB%D1%83%D0%B1%29",
    "related": {
     "league": "mhl",
     "country": "RUS"
    },
-   "pending": [
-    "reference preview"
-   ]
+   "pending": null
   },
   "club:almtuna-is": {
    "type": "club",
@@ -20363,17 +21077,15 @@
    "type": "club",
    "id": "bk-mlada-boleslav",
    "name": "BK Mladá Boleslav",
-   "status": "pending",
-   "active": "club.bk-mlada-boleslav",
+   "status": "restricted",
+   "active": "club.bk-mlada-boleslav--current",
    "alternates": [],
-   "article": "https://cs.wikipedia.org/wiki/BK_Mlad%C3%A1_Boleslav",
+   "article": "https://en.wikipedia.org/wiki/BK_Mlad%C3%A1_Boleslav",
    "related": {
     "league": "czech-extraliga",
     "country": "CZE"
    },
-   "pending": [
-    "Škoenergo Arena, Interiér 001.jpg"
-   ]
+   "pending": null
   },
   "club:blainville-boisbriand-armada": {
    "type": "club",
@@ -20407,7 +21119,7 @@
    "type": "club",
    "id": "boston-bruins",
    "name": "Boston Bruins",
-   "status": "pending",
+   "status": "public",
    "active": "club.boston-bruins",
    "alternates": [],
    "article": "https://en.wikipedia.org/wiki/Boston_Bruins",
@@ -20415,9 +21127,7 @@
     "league": "nhl",
     "country": "USA"
    },
-   "pending": [
-    "Boston Bruins 100th anniversary logo.svg"
-   ]
+   "pending": null
   },
   "club:boxers-de-bordeaux": {
    "type": "club",
@@ -20479,17 +21189,15 @@
    "type": "club",
    "id": "brynas-if",
    "name": "Brynäs IF",
-   "status": "pending",
-   "active": "club.brynas-if",
+   "status": "restricted",
+   "active": "club.brynas-if--current",
    "alternates": [],
-   "article": "https://sv.wikipedia.org/wiki/Bryn%C3%A4s_IF",
+   "article": "https://en.wikipedia.org/wiki/Bryn%C3%A4s_IF",
    "related": {
     "league": "shl",
     "country": "SWE"
    },
-   "pending": [
-    "Brynäs - Färjestad 15.jpg"
-   ]
+   "pending": null
   },
   "club:buffalo-sabres": {
    "type": "club",
@@ -20653,7 +21361,7 @@
    "type": "club",
    "id": "chayka",
    "name": "Chayka",
-   "status": "pending",
+   "status": "public",
    "active": "club.chayka",
    "alternates": [],
    "article": "https://ru.wikipedia.org/wiki/%D0%A7%D0%B0%D0%B9%D0%BA%D0%B0_%28%D1%85%D0%BE%D0%BA%D0%BA%D0%B5%D0%B9%D0%BD%D1%8B%D0%B9_%D0%BA%D0%BB%D1%83%D0%B1%29",
@@ -20661,15 +21369,13 @@
     "league": "mhl",
     "country": "RUS"
    },
-   "pending": [
-    "Чайка Лого.png"
-   ]
+   "pending": null
   },
   "club:chelmet": {
    "type": "club",
    "id": "chelmet",
    "name": "Chelmet",
-   "status": "pending",
+   "status": "public",
    "active": "club.chelmet",
    "alternates": [],
    "article": "https://ru.wikipedia.org/wiki/%D0%A7%D0%B5%D0%BB%D0%BC%D0%B5%D1%82",
@@ -20677,9 +21383,7 @@
     "league": "vhl",
     "country": "RUS"
    },
-   "pending": [
-    "Логотип хоккейного клуба «Челмет» Челябинск.png"
-   ]
+   "pending": null
   },
   "club:chicago-blackhawks": {
    "type": "club",
@@ -20861,17 +21565,17 @@
    "type": "club",
    "id": "detroit-red-wings",
    "name": "Detroit Red Wings",
-   "status": "restricted",
-   "active": "club.detroit-red-wings--current",
-   "alternates": [],
+   "status": "public",
+   "active": "club.detroit-red-wings",
+   "alternates": [
+    "club.detroit-red-wings--current"
+   ],
    "article": "https://en.wikipedia.org/wiki/Detroit_Red_Wings",
    "related": {
     "league": "nhl",
     "country": "USA"
    },
-   "pending": [
-    "reference preview"
-   ]
+   "pending": null
   },
   "club:dinamo-altay": {
    "type": "club",
@@ -20961,17 +21665,15 @@
    "type": "club",
    "id": "djurgarden-hockey",
    "name": "Djurgården Hockey",
-   "status": "pending",
-   "active": "club.djurgarden-hockey",
+   "status": "restricted",
+   "active": "club.djurgarden-hockey--current",
    "alternates": [],
-   "article": "https://sv.wikipedia.org/wiki/Djurg%C3%A5rden_Hockey",
+   "article": "https://en.wikipedia.org/wiki/Djurg%C3%A5rdens_IF_%28men%27s_ice_hockey%29",
    "related": {
     "league": "shl",
     "country": "SWE"
    },
-   "pending": [
-    "Djurgården-Färjestad 20190129 20.jpg"
-   ]
+   "pending": null
   },
   "club:dresdner-eislowen": {
    "type": "club",
@@ -21429,17 +22131,15 @@
    "type": "club",
    "id": "farjestad-bk",
    "name": "Färjestad BK",
-   "status": "pending",
-   "active": "club.farjestad-bk",
+   "status": "restricted",
+   "active": "club.farjestad-bk--current",
    "alternates": [],
-   "article": "https://sv.wikipedia.org/wiki/F%C3%A4rjestad_BK",
+   "article": "https://en.wikipedia.org/wiki/F%C3%A4rjestad_BK",
    "related": {
     "league": "shl",
     "country": "SWE"
    },
-   "pending": [
-    "2013-12-30 Magnus Nygren 01.jpg"
-   ]
+   "pending": null
   },
   "club:ferencvarosi-tc": {
    "type": "club",
@@ -21529,16 +22229,16 @@
    "type": "club",
    "id": "frolunda-hc",
    "name": "Frölunda HC",
-   "status": "pending",
-   "active": "club.frolunda-hc",
+   "status": "restricted",
+   "active": "club.frolunda-hc--current",
    "alternates": [],
-   "article": "https://sv.wikipedia.org/wiki/Fr%C3%B6lunda_HC",
+   "article": "https://en.wikipedia.org/wiki/Fr%C3%B6lunda_HC",
    "related": {
     "league": "shl",
     "country": "SWE"
    },
    "pending": [
-    "Fredrik Pettersson.jpg"
+    "reference preview"
    ]
   },
   "club:gatineau-olympiques": {
@@ -21807,15 +22507,15 @@
    "name": "HC Ässät Pori",
    "status": "restricted",
    "active": "club.hc-assat-pori--current",
-   "alternates": [],
+   "alternates": [
+    "club.hc-assat-pori--older"
+   ],
    "article": "https://en.wikipedia.org/wiki/HC_%C3%84ss%C3%A4t_Pori",
    "related": {
     "league": "liiga",
     "country": "FIN"
    },
-   "pending": [
-    "reference preview"
-   ]
+   "pending": null
   },
   "club:hc-bozen": {
    "type": "club",
@@ -21835,7 +22535,7 @@
    "type": "club",
    "id": "hc-cska-moscow",
    "name": "HC CSKA Moscow",
-   "status": "pending",
+   "status": "public",
    "active": "club.hc-cska-moscow",
    "alternates": [],
    "article": "https://en.wikipedia.org/wiki/HC_CSKA_Moscow",
@@ -21843,9 +22543,7 @@
     "league": "khl",
     "country": "RUS"
    },
-   "pending": [
-    "CSKA Moscow logo.svg"
-   ]
+   "pending": null
   },
   "club:hc-davos": {
    "type": "club",
@@ -21881,7 +22579,7 @@
    "type": "club",
    "id": "hc-dynamo-moscow",
    "name": "HC Dynamo Moscow",
-   "status": "pending",
+   "status": "public",
    "active": "club.hc-dynamo-moscow",
    "alternates": [],
    "article": "https://en.wikipedia.org/wiki/HC_Dynamo_Moscow",
@@ -21889,9 +22587,7 @@
     "league": "khl",
     "country": "RUS"
    },
-   "pending": [
-    "HC Dynamo Moscow Logo 2019.svg"
-   ]
+   "pending": null
   },
   "club:hc-dynamo-pardubice": {
    "type": "club",
@@ -21943,17 +22639,15 @@
    "type": "club",
    "id": "hc-kometa-brno",
    "name": "HC Kometa Brno",
-   "status": "pending",
-   "active": "club.hc-kometa-brno",
+   "status": "restricted",
+   "active": "club.hc-kometa-brno--current",
    "alternates": [],
-   "article": "https://cs.wikipedia.org/wiki/HC_Kometa_Brno",
+   "article": "https://en.wikipedia.org/wiki/HC_Kometa_Brno",
    "related": {
     "league": "czech-extraliga",
     "country": "CZE"
    },
-   "pending": [
-    "Rozloučení s Kometou 2011 (079).jpg"
-   ]
+   "pending": null
   },
   "club:hc-kosice": {
    "type": "club",
@@ -22187,17 +22881,17 @@
    "type": "club",
    "id": "hc-spartak-moscow",
    "name": "HC Spartak Moscow",
-   "status": "restricted",
-   "active": "club.hc-spartak-moscow--current",
-   "alternates": [],
+   "status": "public",
+   "active": "club.hc-spartak-moscow",
+   "alternates": [
+    "club.hc-spartak-moscow--current"
+   ],
    "article": "https://en.wikipedia.org/wiki/HC_Spartak_Moscow",
    "related": {
     "league": "khl",
     "country": "RUS"
    },
-   "pending": [
-    "reference preview"
-   ]
+   "pending": null
   },
   "club:hc-thurgau": {
    "type": "club",
@@ -22473,17 +23167,15 @@
    "type": "club",
    "id": "if-bjorkloven",
    "name": "IF Björklöven",
-   "status": "pending",
-   "active": "club.if-bjorkloven",
+   "status": "restricted",
+   "active": "club.if-bjorkloven--current",
    "alternates": [],
-   "article": "https://sv.wikipedia.org/wiki/IF_Bj%C3%B6rkl%C3%B6ven",
+   "article": "https://en.wikipedia.org/wiki/IF_Bj%C3%B6rkl%C3%B6ven",
    "related": {
     "league": "shl",
     "country": "SWE"
    },
-   "pending": [
-    "Björklöven 08.JPG"
-   ]
+   "pending": null
   },
   "club:if-bjorkloven-allsvenskan": {
    "type": "club",
@@ -22855,17 +23547,17 @@
    "type": "club",
    "id": "kiekko-espoo",
    "name": "Kiekko-Espoo",
-   "status": "restricted",
-   "active": "club.kiekko-espoo--current",
-   "alternates": [],
+   "status": "public",
+   "active": "club.kiekko-espoo",
+   "alternates": [
+    "club.kiekko-espoo--current"
+   ],
    "article": "https://en.wikipedia.org/wiki/Kiekko-Espoo",
    "related": {
     "league": "liiga",
     "country": "FIN"
    },
-   "pending": [
-    "reference preview"
-   ]
+   "pending": null
   },
   "club:kiekko-vantaa": {
    "type": "club",
@@ -22957,7 +23649,7 @@
    "type": "club",
    "id": "krasnaya-armiya",
    "name": "Krasnaya armiya",
-   "status": "pending",
+   "status": "public",
    "active": "club.krasnaya-armiya",
    "alternates": [],
    "article": "https://ru.wikipedia.org/wiki/%D0%9A%D1%80%D0%B0%D1%81%D0%BD%D0%B0%D1%8F_%D0%B0%D1%80%D0%BC%D0%B8%D1%8F_%28%D1%85%D0%BE%D0%BA%D0%BA%D0%B5%D0%B9%D0%BD%D1%8B%D0%B9_%D0%BA%D0%BB%D1%83%D0%B1%29",
@@ -22965,9 +23657,7 @@
     "league": "mhl",
     "country": "RUS"
    },
-   "pending": [
-    "RedArmyHockey.png"
-   ]
+   "pending": null
   },
   "club:krasnaya-mashina-atlant": {
    "type": "club",
@@ -23173,17 +23863,15 @@
    "type": "club",
    "id": "linkoping-hc",
    "name": "Linköping HC",
-   "status": "pending",
-   "active": "club.linkoping-hc",
+   "status": "restricted",
+   "active": "club.linkoping-hc--current",
    "alternates": [],
-   "article": "https://sv.wikipedia.org/wiki/Link%C3%B6ping_HC",
+   "article": "https://en.wikipedia.org/wiki/Link%C3%B6ping_HC",
    "related": {
     "league": "shl",
     "country": "SWE"
    },
-   "pending": [
-    "Jeff Taffe 2015.jpg"
-   ]
+   "pending": null
   },
   "club:loko": {
    "type": "club",
@@ -23287,17 +23975,15 @@
    "type": "club",
    "id": "lulea-hf",
    "name": "Luleå HF",
-   "status": "pending",
-   "active": "club.lulea-hf",
+   "status": "restricted",
+   "active": "club.lulea-hf--current",
    "alternates": [],
-   "article": "https://sv.wikipedia.org/wiki/Lule%C3%A5_HF",
+   "article": "https://en.wikipedia.org/wiki/Lule%C3%A5_HF",
    "related": {
     "league": "shl",
     "country": "SWE"
    },
-   "pending": [
-    "Luleå HF players 2013-01-17.jpg"
-   ]
+   "pending": null
   },
   "club:madison-capitols": {
    "type": "club",
@@ -23345,17 +24031,15 @@
    "type": "club",
    "id": "malmo-redhawks",
    "name": "Malmö Redhawks",
-   "status": "pending",
-   "active": "club.malmo-redhawks",
+   "status": "restricted",
+   "active": "club.malmo-redhawks--current",
    "alternates": [],
-   "article": "https://sv.wikipedia.org/wiki/Malm%C3%B6_Redhawks",
+   "article": "https://en.wikipedia.org/wiki/Malm%C3%B6_Redhawks",
    "related": {
     "league": "shl",
     "country": "SWE"
    },
-   "pending": [
-    "Malmö Arena interior.jpg"
-   ]
+   "pending": null
   },
   "club:mamonty-yugry": {
    "type": "club",
@@ -23529,7 +24213,7 @@
    "type": "club",
    "id": "montreal-canadiens",
    "name": "Montreal Canadiens",
-   "status": "pending",
+   "status": "public",
    "active": "club.montreal-canadiens",
    "alternates": [],
    "article": "https://en.wikipedia.org/wiki/Montreal_Canadiens",
@@ -23537,9 +24221,7 @@
     "league": "nhl",
     "country": "USA"
    },
-   "pending": [
-    "Montreal Canadiens.svg"
-   ]
+   "pending": null
   },
   "club:moose-jaw-warriors": {
    "type": "club",
@@ -23671,7 +24353,7 @@
    "type": "club",
    "id": "new-york-rangers",
    "name": "New York Rangers",
-   "status": "pending",
+   "status": "public",
    "active": "club.new-york-rangers",
    "alternates": [],
    "article": "https://en.wikipedia.org/wiki/New_York_Rangers",
@@ -23679,9 +24361,7 @@
     "league": "nhl",
     "country": "USA"
    },
-   "pending": [
-    "New York Rangers.svg"
-   ]
+   "pending": null
   },
   "club:newfoundland-regiment": {
    "type": "club",
@@ -23947,15 +24627,15 @@
    "name": "Ottawa Senators",
    "status": "restricted",
    "active": "club.ottawa-senators--current",
-   "alternates": [],
+   "alternates": [
+    "club.ottawa-senators--older"
+   ],
    "article": "https://en.wikipedia.org/wiki/Ottawa_Senators",
    "related": {
     "league": "nhl",
     "country": "USA"
    },
-   "pending": [
-    "reference preview"
-   ]
+   "pending": null
   },
   "club:oulun-karpat": {
    "type": "club",
@@ -24593,23 +25273,23 @@
    "type": "club",
    "id": "severstal-cherepovets",
    "name": "Severstal Cherepovets",
-   "status": "restricted",
-   "active": "club.severstal-cherepovets--current",
-   "alternates": [],
+   "status": "public",
+   "active": "club.severstal-cherepovets",
+   "alternates": [
+    "club.severstal-cherepovets--current"
+   ],
    "article": "https://en.wikipedia.org/wiki/Severstal_Cherepovets",
    "related": {
     "league": "khl",
     "country": "RUS"
    },
-   "pending": [
-    "reference preview"
-   ]
+   "pending": null
   },
   "club:shanghai-dragons": {
    "type": "club",
    "id": "shanghai-dragons",
    "name": "Shanghai Dragons",
-   "status": "pending",
+   "status": "public",
    "active": "club.shanghai-dragons",
    "alternates": [],
    "article": "https://en.wikipedia.org/wiki/Shanghai_Dragons",
@@ -24617,9 +25297,7 @@
     "league": "khl",
     "country": "CHN"
    },
-   "pending": [
-    "Shanghai Dragons logo.jpg"
-   ]
+   "pending": null
   },
   "club:shawinigan-cataractes": {
    "type": "club",
@@ -24718,7 +25396,7 @@
     "country": "RUS"
    },
    "pending": [
-    "reference preview"
+    "Ska logo.png"
    ]
   },
   "club:ska-vmf": {
@@ -24739,17 +25417,15 @@
    "type": "club",
    "id": "skelleftea-aik",
    "name": "Skellefteå AIK",
-   "status": "pending",
-   "active": "club.skelleftea-aik",
+   "status": "restricted",
+   "active": "club.skelleftea-aik--current",
    "alternates": [],
-   "article": "https://sv.wikipedia.org/wiki/Skellefte%C3%A5_AIK",
+   "article": "https://en.wikipedia.org/wiki/Skellefte%C3%A5_AIK",
    "related": {
     "league": "shl",
     "country": "SWE"
    },
-   "pending": [
-    "SAIK - Markus Svensson.jpg"
-   ]
+   "pending": null
   },
   "club:snezhnye-barsy": {
    "type": "club",
@@ -24811,17 +25487,17 @@
    "type": "club",
    "id": "spartak",
    "name": "Spartak",
-   "status": "restricted",
-   "active": "club.spartak--current",
-   "alternates": [],
+   "status": "public",
+   "active": "club.spartak",
+   "alternates": [
+    "club.spartak--current"
+   ],
    "article": "https://ru.wikipedia.org/wiki/%D0%A1%D0%BF%D0%B0%D1%80%D1%82%D0%B0%D0%BA_%28%D0%BC%D0%BE%D0%BB%D0%BE%D0%B4%D1%91%D0%B6%D0%BD%D1%8B%D0%B9_%D1%85%D0%BE%D0%BA%D0%BA%D0%B5%D0%B9%D0%BD%D1%8B%D0%B9_%D0%BA%D0%BB%D1%83%D0%B1%29",
    "related": {
     "league": "mhl",
     "country": "RUS"
    },
-   "pending": [
-    "reference preview"
-   ]
+   "pending": null
   },
   "club:spartak-makh": {
    "type": "club",
@@ -25025,7 +25701,7 @@
    "type": "club",
    "id": "tampa-bay-lightning",
    "name": "Tampa Bay Lightning",
-   "status": "pending",
+   "status": "public",
    "active": "club.tampa-bay-lightning",
    "alternates": [],
    "article": "https://en.wikipedia.org/wiki/Tampa_Bay_Lightning",
@@ -25033,9 +25709,7 @@
     "league": "nhl",
     "country": "USA"
    },
-   "pending": [
-    "Tampa Bay Lightning 2011.svg"
-   ]
+   "pending": null
   },
   "club:tappara": {
    "type": "club",
@@ -25138,7 +25812,7 @@
     "country": "USA"
    },
    "pending": [
-    "reference preview"
+    "Toronto Maple Leafs wordmark 2016.png"
    ]
   },
   "club:toronto-marlies": {
@@ -25427,17 +26101,15 @@
    "type": "club",
    "id": "vaxjo-lakers-hc",
    "name": "Växjö Lakers HC",
-   "status": "pending",
-   "active": "club.vaxjo-lakers-hc",
+   "status": "restricted",
+   "active": "club.vaxjo-lakers-hc--current",
    "alternates": [],
-   "article": "https://sv.wikipedia.org/wiki/V%C3%A4xj%C3%B6_Lakers_HC",
+   "article": "https://en.wikipedia.org/wiki/V%C3%A4xj%C3%B6_Lakers",
    "related": {
     "league": "shl",
     "country": "SWE"
    },
-   "pending": [
-    "Sm guld 2015.jpg"
-   ]
+   "pending": null
   },
   "club:vegas-golden-knights": {
    "type": "club",
@@ -25529,7 +26201,7 @@
    "type": "club",
    "id": "washington-capitals",
    "name": "Washington Capitals",
-   "status": "pending",
+   "status": "public",
    "active": "club.washington-capitals",
    "alternates": [],
    "article": "https://en.wikipedia.org/wiki/Washington_Capitals",
@@ -25537,9 +26209,7 @@
     "league": "nhl",
     "country": "USA"
    },
-   "pending": [
-    "Washington Capitals.svg"
-   ]
+   "pending": null
   },
   "club:waterloo-black-hawks": {
    "type": "club",
@@ -25731,7 +26401,7 @@
    "type": "club",
    "id": "zvezda-moskva",
    "name": "Zvezda Moskva",
-   "status": "pending",
+   "status": "public",
    "active": "club.zvezda-moskva",
    "alternates": [],
    "article": "https://ru.wikipedia.org/wiki/%D0%97%D0%B2%D0%B5%D0%B7%D0%B4%D0%B0_%28%D1%85%D0%BE%D0%BA%D0%BA%D0%B5%D0%B9%D0%BD%D1%8B%D0%B9_%D0%BA%D0%BB%D1%83%D0%B1%2C_%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0%29",
@@ -25739,9 +26409,7 @@
     "league": "vhl",
     "country": "RUS"
    },
-   "pending": [
-    "ХК Звезда Москва.png"
-   ]
+   "pending": null
   },
   "federation:aut": {
    "type": "federation",
@@ -26396,14 +27064,14 @@
    "name": "American Hockey League",
    "status": "restricted",
    "active": "league.ahl--current",
-   "alternates": [],
+   "alternates": [
+    "league.ahl--older"
+   ],
    "article": "https://en.wikipedia.org/wiki/American_Hockey_League",
    "related": {
     "country": "USA"
    },
-   "pending": [
-    "reference preview"
-   ]
+   "pending": null
   },
   "league:allsvenskan": {
    "type": "league",
@@ -26448,16 +27116,14 @@
    "type": "league",
    "id": "champions",
    "name": "Champions Hockey League",
-   "status": "pending",
+   "status": "public",
    "active": "league.champions",
    "alternates": [],
    "article": "https://en.wikipedia.org/wiki/Champions_Hockey_League",
    "related": {
     "country": null
    },
-   "pending": [
-    "Champions Hockey League logo (2).svg"
-   ]
+   "pending": null
   },
   "league:czech-extraliga": {
    "type": "league",
@@ -26476,16 +27142,14 @@
    "type": "league",
    "id": "del",
    "name": "Deutsche Eishockey Liga",
-   "status": "pending",
+   "status": "public",
    "active": "league.del",
    "alternates": [],
    "article": "https://en.wikipedia.org/wiki/Deutsche_Eishockey_Liga",
    "related": {
     "country": "DEU"
    },
-   "pending": [
-    "PENNY DEL Logo.svg"
-   ]
+   "pending": null
   },
   "league:del2": {
    "type": "league",
@@ -26499,7 +27163,7 @@
     "country": "DEU"
    },
    "pending": [
-    "reference preview"
+    "Logo DEL2.svg"
    ]
   },
   "league:echl": {
@@ -26519,16 +27183,14 @@
    "type": "league",
    "id": "eihl",
    "name": "Elite Ice Hockey League",
-   "status": "pending",
+   "status": "public",
    "active": "league.eihl",
    "alternates": [],
    "article": "https://en.wikipedia.org/wiki/Elite_Ice_Hockey_League",
    "related": {
     "country": "GBR"
    },
-   "pending": [
-    "Motorpoint Elite League Logo.svg"
-   ]
+   "pending": null
   },
   "league:icehl": {
    "type": "league",
@@ -26536,14 +27198,14 @@
    "name": "ICE Hockey League",
    "status": "restricted",
    "active": "league.icehl--current",
-   "alternates": [],
+   "alternates": [
+    "league.icehl--older"
+   ],
    "article": "https://en.wikipedia.org/wiki/ICE_Hockey_League",
    "related": {
     "country": "AUT"
    },
-   "pending": [
-    "reference preview"
-   ]
+   "pending": null
   },
   "league:kazakhstan": {
    "type": "league",
@@ -26570,7 +27232,7 @@
     "country": "RUS"
    },
    "pending": [
-    "reference preview"
+    "KHL season 2024-25 logo.svg"
    ]
   },
   "league:liiga": {
@@ -26579,14 +27241,14 @@
    "name": "Liiga",
    "status": "restricted",
    "active": "league.liiga--current",
-   "alternates": [],
+   "alternates": [
+    "league.liiga--older"
+   ],
    "article": "https://en.wikipedia.org/wiki/Liiga",
    "related": {
     "country": "FIN"
    },
-   "pending": [
-    "Auroraliiga logo 2024.png"
-   ]
+   "pending": null
   },
   "league:mestis": {
    "type": "league",
@@ -26607,14 +27269,14 @@
    "name": "Junior Hockey League (Russia)",
    "status": "restricted",
    "active": "league.mhl--current",
-   "alternates": [],
+   "alternates": [
+    "league.mhl--older"
+   ],
    "article": "https://en.wikipedia.org/wiki/Junior_Hockey_League_%28Russia%29",
    "related": {
     "country": "RUS"
    },
-   "pending": [
-    "reference preview"
-   ]
+   "pending": null
   },
   "league:ncaa": {
    "type": "league",
@@ -26635,14 +27297,14 @@
    "name": "National Hockey League",
    "status": "restricted",
    "active": "league.nhl--current",
-   "alternates": [],
+   "alternates": [
+    "league.nhl--older"
+   ],
    "article": "https://en.wikipedia.org/wiki/National_Hockey_League",
    "related": {
     "country": "USA"
    },
-   "pending": [
-    "reference preview"
-   ]
+   "pending": null
   },
   "league:nl": {
    "type": "league",
@@ -26650,29 +27312,27 @@
    "name": "National League (ice hockey)",
    "status": "restricted",
    "active": "league.nl--current",
-   "alternates": [],
+   "alternates": [
+    "league.nl--older"
+   ],
    "article": "https://en.wikipedia.org/wiki/National_League_%28ice_hockey%29",
    "related": {
     "country": "CHE"
    },
-   "pending": [
-    "reference preview"
-   ]
+   "pending": null
   },
   "league:ohl": {
    "type": "league",
    "id": "ohl",
    "name": "Ontario Hockey League",
-   "status": "pending",
+   "status": "public",
    "active": "league.ohl",
    "alternates": [],
    "article": "https://en.wikipedia.org/wiki/Ontario_Hockey_League",
    "related": {
     "country": "CAN"
    },
-   "pending": [
-    "OHL Logo.png"
-   ]
+   "pending": null
   },
   "league:qmjhl": {
    "type": "league",
@@ -26680,44 +27340,42 @@
    "name": "Quebec Maritimes Junior Hockey League",
    "status": "restricted",
    "active": "league.qmjhl--current",
-   "alternates": [],
+   "alternates": [
+    "league.qmjhl--older"
+   ],
    "article": "https://en.wikipedia.org/wiki/Quebec_Maritimes_Junior_Hockey_League",
    "related": {
     "country": "CAN"
    },
-   "pending": [
-    "reference preview"
-   ]
+   "pending": null
   },
   "league:shl": {
    "type": "league",
    "id": "shl",
    "name": "Swedish Hockey League",
-   "status": "pending",
+   "status": "public",
    "active": "league.shl",
    "alternates": [],
    "article": "https://en.wikipedia.org/wiki/Swedish_Hockey_League",
    "related": {
     "country": "SWE"
    },
-   "pending": [
-    "Swedish Hockey League logo.svg"
-   ]
+   "pending": null
   },
   "league:slovak-extraliga": {
    "type": "league",
    "id": "slovak-extraliga",
    "name": "Slovak Extraliga",
-   "status": "restricted",
-   "active": "league.slovak-extraliga--current",
-   "alternates": [],
+   "status": "public",
+   "active": "league.slovak-extraliga",
+   "alternates": [
+    "league.slovak-extraliga--current"
+   ],
    "article": "https://en.wikipedia.org/wiki/Slovak_Extraliga",
    "related": {
     "country": "SVK"
    },
-   "pending": [
-    "reference preview"
-   ]
+   "pending": null
   },
   "league:swiss-league": {
    "type": "league",
@@ -26731,7 +27389,7 @@
     "country": "CHE"
    },
    "pending": [
-    "reference preview"
+    "Swissleague-hpneu-2.png"
    ]
   },
   "league:ushl": {
@@ -26740,14 +27398,14 @@
    "name": "United States Hockey League",
    "status": "restricted",
    "active": "league.ushl--current",
-   "alternates": [],
+   "alternates": [
+    "league.ushl--older"
+   ],
    "article": "https://en.wikipedia.org/wiki/United_States_Hockey_League",
    "related": {
     "country": "USA"
    },
-   "pending": [
-    "reference preview"
-   ]
+   "pending": null
   },
   "league:vhl": {
    "type": "league",
@@ -27216,27 +27874,23 @@
    "type": "tournament",
    "id": "memorial-cup",
    "name": "Memorial Cup",
-   "status": "pending",
-   "active": "tournament.memorial-cup",
+   "status": "missing",
+   "active": null,
    "alternates": [],
    "article": "https://en.wikipedia.org/wiki/Memorial_Cup",
    "related": {},
-   "pending": [
-    "Memorial Cup at the 2015 championship.jpg"
-   ]
+   "pending": null
   },
   "tournament:olympics-hockey": {
    "type": "tournament",
    "id": "olympics-hockey",
    "name": "Ice hockey at the Olympic Games",
-   "status": "pending",
-   "active": "tournament.olympics-hockey",
+   "status": "missing",
+   "active": null,
    "alternates": [],
    "article": "https://en.wikipedia.org/wiki/Ice_hockey_at_the_Olympic_Games",
    "related": {},
-   "pending": [
-    "Ice hockey pictogram.svg"
-   ]
+   "pending": null
   },
   "tournament:spengler-cup": {
    "type": "tournament",

@@ -188,11 +188,19 @@ def pool_candidates(entity, limit=4):
 PENDING = object()   # download deferred because the file host is throttling us
 
 
-def fetch_bytes(name, host):
+THUMB_NOTE = {}   # file name -> width of the cached thumbnail used instead of the original
+
+
+def fetch_bytes(name, host, allow_thumb=True):
     try:
         st, data = wiki.download(file_url(name, host))
     except wiki.Blocked:
-        return PENDING
+        data = PENDING
+    if data is PENDING and allow_thumb and host == "commons":
+        w, tdata = wiki.cached_thumbnail(name)
+        if tdata:
+            THUMB_NOTE[name] = w
+            return tdata
     return data
 
 
@@ -203,11 +211,14 @@ def fetch_thumb(name, host):
         if data is None:
             st, data = wiki.download(file_url(name, host))
     except wiki.Blocked:
-        return PENDING
+        w, data = wiki.cached_thumbnail(name, host, sizes=(250, 330, 500, 120))
+        return data if data else PENDING
     return data
 
 
 def save_master(aid_tail, typ, name, data, local):
+    if name in THUMB_NOTE:
+        name = os.path.splitext(name)[0] + ".png"   # cached thumbnails are PNG renders
     folder = os.path.join(BRAND, "local" if local else "", "masters", typ + "s")
     os.makedirs(folder, exist_ok=True)
     path = os.path.join(folder, aid_tail + os.path.splitext(name)[1].lower())
@@ -226,7 +237,11 @@ def asset_record(aid, entity, name, host, rights, how, identity, master, local_m
                    "page": wiki.page_url("File:" + name, "commons" if host == "commons" else host),
                    "url": file_url(name, host), "via": how},
         "acquired": TODAY if (master or local_master) else None,
-        "identity": identity, "rights": rights, "technical": {"status": "unverified"}, "notes": None,
+        "identity": identity, "rights": rights, "technical": {"status": "unverified"},
+        "notes": (f"Master is Wikimedia's {THUMB_NOTE[name]} px PNG rendering of the original file, taken from the "
+                  "edge cache because original downloads were throttled. Replace with the original "
+                  "(re-run fetch.py) for full resolution.") if name in THUMB_NOTE else None,
+        **({"masterIsThumbnail": THUMB_NOTE[name]} if name in THUMB_NOTE else {}),
     }
 
 
@@ -334,6 +349,10 @@ def acquire(entity, include_restricted, assets, entities_map, log):
                 assets[aid] = asset_record(aid, entity, f, "commons", rights, "commons-match", ident, save_master(tail, etype, f, data, False), None)
                 active, status = aid, "public"
                 log.append(f"MATCHED  {key}: {f} score {sc}")
+            elif ref_sig is None and ref_src:
+                # the current logo exists but could not be compared: do not guess by name
+                pending.append("reference preview")
+                log.append(f"PENDING  {key}: cannot compare {f} with the current logo yet")
             elif ref_sig is None:
                 ident = {"status": "unverified", "season": None,
                          "basis": "No current logo found in the article; Commons file chosen by name only - check it"}
@@ -448,7 +467,11 @@ def main():
     ensure_npm_flags()
     todo = build_entities(only)
     if "--pending" in sys.argv:   # retry only entities whose downloads were deferred
-        todo = [e for e in todo if entities_map.get(e["key"], {}).get("pending") or entities_map.get(e["key"], {}).get("status") == "pending"]
+        def needs(k):
+            ent = entities_map.get(k, {})
+            act = assets.get(ent.get("active") or "", {})
+            return ent.get("pending") or ent.get("status") == "pending" or act.get("masterIsThumbnail")
+        todo = [e for e in todo if needs(e["key"])]
         print(f"{len(todo)} entities with deferred downloads", flush=True)
     if "--missing" in sys.argv:   # retry entities for which no logo file was found
         todo = [e for e in todo if entities_map.get(e["key"], {}).get("status", "missing") == "missing"]

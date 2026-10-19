@@ -22,7 +22,7 @@ CACHE = os.path.join(ROOT, "tools", "branding", ".cache")
 UA = ("CareerMapBranding/0.2 (https://github.com/hannes423-debug/Interactive-World-Map; "
       "asset provenance research)")
 DELAY = 0.8
-UPLOAD_DELAY = 8.0   # originals: be gentle, Wikimedia asks bulk users to prefer thumbnails
+UPLOAD_DELAY = 12.0   # originals: be gentle, Wikimedia asks bulk users to prefer thumbnails
 _last = [0.0]
 _blocked_until = {}
 
@@ -31,7 +31,7 @@ class Blocked(Exception):
     """The host asked us to stop for a long time; callers record the item as pending."""
 
 
-def _get(url, binary=False, accept=None):
+def _get(url, binary=False, accept=None, ignore_block=False):
     key = hashlib.sha1(url.encode()).hexdigest()
     path = os.path.join(CACHE, key[:2], key)
     meta = path + ".status"
@@ -43,7 +43,7 @@ def _get(url, binary=False, accept=None):
         return 200, data if binary else data.decode("utf-8", "replace")
     os.makedirs(os.path.dirname(path), exist_ok=True)
     host = urllib.parse.urlsplit(url).netloc
-    if _blocked_until.get(host, 0) > time.time():
+    if _blocked_until.get(host, 0) > time.time() and not ignore_block:
         raise Blocked(host)
     delay = UPLOAD_DELAY if host == "upload.wikimedia.org" else DELAY
     for attempt in range(5):
@@ -60,6 +60,8 @@ def _get(url, binary=False, accept=None):
         except urllib.error.HTTPError as e:
             status, data = e.code, None
             ra = e.headers.get("Retry-After")
+            if e.code == 429 and ignore_block:
+                break   # cache probe: a miss is simply a miss
             if e.code == 429 and ra and ra.isdigit() and int(ra) > 60:
                 import sys
                 print(f"  [429] {host} asks for a {ra}s pause - marking downloads pending", file=sys.stderr, flush=True)
@@ -121,6 +123,16 @@ def commons_file_url(name):
 
 def download(url):
     return _get(url, binary=True)
+
+
+def cached_thumbnail(name, wiki_code="commons", sizes=(1280, 960, 500, 330, 250)):
+    """Largest standard-size thumbnail already in Wikimedia's edge cache, as (width, png bytes) or (None, None).
+    Used only while originals are throttled; cache hits do not add load to the image servers."""
+    for w in sizes:
+        st, data = _get(thumb_url(name, wiki_code, w), binary=True, ignore_block=True)
+        if data:
+            return w, data
+    return None, None
 
 
 def thumb_url(name, wiki_code="commons", width=250):

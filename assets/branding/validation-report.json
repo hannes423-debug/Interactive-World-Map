@@ -171,10 +171,10 @@
    "flags": [],
    "rights": "restricted"
   },
-  "club.bk-mlada-boleslav": {
+  "club.bk-mlada-boleslav--current": {
    "status": "no-master",
    "flags": [],
-   "rights": "licensed"
+   "rights": "restricted"
   },
   "club.blainville-boisbriand-armada--current": {
    "status": "no-master",
@@ -187,9 +187,15 @@
    "rights": "restricted"
   },
   "club.boston-bruins": {
-   "status": "no-master",
+   "status": "verified",
    "flags": [],
-   "rights": "public_domain"
+   "rights": "public_domain",
+   "outputs": [
+    "128",
+    "256",
+    "512",
+    "1024"
+   ]
   },
   "club.boxers-de-bordeaux--current": {
    "status": "no-master",
@@ -211,10 +217,10 @@
    "flags": [],
    "rights": "restricted"
   },
-  "club.brynas-if": {
+  "club.brynas-if--current": {
    "status": "no-master",
    "flags": [],
-   "rights": "licensed"
+   "rights": "restricted"
   },
   "club.buffalo-sabres--current": {
    "status": "no-master",
@@ -267,14 +273,26 @@
    "rights": "restricted"
   },
   "club.chayka": {
-   "status": "no-master",
+   "status": "verified",
    "flags": [],
-   "rights": "licensed"
+   "rights": "licensed",
+   "outputs": [
+    "128",
+    "256",
+    "512",
+    "1024"
+   ]
   },
   "club.chelmet": {
-   "status": "no-master",
+   "status": "verified",
    "flags": [],
-   "rights": "public_domain"
+   "rights": "public_domain",
+   "outputs": [
+    "128",
+    "256",
+    "512",
+    "1024"
+   ]
   },
   "club.chicago-blackhawks--current": {
    "status": "no-master",
@@ -336,6 +354,17 @@
    "flags": [],
    "rights": "restricted"
   },
+  "club.detroit-red-wings": {
+   "status": "verified",
+   "flags": [],
+   "rights": "public_domain",
+   "outputs": [
+    "128",
+    "256",
+    "512",
+    "1024"
+   ]
+  },
   "club.detroit-red-wings--current": {
    "status": "no-master",
    "flags": [],
@@ -371,10 +400,10 @@
    "flags": [],
    "rights": "restricted"
   },
-  "club.djurgarden-hockey": {
+  "club.djurgarden-hockey--current": {
    "status": "no-master",
    "flags": [],
-   "rights": "licensed"
+   "rights": "restricted"
   },
   "club.dresdner-eislowen--current": {
    "status": "no-master",
@@ -521,10 +550,10 @@
    "flags": [],
    "rights": "restricted"
   },
-  "club.farjestad-bk": {
+  "club.farjestad-bk--current": {
    "status": "no-master",
    "flags": [],
-   "rights": "licensed"
+   "rights": "restricted"
   },
   "club.fischtown-pinguins--current": {
    "status": "no-master",
@@ -551,10 +580,10 @@
    "flags": [],
    "rights": "restricted"
   },
-  "club.frolunda-hc": {
+  "club.frolunda-hc--current": {
    "status": "no-master",
    "flags": [],
-   "rights": "licensed"
+   "rights": "restricted"
   },
   "club.gatineau-olympiques--current": {
    "status": "no-master",
@@ -646,15 +675,37 @@
    "flags": [],
    "rights": "restricted"
   },
+  "club.hc-assat-pori--older": {
+   "status": "flagged",
+   "flags": [
+    {
+     "code": "no-alpha-background",
+     "detail": "opaque border colour (255, 255, 255)"
+    }
+   ],
+   "rights": "public_domain",
+   "outputs": [
+    "128",
+    "256",
+    "512",
+    "1024"
+   ]
+  },
   "club.hc-bozen--current": {
    "status": "no-master",
    "flags": [],
    "rights": "restricted"
   },
   "club.hc-cska-moscow": {
-   "status": "no-master",
+   "status": "verified",
    "flags": [],
-   "rights": "public_domain"
+   "rights": "public_domain",
+   "outputs": [
+    "128",
+    "256",
+    "512",
+    "1024"
+   ]
   },
   "club.hc-davos--current": {
    "status": "no-master",
@@ -667,9 +718,15 @@
    "rights": "restricted"
   },
   "club.hc-dynamo-moscow": {
-   "status": "no-master",
+   "status": "verified",
    "flags": [],
-   "rights": "licensed"
+   "rights": "licensed",
+   "outputs": [
+    "128",
+    "256",
+    "512",
+    "1024"
+   ]
   },
   "club.hc-dynamo-pardubice": {
    "status": "no-master",
@@ -686,10 +743,10 @@
    "flags": [],
    "rights": "restricted"
   },
-  "club.hc-kometa-brno": {
+  "club.hc-kometa-brno--current": {
    "status": "no-master",
    "flags": [],
-   "rights": "licensed"
+   "rights": "restricted"
   },
   "club.hc-kosice--current": {
    "status": "no-master",
@@ -770,6 +827,17 @@
    "status": "no-master",
    "flags": [],
    "rights": "public_domain"
+  },
+  "club.hc-spartak-moscow": {
+   "status": "verified",
+   "flags": [],
+   "rights": "public_domain",
+   "outputs": [
+    "128",
+    "256",
+    "512",
+    "1024"
+   ]
   },
   "club.hc-spartak-moscow--current": {
    "status": "no-master",
@@ -867,10 +935,10 @@
    "flags": [],
    "rights": "restricted"
   },
-  "club.if-bjorkloven": {
+  "club.if-bjorkloven--current": {
    "status": "no-master",
    "flags": [],
-   "rights": "public_domain"
+   "rights": "restricted"
   },
   "club.if-bjorkloven-allsvenskan--current": {
    "status": "no-master",
@@ -1002,6 +1070,17 @@
    "flags": [],
    "rights": "restricted"
   },
+  "club.kiekko-espoo": {
+   "status": "verified",
+   "flags": [],
+   "rights": "public_domain",
+   "outputs": [
+    "128",
+    "256",
+    "512",
+    "1024"
+   ]
+  },
   "club.kiekko-espoo--current": {
    "status": "no-master",
    "flags": [],
@@ -1038,9 +1117,15 @@
    "rights": "restricted"
   },
   "club.krasnaya-armiya": {
-   "status": "no-master",
+   "status": "verified",
    "flags": [],
-   "rights": "licensed"
+   "rights": "licensed",
+   "outputs": [
+    "128",
+    "256",
+    "512",
+    "1024"
+   ]
   },
   "club.krasnaya-mashina-atlant--current": {
    "status": "no-master",
@@ -1112,10 +1197,10 @@
    "flags": [],
    "rights": "restricted"
   },
-  "club.linkoping-hc": {
+  "club.linkoping-hc--current": {
    "status": "no-master",
    "flags": [],
-   "rights": "licensed"
+   "rights": "restricted"
   },
   "club.loko--current": {
    "status": "no-master",
@@ -1152,10 +1237,10 @@
    "flags": [],
    "rights": "restricted"
   },
-  "club.lulea-hf": {
+  "club.lulea-hf--current": {
    "status": "no-master",
    "flags": [],
-   "rights": "licensed"
+   "rights": "restricted"
   },
   "club.madison-capitols--current": {
    "status": "no-master",
@@ -1172,10 +1257,10 @@
    "flags": [],
    "rights": "restricted"
   },
-  "club.malmo-redhawks": {
+  "club.malmo-redhawks--current": {
    "status": "no-master",
    "flags": [],
-   "rights": "licensed"
+   "rights": "restricted"
   },
   "club.mamonty-yugry--current": {
    "status": "no-master",
@@ -1238,9 +1323,15 @@
    "rights": "restricted"
   },
   "club.montreal-canadiens": {
-   "status": "no-master",
+   "status": "verified",
    "flags": [],
-   "rights": "public_domain"
+   "rights": "public_domain",
+   "outputs": [
+    "128",
+    "256",
+    "512",
+    "1024"
+   ]
   },
   "club.moose-jaw-warriors--current": {
    "status": "no-master",
@@ -1288,9 +1379,15 @@
    "rights": "restricted"
   },
   "club.new-york-rangers": {
-   "status": "no-master",
+   "status": "verified",
    "flags": [],
-   "rights": "public_domain"
+   "rights": "public_domain",
+   "outputs": [
+    "128",
+    "256",
+    "512",
+    "1024"
+   ]
   },
   "club.newfoundland-regiment--current": {
    "status": "no-master",
@@ -1607,15 +1704,37 @@
    "flags": [],
    "rights": "restricted"
   },
+  "club.severstal-cherepovets": {
+   "status": "verified",
+   "flags": [],
+   "rights": "public_domain",
+   "outputs": [
+    "128",
+    "256",
+    "512",
+    "1024"
+   ]
+  },
   "club.severstal-cherepovets--current": {
    "status": "no-master",
    "flags": [],
    "rights": "restricted"
   },
   "club.shanghai-dragons": {
-   "status": "no-master",
-   "flags": [],
-   "rights": "licensed"
+   "status": "flagged",
+   "flags": [
+    {
+     "code": "no-alpha-background",
+     "detail": "opaque border colour (255, 255, 255)"
+    }
+   ],
+   "rights": "licensed",
+   "outputs": [
+    "128",
+    "256",
+    "512",
+    "1024"
+   ]
   },
   "club.shawinigan-cataractes--current": {
    "status": "no-master",
@@ -1657,10 +1776,10 @@
    "flags": [],
    "rights": "restricted"
   },
-  "club.skelleftea-aik": {
+  "club.skelleftea-aik--current": {
    "status": "no-master",
    "flags": [],
-   "rights": "licensed"
+   "rights": "restricted"
   },
   "club.snezhnye-barsy--current": {
    "status": "no-master",
@@ -1681,6 +1800,26 @@
    "status": "no-master",
    "flags": [],
    "rights": "restricted"
+  },
+  "club.spartak": {
+   "status": "flagged",
+   "flags": [
+    {
+     "code": "probable-duplicate",
+     "detail": "same file as club.hc-spartak-moscow"
+    },
+    {
+     "code": "probable-duplicate",
+     "detail": "looks like club.hc-spartak-moscow"
+    }
+   ],
+   "rights": "public_domain",
+   "outputs": [
+    "128",
+    "256",
+    "512",
+    "1024"
+   ]
   },
   "club.spartak--current": {
    "status": "no-master",
@@ -1758,9 +1897,15 @@
    "rights": "restricted"
   },
   "club.tampa-bay-lightning": {
-   "status": "no-master",
+   "status": "verified",
    "flags": [],
-   "rights": "public_domain"
+   "rights": "public_domain",
+   "outputs": [
+    "128",
+    "256",
+    "512",
+    "1024"
+   ]
   },
   "club.tappara--current": {
    "status": "no-master",
@@ -1897,10 +2042,10 @@
    "flags": [],
    "rights": "restricted"
   },
-  "club.vaxjo-lakers-hc": {
+  "club.vaxjo-lakers-hc--current": {
    "status": "no-master",
    "flags": [],
-   "rights": "licensed"
+   "rights": "restricted"
   },
   "club.vegas-golden-knights--current": {
    "status": "no-master",
@@ -1933,9 +2078,15 @@
    "rights": "restricted"
   },
   "club.washington-capitals": {
-   "status": "no-master",
+   "status": "verified",
    "flags": [],
-   "rights": "public_domain"
+   "rights": "public_domain",
+   "outputs": [
+    "128",
+    "256",
+    "512",
+    "1024"
+   ]
   },
   "club.waterloo-black-hawks--current": {
    "status": "no-master",
@@ -2003,9 +2154,15 @@
    "rights": "restricted"
   },
   "club.zvezda-moskva": {
-   "status": "no-master",
+   "status": "verified",
    "flags": [],
-   "rights": "licensed"
+   "rights": "licensed",
+   "outputs": [
+    "128",
+    "256",
+    "512",
+    "1024"
+   ]
   },
   "federation.aut--current": {
    "status": "no-master",
@@ -2401,6 +2558,17 @@
    "flags": [],
    "rights": "restricted"
   },
+  "league.ahl--older": {
+   "status": "verified",
+   "flags": [],
+   "rights": "public_domain",
+   "outputs": [
+    "128",
+    "256",
+    "512",
+    "1024"
+   ]
+  },
   "league.allsvenskan--current": {
    "status": "no-master",
    "flags": [],
@@ -2417,9 +2585,19 @@
    "rights": "restricted"
   },
   "league.champions": {
-   "status": "no-master",
-   "flags": [],
-   "rights": "public_domain"
+   "status": "verified",
+   "flags": [
+    {
+     "code": "not-upscaled",
+     "detail": "sizes above native 576px skipped"
+    }
+   ],
+   "rights": "public_domain",
+   "outputs": [
+    "128",
+    "256",
+    "512"
+   ]
   },
   "league.czech-extraliga--current": {
    "status": "no-master",
@@ -2427,9 +2605,22 @@
    "rights": "restricted"
   },
   "league.del": {
-   "status": "no-master",
-   "flags": [],
-   "rights": "public_domain"
+   "status": "flagged",
+   "flags": [
+    {
+     "code": "low-resolution",
+     "detail": "330x162"
+    },
+    {
+     "code": "not-upscaled",
+     "detail": "sizes above native 330px skipped"
+    }
+   ],
+   "rights": "public_domain",
+   "outputs": [
+    "128",
+    "256"
+   ]
   },
   "league.del2--current": {
    "status": "no-master",
@@ -2442,14 +2633,31 @@
    "rights": "restricted"
   },
   "league.eihl": {
-   "status": "no-master",
+   "status": "verified",
    "flags": [],
-   "rights": "licensed"
+   "rights": "licensed",
+   "outputs": [
+    "128",
+    "256",
+    "512",
+    "1024"
+   ]
   },
   "league.icehl--current": {
    "status": "no-master",
    "flags": [],
    "rights": "unverified"
+  },
+  "league.icehl--older": {
+   "status": "verified",
+   "flags": [],
+   "rights": "public_domain",
+   "outputs": [
+    "128",
+    "256",
+    "512",
+    "1024"
+   ]
   },
   "league.kazakhstan--current": {
    "status": "no-master",
@@ -2466,6 +2674,17 @@
    "flags": [],
    "rights": "restricted"
   },
+  "league.liiga--older": {
+   "status": "verified",
+   "flags": [],
+   "rights": "public_domain",
+   "outputs": [
+    "128",
+    "256",
+    "512",
+    "1024"
+   ]
+  },
   "league.mestis--current": {
    "status": "no-master",
    "flags": [],
@@ -2476,30 +2695,113 @@
    "flags": [],
    "rights": "restricted"
   },
+  "league.mhl--older": {
+   "status": "flagged",
+   "flags": [
+    {
+     "code": "low-resolution",
+     "detail": "250x338"
+    },
+    {
+     "code": "not-upscaled",
+     "detail": "sizes above native 338px skipped"
+    }
+   ],
+   "rights": "public_domain",
+   "outputs": [
+    "128",
+    "256"
+   ]
+  },
   "league.nhl--current": {
    "status": "no-master",
    "flags": [],
    "rights": "restricted"
+  },
+  "league.nhl--older": {
+   "status": "verified",
+   "flags": [],
+   "rights": "public_domain",
+   "outputs": [
+    "128",
+    "256",
+    "512",
+    "1024"
+   ]
   },
   "league.nl--current": {
    "status": "no-master",
    "flags": [],
    "rights": "restricted"
   },
+  "league.nl--older": {
+   "status": "flagged",
+   "flags": [
+    {
+     "code": "probable-duplicate",
+     "detail": "same file as club.tampa-bay-lightning"
+    },
+    {
+     "code": "probable-duplicate",
+     "detail": "looks like club.tampa-bay-lightning"
+    }
+   ],
+   "rights": "public_domain",
+   "outputs": [
+    "128",
+    "256",
+    "512",
+    "1024"
+   ]
+  },
   "league.ohl": {
-   "status": "no-master",
+   "status": "verified",
    "flags": [],
-   "rights": "licensed"
+   "rights": "licensed",
+   "outputs": [
+    "128",
+    "256",
+    "512",
+    "1024"
+   ]
   },
   "league.qmjhl--current": {
    "status": "no-master",
    "flags": [],
    "rights": "restricted"
   },
-  "league.shl": {
-   "status": "no-master",
+  "league.qmjhl--older": {
+   "status": "verified",
    "flags": [],
-   "rights": "public_domain"
+   "rights": "public_domain",
+   "outputs": [
+    "128",
+    "256",
+    "512",
+    "1024"
+   ]
+  },
+  "league.shl": {
+   "status": "verified",
+   "flags": [],
+   "rights": "public_domain",
+   "outputs": [
+    "128",
+    "256",
+    "512",
+    "1024"
+   ]
+  },
+  "league.slovak-extraliga": {
+   "status": "verified",
+   "flags": [],
+   "rights": "public_domain",
+   "outputs": [
+    "128",
+    "256",
+    "512",
+    "1024"
+   ]
   },
   "league.slovak-extraliga--current": {
    "status": "no-master",
@@ -2515,6 +2817,26 @@
    "status": "no-master",
    "flags": [],
    "rights": "restricted"
+  },
+  "league.ushl--older": {
+   "status": "flagged",
+   "flags": [
+    {
+     "code": "probable-duplicate",
+     "detail": "same file as league.icehl--older"
+    },
+    {
+     "code": "probable-duplicate",
+     "detail": "looks like league.icehl--older"
+    }
+   ],
+   "rights": "public_domain",
+   "outputs": [
+    "128",
+    "256",
+    "512",
+    "1024"
+   ]
   },
   "league.vhl--current": {
    "status": "no-master",
@@ -2676,16 +2998,6 @@
    "flags": [],
    "rights": "restricted"
   },
-  "tournament.memorial-cup": {
-   "status": "no-master",
-   "flags": [],
-   "rights": "licensed"
-  },
-  "tournament.olympics-hockey": {
-   "status": "no-master",
-   "flags": [],
-   "rights": "public_domain"
-  },
   "tournament.spengler-cup--current": {
    "status": "no-master",
    "flags": [],
@@ -2693,17 +3005,23 @@
   }
  },
  "summary": {
-  "assets": 508,
+  "assets": 521,
   "status": {
-   "no-master": 483,
-   "verified": 25
+   "no-master": 464,
+   "verified": 50,
+   "flagged": 7
   },
-  "flags": {},
+  "flags": {
+   "no-alpha-background": 2,
+   "probable-duplicate": 6,
+   "not-upscaled": 3,
+   "low-resolution": 2
+  },
   "rights": {
    "unverified": 27,
-   "restricted": 383,
-   "public_domain": 70,
-   "licensed": 28
+   "restricted": 395,
+   "public_domain": 83,
+   "licensed": 16
   },
   "brokenReferences": 0
  }
