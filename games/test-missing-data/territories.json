@@ -1,0 +1,6 @@
+{
+  "territories": [
+    { "id": "swe", "name": "Sweden", "kind": "country", "geo": ["SWE"], "views": ["europe"], "homeView": "europe" },
+    { "id": "no-boundary", "name": "Territory without geometry", "kind": "country", "geo": [], "views": ["europe"], "homeView": "europe", "parent": "missing-parent" }
+  ]
+}

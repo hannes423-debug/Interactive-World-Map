@@ -1,0 +1,1110 @@
+{
+  "leagues": [
+    {
+      "id": "nhl",
+      "name": "National Hockey League",
+      "shortName": "NHL",
+      "logo": null,
+      "placeholderBadge": "assets/badges/placeholder/nhl.svg",
+      "kind": "professional",
+      "multinational": true,
+      "territories": [
+        "usa",
+        "can"
+      ],
+      "homeView": "north-america",
+      "tier": {
+        "value": "Top professional league",
+        "status": "reference",
+        "asOf": "2025–26",
+        "level": 1
+      },
+      "teamCount": {
+        "value": 32,
+        "status": "reference",
+        "asOf": "2025–26",
+        "note": "Includes the Utah Mammoth"
+      },
+      "season": {
+        "value": "2026–27",
+        "status": "game",
+        "note": "Career mode start season"
+      },
+      "salary": {
+        "value": "$0.8M – $12M per season",
+        "status": "placeholder",
+        "note": "Game-balance range for career mode, not real contract data"
+      },
+      "career": {
+        "value": [
+          "Highest level in the career mode",
+          "Entry via draft, free agency or AHL call-up"
+        ],
+        "status": "placeholder"
+      },
+      "eligibility": {
+        "value": "Drafted or signed as a free agent; age 18+ for NHL contracts in career mode",
+        "status": "placeholder"
+      },
+      "clubs": [
+        "nhl-ana",
+        "nhl-bos",
+        "nhl-buf",
+        "nhl-cgy",
+        "nhl-car",
+        "nhl-chi",
+        "nhl-col",
+        "nhl-cbj",
+        "nhl-dal",
+        "nhl-det",
+        "nhl-edm",
+        "nhl-fla",
+        "nhl-lak",
+        "nhl-min",
+        "nhl-mtl",
+        "nhl-nsh",
+        "nhl-njd",
+        "nhl-nyi",
+        "nhl-nyr",
+        "nhl-ott",
+        "nhl-phi",
+        "nhl-pit",
+        "nhl-sjs",
+        "nhl-sea",
+        "nhl-stl",
+        "nhl-tbl",
+        "nhl-tor",
+        "nhl-uta",
+        "nhl-van",
+        "nhl-vgk",
+        "nhl-wsh",
+        "nhl-wpg"
+      ]
+    },
+    {
+      "id": "ahl",
+      "name": "American Hockey League",
+      "shortName": "AHL",
+      "logo": null,
+      "placeholderBadge": "assets/badges/placeholder/ahl.svg",
+      "kind": "professional",
+      "multinational": true,
+      "territories": [
+        "usa",
+        "can"
+      ],
+      "homeView": "north-america",
+      "tier": {
+        "value": "Top development league (NHL affiliates)",
+        "status": "reference",
+        "asOf": "2025–26",
+        "level": 2
+      },
+      "teamCount": {
+        "value": 32,
+        "status": "reference",
+        "asOf": "2025–26"
+      },
+      "season": {
+        "value": "2026–27",
+        "status": "game",
+        "note": "Career mode start season"
+      },
+      "salary": {
+        "value": "$60k – $400k per season",
+        "status": "placeholder",
+        "note": "Game-balance range, not real contract data"
+      },
+      "career": {
+        "value": [
+          "Main route to the NHL",
+          "Most clubs are NHL affiliates"
+        ],
+        "status": "placeholder"
+      },
+      "eligibility": {
+        "value": null,
+        "status": "unknown"
+      },
+      "clubs": []
+    },
+    {
+      "id": "echl",
+      "name": "ECHL",
+      "shortName": "ECHL",
+      "logo": null,
+      "placeholderBadge": "assets/badges/placeholder/echl.svg",
+      "kind": "professional",
+      "multinational": true,
+      "territories": [
+        "usa",
+        "can"
+      ],
+      "homeView": "north-america",
+      "tier": {
+        "value": "Third-tier professional",
+        "status": "reference",
+        "asOf": "2025–26",
+        "level": 3
+      },
+      "teamCount": {
+        "value": null,
+        "status": "unknown",
+        "note": "Team count changes often through expansion and relocation; not yet verified"
+      },
+      "season": {
+        "value": "2026–27",
+        "status": "game",
+        "note": "Career mode start season"
+      },
+      "salary": {
+        "value": null,
+        "status": "placeholder",
+        "note": "No salary data in the sample database yet"
+      },
+      "career": {
+        "value": [],
+        "status": "placeholder",
+        "note": "Career notes not written yet"
+      },
+      "eligibility": {
+        "value": null,
+        "status": "unknown"
+      },
+      "clubs": []
+    },
+    {
+      "id": "whl",
+      "name": "Western Hockey League",
+      "shortName": "WHL",
+      "logo": null,
+      "placeholderBadge": "assets/badges/placeholder/whl.svg",
+      "kind": "junior",
+      "multinational": true,
+      "territories": [
+        "ca-bc",
+        "ca-ab",
+        "ca-sk",
+        "ca-mb",
+        "us-wa",
+        "us-or"
+      ],
+      "homeView": "north-america",
+      "tier": {
+        "value": "Major junior (CHL)",
+        "status": "reference",
+        "asOf": "2025–26",
+        "level": 4
+      },
+      "teamCount": {
+        "value": 23,
+        "status": "reference",
+        "asOf": "2025–26",
+        "note": "Includes the Penticton expansion team"
+      },
+      "season": {
+        "value": "2026–27",
+        "status": "game",
+        "note": "Career mode start season"
+      },
+      "salary": {
+        "value": null,
+        "status": "placeholder",
+        "note": "No salary data in the sample database yet"
+      },
+      "career": {
+        "value": [
+          "Ages 16–20",
+          "Major-junior route to the NHL Draft"
+        ],
+        "status": "placeholder"
+      },
+      "eligibility": {
+        "value": "Ages 16–20 in career mode; CHL import rules apply",
+        "status": "placeholder"
+      },
+      "clubs": []
+    },
+    {
+      "id": "ohl",
+      "name": "Ontario Hockey League",
+      "shortName": "OHL",
+      "logo": null,
+      "placeholderBadge": "assets/badges/placeholder/ohl.svg",
+      "kind": "junior",
+      "multinational": true,
+      "territories": [
+        "ca-on",
+        "us-mi",
+        "us-pa"
+      ],
+      "homeView": "north-america",
+      "tier": {
+        "value": "Major junior (CHL)",
+        "status": "reference",
+        "asOf": "2025–26",
+        "level": 4
+      },
+      "teamCount": {
+        "value": 20,
+        "status": "reference",
+        "asOf": "2025–26"
+      },
+      "season": {
+        "value": "2026–27",
+        "status": "game",
+        "note": "Career mode start season"
+      },
+      "salary": {
+        "value": null,
+        "status": "placeholder",
+        "note": "No salary data in the sample database yet"
+      },
+      "career": {
+        "value": [
+          "Ages 16–20",
+          "Major-junior route to the NHL Draft"
+        ],
+        "status": "placeholder"
+      },
+      "eligibility": {
+        "value": "Ages 16–20 in career mode",
+        "status": "placeholder"
+      },
+      "clubs": []
+    },
+    {
+      "id": "qmjhl",
+      "name": "Quebec Maritimes Junior Hockey League",
+      "shortName": "QMJHL",
+      "logo": null,
+      "placeholderBadge": "assets/badges/placeholder/qmjhl.svg",
+      "kind": "junior",
+      "multinational": false,
+      "territories": [
+        "ca-qc",
+        "maritimes"
+      ],
+      "homeView": "north-america",
+      "tier": {
+        "value": "Major junior (CHL)",
+        "status": "reference",
+        "asOf": "2025–26",
+        "level": 4
+      },
+      "teamCount": {
+        "value": 18,
+        "status": "reference",
+        "asOf": "2025–26"
+      },
+      "season": {
+        "value": "2026–27",
+        "status": "game",
+        "note": "Career mode start season"
+      },
+      "salary": {
+        "value": null,
+        "status": "placeholder",
+        "note": "No salary data in the sample database yet"
+      },
+      "career": {
+        "value": [
+          "Ages 16–20",
+          "Major-junior route to the NHL Draft"
+        ],
+        "status": "placeholder"
+      },
+      "eligibility": {
+        "value": "Ages 16–20 in career mode",
+        "status": "placeholder"
+      },
+      "clubs": []
+    },
+    {
+      "id": "ncaa",
+      "name": "NCAA Division I Men's Ice Hockey",
+      "shortName": "NCAA",
+      "logo": null,
+      "placeholderBadge": "assets/badges/placeholder/ncaa.svg",
+      "kind": "college",
+      "multinational": false,
+      "territories": [
+        "usa"
+      ],
+      "homeView": "north-america",
+      "tier": {
+        "value": "College",
+        "status": "reference",
+        "asOf": "2025–26",
+        "level": 4
+      },
+      "teamCount": {
+        "value": null,
+        "status": "unknown",
+        "note": "Program count changes as schools add hockey; not yet verified"
+      },
+      "season": {
+        "value": "2026–27",
+        "status": "game",
+        "note": "Career mode start season"
+      },
+      "salary": {
+        "value": "No salary (amateur)",
+        "status": "placeholder",
+        "note": "Game rule; real-world NIL rules are not modelled"
+      },
+      "career": {
+        "value": [
+          "Up to four seasons",
+          "Keeps NHL draft rights open"
+        ],
+        "status": "placeholder"
+      },
+      "eligibility": {
+        "value": null,
+        "status": "unknown"
+      },
+      "clubs": []
+    },
+    {
+      "id": "ushl",
+      "name": "United States Hockey League",
+      "shortName": "USHL",
+      "logo": null,
+      "placeholderBadge": "assets/badges/placeholder/ushl.svg",
+      "kind": "junior",
+      "multinational": false,
+      "territories": [
+        "usa"
+      ],
+      "homeView": "north-america",
+      "tier": {
+        "value": "Junior (Tier I)",
+        "status": "reference",
+        "asOf": "2025–26",
+        "level": 5
+      },
+      "teamCount": {
+        "value": 16,
+        "status": "reference",
+        "asOf": "2025–26"
+      },
+      "season": {
+        "value": "2026–27",
+        "status": "game",
+        "note": "Career mode start season"
+      },
+      "salary": {
+        "value": null,
+        "status": "placeholder",
+        "note": "No salary data in the sample database yet"
+      },
+      "career": {
+        "value": [],
+        "status": "placeholder",
+        "note": "Career notes not written yet"
+      },
+      "eligibility": {
+        "value": null,
+        "status": "unknown"
+      },
+      "clubs": []
+    },
+    {
+      "id": "shl",
+      "name": "Swedish Hockey League",
+      "shortName": "SHL",
+      "logo": null,
+      "placeholderBadge": "assets/badges/placeholder/shl.svg",
+      "kind": "professional",
+      "multinational": false,
+      "territories": [
+        "swe"
+      ],
+      "homeView": "europe",
+      "tier": {
+        "value": "Top professional league",
+        "status": "reference",
+        "asOf": "2025–26",
+        "level": 1
+      },
+      "teamCount": {
+        "value": 14,
+        "status": "reference",
+        "asOf": "2025–26"
+      },
+      "season": {
+        "value": "2026–27",
+        "status": "game",
+        "note": "Career mode start season"
+      },
+      "salary": {
+        "value": "€70k – €700k per season",
+        "status": "placeholder",
+        "note": "Game-balance range, not real contract data"
+      },
+      "career": {
+        "value": [
+          "Strong development reputation",
+          "Promotion/relegation with HockeyAllsvenskan"
+        ],
+        "status": "placeholder"
+      },
+      "eligibility": {
+        "value": null,
+        "status": "unknown"
+      },
+      "clubs": [
+        "shl-bry",
+        "shl-dif",
+        "shl-fhc",
+        "shl-fbk",
+        "shl-hv71",
+        "shl-lif",
+        "shl-lhc",
+        "shl-lhf",
+        "shl-mif",
+        "shl-rbk",
+        "shl-ske",
+        "shl-tik",
+        "shl-vax",
+        "shl-ohk"
+      ]
+    },
+    {
+      "id": "allsvenskan",
+      "name": "HockeyAllsvenskan",
+      "shortName": "HA",
+      "logo": null,
+      "placeholderBadge": "assets/badges/placeholder/allsvenskan.svg",
+      "kind": "professional",
+      "multinational": false,
+      "territories": [
+        "swe"
+      ],
+      "homeView": "europe",
+      "tier": {
+        "value": "Second-tier professional",
+        "status": "reference",
+        "asOf": "2025–26",
+        "level": 2
+      },
+      "teamCount": {
+        "value": 14,
+        "status": "reference",
+        "asOf": "2025–26"
+      },
+      "season": {
+        "value": "2026–27",
+        "status": "game",
+        "note": "Career mode start season"
+      },
+      "salary": {
+        "value": null,
+        "status": "placeholder",
+        "note": "No salary data in the sample database yet"
+      },
+      "career": {
+        "value": [],
+        "status": "placeholder",
+        "note": "Career notes not written yet"
+      },
+      "eligibility": {
+        "value": null,
+        "status": "unknown"
+      },
+      "clubs": []
+    },
+    {
+      "id": "liiga",
+      "name": "Liiga",
+      "shortName": "Liiga",
+      "logo": null,
+      "placeholderBadge": "assets/badges/placeholder/liiga.svg",
+      "kind": "professional",
+      "multinational": false,
+      "territories": [
+        "fin"
+      ],
+      "homeView": "europe",
+      "tier": {
+        "value": "Top professional league",
+        "status": "reference",
+        "asOf": "2025–26",
+        "level": 1
+      },
+      "teamCount": {
+        "value": null,
+        "status": "unknown",
+        "note": "Not yet verified for 2026–27"
+      },
+      "season": {
+        "value": "2026–27",
+        "status": "game",
+        "note": "Career mode start season"
+      },
+      "salary": {
+        "value": null,
+        "status": "placeholder",
+        "note": "No salary data in the sample database yet"
+      },
+      "career": {
+        "value": [
+          "Closed league with licence system"
+        ],
+        "status": "placeholder"
+      },
+      "eligibility": {
+        "value": null,
+        "status": "unknown"
+      },
+      "clubs": []
+    },
+    {
+      "id": "czech-extraliga",
+      "name": "Czech Extraliga",
+      "shortName": "ELH",
+      "logo": null,
+      "placeholderBadge": "assets/badges/placeholder/czech-extraliga.svg",
+      "kind": "professional",
+      "multinational": false,
+      "territories": [
+        "cze"
+      ],
+      "homeView": "europe",
+      "tier": {
+        "value": "Top professional league",
+        "status": "reference",
+        "asOf": "2025–26",
+        "level": 1
+      },
+      "teamCount": {
+        "value": 14,
+        "status": "reference",
+        "asOf": "2025–26"
+      },
+      "season": {
+        "value": "2026–27",
+        "status": "game",
+        "note": "Career mode start season"
+      },
+      "salary": {
+        "value": null,
+        "status": "placeholder",
+        "note": "No salary data in the sample database yet"
+      },
+      "career": {
+        "value": [],
+        "status": "placeholder",
+        "note": "Career notes not written yet"
+      },
+      "eligibility": {
+        "value": null,
+        "status": "unknown"
+      },
+      "clubs": []
+    },
+    {
+      "id": "nl",
+      "name": "National League",
+      "shortName": "NL",
+      "logo": null,
+      "placeholderBadge": "assets/badges/placeholder/nl.svg",
+      "kind": "professional",
+      "multinational": false,
+      "territories": [
+        "che"
+      ],
+      "homeView": "europe",
+      "tier": {
+        "value": "Top professional league",
+        "status": "reference",
+        "asOf": "2025–26",
+        "level": 1
+      },
+      "teamCount": {
+        "value": 14,
+        "status": "reference",
+        "asOf": "2025–26"
+      },
+      "season": {
+        "value": "2026–27",
+        "status": "game",
+        "note": "Career mode start season"
+      },
+      "salary": {
+        "value": "CHF 100k – 900k per season",
+        "status": "placeholder",
+        "note": "Game-balance range, not real contract data"
+      },
+      "career": {
+        "value": [],
+        "status": "placeholder",
+        "note": "Career notes not written yet"
+      },
+      "eligibility": {
+        "value": "Import-player limit applies in career mode",
+        "status": "placeholder"
+      },
+      "clubs": [
+        "nl-ajo",
+        "nl-hcap",
+        "nl-scb",
+        "nl-ehcb",
+        "nl-hcd",
+        "nl-fgo",
+        "nl-gsh",
+        "nl-ehck",
+        "nl-scl",
+        "nl-lhc",
+        "nl-hcl",
+        "nl-rjl",
+        "nl-zsc",
+        "nl-evz"
+      ]
+    },
+    {
+      "id": "del",
+      "name": "Deutsche Eishockey Liga",
+      "shortName": "DEL",
+      "logo": null,
+      "placeholderBadge": "assets/badges/placeholder/del.svg",
+      "kind": "professional",
+      "multinational": false,
+      "territories": [
+        "deu"
+      ],
+      "homeView": "europe",
+      "tier": {
+        "value": "Top professional league",
+        "status": "reference",
+        "asOf": "2025–26",
+        "level": 1
+      },
+      "teamCount": {
+        "value": null,
+        "status": "unknown",
+        "note": "Not yet verified for 2026–27"
+      },
+      "season": {
+        "value": "2026–27",
+        "status": "game",
+        "note": "Career mode start season"
+      },
+      "salary": {
+        "value": null,
+        "status": "placeholder",
+        "note": "No salary data in the sample database yet"
+      },
+      "career": {
+        "value": [],
+        "status": "placeholder",
+        "note": "Career notes not written yet"
+      },
+      "eligibility": {
+        "value": null,
+        "status": "unknown"
+      },
+      "clubs": []
+    },
+    {
+      "id": "icehl",
+      "name": "ICE Hockey League",
+      "shortName": "ICEHL",
+      "logo": null,
+      "placeholderBadge": "assets/badges/placeholder/icehl.svg",
+      "kind": "professional",
+      "multinational": true,
+      "territories": [
+        "alps-adriatic"
+      ],
+      "homeView": "europe",
+      "tier": {
+        "value": "Top professional league (multinational)",
+        "status": "reference",
+        "asOf": "2025–26",
+        "level": 1
+      },
+      "teamCount": {
+        "value": null,
+        "status": "unknown",
+        "note": "Club line-up changes between seasons; not yet verified"
+      },
+      "season": {
+        "value": "2026–27",
+        "status": "game",
+        "note": "Career mode start season"
+      },
+      "salary": {
+        "value": null,
+        "status": "placeholder",
+        "note": "No salary data in the sample database yet"
+      },
+      "career": {
+        "value": [],
+        "status": "placeholder",
+        "note": "Career notes not written yet"
+      },
+      "eligibility": {
+        "value": null,
+        "status": "unknown"
+      },
+      "clubs": []
+    },
+    {
+      "id": "eihl",
+      "name": "Elite Ice Hockey League",
+      "shortName": "EIHL",
+      "logo": null,
+      "placeholderBadge": "assets/badges/placeholder/eihl.svg",
+      "kind": "professional",
+      "multinational": false,
+      "territories": [
+        "gbr",
+        "gb-nir"
+      ],
+      "homeView": "europe",
+      "tier": {
+        "value": "Top professional league",
+        "status": "reference",
+        "asOf": "2025–26",
+        "level": 1
+      },
+      "teamCount": {
+        "value": 10,
+        "status": "reference",
+        "asOf": "2025–26"
+      },
+      "season": {
+        "value": "2026–27",
+        "status": "game",
+        "note": "Career mode start season"
+      },
+      "salary": {
+        "value": null,
+        "status": "placeholder",
+        "note": "No salary data in the sample database yet"
+      },
+      "career": {
+        "value": [],
+        "status": "placeholder",
+        "note": "Career notes not written yet"
+      },
+      "eligibility": {
+        "value": null,
+        "status": "unknown"
+      },
+      "clubs": []
+    },
+    {
+      "id": "champions",
+      "name": "Champions Hockey League",
+      "shortName": "CHL",
+      "logo": null,
+      "placeholderBadge": "assets/badges/placeholder/champions.svg",
+      "kind": "international",
+      "multinational": true,
+      "territories": [
+        "europe-chl"
+      ],
+      "homeView": "europe",
+      "tier": {
+        "value": "International club competition",
+        "status": "reference",
+        "asOf": "2025–26",
+        "level": 0
+      },
+      "teamCount": {
+        "value": 24,
+        "status": "reference",
+        "asOf": "2025–26"
+      },
+      "season": {
+        "value": "2026–27",
+        "status": "game",
+        "note": "Career mode start season"
+      },
+      "salary": {
+        "value": null,
+        "status": "placeholder",
+        "note": "No salary data in the sample database yet"
+      },
+      "career": {
+        "value": [
+          "Qualification through domestic leagues",
+          "Not a league you sign with directly"
+        ],
+        "status": "placeholder"
+      },
+      "eligibility": {
+        "value": null,
+        "status": "unknown"
+      },
+      "clubs": []
+    },
+    {
+      "id": "khl",
+      "name": "Kontinental Hockey League",
+      "shortName": "KHL",
+      "logo": null,
+      "placeholderBadge": "assets/badges/placeholder/khl.svg",
+      "kind": "professional",
+      "multinational": true,
+      "territories": [
+        "rus",
+        "blr",
+        "kaz",
+        "chn"
+      ],
+      "homeView": "eurasia",
+      "tier": {
+        "value": "Top professional league (multinational)",
+        "status": "reference",
+        "asOf": "2025–26",
+        "level": 1
+      },
+      "teamCount": {
+        "value": null,
+        "status": "unknown",
+        "note": "Membership changes between seasons; not yet verified"
+      },
+      "season": {
+        "value": "2026–27",
+        "status": "game",
+        "note": "Career mode start season"
+      },
+      "salary": {
+        "value": "$100k – $3M per season",
+        "status": "placeholder",
+        "note": "Game-balance range, not real contract data"
+      },
+      "career": {
+        "value": [],
+        "status": "placeholder",
+        "note": "Career notes not written yet"
+      },
+      "eligibility": {
+        "value": null,
+        "status": "unknown"
+      },
+      "clubs": []
+    },
+    {
+      "id": "vhl",
+      "name": "Supreme Hockey League",
+      "shortName": "VHL",
+      "logo": null,
+      "placeholderBadge": "assets/badges/placeholder/vhl.svg",
+      "kind": "professional",
+      "multinational": true,
+      "territories": [
+        "rus",
+        "kaz"
+      ],
+      "homeView": "eurasia",
+      "tier": {
+        "value": "Second-tier professional",
+        "status": "reference",
+        "asOf": "2025–26",
+        "level": 2
+      },
+      "teamCount": {
+        "value": null,
+        "status": "unknown"
+      },
+      "season": {
+        "value": "2026–27",
+        "status": "game",
+        "note": "Career mode start season"
+      },
+      "salary": {
+        "value": null,
+        "status": "placeholder",
+        "note": "No salary data in the sample database yet"
+      },
+      "career": {
+        "value": [],
+        "status": "placeholder",
+        "note": "Career notes not written yet"
+      },
+      "eligibility": {
+        "value": null,
+        "status": "unknown"
+      },
+      "clubs": []
+    },
+    {
+      "id": "mhl",
+      "name": "Junior Hockey League",
+      "shortName": "MHL",
+      "logo": null,
+      "placeholderBadge": "assets/badges/placeholder/mhl.svg",
+      "kind": "junior",
+      "multinational": false,
+      "territories": [
+        "rus"
+      ],
+      "homeView": "eurasia",
+      "tier": {
+        "value": "Junior",
+        "status": "reference",
+        "asOf": "2025–26",
+        "level": 4
+      },
+      "teamCount": {
+        "value": null,
+        "status": "unknown"
+      },
+      "season": {
+        "value": "2026–27",
+        "status": "game",
+        "note": "Career mode start season"
+      },
+      "salary": {
+        "value": null,
+        "status": "placeholder",
+        "note": "No salary data in the sample database yet"
+      },
+      "career": {
+        "value": [],
+        "status": "placeholder",
+        "note": "Career notes not written yet"
+      },
+      "eligibility": {
+        "value": null,
+        "status": "unknown"
+      },
+      "clubs": []
+    },
+    {
+      "id": "belarus-extraleague",
+      "name": "Belarusian Extraleague",
+      "shortName": "BXL",
+      "logo": null,
+      "placeholderBadge": "assets/badges/placeholder/belarus-extraleague.svg",
+      "kind": "professional",
+      "multinational": false,
+      "territories": [
+        "blr"
+      ],
+      "homeView": "eurasia",
+      "tier": {
+        "value": "Top domestic league",
+        "status": "reference",
+        "asOf": "2025–26",
+        "level": 2
+      },
+      "teamCount": {
+        "value": null,
+        "status": "unknown"
+      },
+      "season": {
+        "value": "2026–27",
+        "status": "game",
+        "note": "Career mode start season"
+      },
+      "salary": {
+        "value": null,
+        "status": "placeholder",
+        "note": "No salary data in the sample database yet"
+      },
+      "career": {
+        "value": [],
+        "status": "placeholder",
+        "note": "Career notes not written yet"
+      },
+      "eligibility": {
+        "value": null,
+        "status": "unknown"
+      },
+      "clubs": []
+    },
+    {
+      "id": "kazakhstan",
+      "name": "Kazakhstan Championship",
+      "shortName": "KAZ",
+      "logo": null,
+      "placeholderBadge": "assets/badges/placeholder/kazakhstan.svg",
+      "kind": "professional",
+      "multinational": false,
+      "territories": [
+        "kaz"
+      ],
+      "homeView": "eurasia",
+      "tier": {
+        "value": "Top domestic league",
+        "status": "reference",
+        "asOf": "2025–26",
+        "level": 2
+      },
+      "teamCount": {
+        "value": null,
+        "status": "unknown"
+      },
+      "season": {
+        "value": "2026–27",
+        "status": "game",
+        "note": "Career mode start season"
+      },
+      "salary": {
+        "value": null,
+        "status": "placeholder",
+        "note": "No salary data in the sample database yet"
+      },
+      "career": {
+        "value": [],
+        "status": "placeholder",
+        "note": "Career notes not written yet"
+      },
+      "eligibility": {
+        "value": null,
+        "status": "unknown"
+      },
+      "clubs": []
+    },
+    {
+      "id": "asia-league",
+      "name": "Asia League Ice Hockey",
+      "shortName": "ALIH",
+      "logo": null,
+      "placeholderBadge": "assets/badges/placeholder/asia-league.svg",
+      "kind": "professional",
+      "multinational": true,
+      "territories": [
+        "jpn",
+        "kor"
+      ],
+      "homeView": "eurasia",
+      "tier": {
+        "value": "Top professional league (multinational)",
+        "status": "reference",
+        "asOf": "2025–26",
+        "level": 1
+      },
+      "teamCount": {
+        "value": null,
+        "status": "unknown"
+      },
+      "season": {
+        "value": "2026–27",
+        "status": "game",
+        "note": "Career mode start season"
+      },
+      "salary": {
+        "value": null,
+        "status": "placeholder",
+        "note": "No salary data in the sample database yet"
+      },
+      "career": {
+        "value": [],
+        "status": "placeholder",
+        "note": "Career notes not written yet"
+      },
+      "eligibility": {
+        "value": null,
+        "status": "unknown"
+      },
+      "clubs": []
+    }
+  ]
+}

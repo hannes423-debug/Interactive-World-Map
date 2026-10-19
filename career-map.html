@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Career Map</title>
+<meta name="description" content="Interactive world map and league selection for game career modes.">
+<link rel="stylesheet" href="css/career-map.css">
+<script type="module" src="js/main.js"></script>
+</head>
+<body>
+<div id="app" data-level="world">
+  <main id="stage" aria-label="Map"></main>
+
+  <header id="topbar">
+    <button id="back" class="icon-btn" type="button" aria-label="Back" hidden>
+      <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M15 5l-7 7 7 7" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </button>
+    <div class="heading">
+      <p id="brand" class="brand">Career Map</p>
+      <h1 id="view-title">World</h1>
+      <p id="view-subtitle" class="subtitle"></p>
+    </div>
+    <nav aria-label="Breadcrumb"><ol id="crumbs" class="crumbs"></ol></nav>
+  </header>
+
+  <section id="explore" class="explore" aria-labelledby="explore-title">
+    <button id="explore-toggle" type="button" class="explore-head" aria-label="Show or hide list">
+      <span id="explore-title">Regions</span>
+      <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path d="M6 15l6-6 6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+    </button>
+    <ul id="explore-list"></ul>
+  </section>
+
+  <aside id="panel" class="panel" aria-hidden="true" aria-label="Details">
+    <button id="panel-close" class="icon-btn panel-close" type="button" aria-label="Close details">
+      <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+    </button>
+    <div id="panel-content"></div>
+  </aside>
+
+  <div class="legend" aria-hidden="true">
+    <span class="lg lg-hover">Hover</span>
+    <span class="lg lg-selected">Selected</span>
+    <span class="lg lg-league">League area</span>
+    <span class="lg lg-off">Unavailable</span>
+  </div>
+
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+  <div id="boot-error" class="boot-error" hidden>
+    <h2>Map could not start</h2>
+    <p id="boot-error-msg"></p>
+  </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,122 @@
+{
+  "id": "nhl13",
+  "title": "NHL 13 · Modern Career",
+  "subtitle": "Choose where your career begins",
+  "season": "2026–27",
+  "rootView": "world",
+  "views": {
+    "world": {
+      "title": "World",
+      "map": "world",
+      "level": "world",
+      "focus": [
+        840,
+        330
+      ],
+      "regions": [
+        "north-america",
+        "europe",
+        "eurasia"
+      ]
+    },
+    "north-america": {
+      "title": "North America",
+      "map": "north-america",
+      "level": "region",
+      "worldUnits": [
+        "CAN",
+        "USA"
+      ],
+      "territories": [
+        "can",
+        "usa"
+      ]
+    },
+    "europe": {
+      "title": "Europe",
+      "map": "europe",
+      "level": "region",
+      "worldUnits": [
+        "SWE",
+        "FIN",
+        "NOR",
+        "DNK",
+        "DEU",
+        "CHE",
+        "CZE",
+        "SVK",
+        "AUT",
+        "ITA",
+        "SVN",
+        "HUN",
+        "FRA",
+        "GBR",
+        "POL",
+        "LVA",
+        "BLR",
+        "IRL",
+        "NLD",
+        "BEL",
+        "ESP",
+        "PRT",
+        "EST",
+        "LTU",
+        "UKR",
+        "ROU",
+        "BGR",
+        "SRB",
+        "HRV",
+        "BIH",
+        "MNE",
+        "ALB",
+        "MKD",
+        "GRC",
+        "MDA",
+        "LUX",
+        "ISL"
+      ],
+      "territories": [
+        "swe",
+        "fin",
+        "nor",
+        "dnk",
+        "deu",
+        "che",
+        "cze",
+        "svk",
+        "aut",
+        "ita",
+        "svn",
+        "hun",
+        "fra",
+        "gbr",
+        "pol",
+        "lva",
+        "rus",
+        "blr"
+      ]
+    },
+    "eurasia": {
+      "title": "Russia & Eurasia",
+      "map": "eurasia",
+      "level": "region",
+      "worldUnits": [
+        "RUS",
+        "KAZ",
+        "CHN",
+        "MNG",
+        "JPN",
+        "KOR"
+      ],
+      "territories": [
+        "rus",
+        "blr",
+        "kaz",
+        "chn",
+        "jpn",
+        "kor"
+      ]
+    }
+  },
+  "dataNotice": "Sample database. Values marked Reference are widely reported real-world facts that have not been re-verified for 2026–27. Placeholder values are game-design numbers, not real-world data."
+}

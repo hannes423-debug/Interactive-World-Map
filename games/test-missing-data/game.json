@@ -1,0 +1,12 @@
+{
+  "id": "test-missing-data",
+  "title": "Test fixture · missing data",
+  "subtitle": "Used by tools/test/verify.mjs - broken references on purpose",
+  "season": "2026–27",
+  "rootView": "world",
+  "views": {
+    "world": { "title": "World", "map": "world", "level": "world", "regions": ["europe", "nowhere"] },
+    "europe": { "title": "Europe", "map": "europe", "level": "region", "worldUnits": ["SWE", "FIN"], "territories": ["swe", "ghost-territory", "no-boundary"] },
+    "nowhere": { "title": "Missing map", "map": "does-not-exist", "level": "region", "territories": [] }
+  }
+}

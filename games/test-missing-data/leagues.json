@@ -1,0 +1,6 @@
+{
+  "leagues": [
+    { "id": "test-league", "name": "League with gaps", "shortName": "TL", "logo": "assets/badges/does-not-exist.png",
+      "territories": ["swe", "ghost-territory"], "homeView": "europe", "clubs": ["ghost-club"] }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "badges": [
+    { "id": "badge-test", "league": "test-league", "image": "assets/badges/does-not-exist.png", "views": ["world", "europe"], "minLevel": "world", "anchor": [16, 62], "priority": 1 },
+    { "id": "badge-ghost", "league": "ghost-league", "views": ["europe"], "minLevel": "region", "anchor": [10, 50] },
+    { "id": "badge-no-anchor", "league": "test-league", "views": ["europe"], "minLevel": "region" }
+  ]
+}

@@ -1,0 +1,423 @@
+{
+  "badges": [
+    {
+      "id": "badge-nhl",
+      "league": "nhl",
+      "image": null,
+      "views": [
+        "world",
+        "north-america"
+      ],
+      "minLevel": "world",
+      "anchor": [
+        -97,
+        42
+      ],
+      "priority": 100,
+      "action": {
+        "type": "league",
+        "id": "nhl"
+      }
+    },
+    {
+      "id": "badge-khl",
+      "league": "khl",
+      "image": null,
+      "views": [
+        "world",
+        "eurasia"
+      ],
+      "minLevel": "world",
+      "anchor": [
+        62,
+        57
+      ],
+      "priority": 90,
+      "action": {
+        "type": "league",
+        "id": "khl"
+      }
+    },
+    {
+      "id": "badge-shl",
+      "league": "shl",
+      "image": null,
+      "views": [
+        "world",
+        "europe"
+      ],
+      "minLevel": "world",
+      "anchor": [
+        15.5,
+        62.5
+      ],
+      "priority": 80,
+      "action": {
+        "type": "league",
+        "id": "shl"
+      }
+    },
+    {
+      "id": "badge-liiga",
+      "league": "liiga",
+      "image": null,
+      "views": [
+        "world",
+        "europe"
+      ],
+      "minLevel": "world",
+      "anchor": [
+        26,
+        63
+      ],
+      "priority": 70,
+      "action": {
+        "type": "league",
+        "id": "liiga"
+      }
+    },
+    {
+      "id": "badge-ahl",
+      "league": "ahl",
+      "image": null,
+      "views": [
+        "north-america"
+      ],
+      "minLevel": "region",
+      "anchor": [
+        -84,
+        39
+      ],
+      "priority": 60,
+      "action": {
+        "type": "league",
+        "id": "ahl"
+      }
+    },
+    {
+      "id": "badge-ncaa",
+      "league": "ncaa",
+      "image": null,
+      "views": [
+        "north-america"
+      ],
+      "minLevel": "region",
+      "anchor": [
+        -100,
+        37
+      ],
+      "priority": 40,
+      "action": {
+        "type": "league",
+        "id": "ncaa"
+      }
+    },
+    {
+      "id": "badge-nl",
+      "league": "nl",
+      "image": null,
+      "views": [
+        "europe"
+      ],
+      "minLevel": "region",
+      "anchor": [
+        8.2,
+        46.8
+      ],
+      "priority": 60,
+      "action": {
+        "type": "league",
+        "id": "nl"
+      }
+    },
+    {
+      "id": "badge-czech-extraliga",
+      "league": "czech-extraliga",
+      "image": null,
+      "views": [
+        "europe"
+      ],
+      "minLevel": "region",
+      "anchor": [
+        15.4,
+        49.8
+      ],
+      "priority": 55,
+      "action": {
+        "type": "league",
+        "id": "czech-extraliga"
+      }
+    },
+    {
+      "id": "badge-del",
+      "league": "del",
+      "image": null,
+      "views": [
+        "europe"
+      ],
+      "minLevel": "region",
+      "anchor": [
+        10.4,
+        51.1
+      ],
+      "priority": 55,
+      "action": {
+        "type": "league",
+        "id": "del"
+      }
+    },
+    {
+      "id": "badge-icehl",
+      "league": "icehl",
+      "image": null,
+      "views": [
+        "europe"
+      ],
+      "minLevel": "region",
+      "anchor": [
+        13.5,
+        47.0
+      ],
+      "priority": 45,
+      "action": {
+        "type": "league",
+        "id": "icehl"
+      }
+    },
+    {
+      "id": "badge-eihl",
+      "league": "eihl",
+      "image": null,
+      "views": [
+        "europe"
+      ],
+      "minLevel": "region",
+      "anchor": [
+        -2.0,
+        53.5
+      ],
+      "priority": 40,
+      "action": {
+        "type": "league",
+        "id": "eihl"
+      }
+    },
+    {
+      "id": "badge-champions",
+      "league": "champions",
+      "image": null,
+      "views": [
+        "europe"
+      ],
+      "minLevel": "region",
+      "anchor": [
+        9.2,
+        56.0
+      ],
+      "priority": 30,
+      "action": {
+        "type": "league",
+        "id": "champions"
+      }
+    },
+    {
+      "id": "badge-asia-league",
+      "league": "asia-league",
+      "image": null,
+      "views": [
+        "eurasia"
+      ],
+      "minLevel": "region",
+      "anchor": [
+        138,
+        37
+      ],
+      "priority": 50,
+      "action": {
+        "type": "league",
+        "id": "asia-league"
+      }
+    },
+    {
+      "id": "badge-echl",
+      "league": "echl",
+      "image": null,
+      "views": [
+        "north-america"
+      ],
+      "minLevel": "territory",
+      "anchor": [
+        -88,
+        34
+      ],
+      "priority": 30,
+      "action": {
+        "type": "league",
+        "id": "echl"
+      }
+    },
+    {
+      "id": "badge-ushl",
+      "league": "ushl",
+      "image": null,
+      "views": [
+        "north-america"
+      ],
+      "minLevel": "territory",
+      "anchor": [
+        -94,
+        42.5
+      ],
+      "priority": 25,
+      "action": {
+        "type": "league",
+        "id": "ushl"
+      }
+    },
+    {
+      "id": "badge-whl",
+      "league": "whl",
+      "image": null,
+      "views": [
+        "north-america"
+      ],
+      "minLevel": "territory",
+      "anchor": [
+        -114,
+        53
+      ],
+      "priority": 35,
+      "action": {
+        "type": "league",
+        "id": "whl"
+      }
+    },
+    {
+      "id": "badge-ohl",
+      "league": "ohl",
+      "image": null,
+      "views": [
+        "north-america"
+      ],
+      "minLevel": "territory",
+      "anchor": [
+        -80.5,
+        44
+      ],
+      "priority": 35,
+      "action": {
+        "type": "league",
+        "id": "ohl"
+      }
+    },
+    {
+      "id": "badge-qmjhl",
+      "league": "qmjhl",
+      "image": null,
+      "views": [
+        "north-america"
+      ],
+      "minLevel": "territory",
+      "anchor": [
+        -70,
+        47.5
+      ],
+      "priority": 35,
+      "action": {
+        "type": "league",
+        "id": "qmjhl"
+      }
+    },
+    {
+      "id": "badge-allsvenskan",
+      "league": "allsvenskan",
+      "image": null,
+      "views": [
+        "europe"
+      ],
+      "minLevel": "territory",
+      "anchor": [
+        14.5,
+        58.8
+      ],
+      "priority": 30,
+      "action": {
+        "type": "league",
+        "id": "allsvenskan"
+      }
+    },
+    {
+      "id": "badge-vhl",
+      "league": "vhl",
+      "image": null,
+      "views": [
+        "eurasia"
+      ],
+      "minLevel": "territory",
+      "anchor": [
+        80,
+        55
+      ],
+      "priority": 30,
+      "action": {
+        "type": "league",
+        "id": "vhl"
+      }
+    },
+    {
+      "id": "badge-mhl",
+      "league": "mhl",
+      "image": null,
+      "views": [
+        "eurasia"
+      ],
+      "minLevel": "territory",
+      "anchor": [
+        45,
+        55
+      ],
+      "priority": 20,
+      "action": {
+        "type": "league",
+        "id": "mhl"
+      }
+    },
+    {
+      "id": "badge-belarus-extraleague",
+      "league": "belarus-extraleague",
+      "image": null,
+      "views": [
+        "eurasia",
+        "europe"
+      ],
+      "minLevel": "territory",
+      "anchor": [
+        28,
+        53.5
+      ],
+      "priority": 25,
+      "action": {
+        "type": "league",
+        "id": "belarus-extraleague"
+      }
+    },
+    {
+      "id": "badge-kazakhstan",
+      "league": "kazakhstan",
+      "image": null,
+      "views": [
+        "eurasia"
+      ],
+      "minLevel": "territory",
+      "anchor": [
+        68,
+        48
+      ],
+      "priority": 25,
+      "action": {
+        "type": "league",
+        "id": "kazakhstan"
+      }
+    }
+  ]
+}

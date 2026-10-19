@@ -1,0 +1,604 @@
+{
+  "teams": [
+    {
+      "id": "nhl-ana",
+      "name": "Anaheim Ducks",
+      "city": "Anaheim",
+      "league": "nhl",
+      "territory": "usa",
+      "geo": "US-CA",
+      "status": "reference",
+      "asOf": "2025–26"
+    },
+    {
+      "id": "nhl-bos",
+      "name": "Boston Bruins",
+      "city": "Boston",
+      "league": "nhl",
+      "territory": "usa",
+      "geo": "US-MA",
+      "status": "reference",
+      "asOf": "2025–26"
+    },
+    {
+      "id": "nhl-buf",
+      "name": "Buffalo Sabres",
+      "city": "Buffalo",
+      "league": "nhl",
+      "territory": "usa",
+      "geo": "US-NY",
+      "status": "reference",
+      "asOf": "2025–26"
+    },
+    {
+      "id": "nhl-cgy",
+      "name": "Calgary Flames",
+      "city": "Calgary",
+      "league": "nhl",
+      "territory": "ca-ab",
+      "geo": "CA-AB",
+      "status": "reference",
+      "asOf": "2025–26"
+    },
+    {
+      "id": "nhl-car",
+      "name": "Carolina Hurricanes",
+      "city": "Raleigh",
+      "league": "nhl",
+      "territory": "usa",
+      "geo": "US-NC",
+      "status": "reference",
+      "asOf": "2025–26"
+    },
+    {
+      "id": "nhl-chi",
+      "name": "Chicago Blackhawks",
+      "city": "Chicago",
+      "league": "nhl",
+      "territory": "usa",
+      "geo": "US-IL",
+      "status": "reference",
+      "asOf": "2025–26"
+    },
+    {
+      "id": "nhl-col",
+      "name": "Colorado Avalanche",
+      "city": "Denver",
+      "league": "nhl",
+      "territory": "usa",
+      "geo": "US-CO",
+      "status": "reference",
+      "asOf": "2025–26"
+    },
+    {
+      "id": "nhl-cbj",
+      "name": "Columbus Blue Jackets",
+      "city": "Columbus",
+      "league": "nhl",
+      "territory": "usa",
+      "geo": "US-OH",
+      "status": "reference",
+      "asOf": "2025–26"
+    },
+    {
+      "id": "nhl-dal",
+      "name": "Dallas Stars",
+      "city": "Dallas",
+      "league": "nhl",
+      "territory": "usa",
+      "geo": "US-TX",
+      "status": "reference",
+      "asOf": "2025–26"
+    },
+    {
+      "id": "nhl-det",
+      "name": "Detroit Red Wings",
+      "city": "Detroit",
+      "league": "nhl",
+      "territory": "us-mi",
+      "geo": "US-MI",
+      "status": "reference",
+      "asOf": "2025–26"
+    },
+    {
+      "id": "nhl-edm",
+      "name": "Edmonton Oilers",
+      "city": "Edmonton",
+      "league": "nhl",
+      "territory": "ca-ab",
+      "geo": "CA-AB",
+      "status": "reference",
+      "asOf": "2025–26"
+    },
+    {
+      "id": "nhl-fla",
+      "name": "Florida Panthers",
+      "city": "Sunrise",
+      "league": "nhl",
+      "territory": "usa",
+      "geo": "US-FL",
+      "status": "reference",
+      "asOf": "2025–26"
+    },
+    {
+      "id": "nhl-lak",
+      "name": "Los Angeles Kings",
+      "city": "Los Angeles",
+      "league": "nhl",
+      "territory": "usa",
+      "geo": "US-CA",
+      "status": "reference",
+      "asOf": "2025–26"
+    },
+    {
+      "id": "nhl-min",
+      "name": "Minnesota Wild",
+      "city": "Saint Paul",
+      "league": "nhl",
+      "territory": "usa",
+      "geo": "US-MN",
+      "status": "reference",
+      "asOf": "2025–26"
+    },
+    {
+      "id": "nhl-mtl",
+      "name": "Montréal Canadiens",
+      "city": "Montréal",
+      "league": "nhl",
+      "territory": "ca-qc",
+      "geo": "CA-QC",
+      "status": "reference",
+      "asOf": "2025–26"
+    },
+    {
+      "id": "nhl-nsh",
+      "name": "Nashville Predators",
+      "city": "Nashville",
+      "league": "nhl",
+      "territory": "usa",
+      "geo": "US-TN",
+      "status": "reference",
+      "asOf": "2025–26"
+    },
+    {
+      "id": "nhl-njd",
+      "name": "New Jersey Devils",
+      "city": "Newark",
+      "league": "nhl",
+      "territory": "usa",
+      "geo": "US-NJ",
+      "status": "reference",
+      "asOf": "2025–26"
+    },
+    {
+      "id": "nhl-nyi",
+      "name": "New York Islanders",
+      "city": "Elmont",
+      "league": "nhl",
+      "territory": "usa",
+      "geo": "US-NY",
+      "status": "reference",
+      "asOf": "2025–26"
+    },
+    {
+      "id": "nhl-nyr",
+      "name": "New York Rangers",
+      "city": "New York",
+      "league": "nhl",
+      "territory": "usa",
+      "geo": "US-NY",
+      "status": "reference",
+      "asOf": "2025–26"
+    },
+    {
+      "id": "nhl-ott",
+      "name": "Ottawa Senators",
+      "city": "Ottawa",
+      "league": "nhl",
+      "territory": "ca-on",
+      "geo": "CA-ON",
+      "status": "reference",
+      "asOf": "2025–26"
+    },
+    {
+      "id": "nhl-phi",
+      "name": "Philadelphia Flyers",
+      "city": "Philadelphia",
+      "league": "nhl",
+      "territory": "us-pa",
+      "geo": "US-PA",
+      "status": "reference",
+      "asOf": "2025–26"
+    },
+    {
+      "id": "nhl-pit",
+      "name": "Pittsburgh Penguins",
+      "city": "Pittsburgh",
+      "league": "nhl",
+      "territory": "us-pa",
+      "geo": "US-PA",
+      "status": "reference",
+      "asOf": "2025–26"
+    },
+    {
+      "id": "nhl-sjs",
+      "name": "San Jose Sharks",
+      "city": "San Jose",
+      "league": "nhl",
+      "territory": "usa",
+      "geo": "US-CA",
+      "status": "reference",
+      "asOf": "2025–26"
+    },
+    {
+      "id": "nhl-sea",
+      "name": "Seattle Kraken",
+      "city": "Seattle",
+      "league": "nhl",
+      "territory": "us-wa",
+      "geo": "US-WA",
+      "status": "reference",
+      "asOf": "2025–26"
+    },
+    {
+      "id": "nhl-stl",
+      "name": "St. Louis Blues",
+      "city": "St. Louis",
+      "league": "nhl",
+      "territory": "usa",
+      "geo": "US-MO",
+      "status": "reference",
+      "asOf": "2025–26"
+    },
+    {
+      "id": "nhl-tbl",
+      "name": "Tampa Bay Lightning",
+      "city": "Tampa",
+      "league": "nhl",
+      "territory": "usa",
+      "geo": "US-FL",
+      "status": "reference",
+      "asOf": "2025–26"
+    },
+    {
+      "id": "nhl-tor",
+      "name": "Toronto Maple Leafs",
+      "city": "Toronto",
+      "league": "nhl",
+      "territory": "ca-on",
+      "geo": "CA-ON",
+      "status": "reference",
+      "asOf": "2025–26"
+    },
+    {
+      "id": "nhl-uta",
+      "name": "Utah Mammoth",
+      "city": "Salt Lake City",
+      "league": "nhl",
+      "territory": "usa",
+      "geo": "US-UT",
+      "status": "reference",
+      "asOf": "2025–26"
+    },
+    {
+      "id": "nhl-van",
+      "name": "Vancouver Canucks",
+      "city": "Vancouver",
+      "league": "nhl",
+      "territory": "ca-bc",
+      "geo": "CA-BC",
+      "status": "reference",
+      "asOf": "2025–26"
+    },
+    {
+      "id": "nhl-vgk",
+      "name": "Vegas Golden Knights",
+      "city": "Paradise",
+      "league": "nhl",
+      "territory": "usa",
+      "geo": "US-NV",
+      "status": "reference",
+      "asOf": "2025–26"
+    },
+    {
+      "id": "nhl-wsh",
+      "name": "Washington Capitals",
+      "city": "Washington, D.C.",
+      "league": "nhl",
+      "territory": "usa",
+      "geo": "US-DC",
+      "status": "reference",
+      "asOf": "2025–26"
+    },
+    {
+      "id": "nhl-wpg",
+      "name": "Winnipeg Jets",
+      "city": "Winnipeg",
+      "league": "nhl",
+      "territory": "ca-mb",
+      "geo": "CA-MB",
+      "status": "reference",
+      "asOf": "2025–26"
+    },
+    {
+      "id": "shl-bry",
+      "name": "Brynäs IF",
+      "city": "Gävle",
+      "league": "shl",
+      "territory": "swe",
+      "geo": "SWE",
+      "status": "reference",
+      "asOf": "2025–26"
+    },
+    {
+      "id": "shl-dif",
+      "name": "Djurgårdens IF",
+      "city": "Stockholm",
+      "league": "shl",
+      "territory": "swe",
+      "geo": "SWE",
+      "status": "reference",
+      "asOf": "2025–26"
+    },
+    {
+      "id": "shl-fhc",
+      "name": "Frölunda HC",
+      "city": "Gothenburg",
+      "league": "shl",
+      "territory": "swe",
+      "geo": "SWE",
+      "status": "reference",
+      "asOf": "2025–26"
+    },
+    {
+      "id": "shl-fbk",
+      "name": "Färjestad BK",
+      "city": "Karlstad",
+      "league": "shl",
+      "territory": "swe",
+      "geo": "SWE",
+      "status": "reference",
+      "asOf": "2025–26"
+    },
+    {
+      "id": "shl-hv71",
+      "name": "HV71",
+      "city": "Jönköping",
+      "league": "shl",
+      "territory": "swe",
+      "geo": "SWE",
+      "status": "reference",
+      "asOf": "2025–26"
+    },
+    {
+      "id": "shl-lif",
+      "name": "Leksands IF",
+      "city": "Leksand",
+      "league": "shl",
+      "territory": "swe",
+      "geo": "SWE",
+      "status": "reference",
+      "asOf": "2025–26"
+    },
+    {
+      "id": "shl-lhc",
+      "name": "Linköping HC",
+      "city": "Linköping",
+      "league": "shl",
+      "territory": "swe",
+      "geo": "SWE",
+      "status": "reference",
+      "asOf": "2025–26"
+    },
+    {
+      "id": "shl-lhf",
+      "name": "Luleå HF",
+      "city": "Luleå",
+      "league": "shl",
+      "territory": "swe",
+      "geo": "SWE",
+      "status": "reference",
+      "asOf": "2025–26"
+    },
+    {
+      "id": "shl-mif",
+      "name": "Malmö Redhawks",
+      "city": "Malmö",
+      "league": "shl",
+      "territory": "swe",
+      "geo": "SWE",
+      "status": "reference",
+      "asOf": "2025–26"
+    },
+    {
+      "id": "shl-rbk",
+      "name": "Rögle BK",
+      "city": "Ängelholm",
+      "league": "shl",
+      "territory": "swe",
+      "geo": "SWE",
+      "status": "reference",
+      "asOf": "2025–26"
+    },
+    {
+      "id": "shl-ske",
+      "name": "Skellefteå AIK",
+      "city": "Skellefteå",
+      "league": "shl",
+      "territory": "swe",
+      "geo": "SWE",
+      "status": "reference",
+      "asOf": "2025–26"
+    },
+    {
+      "id": "shl-tik",
+      "name": "Timrå IK",
+      "city": "Timrå",
+      "league": "shl",
+      "territory": "swe",
+      "geo": "SWE",
+      "status": "reference",
+      "asOf": "2025–26"
+    },
+    {
+      "id": "shl-vax",
+      "name": "Växjö Lakers",
+      "city": "Växjö",
+      "league": "shl",
+      "territory": "swe",
+      "geo": "SWE",
+      "status": "reference",
+      "asOf": "2025–26"
+    },
+    {
+      "id": "shl-ohk",
+      "name": "Örebro HK",
+      "city": "Örebro",
+      "league": "shl",
+      "territory": "swe",
+      "geo": "SWE",
+      "status": "reference",
+      "asOf": "2025–26"
+    },
+    {
+      "id": "nl-ajo",
+      "name": "HC Ajoie",
+      "city": "Porrentruy",
+      "league": "nl",
+      "territory": "che",
+      "geo": "CHE",
+      "status": "reference",
+      "asOf": "2025–26"
+    },
+    {
+      "id": "nl-hcap",
+      "name": "HC Ambrì-Piotta",
+      "city": "Ambrì",
+      "league": "nl",
+      "territory": "che",
+      "geo": "CHE",
+      "status": "reference",
+      "asOf": "2025–26"
+    },
+    {
+      "id": "nl-scb",
+      "name": "SC Bern",
+      "city": "Bern",
+      "league": "nl",
+      "territory": "che",
+      "geo": "CHE",
+      "status": "reference",
+      "asOf": "2025–26"
+    },
+    {
+      "id": "nl-ehcb",
+      "name": "EHC Biel-Bienne",
+      "city": "Biel/Bienne",
+      "league": "nl",
+      "territory": "che",
+      "geo": "CHE",
+      "status": "reference",
+      "asOf": "2025–26"
+    },
+    {
+      "id": "nl-hcd",
+      "name": "HC Davos",
+      "city": "Davos",
+      "league": "nl",
+      "territory": "che",
+      "geo": "CHE",
+      "status": "reference",
+      "asOf": "2025–26"
+    },
+    {
+      "id": "nl-fgo",
+      "name": "HC Fribourg-Gottéron",
+      "city": "Fribourg",
+      "league": "nl",
+      "territory": "che",
+      "geo": "CHE",
+      "status": "reference",
+      "asOf": "2025–26"
+    },
+    {
+      "id": "nl-gsh",
+      "name": "Genève-Servette HC",
+      "city": "Geneva",
+      "league": "nl",
+      "territory": "che",
+      "geo": "CHE",
+      "status": "reference",
+      "asOf": "2025–26"
+    },
+    {
+      "id": "nl-ehck",
+      "name": "EHC Kloten",
+      "city": "Kloten",
+      "league": "nl",
+      "territory": "che",
+      "geo": "CHE",
+      "status": "reference",
+      "asOf": "2025–26"
+    },
+    {
+      "id": "nl-scl",
+      "name": "SCL Tigers",
+      "city": "Langnau im Emmental",
+      "league": "nl",
+      "territory": "che",
+      "geo": "CHE",
+      "status": "reference",
+      "asOf": "2025–26"
+    },
+    {
+      "id": "nl-lhc",
+      "name": "Lausanne HC",
+      "city": "Lausanne",
+      "league": "nl",
+      "territory": "che",
+      "geo": "CHE",
+      "status": "reference",
+      "asOf": "2025–26"
+    },
+    {
+      "id": "nl-hcl",
+      "name": "HC Lugano",
+      "city": "Lugano",
+      "league": "nl",
+      "territory": "che",
+      "geo": "CHE",
+      "status": "reference",
+      "asOf": "2025–26"
+    },
+    {
+      "id": "nl-rjl",
+      "name": "SC Rapperswil-Jona Lakers",
+      "city": "Rapperswil-Jona",
+      "league": "nl",
+      "territory": "che",
+      "geo": "CHE",
+      "status": "reference",
+      "asOf": "2025–26"
+    },
+    {
+      "id": "nl-zsc",
+      "name": "ZSC Lions",
+      "city": "Zürich",
+      "league": "nl",
+      "territory": "che",
+      "geo": "CHE",
+      "status": "reference",
+      "asOf": "2025–26"
+    },
+    {
+      "id": "nl-evz",
+      "name": "EV Zug",
+      "city": "Zug",
+      "league": "nl",
+      "territory": "che",
+      "geo": "CHE",
+      "status": "reference",
+      "asOf": "2025–26"
+    }
+  ]
+}

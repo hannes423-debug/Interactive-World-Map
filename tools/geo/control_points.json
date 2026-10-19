@@ -1,0 +1,424 @@
+{
+ "world": [
+  {
+   "name": "Cape Prince of Wales",
+   "lon": -168.0,
+   "lat": 65.6,
+   "px": [
+    65,
+    150
+   ]
+  },
+  {
+   "name": "Florida tip",
+   "lon": -80.1,
+   "lat": 25.1,
+   "px": [
+    455,
+    455
+   ]
+  },
+  {
+   "name": "Iceland",
+   "lon": -19.0,
+   "lat": 65.0,
+   "px": [
+    680,
+    210
+   ]
+  },
+  {
+   "name": "Gibraltar",
+   "lon": -5.6,
+   "lat": 36.0,
+   "px": [
+    755,
+    415
+   ]
+  },
+  {
+   "name": "Cape of Good Hope",
+   "lon": 18.5,
+   "lat": -34.4,
+   "px": [
+    860,
+    830
+   ]
+  },
+  {
+   "name": "Tasmania",
+   "lon": 147.0,
+   "lat": -42.5,
+   "px": [
+    1445,
+    850
+   ]
+  },
+  {
+   "name": "Cape Horn",
+   "lon": -67.3,
+   "lat": -55.9,
+   "px": [
+    490,
+    905
+   ]
+  }
+ ],
+ "north-america": [
+  {
+   "name": "Florida tip",
+   "lon": -80.6,
+   "lat": 25.2,
+   "px": [
+    1015,
+    715
+   ]
+  },
+  {
+   "name": "Baja California tip",
+   "lon": -109.9,
+   "lat": 22.9,
+   "px": [
+    700,
+    730
+   ]
+  },
+  {
+   "name": "Cape Prince of Wales",
+   "lon": -168.0,
+   "lat": 65.6,
+   "px": [
+    365,
+    180
+   ]
+  },
+  {
+   "name": "Point Barrow",
+   "lon": -156.8,
+   "lat": 71.4,
+   "px": [
+    470,
+    125
+   ]
+  },
+  {
+   "name": "Greenland south tip",
+   "lon": -43.5,
+   "lat": 59.8,
+   "px": [
+    1210,
+    250
+   ]
+  },
+  {
+   "name": "Iceland",
+   "lon": -19.0,
+   "lat": 65.0,
+   "px": [
+    1340,
+    175
+   ]
+  },
+  {
+   "name": "Newfoundland east",
+   "lon": -52.6,
+   "lat": 47.6,
+   "px": [
+    1225,
+    420
+   ]
+  },
+  {
+   "name": "Cape Flattery",
+   "lon": -124.7,
+   "lat": 48.4,
+   "px": [
+    600,
+    425
+   ]
+  },
+  {
+   "name": "Northwest Angle",
+   "lon": -95.15,
+   "lat": 49.38,
+   "px": [
+    860,
+    448
+   ]
+  },
+  {
+   "name": "Yucatan north-east tip",
+   "lon": -86.8,
+   "lat": 21.5,
+   "px": [
+    935,
+    755
+   ]
+  }
+ ],
+ "europe": [
+  {
+   "name": "Iceland",
+   "lon": -19.0,
+   "lat": 65.0,
+   "px": [
+    370,
+    140
+   ]
+  },
+  {
+   "name": "Gibraltar",
+   "lon": -5.6,
+   "lat": 36.0,
+   "px": [
+    395,
+    795
+   ]
+  },
+  {
+   "name": "North Cape",
+   "lon": 25.8,
+   "lat": 71.1,
+   "px": [
+    860,
+    85
+   ]
+  },
+  {
+   "name": "Crimea",
+   "lon": 34.0,
+   "lat": 45.0,
+   "px": [
+    1060,
+    615
+   ]
+  },
+  {
+   "name": "Sicily",
+   "lon": 14.0,
+   "lat": 37.5,
+   "px": [
+    680,
+    800
+   ]
+  },
+  {
+   "name": "Caspian north",
+   "lon": 51.0,
+   "lat": 46.8,
+   "px": [
+    1280,
+    600
+   ]
+  }
+ ],
+ "eurasia": [
+  {
+   "name": "North Cape",
+   "lon": 25.8,
+   "lat": 71.1,
+   "px": [
+    345,
+    255
+   ]
+  },
+  {
+   "name": "Svalbard",
+   "lon": 17.0,
+   "lat": 78.5,
+   "px": [
+    160,
+    130
+   ]
+  },
+  {
+   "name": "Franz Josef Land",
+   "lon": 55.0,
+   "lat": 80.6,
+   "px": [
+    385,
+    100
+   ]
+  },
+  {
+   "name": "Novaya Zemlya north tip",
+   "lon": 69.0,
+   "lat": 77.0,
+   "px": [
+    620,
+    135
+   ]
+  },
+  {
+   "name": "Novaya Zemlya south tip",
+   "lon": 52.5,
+   "lat": 70.6,
+   "px": [
+    535,
+    255
+   ]
+  },
+  {
+   "name": "Yamal north tip",
+   "lon": 70.0,
+   "lat": 73.4,
+   "px": [
+    650,
+    220
+   ]
+  },
+  {
+   "name": "Severnaya Zemlya",
+   "lon": 100.0,
+   "lat": 79.5,
+   "px": [
+    765,
+    90
+   ]
+  },
+  {
+   "name": "New Siberian Islands",
+   "lon": 140.0,
+   "lat": 75.3,
+   "px": [
+    1110,
+    145
+   ]
+  },
+  {
+   "name": "East Cape (Chukotka)",
+   "lon": -169.7,
+   "lat": 66.0,
+   "px": [
+    1510,
+    100
+   ]
+  },
+  {
+   "name": "Kamchatka south tip",
+   "lon": 156.7,
+   "lat": 50.9,
+   "px": [
+    1505,
+    505
+   ]
+  },
+  {
+   "name": "Sakhalin north",
+   "lon": 142.7,
+   "lat": 54.3,
+   "px": [
+    1335,
+    515
+   ]
+  },
+  {
+   "name": "Sakhalin south",
+   "lon": 142.0,
+   "lat": 46.0,
+   "px": [
+    1365,
+    635
+   ]
+  },
+  {
+   "name": "Lake Baikal south",
+   "lon": 104.0,
+   "lat": 51.5,
+   "px": [
+    965,
+    580
+   ]
+  },
+  {
+   "name": "Lake Baikal north",
+   "lon": 109.5,
+   "lat": 55.7,
+   "px": [
+    1015,
+    512
+   ]
+  },
+  {
+   "name": "Tokyo",
+   "lon": 139.7,
+   "lat": 35.7,
+   "px": [
+    1350,
+    770
+   ]
+  },
+  {
+   "name": "Korea south tip",
+   "lon": 126.5,
+   "lat": 34.4,
+   "px": [
+    1215,
+    825
+   ]
+  },
+  {
+   "name": "Crimea",
+   "lon": 34.1,
+   "lat": 44.9,
+   "px": [
+    410,
+    625
+   ]
+  },
+  {
+   "name": "Caspian north",
+   "lon": 51.0,
+   "lat": 46.8,
+   "px": [
+    520,
+    640
+   ]
+  },
+  {
+   "name": "Caspian south",
+   "lon": 51.0,
+   "lat": 37.0,
+   "px": [
+    525,
+    760
+   ]
+  },
+  {
+   "name": "Scotland north",
+   "lon": -3.0,
+   "lat": 58.6,
+   "px": [
+    45,
+    410
+   ]
+  },
+  {
+   "name": "Aral Sea centre",
+   "lon": 59.5,
+   "lat": 45.0,
+   "px": [
+    572,
+    657
+   ]
+  },
+  {
+   "name": "Lake Balkhash west end",
+   "lon": 74.0,
+   "lat": 46.2,
+   "px": [
+    702,
+    662
+   ]
+  },
+  {
+   "name": "Lake Balkhash east end",
+   "lon": 79.0,
+   "lat": 46.6,
+   "px": [
+    755,
+    650
+   ]
+  }
+ ]
+}

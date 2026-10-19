@@ -1,0 +1,1484 @@
+{
+  "territories": [
+    {
+      "id": "can",
+      "name": "Canada",
+      "kind": "country",
+      "geo": [
+        "CAN"
+      ],
+      "views": [
+        "world",
+        "north-america"
+      ],
+      "homeView": "north-america",
+      "financialStrength": {
+        "value": {
+          "rating": 5,
+          "max": 5,
+          "label": "Very strong"
+        },
+        "status": "placeholder",
+        "note": "Game-design rating, not a real-world measurement"
+      },
+      "salaryRange": {
+        "value": null,
+        "status": "placeholder",
+        "note": "No salary data yet"
+      },
+      "development": {
+        "value": "Deepest junior system in the game: CHL major junior plus pro pathways.",
+        "status": "placeholder"
+      },
+      "accessibility": {
+        "value": {
+          "rating": 4,
+          "max": 5,
+          "label": "Open to most player types"
+        },
+        "status": "placeholder",
+        "note": "Game-design rating, not a real-world measurement"
+      },
+      "restrictions": {
+        "value": null,
+        "status": "unknown"
+      },
+      "subdivisions": true
+    },
+    {
+      "id": "usa",
+      "name": "United States",
+      "kind": "country",
+      "geo": [
+        "USA"
+      ],
+      "views": [
+        "world",
+        "north-america"
+      ],
+      "homeView": "north-america",
+      "financialStrength": {
+        "value": {
+          "rating": 5,
+          "max": 5,
+          "label": "Very strong"
+        },
+        "status": "placeholder",
+        "note": "Game-design rating, not a real-world measurement"
+      },
+      "salaryRange": {
+        "value": null,
+        "status": "placeholder",
+        "note": "No salary data yet"
+      },
+      "development": {
+        "value": "College (NCAA), USHL and major-junior teams in border states.",
+        "status": "placeholder"
+      },
+      "accessibility": {
+        "value": {
+          "rating": 4,
+          "max": 5,
+          "label": "Open to most player types"
+        },
+        "status": "placeholder",
+        "note": "Game-design rating, not a real-world measurement"
+      },
+      "restrictions": {
+        "value": null,
+        "status": "unknown"
+      },
+      "subdivisions": true
+    },
+    {
+      "id": "ca-bc",
+      "name": "British Columbia",
+      "kind": "subdivision",
+      "geo": [
+        "CA-BC"
+      ],
+      "views": [
+        "north-america"
+      ],
+      "homeView": "north-america",
+      "parent": "can",
+      "financialStrength": {
+        "value": null,
+        "status": "placeholder",
+        "note": "Not rated yet"
+      },
+      "salaryRange": {
+        "value": null,
+        "status": "placeholder",
+        "note": "No salary data yet"
+      },
+      "development": {
+        "value": null,
+        "status": "placeholder",
+        "note": "Not written yet"
+      },
+      "accessibility": {
+        "value": null,
+        "status": "placeholder",
+        "note": "Not rated yet"
+      },
+      "restrictions": {
+        "value": null,
+        "status": "unknown"
+      }
+    },
+    {
+      "id": "ca-ab",
+      "name": "Alberta",
+      "kind": "subdivision",
+      "geo": [
+        "CA-AB"
+      ],
+      "views": [
+        "north-america"
+      ],
+      "homeView": "north-america",
+      "parent": "can",
+      "financialStrength": {
+        "value": null,
+        "status": "placeholder",
+        "note": "Not rated yet"
+      },
+      "salaryRange": {
+        "value": null,
+        "status": "placeholder",
+        "note": "No salary data yet"
+      },
+      "development": {
+        "value": null,
+        "status": "placeholder",
+        "note": "Not written yet"
+      },
+      "accessibility": {
+        "value": null,
+        "status": "placeholder",
+        "note": "Not rated yet"
+      },
+      "restrictions": {
+        "value": null,
+        "status": "unknown"
+      }
+    },
+    {
+      "id": "ca-sk",
+      "name": "Saskatchewan",
+      "kind": "subdivision",
+      "geo": [
+        "CA-SK"
+      ],
+      "views": [
+        "north-america"
+      ],
+      "homeView": "north-america",
+      "parent": "can",
+      "financialStrength": {
+        "value": null,
+        "status": "placeholder",
+        "note": "Not rated yet"
+      },
+      "salaryRange": {
+        "value": null,
+        "status": "placeholder",
+        "note": "No salary data yet"
+      },
+      "development": {
+        "value": null,
+        "status": "placeholder",
+        "note": "Not written yet"
+      },
+      "accessibility": {
+        "value": null,
+        "status": "placeholder",
+        "note": "Not rated yet"
+      },
+      "restrictions": {
+        "value": null,
+        "status": "unknown"
+      }
+    },
+    {
+      "id": "ca-mb",
+      "name": "Manitoba",
+      "kind": "subdivision",
+      "geo": [
+        "CA-MB"
+      ],
+      "views": [
+        "north-america"
+      ],
+      "homeView": "north-america",
+      "parent": "can",
+      "financialStrength": {
+        "value": null,
+        "status": "placeholder",
+        "note": "Not rated yet"
+      },
+      "salaryRange": {
+        "value": null,
+        "status": "placeholder",
+        "note": "No salary data yet"
+      },
+      "development": {
+        "value": null,
+        "status": "placeholder",
+        "note": "Not written yet"
+      },
+      "accessibility": {
+        "value": null,
+        "status": "placeholder",
+        "note": "Not rated yet"
+      },
+      "restrictions": {
+        "value": null,
+        "status": "unknown"
+      }
+    },
+    {
+      "id": "ca-on",
+      "name": "Ontario",
+      "kind": "subdivision",
+      "geo": [
+        "CA-ON"
+      ],
+      "views": [
+        "north-america"
+      ],
+      "homeView": "north-america",
+      "parent": "can",
+      "financialStrength": {
+        "value": null,
+        "status": "placeholder",
+        "note": "Not rated yet"
+      },
+      "salaryRange": {
+        "value": null,
+        "status": "placeholder",
+        "note": "No salary data yet"
+      },
+      "development": {
+        "value": null,
+        "status": "placeholder",
+        "note": "Not written yet"
+      },
+      "accessibility": {
+        "value": null,
+        "status": "placeholder",
+        "note": "Not rated yet"
+      },
+      "restrictions": {
+        "value": null,
+        "status": "unknown"
+      }
+    },
+    {
+      "id": "ca-qc",
+      "name": "Quebec",
+      "kind": "subdivision",
+      "geo": [
+        "CA-QC"
+      ],
+      "views": [
+        "north-america"
+      ],
+      "homeView": "north-america",
+      "parent": "can",
+      "financialStrength": {
+        "value": null,
+        "status": "placeholder",
+        "note": "Not rated yet"
+      },
+      "salaryRange": {
+        "value": null,
+        "status": "placeholder",
+        "note": "No salary data yet"
+      },
+      "development": {
+        "value": null,
+        "status": "placeholder",
+        "note": "Not written yet"
+      },
+      "accessibility": {
+        "value": null,
+        "status": "placeholder",
+        "note": "Not rated yet"
+      },
+      "restrictions": {
+        "value": null,
+        "status": "unknown"
+      }
+    },
+    {
+      "id": "maritimes",
+      "name": "Maritime provinces",
+      "kind": "region",
+      "geo": [
+        "CA-NB",
+        "CA-NS",
+        "CA-PE"
+      ],
+      "views": [
+        "north-america"
+      ],
+      "homeView": "north-america",
+      "parent": "can",
+      "financialStrength": {
+        "value": null,
+        "status": "placeholder",
+        "note": "Not rated yet"
+      },
+      "salaryRange": {
+        "value": null,
+        "status": "placeholder",
+        "note": "No salary data yet"
+      },
+      "development": {
+        "value": "Grouped as one hockey region: New Brunswick, Nova Scotia and Prince Edward Island.",
+        "status": "placeholder"
+      },
+      "accessibility": {
+        "value": null,
+        "status": "placeholder",
+        "note": "Not rated yet"
+      },
+      "restrictions": {
+        "value": null,
+        "status": "unknown"
+      }
+    },
+    {
+      "id": "us-wa",
+      "name": "Washington",
+      "kind": "subdivision",
+      "geo": [
+        "US-WA"
+      ],
+      "views": [
+        "north-america"
+      ],
+      "homeView": "north-america",
+      "parent": "usa",
+      "financialStrength": {
+        "value": null,
+        "status": "placeholder",
+        "note": "Not rated yet"
+      },
+      "salaryRange": {
+        "value": null,
+        "status": "placeholder",
+        "note": "No salary data yet"
+      },
+      "development": {
+        "value": null,
+        "status": "placeholder",
+        "note": "Not written yet"
+      },
+      "accessibility": {
+        "value": null,
+        "status": "placeholder",
+        "note": "Not rated yet"
+      },
+      "restrictions": {
+        "value": null,
+        "status": "unknown"
+      }
+    },
+    {
+      "id": "us-or",
+      "name": "Oregon",
+      "kind": "subdivision",
+      "geo": [
+        "US-OR"
+      ],
+      "views": [
+        "north-america"
+      ],
+      "homeView": "north-america",
+      "parent": "usa",
+      "financialStrength": {
+        "value": null,
+        "status": "placeholder",
+        "note": "Not rated yet"
+      },
+      "salaryRange": {
+        "value": null,
+        "status": "placeholder",
+        "note": "No salary data yet"
+      },
+      "development": {
+        "value": null,
+        "status": "placeholder",
+        "note": "Not written yet"
+      },
+      "accessibility": {
+        "value": null,
+        "status": "placeholder",
+        "note": "Not rated yet"
+      },
+      "restrictions": {
+        "value": null,
+        "status": "unknown"
+      }
+    },
+    {
+      "id": "us-mi",
+      "name": "Michigan",
+      "kind": "subdivision",
+      "geo": [
+        "US-MI"
+      ],
+      "views": [
+        "north-america"
+      ],
+      "homeView": "north-america",
+      "parent": "usa",
+      "financialStrength": {
+        "value": null,
+        "status": "placeholder",
+        "note": "Not rated yet"
+      },
+      "salaryRange": {
+        "value": null,
+        "status": "placeholder",
+        "note": "No salary data yet"
+      },
+      "development": {
+        "value": null,
+        "status": "placeholder",
+        "note": "Not written yet"
+      },
+      "accessibility": {
+        "value": null,
+        "status": "placeholder",
+        "note": "Not rated yet"
+      },
+      "restrictions": {
+        "value": null,
+        "status": "unknown"
+      }
+    },
+    {
+      "id": "us-pa",
+      "name": "Pennsylvania",
+      "kind": "subdivision",
+      "geo": [
+        "US-PA"
+      ],
+      "views": [
+        "north-america"
+      ],
+      "homeView": "north-america",
+      "parent": "usa",
+      "financialStrength": {
+        "value": null,
+        "status": "placeholder",
+        "note": "Not rated yet"
+      },
+      "salaryRange": {
+        "value": null,
+        "status": "placeholder",
+        "note": "No salary data yet"
+      },
+      "development": {
+        "value": null,
+        "status": "placeholder",
+        "note": "Not written yet"
+      },
+      "accessibility": {
+        "value": null,
+        "status": "placeholder",
+        "note": "Not rated yet"
+      },
+      "restrictions": {
+        "value": null,
+        "status": "unknown"
+      }
+    },
+    {
+      "id": "swe",
+      "name": "Sweden",
+      "kind": "country",
+      "geo": [
+        "SWE"
+      ],
+      "views": [
+        "world",
+        "europe"
+      ],
+      "homeView": "europe",
+      "financialStrength": {
+        "value": {
+          "rating": 4,
+          "max": 5,
+          "label": "Strong"
+        },
+        "status": "placeholder",
+        "note": "Game-design rating, not a real-world measurement"
+      },
+      "salaryRange": {
+        "value": null,
+        "status": "placeholder",
+        "note": "No salary data yet"
+      },
+      "development": {
+        "value": "Renowned junior development (J20 Nationell) feeding SHL clubs.",
+        "status": "placeholder"
+      },
+      "accessibility": {
+        "value": {
+          "rating": 4,
+          "max": 5,
+          "label": "Good for young players"
+        },
+        "status": "placeholder",
+        "note": "Game-design rating, not a real-world measurement"
+      },
+      "restrictions": {
+        "value": null,
+        "status": "unknown"
+      }
+    },
+    {
+      "id": "fin",
+      "name": "Finland",
+      "kind": "country",
+      "geo": [
+        "FIN"
+      ],
+      "views": [
+        "world",
+        "europe"
+      ],
+      "homeView": "europe",
+      "financialStrength": {
+        "value": {
+          "rating": 3,
+          "max": 5,
+          "label": "Solid"
+        },
+        "status": "placeholder",
+        "note": "Game-design rating, not a real-world measurement"
+      },
+      "salaryRange": {
+        "value": null,
+        "status": "placeholder",
+        "note": "No salary data yet"
+      },
+      "development": {
+        "value": null,
+        "status": "placeholder",
+        "note": "Not written yet"
+      },
+      "accessibility": {
+        "value": {
+          "rating": 4,
+          "max": 5,
+          "label": "Good for young players"
+        },
+        "status": "placeholder",
+        "note": "Game-design rating, not a real-world measurement"
+      },
+      "restrictions": {
+        "value": null,
+        "status": "unknown"
+      }
+    },
+    {
+      "id": "nor",
+      "name": "Norway",
+      "kind": "country",
+      "geo": [
+        "NOR"
+      ],
+      "views": [
+        "world",
+        "europe"
+      ],
+      "homeView": "europe",
+      "financialStrength": {
+        "value": null,
+        "status": "placeholder",
+        "note": "Not rated yet"
+      },
+      "salaryRange": {
+        "value": null,
+        "status": "placeholder",
+        "note": "No salary data yet"
+      },
+      "development": {
+        "value": null,
+        "status": "placeholder",
+        "note": "Not written yet"
+      },
+      "accessibility": {
+        "value": null,
+        "status": "placeholder",
+        "note": "Not rated yet"
+      },
+      "restrictions": {
+        "value": null,
+        "status": "unknown"
+      }
+    },
+    {
+      "id": "dnk",
+      "name": "Denmark",
+      "kind": "country",
+      "geo": [
+        "DNK"
+      ],
+      "views": [
+        "world",
+        "europe"
+      ],
+      "homeView": "europe",
+      "financialStrength": {
+        "value": null,
+        "status": "placeholder",
+        "note": "Not rated yet"
+      },
+      "salaryRange": {
+        "value": null,
+        "status": "placeholder",
+        "note": "No salary data yet"
+      },
+      "development": {
+        "value": null,
+        "status": "placeholder",
+        "note": "Not written yet"
+      },
+      "accessibility": {
+        "value": null,
+        "status": "placeholder",
+        "note": "Not rated yet"
+      },
+      "restrictions": {
+        "value": null,
+        "status": "unknown"
+      }
+    },
+    {
+      "id": "deu",
+      "name": "Germany",
+      "kind": "country",
+      "geo": [
+        "DEU"
+      ],
+      "views": [
+        "world",
+        "europe"
+      ],
+      "homeView": "europe",
+      "financialStrength": {
+        "value": {
+          "rating": 4,
+          "max": 5,
+          "label": "Strong"
+        },
+        "status": "placeholder",
+        "note": "Game-design rating, not a real-world measurement"
+      },
+      "salaryRange": {
+        "value": null,
+        "status": "placeholder",
+        "note": "No salary data yet"
+      },
+      "development": {
+        "value": null,
+        "status": "placeholder",
+        "note": "Not written yet"
+      },
+      "accessibility": {
+        "value": null,
+        "status": "placeholder",
+        "note": "Not rated yet"
+      },
+      "restrictions": {
+        "value": null,
+        "status": "unknown"
+      }
+    },
+    {
+      "id": "che",
+      "name": "Switzerland",
+      "kind": "country",
+      "geo": [
+        "CHE"
+      ],
+      "views": [
+        "world",
+        "europe"
+      ],
+      "homeView": "europe",
+      "financialStrength": {
+        "value": {
+          "rating": 5,
+          "max": 5,
+          "label": "Very strong"
+        },
+        "status": "placeholder",
+        "note": "Game-design rating, not a real-world measurement"
+      },
+      "salaryRange": {
+        "value": null,
+        "status": "placeholder",
+        "note": "No salary data yet"
+      },
+      "development": {
+        "value": null,
+        "status": "placeholder",
+        "note": "Not written yet"
+      },
+      "accessibility": {
+        "value": null,
+        "status": "placeholder",
+        "note": "Not rated yet"
+      },
+      "restrictions": {
+        "value": "Import-player limit applies in career mode",
+        "status": "placeholder",
+        "note": "Game rule; real-world limits not verified"
+      }
+    },
+    {
+      "id": "cze",
+      "name": "Czechia",
+      "kind": "country",
+      "geo": [
+        "CZE"
+      ],
+      "views": [
+        "world",
+        "europe"
+      ],
+      "homeView": "europe",
+      "financialStrength": {
+        "value": {
+          "rating": 3,
+          "max": 5,
+          "label": "Solid"
+        },
+        "status": "placeholder",
+        "note": "Game-design rating, not a real-world measurement"
+      },
+      "salaryRange": {
+        "value": null,
+        "status": "placeholder",
+        "note": "No salary data yet"
+      },
+      "development": {
+        "value": null,
+        "status": "placeholder",
+        "note": "Not written yet"
+      },
+      "accessibility": {
+        "value": null,
+        "status": "placeholder",
+        "note": "Not rated yet"
+      },
+      "restrictions": {
+        "value": null,
+        "status": "unknown"
+      }
+    },
+    {
+      "id": "svk",
+      "name": "Slovakia",
+      "kind": "country",
+      "geo": [
+        "SVK"
+      ],
+      "views": [
+        "world",
+        "europe"
+      ],
+      "homeView": "europe",
+      "financialStrength": {
+        "value": null,
+        "status": "placeholder",
+        "note": "Not rated yet"
+      },
+      "salaryRange": {
+        "value": null,
+        "status": "placeholder",
+        "note": "No salary data yet"
+      },
+      "development": {
+        "value": null,
+        "status": "placeholder",
+        "note": "Not written yet"
+      },
+      "accessibility": {
+        "value": null,
+        "status": "placeholder",
+        "note": "Not rated yet"
+      },
+      "restrictions": {
+        "value": null,
+        "status": "unknown"
+      }
+    },
+    {
+      "id": "aut",
+      "name": "Austria",
+      "kind": "country",
+      "geo": [
+        "AUT"
+      ],
+      "views": [
+        "world",
+        "europe"
+      ],
+      "homeView": "europe",
+      "financialStrength": {
+        "value": null,
+        "status": "placeholder",
+        "note": "Not rated yet"
+      },
+      "salaryRange": {
+        "value": null,
+        "status": "placeholder",
+        "note": "No salary data yet"
+      },
+      "development": {
+        "value": null,
+        "status": "placeholder",
+        "note": "Not written yet"
+      },
+      "accessibility": {
+        "value": null,
+        "status": "placeholder",
+        "note": "Not rated yet"
+      },
+      "restrictions": {
+        "value": null,
+        "status": "unknown"
+      }
+    },
+    {
+      "id": "ita",
+      "name": "Italy",
+      "kind": "country",
+      "geo": [
+        "ITA"
+      ],
+      "views": [
+        "world",
+        "europe"
+      ],
+      "homeView": "europe",
+      "financialStrength": {
+        "value": null,
+        "status": "placeholder",
+        "note": "Not rated yet"
+      },
+      "salaryRange": {
+        "value": null,
+        "status": "placeholder",
+        "note": "No salary data yet"
+      },
+      "development": {
+        "value": null,
+        "status": "placeholder",
+        "note": "Not written yet"
+      },
+      "accessibility": {
+        "value": null,
+        "status": "placeholder",
+        "note": "Not rated yet"
+      },
+      "restrictions": {
+        "value": null,
+        "status": "unknown"
+      }
+    },
+    {
+      "id": "svn",
+      "name": "Slovenia",
+      "kind": "country",
+      "geo": [
+        "SVN"
+      ],
+      "views": [
+        "world",
+        "europe"
+      ],
+      "homeView": "europe",
+      "financialStrength": {
+        "value": null,
+        "status": "placeholder",
+        "note": "Not rated yet"
+      },
+      "salaryRange": {
+        "value": null,
+        "status": "placeholder",
+        "note": "No salary data yet"
+      },
+      "development": {
+        "value": null,
+        "status": "placeholder",
+        "note": "Not written yet"
+      },
+      "accessibility": {
+        "value": null,
+        "status": "placeholder",
+        "note": "Not rated yet"
+      },
+      "restrictions": {
+        "value": null,
+        "status": "unknown"
+      }
+    },
+    {
+      "id": "hun",
+      "name": "Hungary",
+      "kind": "country",
+      "geo": [
+        "HUN"
+      ],
+      "views": [
+        "world",
+        "europe"
+      ],
+      "homeView": "europe",
+      "financialStrength": {
+        "value": null,
+        "status": "placeholder",
+        "note": "Not rated yet"
+      },
+      "salaryRange": {
+        "value": null,
+        "status": "placeholder",
+        "note": "No salary data yet"
+      },
+      "development": {
+        "value": null,
+        "status": "placeholder",
+        "note": "Not written yet"
+      },
+      "accessibility": {
+        "value": null,
+        "status": "placeholder",
+        "note": "Not rated yet"
+      },
+      "restrictions": {
+        "value": null,
+        "status": "unknown"
+      }
+    },
+    {
+      "id": "fra",
+      "name": "France",
+      "kind": "country",
+      "geo": [
+        "FRA"
+      ],
+      "views": [
+        "world",
+        "europe"
+      ],
+      "homeView": "europe",
+      "financialStrength": {
+        "value": null,
+        "status": "placeholder",
+        "note": "Not rated yet"
+      },
+      "salaryRange": {
+        "value": null,
+        "status": "placeholder",
+        "note": "No salary data yet"
+      },
+      "development": {
+        "value": null,
+        "status": "placeholder",
+        "note": "Not written yet"
+      },
+      "accessibility": {
+        "value": null,
+        "status": "placeholder",
+        "note": "Not rated yet"
+      },
+      "restrictions": {
+        "value": null,
+        "status": "unknown"
+      }
+    },
+    {
+      "id": "gbr",
+      "name": "United Kingdom",
+      "kind": "country",
+      "geo": [
+        "GBR"
+      ],
+      "views": [
+        "world",
+        "europe"
+      ],
+      "homeView": "europe",
+      "financialStrength": {
+        "value": null,
+        "status": "placeholder",
+        "note": "Not rated yet"
+      },
+      "salaryRange": {
+        "value": null,
+        "status": "placeholder",
+        "note": "No salary data yet"
+      },
+      "development": {
+        "value": null,
+        "status": "placeholder",
+        "note": "Not written yet"
+      },
+      "accessibility": {
+        "value": null,
+        "status": "placeholder",
+        "note": "Not rated yet"
+      },
+      "restrictions": {
+        "value": null,
+        "status": "unknown"
+      }
+    },
+    {
+      "id": "gb-nir",
+      "name": "Northern Ireland",
+      "kind": "subdivision",
+      "geo": [],
+      "views": [
+        "europe"
+      ],
+      "homeView": "europe",
+      "parent": "gbr",
+      "financialStrength": {
+        "value": null,
+        "status": "placeholder",
+        "note": "Not rated yet"
+      },
+      "salaryRange": {
+        "value": null,
+        "status": "placeholder",
+        "note": "No salary data yet"
+      },
+      "development": {
+        "value": "Home of an EIHL club. No separate boundary in the map data yet - shown as part of the United Kingdom.",
+        "status": "placeholder"
+      },
+      "accessibility": {
+        "value": null,
+        "status": "placeholder",
+        "note": "Not rated yet"
+      },
+      "restrictions": {
+        "value": null,
+        "status": "unknown"
+      }
+    },
+    {
+      "id": "pol",
+      "name": "Poland",
+      "kind": "country",
+      "geo": [
+        "POL"
+      ],
+      "views": [
+        "world",
+        "europe"
+      ],
+      "homeView": "europe",
+      "financialStrength": {
+        "value": null,
+        "status": "placeholder",
+        "note": "Not rated yet"
+      },
+      "salaryRange": {
+        "value": null,
+        "status": "placeholder",
+        "note": "No salary data yet"
+      },
+      "development": {
+        "value": null,
+        "status": "placeholder",
+        "note": "Not written yet"
+      },
+      "accessibility": {
+        "value": null,
+        "status": "placeholder",
+        "note": "Not rated yet"
+      },
+      "restrictions": {
+        "value": null,
+        "status": "unknown"
+      }
+    },
+    {
+      "id": "lva",
+      "name": "Latvia",
+      "kind": "country",
+      "geo": [
+        "LVA"
+      ],
+      "views": [
+        "world",
+        "europe"
+      ],
+      "homeView": "europe",
+      "financialStrength": {
+        "value": null,
+        "status": "placeholder",
+        "note": "Not rated yet"
+      },
+      "salaryRange": {
+        "value": null,
+        "status": "placeholder",
+        "note": "No salary data yet"
+      },
+      "development": {
+        "value": null,
+        "status": "placeholder",
+        "note": "Not written yet"
+      },
+      "accessibility": {
+        "value": null,
+        "status": "placeholder",
+        "note": "Not rated yet"
+      },
+      "restrictions": {
+        "value": null,
+        "status": "unknown"
+      }
+    },
+    {
+      "id": "alps-adriatic",
+      "name": "Alps–Adriatic hockey region",
+      "kind": "region",
+      "geo": [
+        "AUT",
+        "ITA",
+        "SVN",
+        "HUN"
+      ],
+      "views": [
+        "europe"
+      ],
+      "homeView": "europe",
+      "members": [
+        "aut",
+        "ita",
+        "svn",
+        "hun"
+      ],
+      "financialStrength": {
+        "value": null,
+        "status": "placeholder",
+        "note": "Not rated yet"
+      },
+      "salaryRange": {
+        "value": null,
+        "status": "placeholder",
+        "note": "No salary data yet"
+      },
+      "development": {
+        "value": "Cross-border region used by the ICE Hockey League; not a political territory.",
+        "status": "placeholder"
+      },
+      "accessibility": {
+        "value": null,
+        "status": "placeholder",
+        "note": "Not rated yet"
+      },
+      "restrictions": {
+        "value": null,
+        "status": "unknown"
+      }
+    },
+    {
+      "id": "europe-chl",
+      "name": "Champions Hockey League area",
+      "kind": "region",
+      "geo": [],
+      "views": [
+        "europe"
+      ],
+      "homeView": "europe",
+      "members": [
+        "swe",
+        "fin",
+        "che",
+        "deu",
+        "cze",
+        "svk",
+        "aut",
+        "nor",
+        "dnk",
+        "fra",
+        "gbr",
+        "pol",
+        "lva",
+        "ita",
+        "svn",
+        "hun"
+      ],
+      "financialStrength": {
+        "value": null,
+        "status": "placeholder",
+        "note": "Not rated yet"
+      },
+      "salaryRange": {
+        "value": null,
+        "status": "placeholder",
+        "note": "No salary data yet"
+      },
+      "development": {
+        "value": "Competition area of the Champions Hockey League; participating countries vary by season.",
+        "status": "placeholder"
+      },
+      "accessibility": {
+        "value": null,
+        "status": "placeholder",
+        "note": "Not rated yet"
+      },
+      "restrictions": {
+        "value": null,
+        "status": "unknown"
+      }
+    },
+    {
+      "id": "rus",
+      "name": "Russia",
+      "kind": "country",
+      "geo": [
+        "RUS"
+      ],
+      "views": [
+        "world",
+        "europe",
+        "eurasia"
+      ],
+      "homeView": "eurasia",
+      "financialStrength": {
+        "value": {
+          "rating": 4,
+          "max": 5,
+          "label": "Strong"
+        },
+        "status": "placeholder",
+        "note": "Game-design rating, not a real-world measurement"
+      },
+      "salaryRange": {
+        "value": null,
+        "status": "placeholder",
+        "note": "No salary data yet"
+      },
+      "development": {
+        "value": null,
+        "status": "placeholder",
+        "note": "Not written yet"
+      },
+      "accessibility": {
+        "value": {
+          "rating": 3,
+          "max": 5,
+          "label": "Limited for imports"
+        },
+        "status": "placeholder",
+        "note": "Game-design rating, not a real-world measurement"
+      },
+      "restrictions": {
+        "value": null,
+        "status": "unknown"
+      },
+      "subdivisions": true
+    },
+    {
+      "id": "blr",
+      "name": "Belarus",
+      "kind": "country",
+      "geo": [
+        "BLR"
+      ],
+      "views": [
+        "world",
+        "europe",
+        "eurasia"
+      ],
+      "homeView": "eurasia",
+      "financialStrength": {
+        "value": null,
+        "status": "placeholder",
+        "note": "Not rated yet"
+      },
+      "salaryRange": {
+        "value": null,
+        "status": "placeholder",
+        "note": "No salary data yet"
+      },
+      "development": {
+        "value": null,
+        "status": "placeholder",
+        "note": "Not written yet"
+      },
+      "accessibility": {
+        "value": null,
+        "status": "placeholder",
+        "note": "Not rated yet"
+      },
+      "restrictions": {
+        "value": null,
+        "status": "unknown"
+      }
+    },
+    {
+      "id": "kaz",
+      "name": "Kazakhstan",
+      "kind": "country",
+      "geo": [
+        "KAZ"
+      ],
+      "views": [
+        "world",
+        "eurasia"
+      ],
+      "homeView": "eurasia",
+      "financialStrength": {
+        "value": null,
+        "status": "placeholder",
+        "note": "Not rated yet"
+      },
+      "salaryRange": {
+        "value": null,
+        "status": "placeholder",
+        "note": "No salary data yet"
+      },
+      "development": {
+        "value": null,
+        "status": "placeholder",
+        "note": "Not written yet"
+      },
+      "accessibility": {
+        "value": null,
+        "status": "placeholder",
+        "note": "Not rated yet"
+      },
+      "restrictions": {
+        "value": null,
+        "status": "unknown"
+      }
+    },
+    {
+      "id": "chn",
+      "name": "China",
+      "kind": "country",
+      "geo": [
+        "CHN"
+      ],
+      "views": [
+        "world",
+        "eurasia"
+      ],
+      "homeView": "eurasia",
+      "financialStrength": {
+        "value": null,
+        "status": "placeholder",
+        "note": "Not rated yet"
+      },
+      "salaryRange": {
+        "value": null,
+        "status": "placeholder",
+        "note": "No salary data yet"
+      },
+      "development": {
+        "value": null,
+        "status": "placeholder",
+        "note": "Not written yet"
+      },
+      "accessibility": {
+        "value": null,
+        "status": "placeholder",
+        "note": "Not rated yet"
+      },
+      "restrictions": {
+        "value": null,
+        "status": "unknown"
+      }
+    },
+    {
+      "id": "jpn",
+      "name": "Japan",
+      "kind": "country",
+      "geo": [
+        "JPN"
+      ],
+      "views": [
+        "world",
+        "eurasia"
+      ],
+      "homeView": "eurasia",
+      "financialStrength": {
+        "value": null,
+        "status": "placeholder",
+        "note": "Not rated yet"
+      },
+      "salaryRange": {
+        "value": null,
+        "status": "placeholder",
+        "note": "No salary data yet"
+      },
+      "development": {
+        "value": null,
+        "status": "placeholder",
+        "note": "Not written yet"
+      },
+      "accessibility": {
+        "value": null,
+        "status": "placeholder",
+        "note": "Not rated yet"
+      },
+      "restrictions": {
+        "value": null,
+        "status": "unknown"
+      }
+    },
+    {
+      "id": "kor",
+      "name": "South Korea",
+      "kind": "country",
+      "geo": [
+        "KOR"
+      ],
+      "views": [
+        "world",
+        "eurasia"
+      ],
+      "homeView": "eurasia",
+      "financialStrength": {
+        "value": null,
+        "status": "placeholder",
+        "note": "Not rated yet"
+      },
+      "salaryRange": {
+        "value": null,
+        "status": "placeholder",
+        "note": "No salary data yet"
+      },
+      "development": {
+        "value": null,
+        "status": "placeholder",
+        "note": "Not written yet"
+      },
+      "accessibility": {
+        "value": null,
+        "status": "placeholder",
+        "note": "Not rated yet"
+      },
+      "restrictions": {
+        "value": null,
+        "status": "unknown"
+      }
+    }
+  ]
+}

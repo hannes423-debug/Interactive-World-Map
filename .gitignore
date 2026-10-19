@@ -1,0 +1,5 @@
+tools/geo/.cache/
+tools/geo/out/
+__pycache__/
+node_modules/
+tools/test/out/
