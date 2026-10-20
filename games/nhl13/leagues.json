@@ -179,10 +179,10 @@
         "level": 3
       },
       "teamCount": {
-        "value": 32,
+        "value": 30,
         "status": "reference",
         "asOf": "2026–27",
-        "note": "Clubs listed for 2026–27 in https://en.wikipedia.org/wiki/2026%E2%80%9327_ECHL_season"
+        "note": "30 clubs in the official 2026–27 ECHL schedule (HockeyTech feed, fetched 2026-10-20); Augusta Lynx and Iowa Heartlanders are not in it"
       },
       "season": {
         "value": "2026–27",
@@ -233,9 +233,7 @@
         "new-mexico-goatheads",
         "tahoe-knight-monsters",
         "tulsa-oilers",
-        "wichita-thunder",
-        "augusta-lynx",
-        "iowa-heartlanders"
+        "wichita-thunder"
       ]
     },
     {
@@ -932,10 +930,10 @@
         "level": 1
       },
       "teamCount": {
-        "value": 13,
+        "value": 14,
         "status": "reference",
         "asOf": "2026–27",
-        "note": "Clubs listed for 2026–27 in https://de.wikipedia.org/wiki/ICE_Hockey_League_2026/27"
+        "note": "14 clubs in the official 2026–27 ICEHL schedule (ice.hockey feed, fetched 2026-10-20); Milano HC is new"
       },
       "season": {
         "value": "2026–27",
@@ -969,7 +967,8 @@
         "ehc-linz",
         "ferencvarosi-tc",
         "pioneers-vorarlberg",
-        "hc-innsbruck"
+        "hc-innsbruck",
+        "milano-hc"
       ]
     },
     {

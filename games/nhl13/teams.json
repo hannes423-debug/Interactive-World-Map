@@ -3984,47 +3984,6 @@
       ]
     },
     {
-      "id": "augusta-lynx",
-      "name": "Augusta Lynx",
-      "city": "Augusta",
-      "league": "echl",
-      "territory": "usa",
-      "geo": "USA",
-      "affiliations": null,
-      "status": "reference",
-      "asOf": "2026–27",
-      "source": "https://en.wikipedia.org/wiki/2026%E2%80%9327_ECHL_season",
-      "article": "https://en.wikipedia.org/wiki/Augusta_Lynx",
-      "lonlat": [
-        -81.975,
-        33.47
-      ]
-    },
-    {
-      "id": "iowa-heartlanders",
-      "name": "Iowa Heartlanders",
-      "city": "Coralville",
-      "league": "echl",
-      "territory": "usa",
-      "geo": "USA",
-      "affiliations": [
-        {
-          "club": "minnesota-wild",
-          "name": null,
-          "relation": "former affiliates",
-          "source": "season article table"
-        }
-      ],
-      "status": "reference",
-      "asOf": "2026–27",
-      "source": "https://en.wikipedia.org/wiki/2026%E2%80%9327_ECHL_season",
-      "article": "https://en.wikipedia.org/wiki/Iowa_Heartlanders",
-      "lonlat": [
-        -91.5867,
-        41.6883
-      ]
-    },
-    {
       "id": "calgary-hitmen",
       "name": "Calgary Hitmen",
       "city": "Calgary",
@@ -6951,6 +6910,23 @@
       "lonlat": [
         11.3945,
         47.2627
+      ]
+    },
+    {
+      "id": "milano-hc",
+      "name": "Milano HC",
+      "city": "Milan",
+      "league": "icehl",
+      "territory": "aut",
+      "geo": "AUT",
+      "affiliations": null,
+      "status": "reference",
+      "asOf": "2026–27",
+      "source": "https://www.ice.hockey/en/season/schedule",
+      "article": null,
+      "lonlat": [
+        9.19,
+        45.4642
       ]
     },
     {

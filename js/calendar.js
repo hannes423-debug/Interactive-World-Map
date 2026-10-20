@@ -95,7 +95,8 @@ function sourceNote(entry) {
     a.href = entry.source.url;
     a.target = '_blank';
     a.rel = 'noopener';
-    return h('p', 'source official', h('span', 'tag tag-official', 'Official schedule'), ' Dates and start times as published: ', a, `, fetched ${entry.source.fetched}. Times are venue-local.`);
+    return h('p', 'source official', h('span', 'tag tag-official', 'Official schedule'), ' Dates and start times as published: ', a, `, fetched ${entry.source.fetched}. `,
+      entry.source.timeNote ?? 'Times are venue-local.');
   }
   return h('p', 'source simulated', h('span', 'tag tag-sim', 'Simulated schedule'),
     ' No published fixtures are loaded for this league. Dates and pairings are generated and are not the real schedule.');
@@ -112,7 +113,7 @@ function gameRow(g) {
   const mine = career.team && (g.home === career.team || g.away === career.team);
   const side = (id, win) => h('span', `side ${win ? 'win' : ''}`, clubMark(id), link({ tab: 'team', scope: id }, team(id)?.name ?? id));
   return h('li', `game ${mine ? 'mine' : ''}`,
-    h('span', 'time', g.time ?? 'TBD', g.time ? h('small', null, 'local') : null),
+    h('span', 'time', g.time ?? (g.official ? '—' : 'TBD'), g.time ? h('small', null, season.leagues.get(g.league).source?.timeZone ?? 'local') : null),
     side(g.home, res && res.h > res.a),
     h('span', 'score', res ? `${res.h} – ${res.a}` : 'vs'),
     side(g.away, res && res.a > res.h),

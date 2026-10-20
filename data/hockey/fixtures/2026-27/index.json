@@ -13,6 +13,43 @@
     "fetched": "2026-10-20"
    }
   },
+  "czech-extraliga": {
+   "status": "official",
+   "games": 364,
+   "clubs": 14,
+   "first": "2026-09-15",
+   "last": "2027-03-05",
+   "source": {
+    "name": "Tipsport extraliga zápasy (hokej.cz)",
+    "url": "https://www.hokej.cz/tipsport-extraliga/zapasy",
+    "timeNote": "Times are venue-local (CET) as published; played games show no start time on the schedule.",
+    "fetched": "2026-10-20"
+   }
+  },
+  "del": {
+   "status": "official",
+   "games": 364,
+   "clubs": 14,
+   "first": "2026-09-17",
+   "last": "2027-03-07",
+   "source": {
+    "name": "PENNY DEL Spielplan (penny-del.org)",
+    "url": "https://www.penny-del.org/spiele",
+    "fetched": "2026-10-20"
+   }
+  },
+  "del2": {
+   "status": "official",
+   "games": 364,
+   "clubs": 14,
+   "first": "2026-09-18",
+   "last": "2027-03-07",
+   "source": {
+    "name": "DEL2 Spielplan (del-2.org)",
+    "url": "https://www.del-2.org/spielplan/",
+    "fetched": "2026-10-20"
+   }
+  },
   "echl": {
    "status": "official",
    "games": 1080,
@@ -25,6 +62,18 @@
     "fetched": "2026-10-20"
    }
   },
+  "icehl": {
+   "status": "official",
+   "games": 364,
+   "clubs": 14,
+   "first": "2026-09-18",
+   "last": "2027-02-24",
+   "source": {
+    "name": "win2day ICE Hockey League schedule (ice.hockey)",
+    "url": "https://www.ice.hockey/en/season/schedule",
+    "fetched": "2026-10-20"
+   }
+  },
   "liiga": {
    "status": "official",
    "games": 544,
@@ -34,6 +83,18 @@
    "source": {
     "name": "Liiga regular-season schedule (liiga.fi)",
     "url": "https://liiga.fi/fi/ohjelma",
+    "fetched": "2026-10-20"
+   }
+  },
+  "mestis": {
+   "status": "official",
+   "games": 216,
+   "clubs": 9,
+   "first": "2026-09-11",
+   "last": "2027-03-13",
+   "source": {
+    "name": "Mestis runkosarja (mestis.fi)",
+    "url": "https://mestis.fi/fi/ottelut/2026-2027/runkosarja/",
     "fetched": "2026-10-20"
    }
   },
@@ -106,6 +167,20 @@
    "source": {
     "name": "USHL official schedule (HockeyTech feed)",
     "url": "https://ushl.com/view#/schedule",
+    "fetched": "2026-10-20"
+   }
+  },
+  "vhl": {
+   "status": "official",
+   "games": 870,
+   "clubs": 30,
+   "first": "2026-09-02",
+   "last": "2027-03-18",
+   "source": {
+    "name": "VHL calendar (vhlru.ru)",
+    "url": "https://www.vhlru.ru/calendar/",
+    "timeZone": "MSK",
+    "timeNote": "Start times are Moscow time (MSK) as published; played games show no start time on the calendar.",
     "fetched": "2026-10-20"
    }
   },

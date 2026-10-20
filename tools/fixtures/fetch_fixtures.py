@@ -21,6 +21,9 @@ import os
 import re
 import sys
 import unicodedata
+from html import unescape
+import http.cookiejar
+import urllib.error
 import urllib.request
 from datetime import date, datetime, timezone
 from zoneinfo import ZoneInfo
@@ -30,6 +33,16 @@ OUT = os.path.join(ROOT, 'data', 'hockey', 'fixtures', '2026-27')
 ALIASES = os.path.join(os.path.dirname(__file__), 'aliases.json')
 UA = 'Mozilla/5.0 (X11; Linux x86_64) Firefox/140.0 (Interactive-World-Map fixtures)'
 SEASON = '2026-27'
+
+
+# KHL-family sites redirect once to set a cookie before serving the page
+OPENER = urllib.request.build_opener(urllib.request.HTTPCookieProcessor(http.cookiejar.CookieJar()))
+
+
+def get_text(url):
+    req = urllib.request.Request(url, headers={'User-Agent': UA, 'Accept': 'text/html,application/json', 'Accept-Language': 'en,ru;q=0.8'})
+    with OPENER.open(req, timeout=60) as r:
+        return r.read().decode('utf-8', 'replace')
 
 
 def get_json(url):
@@ -136,11 +149,143 @@ def liiga():
     return games, {'name': 'Liiga regular-season schedule (liiga.fi)', 'url': 'https://liiga.fi/fi/ohjelma'}
 
 
-ADAPTERS = {'nhl': nhl, 'nl': nl, 'shl': shl, 'liiga': liiga, **{k: (lambda k=k: hockeytech(k)) for k in HOCKEYTECH}}
+RU_MONTHS = {m: i + 1 for i, m in enumerate(['января', 'февраля', 'марта', 'апреля', 'мая', 'июня', 'июля', 'августа',
+                                               'сентября', 'октября', 'ноября', 'декабря'])}
+MSK = 'Europe/Moscow'
+
+
+def season_date(day, month):
+    """Day + month of the 2026-27 season -> ISO date (Jul-Dec 2026, Jan-Jun 2027)."""
+    return f'{2026 if month >= 7 else 2027}-{month:02d}-{day:02d}'
+
+
+def vhl():
+    # The VHL calendar page lists the whole regular season. Upcoming games carry a Moscow start
+    # time; games already played show the score instead, so their time is not published there.
+    page = 'https://www.vhlru.ru/calendar/'
+    html = get_text(page)
+    games = []
+    for day in re.split(r'<div class="calendar-page__day"', html)[1:]:
+        d, mon = re.search(r'calendar-page__day-date">\s*(\d+)\s+(\S+?)\s*<', day).groups()
+        date = season_date(int(d), RU_MONTHS[mon.lower()])
+        for m in re.split(r'<div class="calendar-page__match[ "]', day)[1:]:
+            gid = re.search(r'online/(\d+)\.html', m).group(1)
+            names = re.findall(r'calendar-page__match-team-name">\s*([^<]+?)\s*<', m)
+            city = re.search(r'calendar-page__match-city">\s*([^<]+?)\s*<', m).group(1)
+            t = re.search(r'calendar-page__match-date-time">\s*(\d\d:\d\d)', m)
+            start = datetime.fromisoformat(f'{date}T{t.group(1)}').replace(tzinfo=ZoneInfo(MSK)) if t else None
+            games.append(dict(id=gid, date=date, time=t and t.group(1), start=start and utc_iso(start),
+                              home=[names[0], f'{names[0]} {city}'], away=[names[1]]))
+    return games, {'name': 'VHL calendar (vhlru.ru)', 'url': page, 'timeZone': 'MSK',
+                   'timeNote': 'Start times are Moscow time (MSK) as published; played games show no start time on the calendar.'}
+
+
+def del2():
+    page = 'https://www.del-2.org/spielplan/'
+    html = get_text(page)
+    games = []
+    for day in re.split(r'<time datetime="', html)[1:]:
+        date = day[:10]
+        if not re.fullmatch(r'\d{4}-\d\d-\d\d', date):
+            continue
+        for row in re.split(r'<div class="games-row ', day)[1:]:
+            gid = re.search(r'href="/spiel/[^"]*_(\d+)"', row)
+            home = re.search(r'games-team-home[^"]*" title="([^"]+)"', row)
+            away = re.search(r'games-team-away[^"]*" title="([^"]+)"', row)
+            if not (gid and home and away):
+                continue
+            t = re.search(r'games-meta-time">\s*(\d\d:\d\d)', row)
+            start = datetime.fromisoformat(f'{date}T{t.group(1)}').replace(tzinfo=ZoneInfo('Europe/Berlin')) if t else None
+            games.append(dict(id=gid.group(1), date=date, time=t and t.group(1), start=start and utc_iso(start),
+                              home=[unescape(home.group(1))], away=[unescape(away.group(1))]))
+    return games, {'name': 'DEL2 Spielplan (del-2.org)', 'url': page}
+
+
+def penny_del():
+    base = 'https://www.penny-del.org/spiele/monat/'
+    games = {}
+    for month in ('september', 'oktober', 'november', 'dezember', 'januar', 'februar', 'maerz', 'april'):
+        try:
+            html = get_text(base + month)
+        except urllib.error.HTTPError:
+            continue
+        for row in re.split(r'<td class="team-schedule__date">', html)[1:]:
+            d = re.match(r'[^,<]*,\s*(\d\d)\.(\d\d)\.(\d{4})', row)
+            names = re.findall(r'team-meta__name[^"]*">\s*<a[^>]*>\s*([^<]+?)\s*</a>', row)
+            slugs = re.findall(r'href="/teams/([^/"]+)/', row)
+            if not (d and len(names) >= 2):
+                continue
+            date = f'{d.group(3)}-{d.group(2)}-{d.group(1)}'
+            # upcoming games have no match page yet: key them by date and clubs
+            gid = re.search(r'/statistik/spieldetails/[^"]*_(\d+)"', row)
+            gid = gid.group(1) if gid else f'{date}-{slugs[0]}-{slugs[1]}'
+            t = re.search(r'team-schedule__time">\s*(\d\d:\d\d)', row)
+            start = datetime.fromisoformat(f'{date}T{t.group(1)}').replace(tzinfo=ZoneInfo('Europe/Berlin')) if t else None
+            games[gid] = dict(id=gid, date=date, time=t and t.group(1), start=start and utc_iso(start),
+                                       home=[unescape(names[0])], away=[unescape(names[1])])
+    return list(games.values()), {'name': 'PENNY DEL Spielplan (penny-del.org)', 'url': 'https://www.penny-del.org/spiele'}
+
+
+def czech():
+    # All 52 rounds on one page. Upcoming games show date and time; played games only the date.
+    page = 'https://www.hokej.cz/tipsport-extraliga/zapasy?do=matchList-view-all'
+    html = get_text(page)
+    games = []
+    for row in re.split(r'<tr data-href="/zapas/', html)[1:]:
+        gid = re.match(r'(\d+)', row).group(1)
+        names = re.findall(r'preview__name--long">\s*([^<]+?)\s*<', row)
+        played = re.search(r'match-start-time">[^<\d]*(\d\d)\.\s*(\d\d)\.', row)
+        upcoming = re.search(r'<div class="col-1_3">(\d\d)\.\s*(\d\d)\.</div>\s*<div class="col-1_3">([^<]*)</div>', row)
+        dm = played or upcoming
+        if len(names) < 2 or not dm:
+            continue
+        date = season_date(int(dm.group(1)), int(dm.group(2)))
+        t = re.fullmatch(r'\s*(\d\d:\d\d)\s*', upcoming.group(3)) if upcoming else None
+        start = datetime.fromisoformat(f'{date}T{t.group(1)}').replace(tzinfo=ZoneInfo('Europe/Prague')) if t else None
+        games.append(dict(id=gid, date=date, time=t and t.group(1), start=start and utc_iso(start),
+                          home=[unescape(names[0])], away=[unescape(names[1])]))
+    return games, {'name': 'Tipsport extraliga zápasy (hokej.cz)', 'url': 'https://www.hokej.cz/tipsport-extraliga/zapasy',
+                   'timeNote': 'Times are venue-local (CET) as published; played games show no start time on the schedule.'}
+
+
+def mestis():
+    page = 'https://mestis.fi/fi/ottelut/2026-2027/runkosarja/'
+    html = get_text(page)
+    games = []
+    for row in re.split(r'<tr data-time="', html)[1:]:
+        ymd = row[:8]
+        m = re.search(r'runkosarja/(\d+)/">\s*(.+?)\s+-\s+(.+?)\s*</a>', row)
+        if not (m and ymd.isdigit()):
+            continue
+        date = f'{ymd[:4]}-{ymd[4:6]}-{ymd[6:]}'
+        t = re.search(r'<td class="h-l">\s*(\d\d:\d\d)\s*</td>', row)
+        start = datetime.fromisoformat(f'{date}T{t.group(1)}').replace(tzinfo=ZoneInfo('Europe/Helsinki')) if t else None
+        games.append(dict(id=m.group(1), date=date, time=t and t.group(1), start=start and utc_iso(start),
+                          home=[unescape(m.group(2))], away=[unescape(m.group(3))]))
+    return games, {'name': 'Mestis runkosarja (mestis.fi)', 'url': page}
+
+
+def icehl():
+    # Feed behind the schedule widget on ice.hockey; league 1 = regular season. All venues are on CET.
+    url = 'https://s3-eu-west-1.amazonaws.com/icehl.hokejovyzapis.cz/league-matches/2026/1.json'
+    games = []
+    for g in get_json(url)['matches']:
+        start = datetime.fromisoformat(g['start_date']).replace(tzinfo=ZoneInfo('Europe/Vienna'))
+        games.append(dict(id=str(g['id']), date=start.strftime('%Y-%m-%d'), time=start.strftime('%H:%M'), start=utc_iso(start),
+                          home=[g['home']['name']], away=[g['guest']['name']]))
+    return games, {'name': 'win2day ICE Hockey League schedule (ice.hockey)', 'url': 'https://www.ice.hockey/en/season/schedule'}
+
+
+ADAPTERS = {'vhl': vhl, 'icehl': icehl, 'mestis': mestis, 'del2': del2, 'del': penny_del, 'czech-extraliga': czech, 'nhl': nhl, 'nl': nl, 'shl': shl, 'liiga': liiga, **{k: (lambda k=k: hockeytech(k)) for k in HOCKEYTECH}}
 
 
 # ------------------------------------------------------------ club matching
+CYR = dict(zip('абвгдеёжзийклмнопрстуфхцчшщъыьэюя', ['a', 'b', 'v', 'g', 'd', 'e', 'e', 'zh', 'z', 'i', 'y', 'k', 'l', 'm', 'n', 'o', 'p',
+    'r', 's', 't', 'u', 'f', 'kh', 'ts', 'ch', 'sh', 'shch', '', 'y', '', 'e', 'yu', 'ya']))
+
+
 def norm(s):
+    s = ''.join(CYR.get(c, c) for c in (s or '').lower())
     s = re.sub(r'\([^)]*\)', ' ', (s or '').replace('œ', 'oe').replace('Œ', 'Oe'))  # "(OHL)" tags
     s = unicodedata.normalize('NFKD', s).encode('ascii', 'ignore').decode().lower()
     return re.sub(r'[^a-z0-9]+', ' ', s).strip()
@@ -170,14 +315,15 @@ class Matcher:
                 for t in pool:
                     if norm(n) == norm(t['name']):
                         return t['id']
-        # best token overlap between the source's full name and our name (+ city)
-        src = set(norm(names[0]).split())
+        # best token overlap between any source name and our name
         best, score = None, 0.0
-        for t in self.teams:
-            ours = set(norm(t['name']).split())
-            j = len(src & ours) / len(src | ours) if src | ours else 0
-            if j > score:
-                best, score = t['id'], j
+        for n in names:
+            src = set(norm(n).split())
+            for t in self.teams:
+                ours = set(norm(t['name']).split())
+                j = len(src & ours) / len(src | ours) if src | ours else 0
+                if j > score:
+                    best, score = t['id'], j
         return best if score >= 0.5 else None
 
 
@@ -199,6 +345,10 @@ def main():
             raw, source = ADAPTERS[league]()
         except Exception as err:  # network or format change: keep the previous file
             print(f'{league}: source failed ({err})', file=sys.stderr)
+            failed = True
+            continue
+        if not raw:
+            print(f'{league}: NOT written, the source returned no games', file=sys.stderr)
             failed = True
             continue
         m = Matcher(teams, league, aliases)

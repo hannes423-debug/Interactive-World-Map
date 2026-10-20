@@ -16,5 +16,39 @@
  },
  "qmjhl": {
   "North Bay, Batallion (OHL)": "north-bay-battalion"
+ },
+ "vhl": {
+  "Динамо СПб": "dinamo-sankt-peterburg",
+  "Металлург Нк": "metallurg-novokuznetsk",
+  "Олимпия": "olimpiya-kirovo-chepetsk",
+  "Сокол Кр": "sokol-krasnoyarsk",
+  "ХК Кристалл С": "kristall-saratov"
+ },
+ "del2": {
+  "Blue Devils Weiden": "1-ev-weiden",
+  "Eisbären Regensburg": "ev-regensburg",
+  "Eispiraten Crimmitschau": "etc-crimmitschau",
+  "Ravensburg Towerstars": "ev-ravensburg"
+ },
+ "del": {
+  "Pinguins Bremerhaven": "fischtown-pinguins"
+ },
+ "mestis": {
+  "IPK": "iisalmen-peli-karhut",
+  "JoKP": "joensuun-kiekko-pojat",
+  "K-Vantaa": "kiekko-vantaa",
+  "RoKi": "rovaniemen-kiekko"
+ },
+ "icehl": {
+  "FTC-Telekom": "ferencvarosi-tc",
+  "HC TIWAG Innsbruck - Die Haie": "hc-innsbruck",
+  "HCB Südtirol Alperia": "hc-bozen",
+  "Hydro Fehervar AV 19": "alba-volan-szekesfehervar",
+  "Moser Medical Graz99ers": "graz-99ers",
+  "Olimpija Ljubljana": "hk-olimpija",
+  "Steinbach Black Wings Linz": "ehc-linz",
+  "EC iDM Wärmepumpen VSV": "ec-vsv",
+  "EC-KAC": "ec-kac",
+  "HC Falkensteiner Pustertal": "hc-pustertal"
  }
 }

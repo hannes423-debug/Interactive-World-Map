@@ -1902,8 +1902,8 @@
   "echl": {
    "source": "https://en.wikipedia.org/wiki/2026%E2%80%9327_ECHL_season",
    "sourceKind": "wikipedia-season-article",
-   "note": null,
-   "count": 32,
+   "note": "30 clubs in the official 2026–27 ECHL schedule (HockeyTech feed, fetched 2026-10-20); Augusta Lynx and Iowa Heartlanders are not in it",
+   "count": 30,
    "clubs": [
     {
      "id": "adirondack-thunder",
@@ -2254,30 +2254,6 @@
      "title": "Wichita Thunder",
      "country": "USA",
      "article": "https://en.wikipedia.org/wiki/Wichita_Thunder"
-    },
-    {
-     "id": "augusta-lynx",
-     "name": "Augusta Lynx",
-     "wiki": "en",
-     "title": "Augusta Lynx",
-     "country": "USA",
-     "article": "https://en.wikipedia.org/wiki/Augusta_Lynx"
-    },
-    {
-     "id": "iowa-heartlanders",
-     "name": "Iowa Heartlanders",
-     "wiki": "en",
-     "title": "Iowa Heartlanders",
-     "country": "USA",
-     "article": "https://en.wikipedia.org/wiki/Iowa_Heartlanders",
-     "affiliations": [
-      {
-       "club": "minnesota-wild",
-       "name": null,
-       "relation": "former affiliates",
-       "source": "season article table"
-      }
-     ]
     }
    ]
   },
@@ -3620,8 +3596,8 @@
   "icehl": {
    "source": "https://de.wikipedia.org/wiki/ICE_Hockey_League_2026/27",
    "sourceKind": "wikipedia-season-article",
-   "note": null,
-   "count": 13,
+   "note": "14 clubs in the official 2026–27 ICEHL schedule (ice.hockey feed, fetched 2026-10-20); Milano HC is new",
+   "count": 14,
    "clubs": [
     {
      "id": "graz-99ers",
@@ -3726,6 +3702,14 @@
      "title": "HC Innsbruck",
      "country": "AUT",
      "article": "https://de.wikipedia.org/wiki/HC_Innsbruck"
+    },
+    {
+     "id": "milano-hc",
+     "name": "Milano HC",
+     "wiki": null,
+     "title": null,
+     "country": "ITA",
+     "article": null
     }
    ]
   },
