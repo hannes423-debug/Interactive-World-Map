@@ -35,7 +35,9 @@ python3 tools/fixtures/fetch_fixtures.py --only shl # one league
 |---|---|
 | NHL (api-web.nhle.com) | NHL |
 | HockeyTech league feeds | AHL, ECHL, OHL, WHL, QMJHL, USHL |
-| League sites | SHL (shl.se), Liiga (liiga.fi), National League (nationalleague.ch) |
+| League sites | SHL (shl.se), HockeyAllsvenskan (hockeyallsvenskan.se), Liiga (liiga.fi), Mestis (mestis.fi), National League (nationalleague.ch), PENNY DEL (penny-del.org), DEL2 (del-2.org), Tipsport extraliga (hokej.cz), Tipsport liga SVK (hockeyslovakia.sk), ICE Hockey League (ice.hockey feed), KHL (khl.ru), VHL (vhlru.ru) |
+
+KHL and VHL times are Moscow time (shown as MSK). hokej.cz and vhlru.ru stop showing the start time once a game has been played, so those games keep their date only. The MHL and the Swiss League have no complete published schedule that can be read automatically (the MHL site pages its calendar per session, and the SIHF data service only returns the current day), so both use generated schedules for now.
 
 Every source club must match a club in `teams.json` (by name, or `tools/fixtures/aliases.json`). If one doesn't, that league is not written. A league without a fixtures file gets a generated double round-robin. The calendar labels it **Simulated schedule**, and each of its games carries a *Sim fixture* tag, so a generated schedule is never presented as the real one.
 

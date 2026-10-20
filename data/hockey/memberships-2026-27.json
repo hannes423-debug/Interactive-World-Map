@@ -3028,7 +3028,7 @@
   "allsvenskan": {
    "source": "https://en.wikipedia.org/wiki/HockeyAllsvenskan",
    "sourceKind": "wikipedia-season-article",
-   "note": "No 2026-27 season article; current-teams section of the league article used",
+   "note": "14 clubs in the official 2026–27 HockeyAllsvenskan schedule (hockeyallsvenskan.se, fetched 2026-10-20)",
    "count": 14,
    "clubs": [
     {
@@ -3046,14 +3046,6 @@
      "title": "Almtuna IS",
      "country": "SWE",
      "article": "https://en.wikipedia.org/wiki/Almtuna_IS"
-    },
-    {
-     "id": "if-bjorkloven-allsvenskan",
-     "name": "IF Björklöven",
-     "wiki": "en",
-     "title": "IF Björklöven",
-     "country": "SWE",
-     "article": "https://en.wikipedia.org/wiki/IF_Bj%C3%B6rkl%C3%B6ven"
     },
     {
      "id": "kalmar-hc",
@@ -3112,14 +3104,6 @@
      "article": "https://en.wikipedia.org/wiki/S%C3%B6dert%C3%A4lje_SK"
     },
     {
-     "id": "if-troja-ljungby",
-     "name": "IF Troja-Ljungby",
-     "wiki": "en",
-     "title": "IF Troja-Ljungby",
-     "country": "SWE",
-     "article": "https://en.wikipedia.org/wiki/IF_Troja-Ljungby"
-    },
-    {
      "id": "vasteras-ik",
      "name": "Västerås IK",
      "wiki": "en",
@@ -3142,6 +3126,22 @@
      "title": "Östersunds IK",
      "country": "SWE",
      "article": "https://en.wikipedia.org/wiki/%C3%96stersunds_IK"
+    },
+    {
+     "id": "leksands-if",
+     "name": "Leksands IF",
+     "wiki": "en",
+     "title": "Leksands IF",
+     "country": "SWE",
+     "article": "https://en.wikipedia.org/wiki/Leksands_IF"
+    },
+    {
+     "id": "visby-roma-hk",
+     "name": "Visby/Roma HK",
+     "wiki": "en",
+     "title": "Roma HK",
+     "country": "SWE",
+     "article": "https://en.wikipedia.org/wiki/Visby/Roma_HK"
     }
    ]
   },

@@ -50,5 +50,42 @@
   "EC iDM Wärmepumpen VSV": "ec-vsv",
   "EC-KAC": "ec-kac",
   "HC Falkensteiner Pustertal": "hc-pustertal"
+ },
+ "khl": {
+  "Локомотив": "lokomotiv-yaroslavl",
+  "Автомобилист": "avtomobilist-yekaterinburg",
+  "Барыс": "barys-astana",
+  "ЦСКА": "hc-cska-moscow",
+  "Динамо Мн": "hc-dinamo-minsk",
+  "СКА": "ska-saint-petersburg",
+  "Трактор": "traktor-chelyabinsk",
+  "Торпедо": "torpedo-nizhny-novgorod",
+  "Сибирь": "hc-sibir-novosibirsk",
+  "Авангард": "avangard-omsk",
+  "Металлург Мг": "metallurg-magnitogorsk",
+  "Салават Юлаев": "salavat-yulaev-ufa",
+  "Адмирал": "admiral-vladivostok",
+  "ХК Сочи": "hc-sochi",
+  "Ак Барс": "ak-bars-kazan",
+  "Амур": "amur-khabarovsk",
+  "Северсталь": "severstal-cherepovets",
+  "Драконы": "shanghai-dragons",
+  "Лада": "hc-lada-togliatti",
+  "Спартак": "hc-spartak-moscow",
+  "Нефтехимик": "hc-neftekhimik-nizhnekamsk",
+  "Динамо М": "hc-dynamo-moscow"
+ },
+ "allsvenskan": {
+  "Leksand": "leksands-if",
+  "Visby Roma": "visby-roma-hk",
+  "Östersund": "ostersunds-ik",
+  "AIK": "aik-if",
+  "Kalmar": "kalmar-hc",
+  "MoDo": "modo-hockey",
+  "Mora": "mora-ik",
+  "Södertälje": "sodertalje-sk",
+  "Vimmerby": "vimmerby-hc",
+  "Västerås": "vasteras-ik",
+  "Almtuna": "almtuna-is"
  }
 }

@@ -276,7 +276,75 @@ def icehl():
     return games, {'name': 'win2day ICE Hockey League schedule (ice.hockey)', 'url': 'https://www.ice.hockey/en/season/schedule'}
 
 
-ADAPTERS = {'vhl': vhl, 'icehl': icehl, 'mestis': mestis, 'del2': del2, 'del': penny_del, 'czech-extraliga': czech, 'nhl': nhl, 'nl': nl, 'shl': shl, 'liiga': liiga, **{k: (lambda k=k: hockeytech(k)) for k in HOCKEYTECH}}
+def khl():
+    # www.khl.ru builds its calendar from /rest/calendar/list/, which returns the whole regular
+    # season for the page's session. Times are Moscow time (the response labels them "мск").
+    page = 'https://www.khl.ru/calendar/'
+    sessid = re.search(r'"bitrix_sessid":"(\w+)"', get_text(page)).group(1)
+    req = urllib.request.Request('https://www.khl.ru/rest/calendar/list/', data=f'sessid={sessid}'.encode(),
+                                 headers={'User-Agent': UA, 'X-Requested-With': 'XMLHttpRequest',
+                                          'Content-Type': 'application/x-www-form-urlencoded'})
+    with OPENER.open(req, timeout=60) as r:
+        data = json.loads(r.read().decode('utf-8'))['data']
+    names = {k: v['NAME'] for k, v in data['TEAMS'].items()}
+    games = []
+    for day in data['GAMES']:
+        for date, lst in (day.items() if isinstance(day, dict) else []):
+            for g in lst or []:
+                t = g.get('time_format') or None
+                start = datetime.fromisoformat(f"{g['date']}T{t}").replace(tzinfo=ZoneInfo(MSK)) if t else None
+                games.append(dict(id=str(g['id']), date=g['date'], time=t, start=start and utc_iso(start),
+                                  home=[names[str(g['teama'])]], away=[names[str(g['teamb'])]]))
+    return games, {'name': 'KHL calendar (khl.ru)', 'url': page, 'timeZone': 'MSK',
+                   'timeNote': 'Start times are Moscow time (MSK) as published.'}
+
+
+def next_payload(html):
+    """Concatenated React Server Components payload of a Next.js page (self.__next_f.push chunks)."""
+    chunks = re.findall(r'self\.__next_f\.push\(\[1,"((?:[^"\\]|\\.)*)"\]\)', html)
+    return ''.join(json.loads(f'"{c}"') for c in chunks)
+
+
+def allsvenskan():
+    # The match page embeds the whole season's game list in its server-rendered payload.
+    page = 'https://hockeyallsvenskan.se/pages/matcher'
+    text = next_payload(get_text(page))
+    dec = json.JSONDecoder()
+    found = {}
+    for m in re.finditer(r'"games":\[', text):
+        arr, _ = dec.raw_decode(text, m.end() - 1)
+        for g in arr:
+            if isinstance(g, dict) and g.get('gameType') == 'HA' and g.get('scheduledDateTime') and g.get('homeTeam'):
+                found[g['id']] = g
+    games = []
+    for g in found.values():
+        start = datetime.fromisoformat(g['scheduledDateTime'].replace('Z', '+00:00'))
+        d, t = local_parts(start, 'Europe/Stockholm')
+        games.append(dict(id=str(g['id']), date=d, time=t, start=utc_iso(start),
+                          home=[g['homeTeam']['name'], g['homeTeam'].get('shortName')], away=[g['awayTeam']['name'], g['awayTeam'].get('shortName')]))
+    return games, {'name': 'HockeyAllsvenskan matcher (hockeyallsvenskan.se)', 'url': page}
+
+
+def slovakia():
+    # Tipsport liga (Slovak top flight) on the federation's stats site: whole regular season on one page.
+    page = 'https://www.hockeyslovakia.sk/sk/stats/results/1197/tipsport-liga'
+    html = get_text(page)
+    games = []
+    for row in re.split(r'<tr class="fn-tap-row', html)[1:]:
+        gid = re.search(r'tipsport-liga/match/(\d+)', row)
+        names = re.findall(r'class="image-competitor-icon[^"]*"', row) and re.findall(r'title="([^"]+)" class="image-competitor-icon', row)
+        d = re.search(r'match-date[^>]*>.*?(\d\d)\.(\d\d)\.(\d{4})', row, re.S)
+        if not (gid and d and len(names) >= 2):
+            continue
+        date = f'{d.group(3)}-{d.group(2)}-{d.group(1)}'
+        t = re.search(r'hover-hide[^"]*">\s*(\d\d:\d\d)\s*<', row)
+        start = datetime.fromisoformat(f'{date}T{t.group(1)}').replace(tzinfo=ZoneInfo('Europe/Bratislava')) if t else None
+        games.append(dict(id=gid.group(1), date=date, time=t and t.group(1), start=start and utc_iso(start),
+                          home=[unescape(names[0])], away=[unescape(names[1])]))
+    return games, {'name': 'Tipsport liga results & schedule (hockeyslovakia.sk)', 'url': page}
+
+
+ADAPTERS = {'vhl': vhl, 'slovak-extraliga': slovakia, 'allsvenskan': allsvenskan, 'khl': khl, 'icehl': icehl, 'mestis': mestis, 'del2': del2, 'del': penny_del, 'czech-extraliga': czech, 'nhl': nhl, 'nl': nl, 'shl': shl, 'liiga': liiga, **{k: (lambda k=k: hockeytech(k)) for k in HOCKEYTECH}}
 
 
 # ------------------------------------------------------------ club matching

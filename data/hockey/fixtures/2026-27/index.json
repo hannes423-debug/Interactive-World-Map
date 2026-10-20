@@ -13,6 +13,18 @@
     "fetched": "2026-10-20"
    }
   },
+  "allsvenskan": {
+   "status": "official",
+   "games": 364,
+   "clubs": 14,
+   "first": "2026-09-18",
+   "last": "2027-03-05",
+   "source": {
+    "name": "HockeyAllsvenskan matcher (hockeyallsvenskan.se)",
+    "url": "https://hockeyallsvenskan.se/pages/matcher",
+    "fetched": "2026-10-20"
+   }
+  },
   "czech-extraliga": {
    "status": "official",
    "games": 364,
@@ -71,6 +83,20 @@
    "source": {
     "name": "win2day ICE Hockey League schedule (ice.hockey)",
     "url": "https://www.ice.hockey/en/season/schedule",
+    "fetched": "2026-10-20"
+   }
+  },
+  "khl": {
+   "status": "official",
+   "games": 748,
+   "clubs": 22,
+   "first": "2026-09-05",
+   "last": "2027-03-20",
+   "source": {
+    "name": "KHL calendar (khl.ru)",
+    "url": "https://www.khl.ru/calendar/",
+    "timeZone": "MSK",
+    "timeNote": "Start times are Moscow time (MSK) as published.",
     "fetched": "2026-10-20"
    }
   },
@@ -155,6 +181,18 @@
    "source": {
     "name": "SHL game schedule (shl.se)",
     "url": "https://www.shl.se/game-schedule",
+    "fetched": "2026-10-20"
+   }
+  },
+  "slovak-extraliga": {
+   "status": "official",
+   "games": 324,
+   "clubs": 12,
+   "first": "2026-09-15",
+   "last": "2027-03-07",
+   "source": {
+    "name": "Tipsport liga results & schedule (hockeyslovakia.sk)",
+    "url": "https://www.hockeyslovakia.sk/sk/stats/results/1197/tipsport-liga",
     "fetched": "2026-10-20"
    }
   },

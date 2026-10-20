@@ -5577,23 +5577,6 @@
       ]
     },
     {
-      "id": "if-bjorkloven-allsvenskan",
-      "name": "IF Björklöven",
-      "city": "Umeå",
-      "league": "allsvenskan",
-      "territory": "swe",
-      "geo": "SWE",
-      "affiliations": null,
-      "status": "reference",
-      "asOf": "2026–27",
-      "source": "https://en.wikipedia.org/wiki/HockeyAllsvenskan",
-      "article": "https://en.wikipedia.org/wiki/IF_Bj%C3%B6rkl%C3%B6ven",
-      "lonlat": [
-        20.2597,
-        63.8284
-      ]
-    },
-    {
       "id": "kalmar-hc",
       "name": "Kalmar HC",
       "city": "Kalmar",
@@ -5713,23 +5696,6 @@
       ]
     },
     {
-      "id": "if-troja-ljungby",
-      "name": "IF Troja-Ljungby",
-      "city": "Ljungby Municipality",
-      "league": "allsvenskan",
-      "territory": "swe",
-      "geo": "SWE",
-      "affiliations": null,
-      "status": "reference",
-      "asOf": "2026–27",
-      "source": "https://en.wikipedia.org/wiki/HockeyAllsvenskan",
-      "article": "https://en.wikipedia.org/wiki/IF_Troja-Ljungby",
-      "lonlat": [
-        13.9333,
-        56.8333
-      ]
-    },
-    {
       "id": "vasteras-ik",
       "name": "Västerås IK",
       "city": "Västerås",
@@ -5778,6 +5744,40 @@
       "lonlat": [
         14.6357,
         63.1792
+      ]
+    },
+    {
+      "id": "leksands-if",
+      "name": "Leksands IF",
+      "city": "Leksand",
+      "league": "allsvenskan",
+      "territory": "swe",
+      "geo": "SWE",
+      "affiliations": null,
+      "status": "reference",
+      "asOf": "2026–27",
+      "source": "https://hockeyallsvenskan.se/pages/matcher",
+      "article": "https://en.wikipedia.org/wiki/Leksands_IF",
+      "lonlat": [
+        14.9993,
+        60.7306
+      ]
+    },
+    {
+      "id": "visby-roma-hk",
+      "name": "Visby/Roma HK",
+      "city": "Visby",
+      "league": "allsvenskan",
+      "territory": "swe",
+      "geo": "SWE",
+      "affiliations": null,
+      "status": "reference",
+      "asOf": "2026–27",
+      "source": "https://hockeyallsvenskan.se/pages/matcher",
+      "article": "https://en.wikipedia.org/wiki/Visby/Roma_HK",
+      "lonlat": [
+        18.2948,
+        57.6348
       ]
     },
     {
