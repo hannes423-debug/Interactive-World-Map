@@ -19,6 +19,18 @@ python3 -m http.server 8000
 
 No Node.js, npm or build step is needed to run or host the map.
 
+## League editor
+
+`editor.html` edits leagues, teams, logos and map positions, with the game view open next to it (it reloads on every save). It needs its local server, which keeps the data in a separate league database folder:
+
+```sh
+python3 tools/editor/server.py --db /path/to/LeagueDatabase
+# editor:    http://127.0.0.1:8765/editor.html
+# game view: http://127.0.0.1:8765/career-map.html?game=nhl13&live=1
+```
+
+See [EDITOR-GUIDE.md](EDITOR-GUIDE.md) for the full guide, including what images to use.
+
 ## Publish with GitHub Pages
 
 1. Push the repository to GitHub.
@@ -72,7 +84,7 @@ Everything is linked by stable ids, never by display names.
   - Subdivisions use `parent` (e.g. Ontario → Canada). Canada, the USA and Russia have province/state outlines ready; add a territory to use one.
   - Hockey regions that do not follow political borders use `kind: "region"` and either `geo` (several units) or `members` (other territories), e.g. `alps-adriatic` or `maritimes`.
 - **League** (`leagues.json`): `territories` (a league can span several, including regions), `tier`, `teamCount`, `season`, `salary`, `career`, `eligibility`, `clubs` (team ids), `logo` / `placeholderBadge`.
-- **Team** (`teams.json`): `id`, `name`, `city`, `league`, `territory`, `geo`.
+- **Team** (`teams.json`): `id`, `name`, `city`, `league`, `territory`, `geo`, `lonlat` (`[longitude, latitude]` of the home city: with a league open, each club's logo is drawn there), optional `position` (per-map pixel nudge) and `logo` (overrides the branding library).
 - **Badge** (`badges.json`): where a league thumbnail appears (see below).
 
 ### Verified data vs placeholders

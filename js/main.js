@@ -2,7 +2,7 @@
 import { loadGame, leaguesIn, territoryPath } from './data.js';
 import { MapStage } from './map.js';
 import { territoryPanel, leaguePanel, tournamentPanel } from './panel.js';
-import { loadBranding } from './branding.js';
+import { loadBranding, useGameLogos } from './branding.js';
 import * as router from './router.js';
 
 const $ = (s) => document.querySelector(s);
@@ -230,6 +230,16 @@ function renderExplore(view) {
   }
 }
 
+/** ?live=1 (opened by the editor's server): reload when data is saved, follow the editor's selection. */
+function live() {
+  const es = new EventSource('api/events');
+  es.addEventListener('reload', () => location.reload());
+  es.addEventListener('focus', (e) => { if (e.data && e.data !== location.hash) location.hash = e.data; });
+  const mark = () => { if (!document.title.startsWith('Game view')) document.title = `Game view · ${document.title}`; };
+  new MutationObserver(mark).observe(document.querySelector('title'), { childList: true });
+  mark();
+}
+
 async function boot() {
   try {
     [db] = await Promise.all([loadGame(gameId), loadBranding()]);
@@ -240,7 +250,9 @@ async function boot() {
       (location.protocol === 'file:' ? 'Browsers block data files on file:// - start a local web server (see README).' : '');
     return;
   }
+  useGameLogos(db);
   ui.brand.textContent = db.game.title;
+  if (params.get('live')) live();
   stage = new MapStage(ui.stage, db, handlers);
   ui.back.addEventListener('click', back);
   ui.panelClose.addEventListener('click', back);

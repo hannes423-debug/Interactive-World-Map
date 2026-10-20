@@ -79,6 +79,7 @@ function provenance(key, label) {
     return el;
   }
   if (r.kind === 'local') return h('p', 'note full provenance', `${label} logo: local copy only - not cleared for publication.`);
+  if (r.kind === 'custom') return h('p', 'note full provenance', `${label} logo: from the league database (private copy).`);
   const ent = brand.entity(key);
   return h('p', 'note full provenance', ent?.status === 'restricted'
     ? `${label}: the official logo is not cleared for redistribution, so a generic badge is shown.`

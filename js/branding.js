@@ -15,6 +15,75 @@ const LOCAL = 'assets/branding/local/manifest.local.json';
 
 let manifest = { assets: {}, entities: {} };
 let local = { assets: {} };
+// logos set in the game data (league.logo, team.logo) win over the library
+let overrides = new Map();
+// logo background plates: league.logoBg / team.logoBg ('none' = no plate), else measured
+let plateOverrides = new Map();
+const plates = new Map();
+const LIGHT = '#eef2f7', DARK = '#16233b';
+
+/** Use the game's own logo files: league.logo -> league:<id>, team.logo -> club:<id>. */
+export function useGameLogos(db) {
+  overrides = new Map();
+  plateOverrides = new Map();
+  for (const l of db.leagues.values()) {
+    if (l.logo) overrides.set(`league:${l.id}`, l.logo);
+    if (l.logoBg) plateOverrides.set(`league:${l.id}`, l.logoBg);
+  }
+  for (const t of db.teams.values()) {
+    if (t.logo) overrides.set(`club:${t.id}`, t.logo);
+    if (t.logoBg) plateOverrides.set(`club:${t.id}`, t.logoBg);
+  }
+}
+
+/** Light plate behind mostly dark or colourful logos, dark plate behind mostly white ones. */
+function measure(src) {
+  if (!plates.has(src)) {
+    plates.set(src, new Promise((resolve) => {
+      const im = new Image();
+      im.onload = () => {
+        try {
+          const c = document.createElement('canvas');
+          c.width = c.height = 40;
+          const g = c.getContext('2d', { willReadFrequently: true });
+          g.drawImage(im, 0, 0, 40, 40);
+          const d = g.getImageData(0, 0, 40, 40).data;
+          let n = 0, light = 0;
+          for (let i = 0; i < d.length; i += 4) {
+            if (d[i + 3] < 128) continue;
+            n++;
+            if ((0.2126 * d[i] + 0.7152 * d[i + 1] + 0.0722 * d[i + 2]) / 255 > 0.82) light++;
+          }
+          resolve(!n ? null : light / n > 0.55 ? DARK : LIGHT);
+        } catch { resolve(LIGHT); }
+      };
+      im.onerror = () => resolve(null);
+      im.src = src;
+    }));
+  }
+  return plates.get(src);
+}
+
+/**
+ * Make a logo read on the dark map. Default: a glow hugging the logo's outline
+ * (white around dark or colourful logos, icy blue around mostly white ones).
+ * league.logoBg / team.logoBg = 'light' | 'dark' | '#rrggbb' gives a round plate instead, 'none' nothing.
+ */
+export function applyPlate(img, key) {
+  const set = (c) => {
+    if (!c || c === 'none') return;
+    img.classList.add('plated');
+    img.style.setProperty('--plate', c);
+  };
+  const forced = plateOverrides.get(key);
+  if (forced) return set(forced === 'light' ? LIGHT : forced === 'dark' ? DARK : forced);
+  if (!img.src || img.src.startsWith('data:')) return;  // generic badges have their own shield
+  measure(img.src).then((c) => {
+    if (!c) return;
+    img.classList.add('glow');
+    img.style.setProperty('--glow', c === DARK ? 'rgba(143, 208, 255, 0.85)' : 'rgba(255, 255, 255, 0.92)');
+  });
+}
 
 export async function loadBranding() {
   const get = (u) => fetch(u, { cache: 'no-cache' }).then((r) => (r.ok ? r.json() : null)).catch(() => null);
@@ -37,6 +106,7 @@ export function entity(key) {
 
 /** Image for an entity at a display size (CSS px). Never returns an empty src. */
 export function src(key, size = 64, label = '') {
+  if (overrides.has(key)) return { src: overrides.get(key), alt: label, kind: 'custom', asset: null };
   const a = assetFor(key);
   const need = size * Math.min(2, window.devicePixelRatio || 1);
   if (a) {
@@ -63,6 +133,7 @@ export function img(key, size, label, cls = 'brand-img') {
   el.src = r.src;
   el.title = r.kind === 'fallback' ? `${label || key}: no cleared logo in this build` : r.alt;
   el.addEventListener('error', () => { el.src = fallback(label || '?', key.split(':')[0]); el.className = `${cls} brand-fallback`; }, { once: true });
+  applyPlate(el, key);
   return el;
 }
 

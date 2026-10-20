@@ -42,7 +42,7 @@ export class MapStage {
   enablePan() {
     let drag = null;
     this.root.addEventListener('pointerdown', (e) => {
-      if (e.button !== 0 || !this.layer || e.target.closest('.badge, .territory-pin')) return;
+      if (e.button !== 0 || !this.layer || e.target.closest('.badge, .territory-pin, .team-pin')) return;
       drag = { x: e.clientX, y: e.clientY, cam: { ...this.layer.cam }, moved: false, id: e.pointerId };
     });
     this.root.addEventListener('pointermove', (e) => {
@@ -122,6 +122,7 @@ export class MapStage {
     }
     await this.showSubdivisions(L, state.territory);
     await this.showCoverage(L, state.league);
+    this.showTeams(L, state.league);
     this.placeBadges(L);
     this.pinLabel(L);
 
@@ -325,7 +326,7 @@ export class MapStage {
       node.type = 'button';
       node.dataset.badge = b.id;
       node.setAttribute('aria-label', lg ? `${lg.name}` : b.id);
-      const imgEl = b.image ? Object.assign(html('img'), { src: b.image, alt: '' }) : brand.img(`league:${b.league}`, 46, lg?.shortName ?? b.league, 'badge-img');
+      const imgEl = b.image ? Object.assign(html('img'), { src: b.image, alt: '' }) : brand.img(`league:${b.league}`, 58, lg?.shortName ?? b.league, 'badge-img');
       imgEl.draggable = false;
       imgEl.addEventListener('error', () => node.classList.add('no-image'));
       const fallback = html('span', 'badge-fallback', lg?.shortName ?? '?');
@@ -344,6 +345,8 @@ export class MapStage {
   badgeVisible(L, item) {
     const s = this.state || {};
     const b = item.badge;
+    // a league's own clubs are on the map: other leagues step aside
+    if (s.league && L.teams?.length) return b.league === s.league;
     const need = LEVELS[b.minLevel] ?? 0;
     if (L.level === 'world') return need === LEVELS.world;
     if (s.territory) {
@@ -356,7 +359,7 @@ export class MapStage {
   placeBadges(L) {
     const placed = [];
     const items = [...L.badges].sort((a, b) => (b.badge.priority ?? 0) - (a.badge.priority ?? 0));
-    const cands = [[0, -36], [38, -22], [-38, -22], [44, 14], [-44, 14], [0, 40], [70, -36], [-70, -36], [0, -80]];
+    const cands = [[0, -42], [46, -26], [-46, -26], [52, 16], [-52, 16], [0, 48], [82, -42], [-82, -42], [0, -94]];
     for (const it of items) {
       const vis = this.badgeVisible(L, it);
       it.visible = vis;
@@ -366,13 +369,71 @@ export class MapStage {
       const [sx, sy] = this.toScreen(L, it.pos);
       let best = cands[0];
       for (const c of cands) {
-        const r = [sx + c[0] - 26, sy + c[1] - 26, 52, 60];
+        const r = [sx + c[0] - 32, sy + c[1] - 32, 64, 72];
         if (!placed.some((q) => r[0] < q[0] + q[2] && q[0] < r[0] + r[2] && r[1] < q[1] + q[3] && q[1] < r[1] + r[3])) { best = c; break; }
       }
       it.offset = best;
-      placed.push([sx + best[0] - 26, sy + best[1] - 26, 52, 60]);
+      placed.push([sx + best[0] - 32, sy + best[1] - 32, 64, 72]);
     }
+    this.placeTeams(L, placed);
     this.positionOverlay(L);
+  }
+
+  // ------------------------------------------------------ team thumbnails
+  /** With a league open, each of its clubs gets its logo on its home city. */
+  showTeams(L, leagueId) {
+    if (L.teamsFor === leagueId) return;
+    L.teamsFor = leagueId;
+    for (const it of L.teams ?? []) it.node.remove(), it.stem.remove(), it.dot.remove();
+    L.teams = [];
+    const lg = leagueId ? this.db.leagues.get(leagueId) : null;
+    if (!lg || L.level === 'world') return;
+    const ids = lg.clubs?.length ? lg.clubs : [...this.db.teams.values()].filter((t) => t.league === leagueId).map((t) => t.id);
+    for (const id of ids) {
+      const t = this.db.teams.get(id);
+      // the projection runs past the artwork's edges: only teams whose territory is on this map
+      const tv = t && this.db.territories.get(t.territory)?.views;
+      if (tv && !tv.includes(L.viewId) && !t.position?.[L.viewId]) continue;
+      const pos = t && (t.position?.[L.viewId] ?? (t.lonlat ? toPixel(L.map, t.lonlat[0], t.lonlat[1]) : null));
+      if (!pos || pos[0] < 0 || pos[1] < 0 || pos[0] > L.map.width || pos[1] > L.map.height) continue;
+      const node = html('button', 'team-pin');
+      node.type = 'button';
+      node.dataset.team = id;
+      node.setAttribute('aria-label', t.city ? `${t.name}, ${t.city}` : t.name);
+      const imgEl = brand.img(`club:${id}`, 40, t.name, 'team-img');
+      imgEl.draggable = false;
+      node.append(imgEl);
+      const stem = html('div', 'team-stem');
+      const dot = html('div', 'team-dot');
+      L.overlay.append(stem, dot, node);
+      node.addEventListener('click', (e) => e.stopPropagation());
+      node.addEventListener('pointerenter', () => this.showTip(node, { title: t.name, sub: t.city ?? '' }));
+      node.addEventListener('pointerleave', () => this.hideTip());
+      L.teams.push({ team: t, pos, node, stem, dot, offset: [0, 0], visible: true });
+    }
+    // west to east, so neighbours spread out the same way every time
+    L.teams.sort((a, b) => a.pos[0] - b.pos[0] || a.pos[1] - b.pos[1]);
+  }
+
+  /** Thumbnails sit on their city; when cities crowd, later ones move to the nearest free spot. */
+  placeTeams(L, placed) {
+    const S = 44;
+    const rings = [[0, 0]];
+    for (let r = 1; r <= 6; r++) {
+      const n = 6 * r;
+      for (let i = 0; i < n; i++) rings.push([Math.cos((i / n) * 2 * Math.PI - Math.PI / 2) * r * S, Math.sin((i / n) * 2 * Math.PI - Math.PI / 2) * r * S]);
+    }
+    for (const it of L.teams ?? []) {
+      const [sx, sy] = this.toScreen(L, it.pos);
+      let best = rings[0];
+      for (const c of rings) {
+        const r = [sx + c[0] - S / 2, sy + c[1] - S / 2, S, S];
+        if (!placed.some((q) => r[0] < q[0] + q[2] && q[0] < r[0] + r[2] && r[1] < q[1] + q[3] && q[1] < r[1] + r[3])) { best = c; break; }
+      }
+      it.offset = best;
+      placed.push([sx + best[0] - S / 2, sy + best[1] - S / 2, S, S]);
+      it.stem.classList.toggle('hidden', !best[0] && !best[1]);
+    }
   }
 
   // ------------------------------------------------------------- tooltips
@@ -511,10 +572,18 @@ export class MapStage {
       const [ox, oy] = it.offset;
       it.dot.style.transform = `translate(${sx}px, ${sy}px)`;
       it.node.style.transform = `translate(${sx + ox}px, ${sy + oy}px)`;
-      const len = Math.hypot(ox, oy) - 22;
+      const len = Math.hypot(ox, oy) - 28;
       const ang = Math.atan2(oy, ox);
       it.stem.style.transform = `translate(${sx}px, ${sy}px) rotate(${ang}rad)`;
       it.stem.style.width = `${Math.max(0, len)}px`;
+    }
+    for (const it of L.teams ?? []) {
+      const [sx, sy] = this.toScreen(L, it.pos);
+      const [ox, oy] = it.offset;
+      it.dot.style.transform = `translate(${sx}px, ${sy}px)`;
+      it.node.style.transform = `translate(${sx + ox}px, ${sy + oy}px)`;
+      it.stem.style.transform = `translate(${sx}px, ${sy}px) rotate(${Math.atan2(oy, ox)}rad)`;
+      it.stem.style.width = `${Math.max(0, Math.hypot(ox, oy) - 20)}px`;
     }
     for (const lab of L.labels ?? []) {
       const [x, y, w, h] = lab.rect;

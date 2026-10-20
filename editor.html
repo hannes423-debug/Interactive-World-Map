@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>League Editor</title>
+<link rel="stylesheet" href="css/editor.css">
+<script type="module" src="js/editor.js"></script>
+</head>
+<body>
+<header id="bar">
+  <strong class="logo">League Editor</strong>
+  <label class="field-inline">Game
+    <select id="game"></select>
+  </label>
+  <button id="new-game" type="button" title="Copy this game's database into a new one">New game…</button>
+  <span class="sep"></span>
+  <button id="open-game" type="button" class="primary" title="Opens the in-game view in its own window - drag it to your second screen">Game view ↗</button>
+  <label class="check" title="The game view jumps to whatever you select here"><input id="follow" type="checkbox" checked> Follow selection</label>
+  <span class="sep"></span>
+  <label class="check" title="Save a moment after every change (old versions are kept in backups/)"><input id="autosave" type="checkbox" checked> Auto-save</label>
+  <button id="save" type="button" title="Ctrl+S">Save</button>
+  <button id="undo" type="button" title="Ctrl+Z">Undo</button>
+  <span id="status" class="status"></span>
+  <span class="grow"></span>
+  <button id="export" type="button" title="Copy this database into the git repository so it can be published">Copy to repo</button>
+  <a href="EDITOR-GUIDE.md" target="_blank" class="help">Guide</a>
+</header>
+
+<main id="layout">
+  <aside id="left">
+    <div class="pane-head">
+      <h2>Leagues</h2>
+      <button id="add-league" type="button" class="small primary">+ League</button>
+    </div>
+    <input id="league-filter" type="search" placeholder="Filter leagues…">
+    <ul id="league-list" class="list"></ul>
+  </aside>
+
+  <section id="center">
+    <nav id="view-tabs"></nav>
+    <div id="mapbox">
+      <div id="mapcam"><img id="mapimg" alt="" draggable="false"></div>
+      <div id="markers"></div>
+      <div id="map-hint"></div>
+    </div>
+    <div id="map-foot">
+      <label class="check"><input id="drag-mode" type="checkbox"> Moving only changes <em>this</em> map</label>
+      <label class="check"><input id="show-all-teams" type="checkbox"> Show teams of all leagues</label>
+      <span class="grow"></span>
+      <span class="muted foot-hint">Drag logos to move them · wheel to zoom · drag the map to pan · double-click empty map to reset view</span>
+    </div>
+  </section>
+
+  <aside id="right"><div id="details"></div></aside>
+</main>
+
+<div id="toast"></div>
+<input id="file" type="file" accept="image/png,image/svg+xml,image/webp,image/jpeg,image/gif" hidden>
+</body>
+</html>
