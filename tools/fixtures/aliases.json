@@ -1,0 +1,20 @@
+{
+ "_comment": "Source club name -> teams.json id, per league, where the league's spelling differs from ours.",
+ "nl": {
+  "Genève-Servette HC": "geneve-servette-hockey-club"
+ },
+ "shl": {
+  "Luleå Hockey": "lulea-hf",
+  "Örebro Hockey": "orebro-hk"
+ },
+ "liiga": {
+  "K-Espoo": "kiekko-espoo",
+  "Ässät": "hc-assat-pori"
+ },
+ "ushl": {
+  "USA Hockey NTDP": "usa-hockey-national-team-development-program"
+ },
+ "qmjhl": {
+  "North Bay, Batallion (OHL)": "north-bay-battalion"
+ }
+}

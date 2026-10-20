@@ -6,6 +6,7 @@ https://hannes423-debug.github.io/Interactive-World-Map/
 
 - `index.html` – landing page listing the games
 - `career-map.html?game=nhl13` – the map (`#/world`, `#/europe/t/swe/info`, `#/europe/l/shl`, …)
+- `calendar.html?game=nhl13` – career calendar, standings and simulator (`#/day/all/2026-10-10`, `#/table/shl`, `#/team/frolunda-hc`, …)
 
 ## Run it locally
 
@@ -18,6 +19,37 @@ python3 -m http.server 8000
 ```
 
 No Node.js, npm or build step is needed to run or host the map.
+
+## Career calendar and league simulator
+
+`calendar.html?game=nhl13` is the season view: a day-by-day calendar of every league, standings, club schedules and a simulator that advances the whole hockey world (Sim day / week / to a date / to the user's next game / to season end). Each league panel on the map links to it.
+
+**Fixtures.** `data/hockey/fixtures/2026-27/<league>.json` holds the published 2026–27 regular-season schedules, with venue-local dates and start times exactly as the leagues issue them, and `index.json` records each source and fetch date. Refresh them with:
+
+```sh
+python3 tools/fixtures/fetch_fixtures.py            # all leagues with a source
+python3 tools/fixtures/fetch_fixtures.py --only shl # one league
+```
+
+| Official source | Leagues |
+|---|---|
+| NHL (api-web.nhle.com) | NHL |
+| HockeyTech league feeds | AHL, ECHL, OHL, WHL, QMJHL, USHL |
+| League sites | SHL (shl.se), Liiga (liiga.fi), National League (nationalleague.ch) |
+
+Every source club must match a club in `teams.json` (by name, or `tools/fixtures/aliases.json`). If one doesn't, that league is not written. A league without a fixtures file gets a generated double round-robin. The calendar labels it **Simulated schedule**, and each of its games carries a *Sim fixture* tag, so a generated schedule is never presented as the real one.
+
+**Results.** All results are simulated. A result depends only on the career's seed and the game, so the same save always replays the same season. Club ratings are placeholders (league strength plus a fixed per-club offset) until rosters exist. Points follow each league's system: 3-2-1 for SHL, Liiga, NL, DEL and similar leagues, and 2 points per win plus 1 for an overtime loss elsewhere.
+
+**Career save** (stored in the browser; *Career… → Export / Import save*):
+
+```json
+{ "format": "iwm-career/1", "game": "nhl13", "season": "2026–27", "seed": 42,
+  "date": "2026-12-15", "team": "frolunda-hc",
+  "results": { "shl:<game id>": { "h": 3, "a": 2, "end": "OT" } } }
+```
+
+`date` is the next day to be played: games before it are final. `results` overrides the simulator for games played in the actual game. Keys are `<league>:<id>` from the fixtures file, and `end` is `REG`, `OT` or `SO`. This is the hook for the NHL 13 port: write the user's played games into `results`, then import the save.
 
 ## League editor
 
@@ -51,9 +83,11 @@ js/                              ES modules, no dependencies
   data.js      loads a game's data, builds indexes, resolves geometry
   projection.js  lon/lat → image pixels (twin of tools/geo/projections.py)
   router.js    hash routes
+  calendar.js  career calendar page; season.js fixtures + rules; sim.js results + standings
 assets/maps/                     background images (see below)
 assets/badges/placeholder/       generated placeholder league badges
 data/maps.json                   map images, sizes and calibration (shared by all games)
+data/hockey/fixtures/2026-27/    published league schedules (tools/fixtures/fetch_fixtures.py)
 data/geo/                        boundary data (shared by all games)
   countries.json, subdivisions.json   Natural Earth lon/lat outlines
   views/<map>.json                    outlines traced to each image, in image pixels

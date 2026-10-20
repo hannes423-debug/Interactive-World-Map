@@ -226,6 +226,9 @@ export function leaguePanel(db, lid, nav) {
     stat('Teams', typeof lg.teamCount?.value === 'number' ? String(lg.teamCount.value) : '—', lg.teamCount?.asOf ?? null),
     stat('Season', lg.season?.value ?? '—'));
 
+  const cal = h('a', 'calendar-link', 'Schedule, results & standings ›');
+  cal.href = `calendar.html?game=${encodeURIComponent(db.id)}#/table/${encodeURIComponent(lg.id)}`;
+
   const covEl = h('section', 'block', h('h3', null, 'Coverage'));
   const chips = h('div', 'chips');
   for (const id of lg.territories ?? []) {
@@ -262,7 +265,7 @@ export function leaguePanel(db, lid, nav) {
     }
     clubs.append(ul);
   }
-  return h('div', 'panel-body', head, stats, covEl, facts, clubs, legend(db));
+  return h('div', 'panel-body', head, stats, cal, covEl, facts, clubs, legend(db));
 }
 
 function legend(db) {

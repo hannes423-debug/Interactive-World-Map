@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Career Calendar</title>
+<meta name="description" content="Season calendar, fixtures, standings and league simulator for game career modes.">
+<link rel="stylesheet" href="css/calendar.css">
+<script type="module" src="js/calendar.js"></script>
+</head>
+<body>
+<header class="top">
+  <div class="title">
+    <a id="to-map" class="maplink" href="career-map.html">‹ World map</a>
+    <p id="season" class="eyebrow">Season</p>
+    <h1 id="career-date">…</h1>
+    <p class="club"><span id="career-team"></span> <button id="career-btn" class="btn ghost" type="button">Career…</button></p>
+  </div>
+  <div class="sim" role="group" aria-label="Simulate">
+    <button id="sim-day" class="btn" type="button">Sim day</button>
+    <button id="sim-week" class="btn" type="button">Sim week</button>
+    <button id="sim-next" class="btn primary" type="button" hidden>To next game</button>
+    <label class="simto">Sim to <input id="sim-to" type="date"></label>
+    <button id="sim-end" class="btn" type="button">To season end</button>
+    <div class="prog"><progress id="progress" max="1" value="0"></progress><span id="progress-label"></span></div>
+  </div>
+</header>
+
+<div class="layout">
+  <nav id="leagues" class="leagues" aria-label="Leagues"></nav>
+  <main>
+    <nav id="tabs" class="tabs" aria-label="Views"></nav>
+    <div id="view"><p class="empty">Loading the season…</p></div>
+  </main>
+</div>
+
+<dialog id="career-dialog">
+  <form method="dialog">
+    <h2>Career</h2>
+    <label>League <select id="c-league"></select></label>
+    <label>Club <select id="c-team"></select></label>
+    <label>Simulation seed <input id="c-seed" type="number" min="0" step="1"></label>
+    <p class="note">Starting a new career resets the date to the start of the season. The same seed always produces the same season.</p>
+    <div class="row">
+      <button id="c-start" class="btn primary" type="button">Start new career</button>
+      <button id="c-export" class="btn" type="button">Export save</button>
+      <label class="btn">Import save<input id="c-import" type="file" accept="application/json,.json" hidden></label>
+      <button id="c-cancel" class="btn ghost" type="button">Close</button>
+    </div>
+  </form>
+</dialog>
+</body>
+</html>

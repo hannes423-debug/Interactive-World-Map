@@ -1,0 +1,125 @@
+{
+ "season": "2026-27",
+ "leagues": {
+  "ahl": {
+   "status": "official",
+   "games": 1152,
+   "clubs": 32,
+   "first": "2026-10-02",
+   "last": "2027-04-11",
+   "source": {
+    "name": "AHL official schedule (HockeyTech feed)",
+    "url": "https://theahl.com/stats/schedule",
+    "fetched": "2026-10-20"
+   }
+  },
+  "echl": {
+   "status": "official",
+   "games": 1080,
+   "clubs": 30,
+   "first": "2026-10-16",
+   "last": "2027-04-11",
+   "source": {
+    "name": "ECHL official schedule (HockeyTech feed)",
+    "url": "https://echl.com/stats/schedule",
+    "fetched": "2026-10-20"
+   }
+  },
+  "liiga": {
+   "status": "official",
+   "games": 544,
+   "clubs": 17,
+   "first": "2026-09-01",
+   "last": "2027-03-23",
+   "source": {
+    "name": "Liiga regular-season schedule (liiga.fi)",
+    "url": "https://liiga.fi/fi/ohjelma",
+    "fetched": "2026-10-20"
+   }
+  },
+  "nhl": {
+   "status": "official",
+   "games": 1344,
+   "clubs": 32,
+   "first": "2026-09-29",
+   "last": "2027-04-10",
+   "source": {
+    "name": "NHL schedule (api-web.nhle.com)",
+    "url": "https://www.nhl.com/schedule",
+    "fetched": "2026-10-20"
+   }
+  },
+  "nl": {
+   "status": "official",
+   "games": 364,
+   "clubs": 14,
+   "first": "2026-09-15",
+   "last": "2027-03-01",
+   "source": {
+    "name": "National League schedule (nationalleague.ch)",
+    "url": "https://www.nationalleague.ch/en/games",
+    "fetched": "2026-10-20"
+   }
+  },
+  "ohl": {
+   "status": "official",
+   "games": 684,
+   "clubs": 24,
+   "first": "2026-09-17",
+   "last": "2027-03-21",
+   "source": {
+    "name": "OHL official schedule (HockeyTech feed)",
+    "url": "https://ontariohockeyleague.com/schedule",
+    "fetched": "2026-10-20"
+   }
+  },
+  "qmjhl": {
+   "status": "official",
+   "games": 580,
+   "clubs": 22,
+   "first": "2026-09-18",
+   "last": "2027-03-20",
+   "source": {
+    "name": "QMJHL official schedule (HockeyTech feed)",
+    "url": "https://chl.ca/lhjmq/schedule",
+    "fetched": "2026-10-20"
+   }
+  },
+  "shl": {
+   "status": "official",
+   "games": 364,
+   "clubs": 14,
+   "first": "2026-09-19",
+   "last": "2027-03-16",
+   "source": {
+    "name": "SHL game schedule (shl.se)",
+    "url": "https://www.shl.se/game-schedule",
+    "fetched": "2026-10-20"
+   }
+  },
+  "ushl": {
+   "status": "official",
+   "games": 496,
+   "clubs": 16,
+   "first": "2026-09-16",
+   "last": "2027-04-03",
+   "source": {
+    "name": "USHL official schedule (HockeyTech feed)",
+    "url": "https://ushl.com/view#/schedule",
+    "fetched": "2026-10-20"
+   }
+  },
+  "whl": {
+   "status": "official",
+   "games": 782,
+   "clubs": 23,
+   "first": "2026-09-18",
+   "last": "2027-03-28",
+   "source": {
+    "name": "WHL official schedule (HockeyTech feed)",
+    "url": "https://whl.ca/schedule",
+    "fetched": "2026-10-20"
+   }
+  }
+ }
+}

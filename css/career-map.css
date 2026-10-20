@@ -257,3 +257,6 @@ body:not(.ready) #topbar, body:not(.ready) .explore, body:not(.ready) .legend { 
 /* logo background plate (branding.js applyPlate) */
 img.plated { background: var(--plate); border-radius: 50%; padding: 13%; box-sizing: border-box; object-fit: contain; }
 img.glow { filter: drop-shadow(0 0 1px var(--glow)) drop-shadow(0 0 3px var(--glow)) drop-shadow(0 0 6px var(--glow)); }
+
+.calendar-link { display: block; margin: 0 0 14px; padding: 9px 12px; border-radius: 8px; border: 1px solid rgba(143, 208, 255, 0.4); color: var(--ice); text-decoration: none; font-weight: 600; }
+.calendar-link:hover, .calendar-link:focus-visible { background: var(--ice-fill); outline: none; }
